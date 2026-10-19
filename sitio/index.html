@@ -105,6 +105,15 @@ button { font: inherit; color: inherit; }
 }
 .barra .donde { flex: 1; min-width: 0; font-family: var(--f-titulo); font-size: 1.05rem; letter-spacing: 0.06em; color: var(--oro-claro); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .barra .boton { border-color: rgba(217, 181, 108, 0.45); color: var(--sobre-cuero); }
+/* Enlace a godshome.app (solo en el website): pequeño, en dos líneas en el teléfono */
+.sentir {
+  flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 0.05rem;
+  padding: 0.3rem 0.75rem; border: 1px solid rgba(217, 181, 108, 0.45); border-radius: 999px;
+  color: var(--sobre-cuero); text-decoration: none; font-size: 0.72rem; line-height: 1.15; text-align: right;
+}
+.sentir strong { color: var(--oro-claro); font-size: 0.82rem; }
+.sentir:hover { border-color: var(--oro-claro); }
+@media (min-width: 700px) { .sentir { flex-direction: row; align-items: baseline; gap: 0.35rem; font-size: 0.85rem; } .sentir strong { font-size: 0.9rem; } }
 .boton {
   display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
   min-height: 2.5rem; padding: 0.35rem 0.85rem; border-radius: 999px;
@@ -397,6 +406,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     Índice
   </button>
   <div class="donde" id="donde">Génesis, Éxodo y Levítico</div>
+  <a class="sentir" id="sentir" href="https://www.godshome.app/" target="_blank" rel="noopener" hidden>¿Cómo te sientes? <strong>Conversa con Dios</strong></a>
 </header>
 
 <div class="mesa">
@@ -478,6 +488,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // Solo en el website (lo anuncia su <meta name="progreso-servidor">): el artifact no puede llamar a otro servidor.
   const SERVIDOR = Boolean(document.querySelector('meta[name="progreso-servidor"]'));
   let telefono = SERVIDOR ? guardado.leer("tel", null) : null;
+  $("sentir").hidden = !SERVIDOR;
   let ultimoEnvio = 0;
   const soloDigitos = (t) => { let d = String(t || "").replace(/\D/g, ""); if (d.length === 11 && d[0] === "1") d = d.slice(1); return d; };
   const telValido = (d) => /^[2-9]\d{2}[2-9]\d{6}$/.test(d);
