@@ -169,3 +169,47 @@ En cada pausa: la fecha tradicional, dicha así ("según la cronología bíblica
 tradicional"). Las otras posturas se explican con calma una vez (en la
 primera pausa de Abraham y en la introducción de Éxodo) y después basta un
 recordatorio breve cuando importe.
+
+## Números, Deuteronomio y Josué
+
+Lo mismo de arriba vale para estos tres libros. Además:
+
+### La cronología sigue
+
+La misma cronología bíblica tradicional, contando la salida de Egipto como el año 1 (1446 antes de Cristo):
+
+| Hecho | Dato del texto | Antes de Cristo |
+|---|---|---|
+| Se levanta el tabernáculo | día 1 del mes 1, año 2 (Éxodo 40:17) | 1445 |
+| Censo en el desierto de Sinaí | día 1 del mes 2, año 2 (Números 1:1) | 1445 |
+| Israel sale del Sinaí | día 20 del mes 2, año 2 (Números 10:11) | 1445 |
+| Los doce espías en Cades | en el segundo año; Caleb tiene 40 (Josué 14:7) | hacia 1445 |
+| Treinta y ocho años de desierto | de Cades al arroyo Zered (Deuteronomio 2:14) | 1445 a 1407 |
+| Muere Aarón en el monte Hor | 123 años; mes 5 del año 40 (Números 33:38 y 39) | 1407 |
+| Discursos de Moisés en Moab | mes 11 del año 40 (Deuteronomio 1:3) | hacia 1406 |
+| Muere Moisés | 120 años (Deuteronomio 34:7) | hacia 1406 |
+| Israel cruza el Jordán | día 10 del mes 1 (Josué 4:19) | 1406 |
+| Caleb pide Hebrón | 85 años, 45 después de Cades (Josué 14:10) | hacia 1400 |
+| Muere Josué | 110 años (Josué 24:29); el texto no da el año | |
+
+Las otras posturas se explican con calma en la introducción de Números y en la de Josué; después basta un recordatorio breve cuando importe. Para muchos historiadores, si la salida fue en el siglo trece antes de Cristo, la entrada en Canaán sería hacia fines de ese siglo; la estela de Merneptah (hacia 1208 antes de Cristo) es la primera mención de Israel fuera de la Biblia y lo nombra como un pueblo ya presente en Canaán.
+
+### Datos externos que se pueden usar (con su fecha aproximada)
+
+Solo si vienen al caso, y nunca más de lo que se sabe:
+- Amuletos de plata de Ketef Hinnom, en Jerusalén (hacia 600 antes de Cristo): llevan una forma de la bendición de Números 6:24 a 26, el texto bíblico más antiguo que se conoce escrito.
+- Inscripción de Deir Alla, en Jordania (hacia 800 antes de Cristo): habla de un vidente llamado Balaam hijo de Beor.
+- Estela de Mesa, rey de Moab (hacia 840 antes de Cristo): cuenta que Mesa consagró una ciudad a su dios Quemos destruyéndola por completo; es el paralelo más claro, fuera de la Biblia, de la práctica que la RV1909 llama dar al anatema.
+- Cartas de Amarna (hacia 1360 a 1330 antes de Cristo): cartas de reyes de Canaán al faraón que se quejan de grupos llamados habiru.
+- Tratados hititas (siglos catorce y trece antes de Cristo) y tratados de sucesión de Asarhadón, rey de Asiria (672 antes de Cristo): muchos estudiosos comparan su forma (historia, cláusulas, testigos, bendiciones y maldiciones) con la de Deuteronomio. Unos ven más cerca los hititas y otros los asirios; dilo así.
+- Segundo de Reyes 22: en tiempos del rey Josías (hacia 622 antes de Cristo) se encuentra en el templo un libro de la ley; muchos estudiosos piensan que era Deuteronomio o una parte de él, y la tradición lo atribuye a Moisés.
+- Jericó (Tell es Sultan): John Garstang, en los años treinta, fechó la destrucción de la ciudad hacia 1400 antes de Cristo; Kathleen Kenyon, en los años cincuenta, la fechó hacia 1550 y no encontró una ciudad amurallada hacia 1400; Bryant Wood, en 1990, volvió a defender una fecha cercana a 1400. Sigue discutido: da las posturas sin decidir.
+- Hai: se suele identificar con et Tell, que no parece habitado en la época de Josué; algunos proponen otro lugar, como Khirbet el Maqatir. Discutido.
+
+### Los pasajes difíciles
+
+Estos libros tienen guerras, ciudades destruidas por completo, castigos a muerte y leyes que hoy chocan (sobre esclavos, mujeres, extranjeros). Trátalos con la misma regla de siempre: describe qué dice el texto, qué significaban esas palabras y prácticas en su mundo (con paralelos reales, como la estela de Mesa), y cómo los han leído la tradición judía, la cristiana y los estudiosos (por ejemplo, quienes subrayan que Josué mismo dice que muchos cananeos siguieron viviendo en la tierra, o quienes leen esos relatos sobre todo como lenguaje de guerra de la época). No los suavices ni los condenes, no los justifiques ni los acuses: deja que el oyente piense. Una o dos preguntas abiertas al final de la pausa ayudan.
+
+### Nombres y lugares
+
+Mismas reglas de la grafía de 1909 (mira el texto con scripts/ver.py). Ubica los lugares con palabras sencillas y distancias aproximadas: el desierto de Parán y Cades Barnea, al sur de Canaán; el Arabá; los campos de Moab, al este del Jordán frente a Jericó; el monte Nebo; Gilgal; los montes Ebal y Gerizim junto a Siquem; Silo.

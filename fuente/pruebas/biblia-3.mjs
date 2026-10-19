@@ -32,7 +32,7 @@ if (!process.env.SOLO_CAPTURAS) {
 const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark", reducedMotion: "reduce" });
 await ctx.addInitScript(espia);
 const { p } = await pagina(390, 844, "dark", ctx);
-await p.getByRole("heading", { name: "Génesis, Éxodo y Levítico" }).waitFor();
+await p.getByRole("heading", { name: "La Biblia en voz alta" }).waitFor();
 comprobar(!(await p.getByRole("button", { name: /Continuar/ }).count()), "la primera visita no muestra Continuar");
 await p.screenshot({ path: `${DIR}/portada-390-noche.png` });
 

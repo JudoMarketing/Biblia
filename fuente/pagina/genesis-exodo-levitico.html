@@ -1,4 +1,4 @@
-<title>Génesis, Éxodo y Levítico</title>
+<title>La Biblia en voz alta</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
@@ -135,13 +135,13 @@ button { font: inherit; color: inherit; }
 /* Separadores de papel en el canto derecho */
 .separadores {
   position: sticky; top: calc(var(--barra) + 1.2rem + env(safe-area-inset-top, 0px)); z-index: 2;
-  display: flex; flex-direction: column; gap: 0.35rem; margin-top: 2.2rem; margin-left: -2px; flex: none;
+  display: flex; flex-direction: column; gap: 0.3rem; margin-top: 2.2rem; margin-left: -2px; flex: none;
 }
 .separador {
   --color: var(--oro);
   writing-mode: vertical-rl; display: flex; align-items: center; justify-content: center;
-  width: 26px; min-height: 5.6rem; padding: 0.6rem 0; border: 0; border-radius: 0 9px 9px 0; cursor: pointer;
-  font-family: var(--f-titulo); font-size: 0.82rem; letter-spacing: 0.08em; color: var(--tinta);
+  width: 26px; min-height: 4.4rem; padding: 0.55rem 0; border: 0; border-radius: 0 9px 9px 0; cursor: pointer;
+  font-family: var(--f-titulo); font-size: 0.76rem; letter-spacing: 0.08em; color: var(--tinta);
   background: linear-gradient(90deg, var(--papel-canto), var(--papel) 35%);
   box-shadow: inset 4px 0 0 var(--color), 2px 2px 5px rgba(0, 0, 0, 0.35);
   transition: transform 0.2s, width 0.2s;
@@ -176,6 +176,12 @@ button { font: inherit; color: inherit; }
 .punto.biblia { background: var(--carmesi); }
 .punto.guia { background: var(--cardeno); }
 .libros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+@media (max-width: 520px) { .libros { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.separador .corto { display: none; }
+@media (max-height: 760px) { .separador .largo { display: none; } .separador .corto { display: inline; } .separador { min-height: 3.2rem; } }
+.sep-NUM { --color: #4f7a3a; }
+.sep-DEU { --color: #a5672a; }
+.sep-JOS { --color: #5d4a8a; }
 .libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 4px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
 .libro-tarjeta strong { display: block; font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1rem, 4.4vw, 1.25rem); overflow-wrap: anywhere; }
 .libro-tarjeta span { color: var(--tinta-suave); font-size: 0.9rem; }
@@ -384,7 +390,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
 <div class="apertura" id="apertura">
   <div class="escena" aria-hidden="true"><div class="tomo">
-    <div class="tomo-hojas papel"><p>La Biblia en voz alta</p><strong>Génesis, Éxodo y Levítico</strong><small>Reina Valera 1909</small></div>
+    <div class="tomo-hojas papel"><p>Reina Valera 1909</p><strong>La Biblia en voz alta</strong><small>Con notas y pausas de contexto histórico</small></div>
     <div class="tomo-tapa"><div class="tapa-frente"><span class="cruz"></span><strong>SANTA BIBLIA</strong><small>REINA VALERA 1909</small></div><div class="tapa-dorso"></div></div>
   </div></div>
   <button class="saltar" id="saltar-apertura" type="button">Saltar</button>
@@ -395,7 +401,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
     Índice
   </button>
-  <div class="donde" id="donde">Génesis, Éxodo y Levítico</div>
+  <div class="donde" id="donde">La Biblia en voz alta</div>
   <a class="sentir" id="sentir" href="https://www.godshome.app/" target="_blank" rel="noopener" hidden>¿Cómo te sientes? <strong>Conversa con Dios</strong></a>
 </header>
 
@@ -566,7 +572,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     else if (cargado && !audio.paused) $("volver").hidden = false;
     const d = datos(id);
     $("donde").textContent = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n}` : d.nombre;
-    document.title = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n} · Génesis, Éxodo y Levítico` : "Génesis, Éxodo y Levítico";
+    document.title = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n} · La Biblia en voz alta` : "La Biblia en voz alta";
     const i = SECUENCIA.indexOf(id);
     const ant = SECUENCIA[i - 1], sig = SECUENCIA[i + 1];
     const pie = `<nav class="pie-cap" aria-label="Capítulos">
@@ -591,10 +597,12 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
   // ---------- El libro: separadores, página izquierda y hojas que pasan
   const movimientoReducido = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // Abreviaturas de los separadores, como en las Biblias impresas; solo se usan en pantallas bajas.
+  const CORTOS = { INICIO: "Inicio", GEN: "Gn", EXO: "Éx", LEV: "Lv", NUM: "Nm", DEU: "Dt", JOS: "Jos" };
   function pintarSeparadores() {
     const actual = !vista || vista === "INTRO" ? "INICIO" : (libroDe(vista) || {}).id;
     $("separadores").innerHTML = [["INICIO", "Inicio", "INTRO"], ...C.libros.map((l) => [l.id, l.nombre, "INTRO-" + l.id])]
-      .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}"${id === actual ? ' aria-current="true"' : ""}><span>${esc(nombre)}</span></button>`).join("");
+      .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}" aria-label="${esc(nombre)}"${id === actual ? ' aria-current="true"' : ""}><span class="largo">${esc(nombre)}</span><span class="corto" aria-hidden="true">${esc(CORTOS[id] || nombre)}</span></button>`).join("");
   }
   // En pantallas anchas el libro se ve abierto: a la izquierda, los capítulos del libro que se está leyendo.
   const dobleHoja = matchMedia("(min-width: 1100px)");
@@ -668,9 +676,9 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos`}</span></button>`;
     }).join("");
     return `<section class="portada">
-      <p class="serie">LA BIBLIA EN VOZ ALTA</p>
-      <h1>Génesis, Éxodo y Levítico</h1>
-      <p class="version">Reina Valera 1909, con notas y pausas de contexto histórico.</p>
+      <p class="serie">REINA VALERA 1909</p>
+      <h1>La Biblia en voz alta</h1>
+      <p class="version">De ${esc(C.libros[0].nombre)} a ${esc(C.libros[C.libros.length - 1].nombre)}, con notas y pausas de contexto histórico.</p>
       <div class="acciones">${seguirBoton}<button class="boton ${seguirBoton ? "" : "lleno"}" type="button" data-tocar="${SECUENCIA[0]}">${iconoTocar()} Escuchar desde el principio</button></div>
       <div class="libros">${libros}</div>
       <p class="leyenda-voces"><span><span class="punto biblia" aria-hidden="true"></span>Una voz lee la Biblia</span><span><span class="punto guia" aria-hidden="true"></span>otra, de mujer, explica</span></p>
@@ -707,7 +715,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function acerca() {
     const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
     return `<details class="acerca"><summary>Sobre el texto y las voces</summary>
-      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Se conservó la ortografía de 1909. Donde las fuentes no coincidían, se tomó la lectura de eBible, salvo en estas ${(C.correcciones || []).length} palabras, en que tenía un error claro:</p>
+      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Donde las fuentes no coincidían, se decidió con un ejemplar impreso de la revisión de 1909 (La Liga Bíblica, digitalizado en archive.org), que coincide con eBible. Se conservó la ortografía de 1909. Solo se corrigió esto:</p>
       <ul>${corr}</ul>
       <p>Las palabras en cursiva son las que los traductores añadieron para que el texto se entienda.</p>
       <p>Las notas, las pausas y las introducciones son un comentario escrito para esta guía: dan datos y contexto, y dejan las conclusiones a quien escucha.</p>
@@ -851,7 +859,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     // En el website hay un ícono para la pantalla bloqueada; en el artifact no existe y se omite.
     const icono = document.querySelector('link[rel="apple-touch-icon"]');
     const artwork = icono ? [{ src: icono.href, sizes: "512x512", type: "image/png" }] : [];
-    navigator.mediaSession.metadata = new MediaMetadata({ title: datos(cargado).nombre, artist: "Reina Valera 1909", album: "Génesis, Éxodo y Levítico", artwork });
+    navigator.mediaSession.metadata = new MediaMetadata({ title: datos(cargado).nombre, artist: "Reina Valera 1909", album: "La Biblia en voz alta", artwork });
   }
   // La barra de la pantalla bloqueada y de las notificaciones muestra dónde va el audio.
   function posicionSistema() {

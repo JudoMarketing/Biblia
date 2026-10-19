@@ -142,7 +142,8 @@ if __name__ == "__main__":
                     print(f"  {i}/{len(textos)} · {total/3600:.2f} h de lectura", flush=True)
         sys.exit(0)
     pedidos = set(sys.argv[2:])
-    hechos = lambda t: os.path.exists(os.path.join(B, "salida", "audio", f"{t['id']}.mp4"))
+    # Ya hecho: en salida/audio o publicado en el sitio (../sitio/audio). Sin ids, solo se genera lo que falta.
+    hechos = lambda t: any(os.path.exists(os.path.join(d, f"{t['id']}.mp4")) for d in (os.path.join(B, "salida", "audio"), os.path.join(B, "..", "sitio", "audio")))
     lista = [t for t in trabajos if (t["id"] in pedidos if pedidos else not hechos(t))]
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     print(f"{len(lista)} audios por generar", flush=True)
