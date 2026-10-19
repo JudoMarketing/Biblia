@@ -1,0 +1,18 @@
+import { chromium } from "playwright";
+const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--autoplay-policy=no-user-gesture-required"] });
+const p = await (await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark", reducedMotion: "reduce" })).newPage();
+const errores = []; p.on("pageerror", (e) => errores.push(e.message));
+await p.goto("http://127.0.0.1:8802/index.html#GEN-01", { waitUntil: "networkidle" });
+await p.locator('.v[data-k="v5"]').click();
+await p.waitForTimeout(1500);
+await p.locator('.pie-cap [data-ir="GEN-02"]').click();
+await p.waitForTimeout(300);
+console.log("en Génesis 2 mientras suena Génesis 1, se ve Volver:", await p.locator("#volver").isVisible());
+await p.locator("#volver").click();
+await p.waitForTimeout(800);
+console.log("tras tocarlo:", await p.locator("#donde").innerText(), "· resaltado:", await p.locator(".sonando").getAttribute("data-k"), "· Volver visible:", await p.locator("#volver").isVisible());
+await p.getByRole("button", { name: "Pausar" }).click();
+await p.locator('.pie-cap [data-ir="GEN-02"]').click();
+console.log("en pausa, ir a otro capítulo no muestra Volver:", !(await p.locator("#volver").isVisible()));
+console.log("errores:", errores);
+await b.close();

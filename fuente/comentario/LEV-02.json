@@ -1,0 +1,316 @@
+{
+ "tramo": "LEV-02",
+ "libro": "LEV",
+ "desde": {
+  "cap": 17,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 27,
+  "v": 34
+ },
+ "notas": [
+  {
+   "cap": 17,
+   "v": 4,
+   "texto": "El «real», ya se dijo, es el campamento. Matar un buey, un cordero o una cabra sin llevarlo a la puerta del tabernáculo se tiene aquí por derramar sangre, con palabras propias del homicidio. Leído al pie de la letra, en el campamento toda res que se comía debía ofrecerse como sacrificio de paces; Deuteronomio 12 permitirá matar en casa a quien viva lejos del santuario."
+  },
+  {
+   "cap": 17,
+   "v": 7,
+   "texto": "Sacrificar «sobre la haz del campo» es hacerlo a campo abierto. La palabra traducida «demonios» es en hebreo la misma que nombra a los machos cabríos, literalmente los velludos: seres o espíritus que se imaginaban en lugares desiertos. Cuando el texto dice «han fornicado», usa la imagen de la infidelidad matrimonial para hablar de seguir a otros dioses."
+  },
+  {
+   "cap": 17,
+   "v": 11,
+   "texto": "La palabra hebrea traducida aquí «vida», y en el versículo 14 «alma», es néfesh: el aliento, el ser vivo, la persona entera. Aquí se explica una prohibición que viene desde Noé y que el capítulo 3 ya repitió: «la vida de la carne en la sangre está». Por eso la sangre no se come y se reserva para el altar."
+  },
+  {
+   "cap": 17,
+   "v": 15,
+   "texto": "La carne «mortecina» o «despedazada por fiera», como se vio en el capítulo 7, es la de un animal que no fue degollado, y su sangre quedaba en ella. Estas reglas valen también para el extranjero que vive en Israel; siglos después, en Hechos 15, los apóstoles pidieron a los creyentes de otros pueblos abstenerse de sangre, y muchos estudiosos ven allí un eco de estos capítulos."
+  },
+  {
+   "cap": 18,
+   "v": 6,
+   "texto": "La expresión «descubrir su desnudez» es una manera delicada de nombrar las relaciones sexuales, y «cercana de su carne» es una pariente próxima. En el antiguo Israel varias generaciones vivían juntas en la casa del padre: abuelos, hijos casados con sus esposas, nietos y otros parientes. Muchos estudiosos ven en esta lista una protección de la vida en ese hogar compartido."
+  },
+  {
+   "cap": 18,
+   "v": 18,
+   "texto": "Aquí resuenan historias conocidas: Jacob se casó con dos hermanas, Lea y Raquel, cuya rivalidad cuenta Génesis en los capítulos 29 y 30; Abraham, con Sara, hija de su padre, según Génesis 20, versículo 12, y Amram, el padre de Moisés, con su tía Jocabed, según Éxodo 6, versículo 20. Son historias anteriores a esta ley, y la Biblia las cuenta sin esconderlas."
+  },
+  {
+   "cap": 18,
+   "v": 21,
+   "texto": "La «simiente» es la descendencia, aquí un hijo. Moloch, hoy Moloc, parece ser el nombre de un dios al que en la región se entregaban niños, haciéndolos «pasar» por el fuego. Se parece a mélek, rey en hebreo: algunos estudiosos creen que se leyó con las vocales de bóshet, vergüenza, como burla, y otros piensan que molk era el nombre de un sacrificio y no de un dios."
+  },
+  {
+   "cap": 18,
+   "v": 23,
+   "texto": "En este capítulo, la palabra «abominación» traduce el hebreo toevá, lo que se rechaza como detestable; aquí, lo detestable ante Dios, y al final del capítulo abarca toda la lista. La «confusión» es mezclar lo que debía estar separado; «ayuntamiento» es unión, y «amancillándote», manchándote."
+  },
+  {
+   "cap": 18,
+   "v": 25,
+   "texto": "La tierra aparece como un cuerpo vivo que se enferma con la maldad de sus habitantes y termina por expulsarlos; «visité su maldad» quiere decir que Dios pidió cuentas por ella. En Génesis 15, versículo 16, Dios ya le había dicho a Abraham que sus descendientes volverían a Canaán cuando la maldad del amorreo llegara a su colmo."
+  },
+  {
+   "cap": 19,
+   "v": 10,
+   "texto": "La «haza» es un campo de cultivo; espigar es recoger las espigas que quedan tras la siega, y rebuscar la viña, volver por los racimos olvidados. Lo que quedaba en los rincones y en el suelo era para el pobre y el extranjero, que así podían comer de su propio esfuerzo. El libro de Rut, más adelante, mostrará esta ley en acción."
+  },
+  {
+   "cap": 19,
+   "v": 18,
+   "texto": "En el castellano de 1909, «ingenuamente» quiere decir con franqueza, sin doblez: decirle al otro lo que está mal en vez de guardar rencor. La palabra «prójimo» traduce el hebreo réa: el compañero, el vecino, aquel con quien se convive."
+  },
+  {
+   "cap": 19,
+   "v": 19,
+   "texto": "Quedaba prohibido cruzar especies distintas de animales, sembrar dos clases de semilla en un mismo campo o vestir telas de dos materiales. Muchos lo relacionan con el orden de la Creación, donde cada ser fue hecho según su especie. Deuteronomio precisará que la tela prohibida es la de lana y lino, y todavía hoy muchos judíos observantes revisan su ropa por esta ley."
+  },
+  {
+   "cap": 19,
+   "v": 28,
+   "texto": "Raparse en redondo, cortarse la barba, hacerse heridas o marcas en la piel por un muerto eran costumbres de duelo y de culto en la región. En los poemas de Ugarit, una ciudad de la costa de Siria, el dios El llora a Baal hiriéndose la piel con una piedra. De la primera frase del versículo 27 viene la costumbre judía de dejar crecer los rizos de las sienes."
+  },
+  {
+   "cap": 19,
+   "v": 31,
+   "texto": "Las palabras «encantadores» y «adivinos» traducen dos términos hebreos, ob e yideoní: el primero nombra el espíritu de un muerto o a quien lo invocaba, y el segundo, a quien decía conocer lo oculto. Ya el versículo 26 prohibió ser «agoreros», los que buscan presagios. Consultar a los muertos era común en el antiguo Oriente, y de Mesopotamia se conservan rituales escritos para hacerlo."
+  },
+  {
+   "cap": 19,
+   "v": 36,
+   "texto": "El «epha», o efa, medía granos, unos 22 litros, y el «hin» medía líquidos, algo menos de 4 litros. Como aún no había monedas, en el mercado se pesaba la plata en balanzas con pesas de piedra, y llevar pesas falsas era una manera fácil de robar."
+  },
+  {
+   "cap": 20,
+   "v": 5,
+   "texto": "Fuera de la Biblia, el hallazgo que más se asocia con estos ritos está en Cartago, fundada en el norte de África por fenicios, herederos de los cananeos: allí se hallaron miles de urnas con restos quemados de niños y de animales, de los siglos 8 al 2 antes de Cristo. Los estudiosos discuten si todos fueron sacrificados o si allí se enterraban también niños muertos por causas naturales."
+  },
+  {
+   "cap": 20,
+   "v": 9,
+   "texto": "Este capítulo pone pena a faltas de los capítulos 18 y 19. La frase «su sangre será sobre él» quiere decir que el culpable carga con su muerte. Otras leyes antiguas, como las de Hammurabi, también castigaban con la muerte el adulterio. Los maestros judíos exigieron después tantas condiciones, con testigos y advertencia previa, que la Misná llama destructor al tribunal que condena a muerte una vez cada siete años."
+  },
+  {
+   "cap": 20,
+   "v": 27,
+   "texto": "La palabra «pithónico» viene de Pitón, la serpiente que según el mito griego guardaba Delfos, donde una sacerdotisa, la pitonisa, daba oráculos; la antigua traducción latina de la Biblia la usó y de allí pasó al castellano. En hebreo es la misma palabra ob del capítulo 19: alguien que dice invocar a los muertos."
+  },
+  {
+   "cap": 21,
+   "v": 12,
+   "texto": "El contacto con un muerto era una de las impurezas más fuertes: el sacerdote solo podía contaminarse por sus parientes más cercanos, y el sumo sacerdote, ni siquiera por ellos. Este tampoco podía descubrir su cabeza ni rasgar sus vestidos, gestos de luto, como ya se les pidió a Aarón y a sus hijos tras la muerte de Nadab y Abiú. La frase «hinchió su mano» significa que fue consagrado."
+  },
+  {
+   "cap": 21,
+   "v": 23,
+   "texto": "Ser «falto, ó sobrado» es tener un miembro de menos o de más; «lagañoso», con los ojos enfermos, y «empeine», con una enfermedad de la piel. Así como el animal del altar debía ser sin defecto, también quien lo ofrecía. Pero el sacerdote con algún defecto seguía comiendo «el pan de su Dios»: no perdía su lugar en la familia sacerdotal ni su sustento."
+  },
+  {
+   "cap": 22,
+   "v": 13,
+   "texto": "Comer de las cosas santas dependía de pertenecer a la casa del sacerdote. El siervo comprado o nacido en ella era parte de la casa; el huésped y el jornalero, no. La hija casada con alguien de fuera pasaba a otra casa, pero si quedaba viuda o repudiada, sin hijos, y volvía con su padre, recuperaba su lugar en esa mesa."
+  },
+  {
+   "cap": 23,
+   "v": 4,
+   "texto": "La palabra «solemnidades» traduce el hebreo moadim: tiempos señalados, citas fijas en el calendario. Es el plural de moed, la palabra que forma el nombre ohel moed, la tienda del encuentro. Una «santa convocación» es un día de reunión sagrada en que se deja el trabajo. La lista empieza por el sábado, que vuelve cada semana, y sigue con las fiestas del año, contadas desde la primavera."
+  },
+  {
+   "cap": 23,
+   "v": 8,
+   "texto": "Los «ázimos» son panes sin levadura: durante siete días se comían en recuerdo de la salida de Egipto, cuando, según Éxodo 12, la masa no alcanzó a fermentar. La Pascua se inmolaba «entre las dos tardes», es decir, al caer la tarde del día 14."
+  },
+  {
+   "cap": 23,
+   "v": 11,
+   "texto": "Aquí «omer» es una gavilla: el primer manojo de la cosecha, de cebada según la tradición, porque es el grano que madura primero. El sacerdote la «mecerá»: la alzaba y la movía delante del altar. Qué «sábado» es este ya se discutía en la antigüedad: los fariseos entendían el primer día de la fiesta, y grupos como los saduceos, el sábado de la semana."
+  },
+  {
+   "cap": 23,
+   "v": 17,
+   "texto": "De esta cuenta de cincuenta días viene el nombre griego Pentecostés, que significa quincuagésimo; Éxodo 34 la llama fiesta de las semanas. Sus dos panes llevan levadura, algo que el capítulo 2 no permitía quemar en el altar: por eso se presentan mecidos y quedan para los sacerdotes."
+  },
+  {
+   "cap": 23,
+   "v": 24,
+   "texto": "El hebreo habla aquí de un toque o clamor de recuerdo, sin decir con qué instrumento. La tradición judía lo celebra con el shofar, un cuerno de carnero, y lo llama Rosh Hashaná, cabeza del año, porque con él comienza el año en el calendario judío."
+  },
+  {
+   "cap": 23,
+   "v": 32,
+   "texto": "La frase «afligiréis vuestras almas» se ha entendido como ayunar y privarse de comodidades: es el día de la expiación del capítulo 16, el Yom Kipur. El verbo «holgaréis» quiere decir descansaréis, y «de tarde á tarde» recuerda que en Israel el día empieza al ponerse el sol, como en el relato de la Creación, donde primero viene la tarde y luego la mañana."
+  },
+  {
+   "cap": 24,
+   "v": 4,
+   "texto": "Aarón «las aderezará»: las preparará y las mantendrá encendidas «desde la tarde hasta la mañana». La expresión «claro, molido» describe el mejor aceite: según la tradición judía, se obtenía machacando las aceitunas y dejando gotear el aceite, sin prensarlas. Éxodo 27, versículos 20 y 21, ya daba casi la misma orden."
+  },
+  {
+   "cap": 24,
+   "v": 9,
+   "texto": "Las doce tortas, tantas como las tribus, son el pan que Éxodo 25 llama pan de la proposición, puesto ante el rostro de Dios. Cada una llevaba dos décimas de efa, unos 4 litros de harina, así que eran panes grandes. Se renovaban cada sábado, y los sacerdotes comían en el lugar santo los que se retiraban."
+  },
+  {
+   "cap": 24,
+   "v": 12,
+   "texto": "Selomith, hoy Selomit, es la única mujer que Levítico llama por su nombre, y su hijo tenía padre egipcio: según Éxodo 12, con Israel salió también gente de otros pueblos. La frase «pronunció el Nombre» se refiere al nombre propio de Dios, que con el tiempo los judíos dejaron de pronunciar por respeto. La «cárcel» era solo custodia: la ley de Moisés no usa la prisión como castigo."
+  },
+  {
+   "cap": 24,
+   "v": 22,
+   "texto": "La ley del talión ya apareció en Éxodo 21. En el Código de Hammurabi la pena dependía de la clase: quien dañaba el ojo de un hombre de clase alta perdía el suyo, pero si la víctima era un hombre común, pagaba con plata. Aquí la medida es la misma para israelitas y extranjeros: «Un mismo derecho tendréis». La tradición judía la aplicó como una compensación en dinero."
+  },
+  {
+   "cap": 25,
+   "v": 7,
+   "texto": "Cada siete años la tierra descansaba: no se sembraba ni se podaba, y lo que brotaba solo era para todos, siervos, forasteros y animales incluidos. Éxodo 23, versículos 10 y 11, ya lo mandaba pensando en los pobres. Fíjate en que todo se dice «en el monte de Sinaí», para una tierra que el pueblo todavía no tiene."
+  },
+  {
+   "cap": 25,
+   "v": 10,
+   "texto": "Jubileo viene del hebreo yobel, el cuerno de carnero con que se anunciaba; es la misma palabra que en Éxodo 19, versículo 13, nombra la bocina que sonaría en el Sinaí. La frase «pregonaréis libertad en la tierra á todos sus moradores» está grabada en inglés en la Campana de la Libertad, en Filadelfia, uno de los símbolos de la independencia de Estados Unidos."
+  },
+  {
+   "cap": 25,
+   "v": 25,
+   "texto": "En el versículo 23, «rematadamente» quiere decir para siempre. El «rescatador» es en hebreo goel: el pariente más cercano, obligado a responder por los suyos, a recomprar la tierra vendida o a rescatar al pariente vendido por deudas. Es el mismo verbo que Dios usa en Éxodo 6, versículo 6, cuando promete redimir a Israel de Egipto."
+  },
+  {
+   "cap": 25,
+   "v": 34,
+   "texto": "La ley da por sabido que los levitas vivirán en ciudades propias, en medio de las demás tribus. El «ejido» es el campo común que rodeaba la ciudad, para los pastos del ganado, y no podía venderse."
+  },
+  {
+   "cap": 25,
+   "v": 37,
+   "texto": "El versículo une la «usura» al dinero prestado y la «ganancia» a la comida prestada. En Babilonia, las leyes de Hammurabi permitían cobrar intereses de hasta una quinta parte por la plata y un tercio por la cebada, y muchos campesinos terminaban perdiendo sus tierras o su libertad por deudas."
+  },
+  {
+   "cap": 25,
+   "v": 43,
+   "texto": "El israelita que se vende por pobreza no debe ser tratado como esclavo sino como jornalero, y sale libre con sus hijos en el jubileo. Éxodo 21, versículo 2, fijaba seis años de servicio; desde antiguo se discute cómo se relacionan ambas leyes, si tratan casos diferentes, si una completa a la otra o si vienen de épocas distintas."
+  },
+  {
+   "cap": 26,
+   "v": 1,
+   "texto": "La «estatua» es en hebreo masebá, una piedra alzada en pie como señal sagrada; los arqueólogos las han hallado en muchos santuarios de la región. La «piedra pintada» es probablemente una piedra con figuras grabadas, para inclinarse ante ella."
+  },
+  {
+   "cap": 26,
+   "v": 13,
+   "texto": "Las «coyundas» son las correas que atan el yugo a los bueyes. La imagen es la de un animal de carga liberado, que por fin puede levantar la cabeza: «os he hecho andar el rostro alto»."
+  },
+  {
+   "cap": 26,
+   "v": 26,
+   "texto": "La expresión «el arrimo del pan» nombra el sustento, el pan como bastón en que se apoya la vida. En la escasez, diez mujeres cocerían el pan de sus casas en un solo horno, porque habría poco que cocer, y se repartiría pesado, como una ración. Antes, en los versículos 20 y 22, el «esquilmo» es la cosecha, y que las fieras «os apoquen» es que os reduzcan en número."
+  },
+  {
+   "cap": 26,
+   "v": 30,
+   "texto": "Los «altos» eran santuarios al aire libre, en lugares elevados, con altar y a veces piedras alzadas; en hebreo se llaman bamot. La Biblia volverá a nombrarlos muchas veces."
+  },
+  {
+   "cap": 26,
+   "v": 42,
+   "texto": "Un «corazón incircunciso» es un corazón cerrado, que no se deja tocar: la señal del pacto con Abraham, en Génesis 17, sirve aquí para hablar de lo de dentro. Fíjate también en que los patriarcas aparecen en orden inverso, de Jacob a Abraham, como quien remonta la historia hasta su origen."
+  },
+  {
+   "cap": 27,
+   "v": 2,
+   "texto": "Este capítulo trata de los votos, promesas hechas a Dios, muchas veces a cambio de una ayuda, como la de Jacob en Betel, en Génesis 28. Quien consagraba a una persona, a sí mismo o a un hijo, no la entregaba al santuario: pagaba su valor en plata según esta tabla."
+  },
+  {
+   "cap": 27,
+   "v": 7,
+   "texto": "El «siclo del santuario», como ya se dijo, era un peso de unos 11 gramos de plata. Muchos estudiosos explican estos valores por la capacidad de trabajo de cada edad. Para comparar: José, a los 17 años, fue vendido por veinte piezas de plata, lo mismo que aquí vale un joven de su edad."
+  },
+  {
+   "cap": 27,
+   "v": 16,
+   "texto": "Aquí el hebreo dice jómer, una medida grande de unos 220 litros, distinta del omer del capítulo 23: el campo se valoraba por la semilla de cebada que hacía falta para sembrarlo. Cincuenta siclos por un ciclo completo hasta el jubileo dan, más o menos, un siclo por año."
+  },
+  {
+   "cap": 27,
+   "v": 25,
+   "texto": "Los «óbolos» son una moneda griega cuyo nombre usaron los traductores para el guerá, el peso más pequeño: veinte hacían un siclo, así que cada uno pesaba algo más de medio gramo. En Judá se han hallado pesas de piedra de los siglos 8 y 7 antes de Cristo, marcadas con el signo del siclo."
+  },
+  {
+   "cap": 27,
+   "v": 29,
+   "texto": "El «anatema» es en hebreo jérem: lo entregado a Dios por completo, que ya no puede rescatarse ni venderse. Cuando se trata de personas, el sentido se discute: la tradición judía lo entendió como alguien ya condenado a muerte por un tribunal, cuya vida no podía rescatarse con dinero, y otros lo relacionan con el jérem de la guerra, del que hablarán los libros siguientes."
+  },
+  {
+   "cap": 27,
+   "v": 32,
+   "texto": "Al contar el rebaño, el pastor hacía pasar a los animales uno por uno bajo su vara, y cada décimo era de Dios, sin escoger. El diezmo ya aparece con Abraham, que dio los diezmos a Melquisedec, en Génesis 14, y con Jacob, que lo prometió en Betel, en Génesis 28."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 19,
+   "v": 37,
+   "titulo": "Santos en la vida de cada día",
+   "epoca": "Leyes que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento de Israel al pie del monte Sinaí, con la mirada puesta en Canaán",
+   "texto": "Desde el capítulo 17 estás escuchando la parte de Levítico que muchos estudiosos, desde el siglo 19, llaman Código de Santidad, y que llega hasta el capítulo 26. Una frase parecida ya había sonado en el capítulo 11, pero aquí «Santos seréis, porque santo soy yo» se vuelve estribillo, dicho a toda la congregación. Los primeros dieciséis capítulos giraban en torno al santuario y a la pureza necesaria para acercarse a él; ahora la santidad sale del tabernáculo y entra en la mesa, en la familia, en el campo, en el mercado y en el tribunal. Muchas leyes terminan con dos palabras, «Yo Jehová», como una firma. La tradición judía y cristiana recibe estas leyes como dadas a Moisés en el Sinaí; muchos historiadores piensan que se reunieron a lo largo de siglos en círculos de sacerdotes, y discuten cuándo tomaron su forma final.\n\nPara entender el capítulo 18 conviene imaginar una familia de entonces. En las aldeas israelitas de las montañas de Canaán, los arqueólogos encuentran grupos de casas que compartían patio, cisternas y corrales, donde convivían varias generaciones de una misma casa del padre. Los pueblos vecinos también ponían límites: el Código de Hammurabi, hacia 1750 antes de Cristo, castigaba la unión de un padre con su hija o con su nuera, y las leyes de los hititas tenían su propia lista. En Egipto, en cambio, algunos faraones se casaban con sus hermanas o medio hermanas, y en los mitos egipcios Isis y Osiris eran hermanos y esposos.\n\nDe las costumbres de Canaán sabemos sobre todo lo que dice la propia Biblia y lo que muestran los textos de Ugarit, una ciudad de la costa norte de Siria emparentada con los cananeos en lengua y religión, que floreció en los siglos 14 y 13 antes de Cristo. Allí se veneraba a dioses como El y Baal, señor de la lluvia. Durante mucho tiempo se habló de una prostitución sagrada en los templos cananeos, pero hoy muchos estudiosos dudan de que existiera tal como se la describía.\n\nEl capítulo 19 retrata la vida de una aldea. En la siega, los segadores cortaban el grano con hoces y lo ataban en gavillas, y detrás iban los pobres recogiendo espigas. El jornalero vivía al día, y por eso su paga no debía esperar «hasta la mañana»: sin ella, su familia podía quedarse sin comer. Los tratos y los juicios se hacían a la puerta de la ciudad, ante los ancianos y los vecinos, como cuando Abraham compró la cueva para Sara ante los hititas, en Génesis 23. Un antiguo comentario judío hizo notar que en este capítulo resuenan los Diez Mandamientos: honrar a los padres, guardar el sábado, no hacer ídolos, no robar, no mentir, no jurar en falso.\n\nMuchos de estos valores los compartían los pueblos vecinos. Hammurabi escribió en su código que los dioses lo habían llamado para que el fuerte no oprimiera al débil y para hacer justicia al huérfano y a la viuda. En el Libro de los Muertos egipcio, en uso desde hacia 1550 antes de Cristo, el difunto declaraba ante los jueces del más allá que no había robado ni alterado las pesas de la balanza. Lo que distingue a Levítico son sus razones. La ley no se apoya en la autoridad de un rey, sino en «Yo Jehová». Y al extranjero, que vivía sin tierra ni parientes que lo defendieran, lo protege con un recuerdo: «porque peregrinos fuisteis en la tierra de Egipto».\n\nEl versículo 18 tuvo una larga historia. Jesús lo citó junto al mandamiento de amar a Dios, en Mateo 22 y Marcos 12, y cuando en Lucas 10 le preguntaron quién es el prójimo, respondió con la parábola de un samaritano. A comienzos del siglo 2 después de Cristo, el rabino Akiva lo llamó un gran principio de la Ley. En Levítico, el prójimo es primero uno de «los hijos de tu pueblo», y dieciséis versículos después las mismas palabras alcanzan al extranjero: «ámalo como á ti mismo».",
+   "preguntas": [
+    "¿Por qué crees que leyes sobre el culto, la familia y el comercio aparecen juntas en un mismo capítulo?",
+    "¿Qué relación ves entre el recuerdo de Egipto y el trato que la ley pide para el extranjero?"
+   ]
+  },
+  {
+   "cap": 23,
+   "v": 44,
+   "titulo": "Un año marcado por las cosechas",
+   "epoca": "Fiestas que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "Los campos, viñas y olivares de Canaán, vistos desde el desierto del Sinaí",
+   "texto": "Las fiestas de este capítulo siguen el ritmo de la luna y del campo. Cada mes comenzaba con la luna nueva, y doce meses lunares suman unos 354 días, once menos que el año del sol. Si nadie corregía esa diferencia, la Pascua, que debía caer cuando la cebada espigaba, se iría corriendo por las estaciones. La solución era añadir de vez en cuando un mes más. La Biblia no explica cómo se hacía; la tradición judía cuenta que los sabios miraban, entre otras señales, si la cebada estaba madura, y los babilonios también intercalaban meses para ajustar su calendario.\n\nLevítico nombra los meses por número. Éxodo llama Abib al primero, que caía entre marzo y abril, por las espigas tiernas de la cebada; más tarde los judíos adoptaron nombres de origen babilonio, como Nisán para el primero y Tishri para el séptimo, entre septiembre y octubre. Además, hubo dos comienzos: el año de las fiestas empezaba en primavera, como dice Éxodo 12, y el del campo daba la vuelta en otoño, al terminar la cosecha, como sugiere Éxodo 23.\n\nA diferencia de Egipto, que vivía de las crecidas del Nilo, Canaán depende de la lluvia. Las primeras lluvias, en octubre y noviembre, ablandan la tierra para arar y sembrar la cebada y el trigo, y las últimas, en marzo y abril, llenan las espigas. La cebada madura primero, hacia la Pascua, y el trigo unas siete semanas después: esa es la distancia entre la gavilla del omer y Pentecostés. Luego llega el verano seco, con los higos y la vendimia en agosto y septiembre, y en otoño la cosecha de aceitunas. Una pequeña tablilla de piedra caliza hallada en Gezer, de hacia el siglo 10 antes de Cristo, reparte el año en tareas como la recolección, la siembra, la siega de la cebada, la del trigo, la poda de las viñas y la fruta del verano.\n\nAsí, cada fiesta une el campo con la memoria. En primavera, con la cebada, la Pascua y los panes sin levadura recuerdan la salida de Egipto, y nadie come grano nuevo hasta presentar la primera gavilla. Siete semanas después, con el trigo, se ofrecen dos panes con levadura. En el mes séptimo, al terminar el verano, llegan tres celebraciones: el toque de trompetas, el día de la expiación con su ayuno, y la fiesta de las cabañas, la más alegre, cuando ya se han recogido las uvas y los frutos. En tiempo de cosecha, los campesinos solían levantar chozas de ramas en las viñas y los huertos, y muchos estudiosos piensan que la fiesta tomó de allí su forma; el texto la explica como recuerdo de las cabañas en que Dios hizo habitar a Israel al sacarlo de Egipto. La palabra hebrea, sucot, es la misma que dio nombre a Succoth, o Sucot, el primer lugar donde acamparon al salir de Rameses.\n\nEl número siete ordena el calendario: el séptimo día, siete semanas hasta Pentecostés, fiestas de siete días, el séptimo mes con tres celebraciones, y en el capítulo 25, el séptimo año. Éxodo 23 ya pedía que tres veces al año todos los varones se presentaran ante Dios: en los panes sin levadura, en la siega y en la cosecha. En plena lista de fiestas, el versículo 22 vuelve a reservar los rincones del campo para el pobre y el extranjero. Los pueblos vecinos también celebraban las estaciones: en Babilonia, la gran fiesta del año nuevo, el akitu, se hacía en primavera en honor del dios Marduk, y en Ugarit, Baal era quien traía la lluvia. En Israel, las cosechas se celebran ante Jehová y se atan a la historia de su salida de Egipto. Estas fiestas siguen vivas: el calendario judío celebra todavía Pésaj, Shavuot, Rosh Hashaná, Yom Kipur y Sucot, y el cristiano conserva dos de sus nombres, Pascua y Pentecostés.",
+   "preguntas": [
+    "¿Qué efecto crees que tenía unir cada cosecha con un recuerdo de la historia del pueblo?",
+    "¿Por qué crees que la ley del espigueo reaparece en medio de las fiestas?"
+   ]
+  },
+  {
+   "cap": 25,
+   "v": 55,
+   "titulo": "El año sabático y el jubileo",
+   "epoca": "Una ley que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "Las aldeas y los campos de Canaán, donde cada familia tendría su heredad",
+   "texto": "Para el campesino de Israel, la tierra no era una mercancía, sino la heredad de sus padres: el campo que daba de comer, los olivos que plantó el abuelo, la tumba de la familia. En las aldeas de las montañas, los arqueólogos encuentran terrazas de piedra para retener el suelo en las laderas, cisternas y eras para trillar, trabajo de generaciones. El capítulo da la razón de fondo en pocas palabras, «la tierra mía es»: los israelitas viven en ella como huéspedes de Dios, y ninguna familia debe perder su parte para siempre. En la práctica, quien compraba un campo compraba las cosechas que daría hasta el jubileo, y el precio se calculaba por años. Las casas de las ciudades amuralladas eran otra cosa: si no se rescataban en un año, quedaban vendidas para siempre, porque no eran tierra de cultivo.\n\nFíjate en el orden del capítulo, que describe paso a paso cómo una familia podía hundirse. Bastaba un mal año: una sequía, una plaga de langostas, una enfermedad. Primero se vendía una parte del campo, y el pariente cercano debía rescatarla. Si la pobreza seguía, el hermano quedaba a merced de otros, y la ley pide sostenerlo sin cobrarle interés. Más abajo, se vendía a sí mismo, y la ley manda tratarlo como jornalero y no como esclavo. En el último escalón, vendido a un extranjero, sus parientes podían rescatarlo. Los contratos de Mesopotamia muestran esa misma espiral: préstamos con intereses altos, campos empeñados, hijos entregados en servicio.\n\nLos reyes de Mesopotamia conocían el problema. Hacia el siglo 24 antes de Cristo, un gobernante de Lagash, en Sumeria, dejó escrito que había devuelto la libertad a los endeudados de su ciudad, con una palabra, amargi, que significa literalmente volver a la madre. Los reyes de Babilonia proclamaban edictos de justicia, sobre todo al comenzar su reinado, que perdonaban ciertas deudas y liberaban a quienes habían caído en servidumbre por ellas. Se conserva el del rey Ammisaduqa, del siglo 17 antes de Cristo, y su palabra para esa liberación, andurárum, es pariente del hebreo deror, la «libertad» que se pregona en el versículo 10. El Código de Hammurabi, por su parte, limitaba a tres años el servicio de la esposa o de los hijos entregados por una deuda.\n\nLa diferencia está en el calendario y en las razones. En Mesopotamia, la liberación dependía de la voluntad del rey y llegaba cuando él decidía. En Levítico es un ciclo fijo: cada siete años descansa la tierra, y al cumplirse siete semanas de años, el jubileo se anuncia con el cuerno de carnero en el día de la expiación. La razón tampoco es la generosidad de un rey: «mis siervos son los hijos de Israel», dice el último versículo, porque Dios los sacó de Egipto. El capítulo también distingue: el siervo comprado de otros pueblos podía quedar para siempre en la familia, como era común en todo el mundo antiguo.\n\n¿Se cumplía? El año sabático está documentado siglos después: el historiador judío Flavio Josefo, del siglo 1 después de Cristo, cuenta que Julio César eximió a los judíos de pagar tributo en el séptimo año, porque en él no sembraban. Del jubileo, en cambio, no hay testimonios claros de que se celebrara en la antigüedad. La tradición judía enseña que se guardó mientras todas las tribus vivieron en su tierra; los historiadores discuten si fue una práctica real, olvidada después, o un ideal que señalaba hacia dónde debía mirar la ley.",
+   "preguntas": [
+    "¿Qué crees que buscaba proteger una ley que impedía vender la tierra para siempre?",
+    "¿Cómo imaginas la vida de una familia que esperaba el año del jubileo?"
+   ]
+  },
+  {
+   "cap": 26,
+   "v": 46,
+   "titulo": "Bendiciones y advertencias del pacto",
+   "epoca": "Cierre de las leyes que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "Al pie del Sinaí, frente a una tierra que vivirá de la lluvia",
+   "texto": "Con el versículo 46 se cierra el gran conjunto de leyes dadas en el Sinaí. El capítulo tiene una forma clara. Empieza con dos recordatorios, no hacer ídolos y guardar los sábados, y sigue con las bendiciones, si el pueblo anda en los mandamientos. Después vienen las advertencias, en cinco etapas que suben de tono: cuatro veces se repite que el castigo será «siete veces» mayor. Y al final queda una puerta abierta: si confiesan su culpa, Dios se acordará de su pacto con Jacob, con Isaac y con Abraham.\n\nEsta forma no era extraña en el mundo antiguo. Los grandes reyes hititas, en los siglos 14 y 13 antes de Cristo, hacían tratados con reyes menores que seguían un orden parecido: el gran rey se presentaba, recordaba lo que había hecho por su vasallo, fijaba sus obligaciones, mandaba guardar y leer el documento, nombraba a los dioses como testigos y terminaba con bendiciones para el fiel y maldiciones para el traidor. El Código de Hammurabi también termina con bendiciones para el rey futuro que respete sus leyes y largas maldiciones para quien las cambie o las borre. Y en los tratados que el rey asirio Asarhaddón impuso a sus vasallos, hacia 672 antes de Cristo, aparece una imagen muy cercana a la del versículo 19, donde «metal» es bronce: allí el cielo es de bronce y no deja caer la lluvia, y el suelo se vuelve duro como el hierro.\n\nLos estudiosos discuten qué significa este parecido. Algunos ven en la semejanza con los tratados hititas un argumento para una fecha antigua del pacto del Sinaí; otros subrayan los paralelos con los tratados asirios, varios siglos posteriores. Hay además una diferencia de fondo: en los tratados, los dioses eran testigos que castigaban; aquí no hay otros dioses, y el mismo Dios que hace el pacto es quien bendice y quien corrige, presentándose con su historia: «Yo Jehová vuestro Dios, que os saqué de la tierra de Egipto».\n\nPara quienes lo escuchaban, cada imagen era concreta. En una tierra que vive de la lluvia, la bendición era que llegara «en su tiempo», que la trilla durara hasta la vendimia y la vendimia hasta la siembra, dormir sin miedo a fieras ni a ejércitos. Los peligros eran los de siempre: sequía, plagas, fiebres, guerra y el hambre de una ciudad sitiada. Y en el centro de las bendiciones hay una promesa de presencia: «pondré mi morada en medio de vosotros», donde morada es en hebreo mishkán, la palabra que en otros pasajes se traduce tabernáculo, y «andaré entre vosotros», con el mismo verbo que Génesis 3 usa para Dios paseándose en el huerto del Edén.\n\nLa tradición judía y cristiana lee este capítulo como palabra dada en el Sinaí, antes de entrar en la tierra. Muchos historiadores piensan que, como el resto del Código de Santidad, tomó su forma final siglos después, y que sus primeros lectores lo escuchaban a la luz de lo que su pueblo había vivido. En cualquier caso, el capítulo no termina en la ruina, sino con dos frases de Dios: «yo no los desecharé» y «me acordaré de ellos».",
+   "preguntas": [
+    "¿Qué te llama la atención de que el capítulo termine recordando el pacto con Abraham, Isaac y Jacob?",
+    "¿Cómo crees que escuchaba estas palabras un campesino que dependía de la lluvia?"
+   ]
+  },
+  {
+   "cap": 27,
+   "v": 34,
+   "titulo": "Cierre de Levítico y de tres libros",
+   "epoca": "Cerca de un año después de la salida de Egipto; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento de Israel, al pie del monte Sinaí",
+   "texto": "Muchos estudiosos ven el capítulo 27 como un apéndice: después del cierre solemne del capítulo 26, añade las reglas de los votos y termina con una frase parecida que vuelve a nombrar el Sinaí. Hacer votos era común en todo el mundo antiguo: se prometía un regalo a la divinidad si sanaba a un enfermo, si concedía un hijo o si protegía en un viaje, como hizo Jacob en Betel. Levítico pone orden en esas promesas: fija su valor en plata, permite rescatar lo prometido pagando un quinto más y cuida al pobre, a quien el sacerdote tasa según sus posibilidades. Así, el libro se despide hablando de lo que el pueblo entrega a Dios: lo que promete por su voluntad y el diezmo de sus cosechas y rebaños.\n\nCuando termina Levítico, el pueblo no se ha movido. Llegó al Sinaí en el tercer mes después de salir de Egipto, levantó el tabernáculo el primer día del segundo año, y desde entonces casi todo el libro ha sido palabra de Dios a Moisés, al pie de la montaña. Ha pasado cerca de un año desde la salida de Egipto. Su nombre hebreo, Vayikrá, y llamó, recuerda cómo empezó: con Dios llamando a Moisés desde la tienda.\n\nCon Levítico se cierran también los tres primeros libros de la Biblia, y vale la pena mirar el camino recorrido. Génesis empezó con la Creación y con un huerto donde Dios se paseaba; siguió con la ruptura, el diluvio, la dispersión de los pueblos y la promesa a Abraham de descendencia, tierra y bendición, que pasó a Isaac, a Jacob y a sus doce hijos. Éxodo contó cómo esa familia se volvió un pueblo esclavo en Egipto, cómo fue liberado, cómo hizo pacto con Dios en el Sinaí y cómo levantó un tabernáculo para que Dios habitara en medio del campamento. Levítico explicó cómo podía vivir un pueblo con un Dios santo tan cerca: cómo acercarse a él con sacrificios, cómo distinguir lo puro de lo impuro, cómo ser santos en la familia, en el campo y en el trato con el pobre y el extranjero.\n\nMuchos lectores han visto en estos tres libros un hilo que los une: la presencia de Dios, del huerto del Edén al tabernáculo en el centro del campamento y a la promesa del capítulo 26 de poner su morada en medio de su pueblo. La tradición atribuye estos libros a Moisés; muchos estudiosos piensan en un largo proceso de escritura y edición, y discuten sus etapas. Levítico ocupa el centro de los cinco libros que forman la Ley, la Torá.\n\nPero la historia sigue abierta. La tierra prometida a Abraham todavía no se ve: todas estas leyes hablan de campos, viñas y ciudades que el pueblo aún no pisa. Al terminar Levítico, Israel sigue acampado en el desierto, con su tabernáculo en el centro, sus sacerdotes consagrados y sus leyes recibidas.",
+   "preguntas": [
+    "Después de tres libros, ¿qué hilos de la historia sientes que siguen abiertos?",
+    "¿Cómo encaja Levítico, con sus leyes, en la historia que empezó con la Creación?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "tramo": "EXO-01",
+ "libro": "EXO",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 18,
+  "v": 27
+ },
+ "introduccion": {
+  "titulo": "Introducción al libro de Éxodo",
+  "texto": "Éxodo continúa la historia donde Génesis la dejó. Su nombre viene de la antigua traducción griega, hecha en Alejandría en el siglo 3 antes de Cristo, y significa salida; en hebreo se llama Shemot, nombres, porque empieza así: «ESTOS son los nombres de los hijos de Israel». Cuenta cómo la familia de Jacob, que había llegado a Egipto con setenta personas, se convierte en un pueblo numeroso, cae en la servidumbre y es sacada de allí; cómo atraviesa el desierto hasta el monte de Dios y recibe allí un pacto con sus leyes; y cómo construye un santuario portátil, el tabernáculo, para que Dios habite en medio del pueblo.\n\nHasta la mitad del capítulo 15, el relato transcurre en Egipto y en la tierra de Madián, al este del golfo de Aqaba, adonde huye Moisés. Hasta el capítulo 18, el pueblo camina por el desierto, con hambre, sed y los primeros conflictos. Del capítulo 19 al 40, todo sucede al pie del monte Sinaí: el pacto y las leyes, hasta el capítulo 24; las instrucciones para el tabernáculo y los sacerdotes, hasta el 31; una crisis y la renovación del pacto, en los capítulos 32 al 34; y la construcción del tabernáculo, hasta el final.\n\nGénesis terminó en Egipto. José había llegado a ser el segundo después de Faraón, y durante una gran hambre había traído a su padre Jacob y a sus hermanos, que se instalaron en Gosén, una región de pastos en el delta oriental del Nilo. Antes de morir, José les hizo jurar que llevarían sus huesos a la tierra prometida. En el fondo están las promesas que Dios hizo a Abraham, a Isaac y a Jacob, una descendencia numerosa y una tierra, y lo que anunció en Génesis 15: los descendientes de Abraham vivirían como extranjeros y siervos en una tierra ajena, y después saldrían de ella.\n\nLa tradición judía y la cristiana atribuyen a Moisés los cinco primeros libros de la Biblia. Éxodo cuenta, en el capítulo 17, que Dios le mandó escribir en un libro, y más adelante dice que Moisés escribió las palabras del pacto. En el Evangelio de Marcos, Jesús se refiere al relato de la zarza como parte del libro de Moisés. Desde el siglo 19, muchos estudiosos piensan que estos libros tomaron su forma final tras un largo proceso de reunir y editar tradiciones antiguas, quizá hasta después del destierro en Babilonia, en el siglo 6 antes de Cristo; señalan cambios de estilo, repeticiones y nombres de lugares que parecen de épocas posteriores. Otros sostienen que el núcleo viene de Moisés y que más tarde se actualizaron algunos nombres y se añadieron notas.\n\nEl libro no nombra a ningún faraón ni dice en qué año salió Israel de Egipto. Esta guía sigue la cronología bíblica tradicional, que se calcula con el propio texto: el primer libro de los Reyes, en el capítulo 6, pone la salida 480 años antes del cuarto año de Salomón, que fue hacia 966 antes de Cristo. La salida habría sido, entonces, hacia 1446 antes de Cristo, en el Reino Nuevo, cuando Egipto era un imperio que dominaba Canaán. Moisés habría nacido ochenta años antes, hacia 1526, y como el capítulo 12 cuenta 430 años en Egipto, la familia de Jacob habría llegado hacia 1876. La antigua traducción griega y el Pentateuco samaritano leen que esos 430 años incluyen el tiempo de los patriarcas en Canaán; con esa cuenta corta, la estancia en Egipto sería de unos 215 años, desde aproximadamente 1661, en tiempos de los hicsos, unos reyes de origen extranjero que dominaron el norte del país.\n\nMuchos historiadores prefieren el siglo 13 antes de Cristo, en tiempos de Ramsés segundo, que reinó aproximadamente entre 1279 y 1213 antes de Cristo. Señalan que una de las ciudades que construyen los hebreos se llama Raamses, como la residencia que ese faraón levantó en el delta, y leen los 480 años como una cifra redonda: doce generaciones de cuarenta años. Los defensores de la fecha tradicional responden que ese nombre pudo actualizarse más tarde, como en Génesis 47, que ya habla de la tierra de Rameses en tiempos de José.\n\nFuera de la Biblia, el documento clave es la estela de Merneptah, hijo de Ramsés segundo, de hacia 1208 antes de Cristo. Entre los pueblos de Canaán que el faraón dice haber vencido aparece Israel, con el signo egipcio que indica un pueblo: es la mención más antigua de Israel fuera de la Biblia que se conoce con seguridad, y las dos posturas la usan a su favor. Ningún documento egipcio conocido menciona la salida. Unos lo explican porque los reyes no registraban sus derrotas y porque en el delta, por la humedad, casi no se conservan papiros; otros ven en ese silencio un motivo de duda. Las conclusiones te tocan a ti.\n\nUna pregunta recorre los primeros capítulos. Faraón dice: «¿Quién es Jehová, para que yo oiga su voz y deje ir á Israel?», y una y otra vez vuelve la frase «sabrán los Egipcios que yo soy Jehová». El texto se detiene también en la memoria: fiestas, preguntas de los hijos y objetos guardados para el futuro. Las leyes y las descripciones del tabernáculo piden paciencia, pero eran fundamentales para sus primeros oyentes. Y Éxodo es la base de la Pascua judía, que se celebra hasta hoy, y su lenguaje reaparece en los escritos cristianos."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 7,
+   "texto": "Salir «del muslo de Jacob» quiere decir ser sus descendientes, y «corroborados» significa fortalecidos. Issachâr es Isacar, y Nephtalí, Neftalí. Los setenta repiten la cifra de Génesis 46, versículo 27; la antigua traducción griega dice setenta y cinco, y esa es la cifra que usa Esteban en el libro de los Hechos, capítulo 7."
+  },
+  {
+   "cap": 1,
+   "v": 11,
+   "texto": "Los «comisarios de tributos» eran jefes de trabajos forzados, y las «ciudades de los bastimentos», centros de depósito de grano y provisiones. Phithom, Pitón, viene del egipcio Per Atum, casa de Atum, un dios creador ligado al sol, y se busca en el valle de Wadi Tumilat. Raamses, Ramsés, se identifica con Pi Ramsés, la ciudad residencia de Ramsés segundo en el delta oriental, junto a la actual Qantir."
+  },
+  {
+   "cap": 1,
+   "v": 16,
+   "texto": "La frase «mirareis los asientos» se refiere, al parecer, a las dos piedras o ladrillos sobre los que la mujer se ponía en cuclillas para dar a luz, de modo que la partera veía enseguida si nacía niño o niña. En Egipto se usaban ladrillos de parto, y en Abidos se ha hallado uno decorado."
+  },
+  {
+   "cap": 1,
+   "v": 21,
+   "texto": "Siphra y Phúa, en español Sifra y Fúa, llevan nombres semíticos; Sifra puede significar hermosa. El hebreo permite entender que eran parteras hebreas o parteras egipcias al servicio de las hebreas, y las dos lecturas tienen defensores desde la antigüedad. Que Dios «les hizo casas» quiere decir que les dio familia y descendencia."
+  },
+  {
+   "cap": 2,
+   "v": 3,
+   "texto": "La «arquilla» es en hebreo la misma palabra que designa el arca de Noé, y solo aparece en estos dos relatos. Era de papiro, el junco con que los egipcios hacían barcas ligeras, y la madre la calafateó, es decir, le tapó las junturas con «pez», que es brea, y con betún, para que no entrara el agua. La palabra «carrizal» traduce el hebreo suf, juncos."
+  },
+  {
+   "cap": 2,
+   "v": 10,
+   "texto": "El nombre de Moisés se explica aquí con un juego de palabras: en hebreo suena como el verbo sacar. A la vez, en egipcio mose significa nacido o hijo, y forma parte de nombres de faraones como Ahmosis y Tutmosis. Muchos estudiosos piensan que el nombre es egipcio y que el texto lo explica en hebreo. El verbo «prohijó» quiere decir que lo adoptó."
+  },
+  {
+   "cap": 2,
+   "v": 15,
+   "texto": "Madián era la tierra de un pueblo de pastores y caravaneros que vivía sobre todo al este del golfo de Aqaba, en el noroeste de Arabia, y recorría con sus rebaños y caravanas amplias zonas del desierto. Génesis 25 cuenta que Abraham tuvo con Cetura un hijo llamado Midiam, y la tradición hace descender de él a los madianitas; en Génesis 37 aparecen mercaderes madianitas en la venta de José."
+  },
+  {
+   "cap": 3,
+   "v": 1,
+   "texto": "Jethro, en español Jetro, es el mismo suegro que en el capítulo 2 se llama Ragüel, nombre que suele entenderse como amigo de Dios; la tradición ha visto en ellos dos nombres de una misma persona. Horeb, que probablemente significa lugar seco o desolado, es otro nombre del monte que la Biblia llama también Sinaí; Deuteronomio prefiere el nombre de Horeb."
+  },
+  {
+   "cap": 3,
+   "v": 2,
+   "texto": "En hebreo, ángel quiere decir mensajero. Aquí, como en Génesis 16 y 22, el ángel de Jehová habla como Dios mismo. Muchos intérpretes judíos lo entienden como un enviado que habla en su nombre, y muchos autores cristianos de los primeros siglos vieron aquí una aparición del Hijo de Dios antes de hacerse hombre. La palabra hebrea para zarza, sené, suena parecido a Sinaí."
+  },
+  {
+   "cap": 3,
+   "v": 8,
+   "texto": "La «tierra que fluye leche y miel» es una tierra buena para pastores y campesinos: leche de cabras y ovejas, y miel de abejas silvestres o de frutos como el dátil. Los pueblos de la lista son, en español, cananeos, hititas, amorreos, ferezeos, heveos y jebuseos; estos últimos vivían en Jebús, la ciudad que después sería Jerusalén."
+  },
+  {
+   "cap": 3,
+   "v": 14,
+   "texto": "«YO SOY EL QUE SOY» traduce una frase hebrea con el verbo ser o estar, que también puede traducirse seré el que seré. Es la misma forma verbal que Dios usó en el versículo 12: «yo seré contigo». Unos leen aquí la afirmación de que Dios existe por sí mismo; otros, la promesa de que estará presente con su pueblo; muchos ven ambas cosas."
+  },
+  {
+   "cap": 3,
+   "v": 15,
+   "texto": "Jehová es la forma con que esta traducción escribe el nombre propio de Dios, cuatro consonantes hebreas, yod, he, vav y he, que se relacionan con el verbo de «YO SOY». Por respeto, los judíos dejaron de pronunciarlo y leían Adonai, Señor. La forma Jehová combina esas consonantes con las vocales de Adonai; muchos estudiosos piensan que se pronunciaba aproximadamente Yahvé."
+  },
+  {
+   "cap": 4,
+   "v": 23,
+   "texto": "Aquí aparecen dos hilos que recorren el relato. Uno es el corazón de Faraón: para los hebreos, el corazón era el centro del pensamiento y de las decisiones, no solo de los sentimientos, y endurecerlo es obstinarse. El otro es el primogénito: en el mundo antiguo, el hijo mayor heredaba la parte principal y continuaba la familia, y Dios llama así a Israel."
+  },
+  {
+   "cap": 4,
+   "v": 26,
+   "texto": "Es un pasaje muy difícil. La «posada» era el sitio donde se paraba a pasar la noche, y el «pedernal», una piedra afilada como las que se usaban para circuncidar. El hebreo no aclara a quién quiso matar ni a los pies de quién echó Séfora el prepucio. Muchos entienden que el hijo no había sido circuncidado, la señal del pacto con Abraham, y que ella lo resolvió."
+  },
+  {
+   "cap": 5,
+   "v": 2,
+   "texto": "En el Reino Nuevo, Egipto había acogido algunos dioses cananeos, como Baal y Astarté, pero el dios de estos siervos no estaba entre ellos. La respuesta de Faraón, «Yo no conozco á Jehová», abre una pregunta que recorre los capítulos siguientes, donde se repite muchas veces que los egipcios, y también Israel, sabrán que él es Jehová."
+  },
+  {
+   "cap": 5,
+   "v": 7,
+   "texto": "Había dos niveles de mando: los «cuadrilleros» eran capataces egipcios, y los «gobernadores», que más adelante el texto llama «capataces», eran israelitas puestos sobre su propia gente, que respondían por la cuota. La paja picada se mezclaba con el barro para que el ladrillo, secado al sol, no se agrietara. Sin la paja, había que salir a buscar rastrojo y cumplir la misma tarea."
+  },
+  {
+   "cap": 6,
+   "v": 3,
+   "texto": "«Dios Omnipotente», que en Génesis aparece también como Dios Todopoderoso, traduce el hebreo El Shaddai, el nombre con que Dios se presentó a Abraham y a Jacob. Pero en Génesis el nombre Jehová aparece muchas veces, incluso dicho por Dios a Abraham. Unos entienden que los patriarcas conocían el nombre, pero no todo lo que significaba; muchos estudiosos ven aquí la huella de tradiciones distintas reunidas en el Pentateuco."
+  },
+  {
+   "cap": 6,
+   "v": 6,
+   "texto": "El verbo «redimiré» es en hebreo el del pariente rescatador, el familiar cercano que debía rescatar a un pariente vendido como esclavo o recuperar la tierra que la familia había perdido. Levítico 25 regula esa figura. Aquí Dios usa esa palabra para hablar de lo que hará por Israel."
+  },
+  {
+   "cap": 6,
+   "v": 12,
+   "texto": "La expresión «incircunciso de labios» es una imagen hebrea para decir que no tiene facilidad de palabra, como si sus labios estuvieran cerrados. Levítico 26 usa la misma imagen para un corazón que no se abre. Moisés repite así la queja del capítulo 4: «soy tardo en el habla y torpe de lengua»."
+  },
+  {
+   "cap": 6,
+   "v": 20,
+   "texto": "La lista recorre solo a Rubén, Simeón y Leví, los tres hijos mayores de Jacob, y se detiene en Leví para presentar a Moisés y a Aarón. Aquí se nombra por primera vez a sus padres: Amram y Jochêbed, Jocabed, que era tía de Amram, una unión que Levítico 18 prohibirá. Coath es Coat. Las genealogías antiguas a veces omiten generaciones, y por eso no siempre sirven para calcular años."
+  },
+  {
+   "cap": 6,
+   "v": 23,
+   "texto": "Elisabeth, en español Elisabet, era hermana de Naasón, jefe de la tribu de Judá y antepasado del rey David: la familia de Aarón queda unida a una casa principal de Judá. Sus cuatro hijos, Nadab, Abiú, Eleazar e Ithamar, Itamar, serán los primeros sacerdotes junto a su padre."
+  },
+  {
+   "cap": 6,
+   "v": 25,
+   "texto": "Phinees, Finees, nieto de Aarón, lleva un nombre de origen egipcio que significa el nubio, es decir, el hombre del sur. Como quizá el de Moisés, recuerda los siglos que la familia vivió en Egipto. Phutiel, Futiel, su abuelo materno, solo aparece aquí."
+  },
+  {
+   "cap": 7,
+   "v": 1,
+   "texto": "La palabra «profeta» tiene aquí su sentido básico: el que habla en nombre de otro. Moisés recibirá la palabra de Dios y Aarón la dirá ante Faraón, como se anunció en el capítulo 4. Que Moisés sea «dios para Faraón» tiene un peso especial frente a un rey que era tenido por dios en su propio país."
+  },
+  {
+   "cap": 7,
+   "v": 11,
+   "texto": "En «los encantadores de Egipto», y más adelante en «los magos», se usa la misma palabra hebrea de la historia de José, que probablemente viene de un título egipcio: jefe de los sacerdotes lectores, que leían los textos sagrados y tenían fama de magos. La tradición judía, recogida también en la segunda carta a Timoteo, les dio nombres: Janes y Jambres."
+  },
+  {
+   "cap": 8,
+   "v": 6,
+   "texto": "En Egipto, la rana era símbolo de fertilidad y de vida que brota, y aparecía en gran número cuando bajaba la crecida del Nilo. Se asociaba con Heqet, una diosa con cabeza de rana que protegía los partos, y por eso muchos lectores han relacionado esta plaga con ella."
+  },
+  {
+   "cap": 8,
+   "v": 9,
+   "texto": "«Gloríate sobre mí» es una cortesía: Moisés le concede a Faraón el honor de fijar el momento. Así, si las ranas se van en el día que el mismo rey eligió, se verá que no fue casualidad, como explica el versículo siguiente."
+  },
+  {
+   "cap": 8,
+   "v": 19,
+   "texto": "«Dedo de Dios es este»: los magos, que habían imitado las señales anteriores, reconocen un poder que no pueden igualar. Es la primera vez que la Biblia usa la expresión dedo de Dios, y Jesús la retomará en el Evangelio de Lucas al hablar de su poder sobre los demonios."
+  },
+  {
+   "cap": 8,
+   "v": 26,
+   "texto": "Moisés teme que esos sacrificios sean para los egipcios una «abominación». Génesis ya contaba que los egipcios no comían con los hebreos y que despreciaban a los pastores de ovejas. Muchos lo explican porque varios dioses de Egipto se representaban como toros, vacas o carneros, y matar esos animales delante de ellos podía tomarse como un sacrilegio."
+  },
+  {
+   "cap": 9,
+   "v": 6,
+   "texto": "La frase «todo el ganado» se refiere al que estaba en el campo, como dice el versículo 3, porque más adelante los egipcios todavía tienen animales. En Egipto se veneraba al toro Apis en Menfis, y la diosa Hathor se representaba como una vaca; muchos lectores han relacionado esta plaga con ellos."
+  },
+  {
+   "cap": 9,
+   "v": 32,
+   "texto": "Lo que aquí se traduce «centeno» es probablemente la escanda, una variedad antigua de trigo, porque en Egipto no se cultivaba centeno. La cebada y el lino maduran antes que el trigo, así que el granizo cayó hacia el final del invierno, unas semanas antes de la salida. Del lino se hacía el fino lienzo egipcio."
+  },
+  {
+   "cap": 10,
+   "v": 19,
+   "texto": "Es la primera vez que aparece el «mar Bermejo», es decir, rojizo. En hebreo se llama yam suf, mar de los juncos, con la misma palabra del «carrizal» donde fue puesta la arquilla de Moisés. Llamarlo mar Rojo viene de la antigua traducción griega."
+  },
+  {
+   "cap": 10,
+   "v": 23,
+   "texto": "El sol era una de las divinidades principales de Egipto: el dios Ra recorría el cielo cada día en su barca, y el faraón llevaba el título de hijo de Ra. Tres días sin luz tocaban el centro de esa fe, y muchos lectores relacionan esta plaga con él."
+  },
+  {
+   "cap": 11,
+   "v": 7,
+   "texto": "La frase «la sierva que está tras la muela» describe a la esclava que molía el grano a mano, entre dos piedras, la tarea más dura y humilde de la casa: abarca desde el rey hasta la última persona del país. Que «ni un perro moverá su lengua» quiere decir que entre los israelitas no habrá ni un gruñido, ni la menor amenaza."
+  },
+  {
+   "cap": 12,
+   "v": 2,
+   "texto": "Este mes pasa a ser el primero del año para las fiestas de Israel. Cae en primavera, entre marzo y abril, y el capítulo 13 lo llamará Abib, palabra que se refiere a las espigas tiernas de la cebada. Después del destierro en Babilonia se le llamó Nisán, como en Nehemías y Ester. El calendario judío conserva además un año nuevo en otoño."
+  },
+  {
+   "cap": 12,
+   "v": 6,
+   "texto": "Para unos, la expresión «entre las dos tardes» indica el momento que va de la puesta del sol a la noche cerrada; en tiempos del templo de Jerusalén se entendía como la tarde: el historiador judío Josefo cuenta que los corderos de la Pascua se sacrificaban aproximadamente entre las tres y las cinco."
+  },
+  {
+   "cap": 12,
+   "v": 11,
+   "texto": "Comer «ceñidos vuestros lomos» era llevar la túnica recogida en el cinturón para poder caminar o correr; con el calzado puesto y el «bordón», el bastón, en la mano, estaban listos para partir. La palabra «Pascua» viene del hebreo Pésaj, de un verbo que significa pasar de largo o proteger, como explican los versículos siguientes."
+  },
+  {
+   "cap": 12,
+   "v": 15,
+   "texto": "La levadura era un trozo de masa fermentada que se guardaba de una hornada a otra; sin ella el pan sale plano. De ahí el nombre de fiesta de los ázimos, es decir, de los panes sin levadura. Las hierbas amargas, según la tradición judía, recuerdan la amargura de la servidumbre. La expresión «será cortada» se entiende como quedar excluida del pueblo, o como un castigo que viene de Dios."
+  },
+  {
+   "cap": 12,
+   "v": 26,
+   "texto": "Hasta hoy, las familias judías celebran la Pascua con una cena, el Séder, en la que los hijos preguntan y los mayores responden contando la salida de Egipto, como pide este pasaje. Para los cristianos tiene otro peso: según los evangelios, Jesús murió en los días de la Pascua, y el Evangelio de Juan le aplica la norma del versículo 46, no quebrar ningún hueso del cordero."
+  },
+  {
+   "cap": 12,
+   "v": 37,
+   "texto": "Succoth, Sucot, significa cabañas, y se busca hacia el valle de Wadi Tumilat, la salida natural del delta hacia el este. Los «seiscientos mil hombres de á pie», más las mujeres y los niños, supondrían un pueblo de más de dos millones. Algunos lo toman al pie de la letra; otros notan que la palabra hebrea para mil puede designar también un clan o una tropa, y proponen cifras menores."
+  },
+  {
+   "cap": 13,
+   "v": 13,
+   "texto": "Redimir aquí es rescatar pagando. El asno, animal que no se ofrecía en sacrificio, se rescataba con un cordero, y los primogénitos humanos nunca se sacrificaban: siempre se rescataban. El libro de Números fijará ese rescate en cinco siclos de plata, y muchas familias judías celebran todavía el rescate del primer hijo varón."
+  },
+  {
+   "cap": 13,
+   "v": 17,
+   "texto": "El camino más corto a Canaán seguía la costa del Mediterráneo hasta Gaza. Egipto lo vigilaba con una cadena de fortalezas y pozos que sus textos llaman los caminos de Horus, y un relieve del faraón Seti primero, en Karnak, los muestra uno tras otro. La Biblia lo nombra por el pueblo filisteo, que ocupó esa costa."
+  },
+  {
+   "cap": 14,
+   "v": 2,
+   "texto": "No se sabe con certeza dónde estaban Pihahiroth, Migdol y Baalzephón, en español Pi Hahirot, Migdol y Baal Zefón. Migdol es una palabra semítica que significa torre o fortaleza, y los textos egipcios mencionan fortalezas con ese nombre en la frontera oriental. Baal Zefón era un dios cananeo de las tormentas, protector de los navegantes, cuyo culto llegó también a Egipto."
+  },
+  {
+   "cap": 14,
+   "v": 13,
+   "texto": "La palabra «salud» significa aquí salvación, liberación. En hebreo es yeshuá, de la misma raíz que los nombres de Josué y de Jesús, que en hebreo se dice Yeshúa. Volverá a aparecer en el cántico del capítulo siguiente."
+  },
+  {
+   "cap": 15,
+   "v": 15,
+   "texto": "«Palestina» traduce aquí el hebreo Peleshet, la tierra de los filisteos, en la costa sur de Canaán, y no toda la región, como hoy. Edom estaba al sureste del mar Muerto y era el pueblo de los descendientes de Esaú; Moab, al este del mar Muerto. Eran los pueblos que estaban en el camino hacia Canaán."
+  },
+  {
+   "cap": 15,
+   "v": 20,
+   "texto": "María es, en hebreo, Miriam, y aparece aquí por primera vez con su nombre; la tradición la identifica con la hermana que vigilaba la arquilla en el capítulo 2. Es la primera mujer a la que la Biblia llama profetisa. El «pandero» era un tambor de mano, un aro de madera con una piel tensa, que solían tocar las mujeres en las fiestas."
+  },
+  {
+   "cap": 15,
+   "v": 23,
+   "texto": "El desierto de Shur, nombre que significa muro, es la franja del noroeste del Sinaí frente a la frontera de Egipto, que ya aparece en Génesis. Mara significa amarga, como explica el propio versículo. Se han propuesto varios manantiales salobres de la costa oeste del Sinaí, pero no hay certeza."
+  },
+  {
+   "cap": 15,
+   "v": 27,
+   "texto": "Elim significa árboles grandes, quizá palmeras o terebintos. La tradición lo ha buscado en un oasis de la costa oeste del Sinaí, como el de Wadi Gharandel. Algunos lectores han notado que sus doce fuentes y setenta palmas recuerdan las doce tribus y las setenta personas que bajaron a Egipto."
+  },
+  {
+   "cap": 16,
+   "v": 1,
+   "texto": "El desierto de Sin quedaba entre Elim y el Sinaí, y su nombre quizá esté emparentado con el del monte. La fecha, el día quince del segundo mes, indica que había pasado un mes desde la salida, que según Números 33 fue el día quince del primer mes."
+  },
+  {
+   "cap": 16,
+   "v": 16,
+   "texto": "El gomer era una medida de capacidad para granos. El versículo 36 dirá que es la décima parte de un epha, en español efa; como el efa tenía unos 22 litros, el gomer equivalía a algo más de 2 litros. Era la ración de un día: «un gomer por cabeza»."
+  },
+  {
+   "cap": 16,
+   "v": 23,
+   "texto": "Es la primera vez que la Biblia usa la palabra «sábado», del hebreo shabat, que viene de un verbo que significa cesar o descansar. Génesis 2 había contado que Dios reposó el séptimo día; aquí ese día entra en la vida diaria del pueblo a través del maná, antes de las leyes del monte."
+  },
+  {
+   "cap": 16,
+   "v": 31,
+   "texto": "El nombre «Maná» viene de la pregunta del versículo 15, «¿Qué es esto?», que en hebreo suena man hu. El «culantro» es el cilantro, de semilla pequeña y redonda, y las «hojuelas» eran tortas delgadas. El libro de Números añade que lo molían o machacaban y que su sabor recordaba al del aceite."
+  },
+  {
+   "cap": 16,
+   "v": 34,
+   "texto": "El «Testimonio» son las tablas de la ley que, más adelante en este libro, se guardarán en el arca. El narrador habla desde ese tiempo posterior, igual que el versículo siguiente resume los cuarenta años del desierto. La carta a los Hebreos menciona la urna de oro con el maná junto a las tablas."
+  },
+  {
+   "cap": 17,
+   "v": 7,
+   "texto": "Massah significa prueba, y Meribah, contienda; en español, Masá y Meribá. Los dos nombres guardan el recuerdo de la pregunta del pueblo: «¿Está, pues, Jehová entre nosotros, ó no?». El Salmo 95 vuelve sobre este lugar, y la carta a los Hebreos cita ese salmo."
+  },
+  {
+   "cap": 17,
+   "v": 8,
+   "texto": "Los amalecitas eran nómadas del Néguev y del norte del Sinaí. Génesis 36 los hace descender de Esaú, por su nieto Amalec. Deuteronomio 25 recuerda que atacaron por la retaguardia a los cansados y rezagados. Su enemistad con Israel reaparece en otros libros, por ejemplo en tiempos de Saúl y de David."
+  },
+  {
+   "cap": 17,
+   "v": 9,
+   "texto": "Josué aparece aquí por primera vez. Su nombre hebreo, Yehoshúa, significa Jehová salva, y es el mismo nombre que, en una forma más breve, llevó Jesús. Era de la tribu de Efraín, y el libro de Números cuenta que Moisés cambió su nombre anterior, Oseas, por el de Josué."
+  },
+  {
+   "cap": 17,
+   "v": 14,
+   "texto": "Es la primera vez que Dios manda a Moisés escribir algo en un libro, es decir, en un documento escrito. Éxodo menciona otras veces que Moisés escribió por orden de Dios, y en esos pasajes se apoya en parte la tradición que le atribuye estos libros."
+  },
+  {
+   "cap": 17,
+   "v": 16,
+   "texto": "El altar se llama Jehová nissi, Jehová es mi estandarte, el asta con la bandera que reunía a una tropa. El hebreo del versículo 16 es difícil: la palabra que se traduce «trono» es rara, y muchos piensan que, con una letra distinta, diría estandarte, como en el nombre del altar. Por eso las traducciones varían."
+  },
+  {
+   "cap": 18,
+   "v": 2,
+   "texto": "El texto no había contado que Moisés enviara de vuelta a Séfora y a sus hijos; la última vez iban con él camino de Egipto, en el capítulo 4. No dice cuándo ni por qué lo hizo, y los intérpretes han propuesto varias razones."
+  },
+  {
+   "cap": 18,
+   "v": 12,
+   "texto": "Jetro, sacerdote de Madián, ofrece sacrificios a Dios, y Aarón y los ancianos comen con él «delante de Dios». En el antiguo Oriente, compartir una comida sagrada sellaba la amistad o un pacto, como cuando Isaac comió con Abimelec o Jacob con Labán, en Génesis."
+  },
+  {
+   "cap": 18,
+   "v": 21,
+   "texto": "La palabra «caporales» quiere decir jefes. La división en grupos de mil, ciento, cincuenta y diez se usaba también en las unidades militares. Las cualidades pedidas son capacidad, temor de Dios, honradez y rechazo del soborno, que es el sentido de «avaricia» aquí. Deuteronomio, en su primer capítulo, vuelve a contar este momento."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 1,
+   "v": 22,
+   "titulo": "Extranjeros en el delta del Nilo",
+   "epoca": "Entre la muerte de José, hacia 1805, y el nacimiento de Moisés, hacia 1526 antes de Cristo, según la cronología bíblica tradicional; muchos historiadores lo sitúan en el siglo 13",
+   "lugar": "El delta oriental del Nilo, en la tierra de Gosén, en la frontera de Egipto con el Sinaí y Canaán",
+   "texto": "Para imaginar esta escena, piensa en Egipto como un largo oasis. El Nilo corre de sur a norte por un valle estrecho, rodeado de desierto, y antes de llegar al Mediterráneo se abre en un abanico de brazos, canales y marismas: el delta. Los egipcios llamaban a su país la tierra negra, por el limo oscuro que dejaba cada año la crecida, y al desierto que lo rodeaba, la tierra roja. El río de la orden de Faraón es el Nilo; la palabra hebrea viene del egipcio y significa simplemente río. En el borde oriental del delta, mirando hacia el Sinaí y Canaán, estaba Gosén, la región de pastos donde Génesis dejó a la familia de Jacob.\n\nEsa frontera fue durante siglos una puerta de entrada. La arqueología muestra que en el delta oriental vivieron muchos pobladores llegados de Canaán y de Siria: pastores, comerciantes, soldados y sirvientes. En Tell el Daba, la antigua Avaris, se excavó una gran ciudad con casas, tumbas y objetos de estilo cananeo. Un papiro de hacia el siglo 18 antes de Cristo, que hoy guarda el Museo de Brooklyn, enumera a los sirvientes de una casa egipcia, y muchos llevan nombres semíticos; uno de ellos se ha leído como Sifra, igual que una de las parteras. Hacia 1650 antes de Cristo, unos gobernantes de origen asiático, los hicsos, dominaron el norte del país desde Avaris; su nombre viene de una expresión egipcia que significa jefes de tierras extranjeras. Hacia 1550 antes de Cristo, los reyes de Tebas los expulsaron y comenzó el Reino Nuevo, la época de los grandes faraones, y desde entonces Egipto vigiló de cerca su frontera del este. Según la cronología bíblica tradicional, la familia de Jacob había llegado mucho antes, hacia 1876 antes de Cristo, en tiempos del llamado Reino Medio; con la cuenta corta de la que habla la introducción, habría llegado en tiempos de los hicsos.\n\nEl texto no dice quién era «un nuevo rey sobre Egipto, que no conocía á José». Algunos lo relacionan con el cambio que trajo la expulsión de los hicsos; otros piensan en faraones posteriores. La palabra Faraón viene del egipcio y significa casa grande: primero designaba el palacio, y en el Reino Nuevo empezó a usarse para el rey mismo. El faraón era visto como hijo del dios sol y como presencia de lo divino en la tierra, y su tarea era mantener el orden del mundo, que los egipcios llamaban maat, frente al caos. Un pueblo extranjero que crecía en la frontera, justo por donde solían llegar las invasiones, podía verse como una amenaza a ese orden, y el texto deja oír ese miedo: «viniendo guerra, él también se junte con nuestros enemigos».\n\nLa primera medida fue el trabajo forzado. En Egipto, casas, graneros, murallas y fortalezas se hacían de adobe: barro del Nilo mezclado con paja o arena, apretado en moldes de madera y secado al sol; la piedra se reservaba para templos y tumbas. Los reyes empleaban en sus obras a campesinos del país, a prisioneros de guerra y a extranjeros. En la tumba de Rekhmire, visir del faraón Tutmosis tercero en el siglo 15 antes de Cristo, una pintura famosa muestra a trabajadores extranjeros, entre ellos asiáticos, haciendo ladrillos para un templo bajo la vigilancia de capataces con varas. Pitón y Raamses, construidas así, eran centros de depósito en una zona estratégica; el nombre de la segunda forma parte del debate sobre la fecha de la salida que se explicó en la introducción.\n\nCuando el trabajo no detiene el crecimiento, el plan avanza: primero, una orden secreta a las parteras; después, una orden pública a todo su pueblo. El río que daba vida a Egipto se convierte en el lugar de la muerte de los niños hebreos.",
+   "preguntas": [
+    "¿Por qué crees que el texto conserva los nombres de las parteras y no el del rey?",
+    "¿Qué pudo significar la orden del versículo 22 para una familia hebrea de Gosén?"
+   ]
+  },
+  {
+   "cap": 2,
+   "v": 25,
+   "titulo": "Moisés, entre el palacio y el desierto",
+   "epoca": "Desde el nacimiento de Moisés, hacia 1526 antes de Cristo según la cronología bíblica tradicional, hasta sus años de pastor en Madián",
+   "lugar": "La orilla del Nilo, la corte egipcia y la tierra de Madián",
+   "texto": "La historia de Moisés comienza con tres mujeres que, cada una a su manera, se ponen del lado del niño: su madre, su hermana y la hija de Faraón. Las princesas egipcias tenían su propia casa y servidumbre, y no es extraño que una de ellas bajara con sus doncellas a la orilla del río. Contratar a una nodriza era una costumbre conocida en el antiguo Oriente: hay contratos y leyes de Mesopotamia que hablan de mujeres que amamantaban y criaban a un niño ajeno durante dos o tres años, la edad habitual del destete. Así, la madre de Moisés lo crió en su casa con un pago de la misma familia real.\n\nLos estudiosos han comparado este relato con una leyenda mesopotámica sobre Sargón de Acad, un rey que vivió hacia 2300 antes de Cristo y cuya leyenda de nacimiento se conoce por copias del primer milenio antes de Cristo. En ella, Sargón cuenta que su madre, una sacerdotisa, lo puso en una cesta de juncos sellada con betún y lo echó al río, donde lo encontró un aguador que lo crió. Algunos ven aquí un motivo común del mundo antiguo, el niño salvado de las aguas que llega a ser grande; otros subrayan las diferencias: la madre de Moisés no lo abandona, sino que lo esconde para salvarlo, y el relato está lleno de detalles egipcios.\n\nDel tiempo de Moisés en la corte, el texto no dice nada. Por inscripciones del Reino Nuevo se sabe que en el palacio se educaban, junto a los hijos del rey, niños de familias importantes y también hijos de príncipes extranjeros, llevados a Egipto para formarlos en sus costumbres. Allí se aprendía a leer y escribir, a llevar cuentas y a administrar. El libro de los Hechos, en el capítulo 7, dice que Moisés fue instruido en la sabiduría de los egipcios. Pero el relato salta al día en que Moisés sale a ver a sus hermanos, mata a un egipcio y, al día siguiente, oye de uno de los suyos: «¿Quién te ha puesto á ti por príncipe y juez sobre nosotros?».\n\nPara escapar de Faraón, Moisés huye a Madián. En el desierto, la vida giraba en torno a los pozos: allí se daba de beber al ganado, que es lo que significa abrevar, y allí surgían peleas entre pastores por el agua, como ya había pasado en tiempos de Abraham y de Isaac. También junto a un pozo el siervo de Abraham encontró a Rebeca, y Jacob conoció a Raquel. Moisés defiende a las hijas del sacerdote Ragüel, es invitado a comer, se casa con Séphora, Séfora, cuyo nombre significa pájaro, y a su hijo lo llama Gersom, Gersón, porque se siente forastero en tierra ajena.\n\nMientras tanto, en Egipto pasan los años. Muere el rey, pero la servidumbre sigue, y la escena se cierra con cuatro verbos que tienen a Dios como sujeto: oyó, se acordó, miró y reconoció. El pacto que recuerda es el que Génesis contó con Abraham, Isaac y Jacob, con su promesa de descendencia y de tierra.",
+   "preguntas": [
+    "¿Qué pudo significar para Moisés crecer entre dos pueblos?",
+    "¿Por qué crees que el texto cuenta tan poco de sus años en el palacio?"
+   ]
+  },
+  {
+   "cap": 4,
+   "v": 17,
+   "titulo": "La zarza ardiente y el nombre de Dios",
+   "epoca": "Hacia 1446 antes de Cristo, según la cronología bíblica tradicional: el final de los años de Moisés en Madián, poco antes de su regreso a Egipto",
+   "lugar": "Horeb, el monte de Dios, en el desierto adonde Moisés llevó las ovejas de Jetro",
+   "texto": "Moisés, educado en la corte, pasa ahora sus días como pastor de ovejas ajenas, un oficio que los egipcios miraban con desprecio. Los pastores del desierto se movían con sus rebaños según las lluvias y los pastos, y en las montañas encontraban manantiales y valles con algo de vegetación. Allí abundan los arbustos espinosos, como la acacia. Lo que detiene a Moisés no es el fuego, sino que «la zarza no se consumía».\n\n¿Dónde estaba Horeb? La Biblia usa ese nombre y el de Sinaí para el mismo monte de Dios. Por lo menos desde el siglo 4 después de Cristo, la tradición cristiana lo sitúa en el sur de la península del Sinaí, en el Yébel Musa, el monte de Moisés, de más de 2000 metros de altura. Una peregrina llamada Egeria visitó el lugar a fines de ese siglo y describió la zarza que le mostraron los monjes, y en el siglo 6 el emperador Justiniano mandó construir allí el monasterio que hoy se llama de Santa Catalina. Otros estudiosos proponen montes del noroeste de Arabia, en la antigua tierra de Madián, o del norte del Sinaí. Ningún hallazgo arqueológico ha resuelto la cuestión.\n\nEn el antiguo Oriente, el nombre expresaba quién era alguien, y conocer el nombre de un dios era tener acceso a él. Un mito egipcio cuenta que la diosa Isis obtuvo con engaños el nombre secreto del dios sol Ra para participar de su poder. Moisés pide el nombre porque el pueblo se lo preguntará: necesita algo más que el relato de una visión. Aquí Dios da su nombre para que Moisés lo diga a todos, «Así dirás á los hijos de Israel», y lo une a una historia que el pueblo ya conocía: «el Dios de Abraham, Dios de Isaac y Dios de Jacob».\n\nMoisés pone objeción tras objeción: quién es él, cuál es el nombre, que no le creerán, que no sabe hablar, que envíe a otro. Las señales que recibe se entienden bien en Egipto. La cobra erguida, el ureo, adornaba la corona del faraón como símbolo de su poder, y algunos lectores han visto un sentido especial en que Moisés tome la serpiente por la cola. La mano «leprosa como la nieve» se refiere a una enfermedad de la piel: la palabra hebrea abarca varias afecciones, no solo la que hoy llamamos lepra. Y el agua del río convertida en sangre toca la fuente de vida del país.\n\nLa última objeción enciende el enojo de Dios, pero también trae una solución: Aarón, el hermano mayor, que aparece aquí por primera vez. Como levita, era de la misma tribu que Moisés. Será su boca ante el pueblo, y Moisés será para él «en lugar de Dios». Los verbos de este encuentro retoman los del final del capítulo 2: Dios ha visto, ha oído, conoce y desciende.",
+   "preguntas": [
+    "¿Qué te dice la respuesta del versículo 14 sobre quién es el que habla?",
+    "¿Por qué crees que Moisés se resiste tanto a ir?"
+   ]
+  },
+  {
+   "cap": 7,
+   "v": 25,
+   "titulo": "Faraón, el Nilo y los magos de Egipto",
+   "epoca": "Hacia 1446 antes de Cristo, según la cronología bíblica tradicional, en el Reino Nuevo de Egipto",
+   "lugar": "La corte de Faraón y las orillas del Nilo",
+   "texto": "Egipto casi no recibe lluvia: toda su vida dependía del Nilo. Cada verano, las lluvias de las montañas de Etiopía hacían crecer el río, que inundaba el valle aproximadamente de julio a octubre y, al retirarse, dejaba una capa de limo fértil. Los egipcios medían la crecida con escalas talladas en piedra, los nilómetros, porque de ella dependía la cosecha: poca agua traía hambre, y demasiada, destrucción. Siglos más tarde, el historiador griego Heródoto escribió que Egipto era un don del río.\n\nLa crecida se veneraba en la figura de Hapi, un dios representado con vientre abultado y pechos caídos, señales de abundancia, al que se dedicaron himnos que lo alaban como el que hace vivir al país. El faraón, hijo del dios sol, era el garante de que el orden del mundo siguiera su curso, y la crecida formaba parte de ese orden. El primer golpe cae precisamente sobre el río. El texto dice que el rey «sale á las aguas» por la mañana, sin explicar para qué, y que después de la señal los peces murieron y los egipcios tuvieron que cavar pozos junto al río para poder beber.\n\nLos «sabios y encantadores» de la corte tenían un lugar de honor. Los sacerdotes lectores recitaban los textos sagrados en los templos, y se les atribuía poder sobre la naturaleza por medio de palabras y ritos. El Papiro Westcar, un manuscrito egipcio copiado antes del Reino Nuevo, reúne historias de sacerdotes de la corte que hacían prodigios: uno da vida a un cocodrilo de cera, otro aparta las aguas de un lago para recuperar una joya caída al fondo. Para una corte así, el duelo de varas y serpientes era un enfrentamiento entre poderes. Los magos imitan las señales, pero el texto no dice que pudieran deshacerlas, y cuenta que «la vara de Aarón devoró las varas de ellos».\n\n¿Cómo se han explicado las plagas? Algunos han propuesto una cadena de causas naturales, empezando por una crecida cargada de tierra roja y de algas que mataran a los peces y corrompieran el agua. Otros señalan lo que el texto subraya: el anuncio previo, el gesto de la vara, la hora precisa y la duración de siete días. El propio texto da su razón: «En esto conocerás que yo soy Jehová». Moisés tenía entonces ochenta años y Aarón ochenta y tres; el libro de los Hechos recoge una tradición que divide la vida de Moisés en tres períodos de cuarenta años.",
+   "preguntas": [
+    "¿Qué significaba para un egipcio que el Nilo dejara de dar vida?",
+    "¿Qué buscaban los magos al repetir las señales?"
+   ]
+  },
+  {
+   "cap": 10,
+   "v": 29,
+   "titulo": "Un país herido y un corazón endurecido",
+   "epoca": "Hacia 1446 antes de Cristo, según la cronología bíblica tradicional; por los cultivos del capítulo 9, entre el final del invierno y la primavera",
+   "lugar": "Todo Egipto, salvo la tierra de Gosén, donde vivían los israelitas",
+   "texto": "Las plagas siguen un orden que muchos lectores han notado. Algunas comienzan con la orden de presentarse ante Faraón temprano por la mañana; otras, con la orden de entrar a su presencia; y otras llegan sin aviso: los piojos, que quizá eran mosquitos o jejenes, porque la palabra hebrea es incierta; las úlceras, que el texto llama «tumores apostemados», es decir, con pus; y las tinieblas. Así forman tres grupos de tres. Desde las moscas, el texto destaca una separación: Gosén, la región donde vivían los israelitas desde los días de José, queda a salvo. Los magos se rinden ante los piojos y después ni siquiera pueden presentarse por las úlceras. Al final son los propios siervos de Faraón quienes le dicen: «¿aun no sabes que Egipto está destruído?».\n\nAdemás de las relaciones que ya vimos con Heqet, con Apis y Hathor, y con Ra, algunos han vinculado el granizo con Nut, la diosa del cielo, y otras plagas con otros dioses. Otros estudiosos advierten que en varias plagas la relación no es clara y que conviene no forzarla. Poco más adelante, el texto mismo hablará de juicios sobre todos los dioses de Egipto.\n\nEl endurecimiento del corazón recorre todo el ciclo. El texto usa varias expresiones: a veces el corazón de Faraón «se endureció»; a veces él mismo «agravó su corazón»; y otras veces es Jehová quien lo endurece, como había anunciado desde el capítulo 4. Ese «agravó» traduce un verbo hebreo que significa hacer pesado. En Egipto se creía que, después de la muerte, el corazón del difunto se pesaba en una balanza frente a la pluma de la diosa Maat, la verdad y la justicia, como muestran las escenas del llamado Libro de los Muertos; un corazón cargado de faltas quedaba condenado. Algunos estudiosos piensan que un lector que conociera Egipto oiría ese eco. Judíos y cristianos han discutido durante siglos cómo se relacionan la decisión de Faraón y la acción de Dios; el texto sostiene las dos cosas a la vez.\n\nLa naturaleza de Egipto ayuda a imaginar estas escenas. El año egipcio tenía tres estaciones: la inundación, la siembra y la cosecha. El granizo cayó cuando la cebada estaba espigada y el lino «en caña», ya crecido, y en un país donde casi nunca llueve una tormenta así era algo inaudito. La langosta del desierto forma nubes de millones de insectos que viajan con el viento y devoran todo lo verde; aquí un viento del oriente la trae, y uno del occidente se la lleva al mar. Para las tinieblas, algunos piensan en el jamsín, un viento caliente cargado de arena que sopla en primavera y puede oscurecer el cielo durante días; el texto destaca que los israelitas «tenían luz en sus habitaciones».\n\nMientras tanto, Faraón negocia. Primero propone que sacrifiquen dentro del país; luego, que no vayan lejos; después, que vayan solo los varones; por último, que dejen el ganado. Moisés insiste en que vayan todos, con sus hijos y su ganado, y la escena termina en ruptura: «no veré más tu rostro».",
+   "preguntas": [
+    "¿Qué muestran las propuestas sucesivas de Faraón?",
+    "¿Cómo entiendes que el texto diga a la vez que Faraón endureció su corazón y que Jehová lo endureció?"
+   ]
+  },
+  {
+   "cap": 12,
+   "v": 42,
+   "titulo": "La noche de la Pascua y la salida",
+   "epoca": "Mes de Abib, en primavera, hacia 1446 antes de Cristo según la cronología bíblica tradicional; muchos historiadores prefieren el siglo 13",
+   "lugar": "Las casas de los hebreos en Egipto y el camino de Rameses a Succoth",
+   "texto": "La Pascua nace como una comida de familia: un cordero o un cabrito asado entero, pan sin levadura y hierbas amargas, comidos de prisa y con ropa de viaje. La sangre se pone en los postes y el dintel de la puerta con un manojo de hisopo, una planta aromática pequeña, probablemente una especie de orégano silvestre, que más tarde se usará en otros ritos de purificación. La «jofaina» es una vasija ancha. La puerta marca el límite: nadie debe salir de la casa hasta la mañana.\n\nEl relato se interrumpe varias veces para dar instrucciones a las generaciones futuras: la fiesta de siete días de panes sin levadura, las reglas para los extranjeros, la respuesta a la pregunta de los hijos. En la región, la primavera era el tiempo de los corderos recién nacidos y del comienzo de la cosecha de la cebada. Muchos estudiosos piensan que antiguas fiestas de pastores y de campesinos quedaron unidas aquí al recuerdo de la salida; la tradición judía y la cristiana las leen como instituidas en esta noche. También se cumple lo anunciado en el capítulo 3: los israelitas piden a los egipcios plata, oro y vestidos, y no salen con las manos vacías. Génesis 15 había anunciado que saldrían con grandes riquezas, y una ley de Deuteronomio mandará no despedir con las manos vacías al esclavo que queda libre.\n\nLa marcha empieza en Rameses, la misma Raamses del capítulo 1, y sigue hacia Succoth. Con los israelitas sube «grande multitud de diversa suerte de gentes», quizá otros extranjeros y siervos que aprovecharon la ocasión. El versículo 40 da la duración de la estancia: 430 años; Génesis 15 había hablado de 400. Como se dijo en la introducción, la antigua traducción griega y el Pentateuco samaritano cuentan en esos años también el tiempo de los patriarcas en Canaán, y con esa cuenta corta la estancia en Egipto se reduce a unos 215 años. El apóstol Pablo, en la carta a los Gálatas, cuenta 430 años desde la promesa hasta la ley.\n\nEl capítulo cierra con dos expresiones. El versículo 41 llama al pueblo que sale «los ejércitos de Jehová», como una tropa que marcha en orden. Y el 42 dice que es «noche de guardar á Jehová»: en hebreo, noche de vela, y muchos lo entienden en doble sentido, porque Dios veló esa noche por su pueblo y el pueblo velará esa noche cada año. Según la cronología bíblica tradicional, todo esto ocurre hacia 1446 antes de Cristo; muchos historiadores prefieren el siglo 13, en tiempos de Ramsés segundo, por las razones que viste en la introducción.",
+   "preguntas": [
+    "¿Qué cambia cuando un hecho se convierte en una fiesta que se repite cada año?",
+    "¿Por qué crees que el relato se detiene en plena noche para hablar de las generaciones futuras?"
+   ]
+  },
+  {
+   "cap": 14,
+   "v": 31,
+   "titulo": "El paso del mar de los juncos",
+   "epoca": "Los primeros días después de la salida, en primavera, hacia 1446 antes de Cristo según la cronología bíblica tradicional",
+   "lugar": "La frontera oriental de Egipto, entre lagos, marismas y desierto, frente a Pihahiroth",
+   "texto": "En la antigüedad, el borde oriental del delta era una zona de lagos, lagunas y marismas que corría más o menos por donde hoy pasa el canal de Suez: el lago Manzala al norte, junto al Mediterráneo; el lago Timsah y los lagos Amargos en el centro; y al sur, el golfo de Suez. Dios no lleva al pueblo por el camino de la costa, el más corto, sino «por el camino del desierto del mar Bermejo». De Succoth pasan a Etham, Etam, «á la entrada del desierto», y luego reciben la orden de volver atrás y acampar junto al mar. Faraón lo interpreta como señal de que están perdidos: «Encerrados están en la tierra».\n\nYa vimos que el nombre hebreo de este mar es yam suf, mar de los juncos. Los griegos llamaban mar Eritreo, es decir, mar Rojo, al actual mar Rojo y a las aguas que se abren más al sur y al este, y así lo tradujeron; de allí pasó al latín y al español. En otros libros de la Biblia, yam suf designa claramente el golfo de Aqaba. Por eso se han propuesto varios lugares para el paso: alguno de los lagos de la frontera, como el Timsah o los Amargos; una laguna junto al Mediterráneo; el golfo de Suez; o incluso el de Aqaba. Cada propuesta tiene sus defensores, y ninguna se ha podido comprobar.\n\nEl carro de guerra era el arma de élite del Reino Nuevo: ligero, de dos ruedas, tirado por dos caballos y con dos hombres, un conductor y un arquero. Los relieves egipcios muestran a los faraones lanzados en sus carros contra los enemigos. Seiscientos carros escogidos eran una fuerza temible frente a un pueblo a pie, con niños y ganado. En terreno blando o arenoso, en cambio, los carros perdían su ventaja, y el texto cuenta que Dios «quitóles las ruedas de sus carros».\n\nLa noche del paso reúne elementos que el texto pone juntos: la columna de nube y de fuego que se coloca entre los dos campamentos, la mano extendida de Moisés y el «recio viento oriental toda aquella noche». La vela de la mañana es la última guardia de la noche, antes del amanecer; los israelitas dividían la noche en tres guardias. Algunos estudios con modelos han calculado que un viento fuerte y constante puede retirar durante horas el agua de una laguna poco profunda; otros lectores subrayan que el texto presenta el hecho como obra de Dios en el momento preciso, anunciada de antemano. El relato no separa una cosa de la otra: dice que Jehová hizo retirarse el mar por medio del viento.\n\nA mitad del capítulo, el pueblo aterrado dice que prefiere servir a los egipcios; al final, el texto dice: «el pueblo temió á Jehová, y creyeron á Jehová y á Moisés su siervo». Es la misma reacción que el pueblo había tenido en el capítulo 4, al ver las primeras señales.",
+   "preguntas": [
+    "¿Qué cambia en el pueblo entre el versículo 10 y el versículo 31?",
+    "¿Cómo lees que el texto hable a la vez del viento y de la mano de Dios?"
+   ]
+  },
+  {
+   "cap": 15,
+   "v": 21,
+   "titulo": "El cántico del mar",
+   "epoca": "Justo después del paso del mar, hacia 1446 antes de Cristo según la cronología bíblica tradicional",
+   "lugar": "La orilla oriental del mar, ya fuera de Egipto",
+   "texto": "Después del relato llega el canto. La poesía hebrea no se basa en la rima, sino en el paralelismo: una línea dice algo y la siguiente lo repite con otras palabras o lo completa, como en «Tu diestra, oh Jehová, ha sido magnificada en fortaleza; tu diestra, oh Jehová, ha quebrantado al enemigo». Por su hebreo arcaico, muchos estudiosos consideran este cántico uno de los textos más antiguos de la Biblia, aunque otros lo fechan más tarde. El primer versículo lo pone en boca de Moisés y de los hijos de Israel.\n\nEl cántico tiene dos movimientos. Primero canta lo ocurrido en el mar: los carros, los abismos, el soplo que amontona las aguas. Luego mira hacia adelante: los pueblos que oirán y temblarán, y un pueblo conducido «á la habitación de tu santuario» y plantado «en el monte de tu heredad». Lectores posteriores vieron aquí el monte de Sion, en Jerusalén; otros, la tierra prometida en su conjunto. Y termina diciendo, por primera vez en la Biblia, que Jehová reina: «Jehová reinará por los siglos de los siglos». Para quienes acababan de dejar a un rey tenido por dios, la frase tenía un peso particular.\n\nLos pueblos vecinos también cantaban a sus dioses guerreros. En los textos de Ugarit, una ciudad de la costa de Siria, escritos hacia los siglos 14 y 13 antes de Cristo, el dios Baal lucha contra Yam, el Mar, que es otro dios, y al vencerlo se convierte en rey. En Egipto, los himnos de victoria celebraban al faraón como el guerrero que aplasta a sus enemigos. El cántico usa un lenguaje parecido, con un Dios «varón de guerra», pero aquí el mar no es un rival divino sino un instrumento que obedece al «soplo de tus narices», y la victoria no se atribuye a ningún rey humano.\n\nEn el antiguo Israel, las mujeres salían con panderos y danzas a recibir a los vencedores, como harán más tarde la hija de Jefté y las mujeres que celebraron a David. En la tierra de Israel se han hallado figurillas de barro, de siglos posteriores, que representan a mujeres tocando un tambor de mano. María, Miriam, dirige a las mujeres y les responde con un estribillo que repite el comienzo del cántico; algunos estudiosos piensan que ese canto breve es el núcleo más antiguo, y otros, que era la respuesta del coro.",
+   "preguntas": [
+    "¿Qué diferencias notas entre el relato del capítulo 14 y este cántico?",
+    "¿Qué cambia cuando un hecho se convierte en canto?"
+   ]
+  },
+  {
+   "cap": 16,
+   "v": 36,
+   "titulo": "El desierto y el pan del cielo",
+   "epoca": "El primer y el segundo mes después de la salida, hacia 1446 antes de Cristo según la cronología bíblica tradicional",
+   "lugar": "La península del Sinaí: el desierto de Shur, Mara, Elim y el desierto de Sin",
+   "texto": "La península del Sinaí es un triángulo de unos sesenta mil kilómetros cuadrados entre el golfo de Suez y el golfo de Aqaba. Al norte hay arena y dunas junto al Mediterráneo; en el centro, una meseta de piedra caliza; al sur, montañas de granito con picos de más de 2000 metros. Llueve poco y de forma irregular, los días son calurosos y las noches frías, y el agua se encuentra en manantiales, en pozos y en las crecidas repentinas que corren por los cauces secos. Sobrevivir allí exige conocer cada fuente, como lo saben hasta hoy los pastores beduinos.\n\nNo era una tierra desconocida para Egipto. En el suroeste de la península, los egipcios explotaban minas de turquesa y de cobre, y en Serabit el Jadim levantaron un templo a la diosa Hathor, señora de la turquesa. Allí, trabajadores de lengua semítica dejaron inscripciones en una de las escrituras alfabéticas más antiguas que se conocen, del segundo milenio antes de Cristo. El camino tradicional del éxodo baja por la costa oeste del Sinaí hacia las montañas del sur, pasando por Mara y Elim, aunque quienes sitúan el monte de Dios en otro lugar proponen otras rutas.\n\nAl mes de camino, el pueblo añora Egipto: «las ollas de las carnes» y el pan en abundancia. Los trabajadores egipcios recibían su paga en raciones de grano, pan y cerveza, y el libro de Números recordará los pescados, pepinos, melones, puerros, cebollas y ajos de Egipto. Las codornices llegan por la tarde: estas aves cruzan el Mediterráneo y el Sinaí en sus migraciones de primavera y otoño, y llegan tan agotadas que se pueden atrapar con la mano; en la costa norte del Sinaí se han cazado con redes hasta tiempos recientes. El «real» que cubrieron es el campamento.\n\nEl maná aparece cada mañana como «una cosa menuda, redonda», que se derrite con el sol. Se ha propuesto relacionarlo con unas gotas dulces que, en algunos años, producen pequeños insectos que viven en los tamariscos del sur del Sinaí; se endurecen con el frío de la noche, se derriten con el calor, y los beduinos las recogen y las llaman man. Otros señalan lo que el texto destaca: que cayó cada día durante cuarenta años, en cantidad suficiente para todo el pueblo, el doble el sexto día y nada el séptimo, y que se pudría si se guardaba, salvo para el sábado.\n\nEl maná deja huella en el resto de la Biblia. Deuteronomio volverá sobre él para decir que el hombre no vive solo de pan, palabras que Jesús citará en el desierto; en el Evangelio de Juan, Jesús se presenta como el pan bajado del cielo; y el apóstol Pablo cita la frase sobre el que recogió mucho y el que recogió poco. El sábado, por su parte, entra en la vida del pueblo antes de cualquier ley escrita. No se conoce entre los pueblos vecinos un día de descanso para todos que se repitiera cada siete días; los babilonios, por ejemplo, tenían días especiales ligados al ciclo de la luna.",
+   "preguntas": [
+    "¿Qué cambia en la vida de un pueblo que solo puede recoger el pan de un día?",
+    "¿Por qué crees que se manda guardar un gomer de maná para las generaciones futuras?"
+   ]
+  },
+  {
+   "cap": 18,
+   "v": 27,
+   "titulo": "Amalec, Jetro y el arte de juzgar",
+   "epoca": "Los primeros meses después de la salida, hacia 1446 antes de Cristo según la cronología bíblica tradicional",
+   "lugar": "Rephidim y el campamento junto al monte de Dios",
+   "texto": "En el desierto, el agua decide la vida y también la guerra. Rephidim, Refidim, no se ha identificado con seguridad; la tradición antigua la buscó cerca del oasis de Feirán, uno de los mayores del sur del Sinaí. Los amalecitas, nómadas de esas tierras, salen al encuentro de un pueblo numeroso que atraviesa su territorio. La batalla tiene dos escenarios: abajo, Josué dirige a los combatientes; arriba, en el collado, Moisés sostiene la vara de Dios con las manos en alto, y cuando se cansa, Aarón y Hur, que aparece aquí por primera vez, le sostienen las manos hasta la puesta del sol.\n\nDespués llega Jetro con Séfora y los dos hijos de Moisés. El encuentro sigue las costumbres del desierto: Moisés sale a recibirlo, se inclina, lo besa, se preguntan uno al otro cómo están y entran en la tienda. Moisés le cuenta todo, y Jetro, sacerdote de Madián, bendice a Jehová y dice: «Ahora conozco que Jehová es grande más que todos los dioses». El capítulo 5 había empezado con un rey que decía no conocer a Jehová; ahora es un sacerdote extranjero quien dice conocerlo. Luego ofrece sacrificios y comparte la comida con Aarón y los ancianos.\n\nAl día siguiente, Jetro ve a Moisés juzgando solo, de la mañana a la tarde. En el antiguo Oriente, los ancianos resolvían los pleitos a la puerta de la ciudad, y el rey era el juez supremo, que delegaba en sus funcionarios. En Egipto, el visir, el segundo después del faraón, escuchaba peticiones cada día; un texto en las paredes de la tumba de Rekhmire, visir de Tutmosis tercero, describe sus deberes y le pide juzgar sin favoritismos. En Mesopotamia, el Código de Hammurabi, de hacia 1750 antes de Cristo, presenta al rey como guardián de la justicia, para que el fuerte no oprima al débil. Moisés, en cambio, lo hace todo él solo, como un jefe de clan que atiende cada caso.\n\nEl consejo de Jetro es práctico: que Moisés represente al pueblo ante Dios y le enseñe las leyes, y que elija hombres capaces para los asuntos menores, organizados en grupos de mil, de cien, de cincuenta y de diez. Pide hombres capaces, temerosos de Dios, sinceros y enemigos del soborno; las leyes que vienen prohibirán expresamente aceptar sobornos. Moisés escucha a su suegro y hace lo que le dice, y Jetro vuelve a su tierra.\n\nDesde antiguo, los lectores judíos discutieron si esta visita ocurrió antes o después de lo que sucede en el monte, porque el texto ya sitúa al pueblo junto al monte de Dios. El libro la coloca aquí, al cierre del camino desde Egipto. Con ella termina la primera gran etapa de Éxodo: la salida y el viaje por el desierto.",
+   "preguntas": [
+    "¿Qué te llama la atención de que este consejo venga de un sacerdote de Madián?",
+    "¿Por qué crees que Jetro pide esas cualidades en los jueces?"
+   ]
+  }
+ ]
+}

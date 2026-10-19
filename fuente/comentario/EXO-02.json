@@ -1,0 +1,579 @@
+{
+ "tramo": "EXO-02",
+ "libro": "EXO",
+ "desde": {
+  "cap": 19,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 40,
+  "v": 38
+ },
+ "notas": [
+  {
+   "cap": 19,
+   "v": 2,
+   "texto": "Si, como entiende la tradición judía, llegaron el primer día del «mes tercero», habían pasado unas seis o siete semanas desde la salida de Egipto. Rephidim, Refidim, fue el último campamento antes de llegar. Desde aquí hasta el final del libro, todo sucede en el mismo lugar: el pueblo acampado al pie del monte Sinaí, que otras veces se llama Horeb."
+  },
+  {
+   "cap": 19,
+   "v": 6,
+   "texto": "La expresión «especial tesoro» traduce una palabra hebrea que designa el bien propio y muy apreciado de alguien, como el tesoro personal de un rey. En el mundo antiguo, el sacerdote era quien se acercaba a lo sagrado en nombre de otros; aquí esa cercanía se ofrece a todo un pueblo. La primera carta de Pedro aplica estas palabras a los creyentes."
+  },
+  {
+   "cap": 19,
+   "v": 13,
+   "texto": "El «término» es el límite marcado alrededor del monte, y «asaeteado» quiere decir herido con flechas, quizá para que nadie tuviera que tocar al culpable ni cruzar el límite tras él. La «bocina» es un cuerno de carnero que se toca como trompeta, el shofar, que todavía suena en las sinagogas en los días solemnes. Poco después vuelve la palabra «real», que, como ya viste, significa campamento."
+  },
+  {
+   "cap": 19,
+   "v": 22,
+   "texto": "Aarón y sus hijos todavía no han sido nombrados sacerdotes; eso vendrá en los capítulos 28 y 29. Por eso se discute quiénes son estos «sacerdotes»: quizá los jefes de familia o los primogénitos, que según la tradición judía ofrecían los sacrificios antes de que hubiera un sacerdocio, o quizá el relato los llama con el nombre que tendrán después."
+  },
+  {
+   "cap": 20,
+   "v": 6,
+   "texto": "«Celoso» describe aquí un amor que no se comparte, como el de un matrimonio: el pacto pide lealtad a un solo Dios. Una explicación frecuente: en las casas antiguas convivían tres o cuatro generaciones, así que el mal de los padres alcanzaba a todos los de la casa; en cambio, la misericordia llega a «millares», que muchos entienden como mil generaciones."
+  },
+  {
+   "cap": 20,
+   "v": 7,
+   "texto": "Tomar el nombre de Dios «en vano» se refería, según muchos estudiosos, sobre todo a jurar en falso: en los tribunales antiguos se juraba invocando a un dios, y usar su nombre para sostener una mentira era deshonrarlo. Otros lo extienden a cualquier uso vacío o engañoso del nombre de Dios."
+  },
+  {
+   "cap": 20,
+   "v": 17,
+   "texto": "La Biblia habla de «diez palabras», pero no las numera, y por eso se cuentan de maneras distintas. La tradición judía toma el versículo 2 como la primera palabra; católicos y luteranos unen en un solo mandamiento los versículos 3 a 6 y dividen en dos el de la codicia; ortodoxos y muchos protestantes separan los dioses ajenos de las imágenes."
+  },
+  {
+   "cap": 20,
+   "v": 25,
+   "texto": "El «holocausto» era la ofrenda que se quemaba entera; los «pacíficos» eran sacrificios de comunión, en los que una parte se quemaba y el resto lo comían juntos quienes la ofrecían. El altar debía ser de tierra o de piedras sin labrar, porque alzar el «pico» sobre él lo profanaría; el texto no explica más, y algunos piensan que así quedaba como obra de Dios y no de manos humanas."
+  },
+  {
+   "cap": 21,
+   "v": 1,
+   "texto": "La palabra «derechos» quiere decir aquí normas para juzgar. Los capítulos 21 a 23 forman una colección que los estudiosos llaman Código de la Alianza, por «el libro de la alianza» que Moisés leerá al pueblo en el capítulo 24. Muchas de estas leyes empiezan con “si”: plantean un caso y su solución, como otras leyes antiguas."
+  },
+  {
+   "cap": 21,
+   "v": 2,
+   "texto": "Por lo general se trataba de alguien que, por deudas, se vendía o era vendido como siervo. Salir «horro» quiere decir salir libre, y «de balde», sin pagar nada. El servicio tenía un límite de seis años, salvo que el siervo mismo eligiera quedarse, como explican los versículos siguientes."
+  },
+  {
+   "cap": 21,
+   "v": 6,
+   "texto": "Donde dice «jueces», el hebreo dice elohim, palabra que también significa Dios; por eso muchos entienden que el siervo era llevado ante Dios, en el santuario. La «lesna» es un punzón como el de los zapateros: la oreja perforada junto a la puerta mostraba que ese hombre quedaba unido para siempre a esa casa."
+  },
+  {
+   "cap": 21,
+   "v": 11,
+   "texto": "La hija no era vendida como un siervo cualquiera: se trataba de un arreglo para casarla con el amo o con su hijo. La ley la protege: puede ser rescatada, no puede ser vendida a extranjeros y, si el marido toma otra esposa, debe seguir dándole comida, ropa y la vida de pareja que el texto llama «débito conyugal»; si no, ella queda libre sin pagar nada."
+  },
+  {
+   "cap": 21,
+   "v": 14,
+   "texto": "En el mundo antiguo, el altar de un santuario era lugar de asilo: quien se aferraba a él quedaba bajo la protección del dios. Esta ley distingue la muerte causada sin intención, cuando Dios «puso en sus manos» a la víctima, del asesinato cometido con «alevosía», es decir, a traición: el asesino no podía refugiarse junto al altar."
+  },
+  {
+   "cap": 21,
+   "v": 22,
+   "texto": "La expresión hebrea dice literalmente que “salen sus hijos”. Unos la entienden como un aborto, que es como la traduce este texto; otros, como un parto antes de tiempo con el niño vivo. De esa lectura depende a quién se refiere la «muerte» del versículo siguiente: solo a la madre, o también al niño."
+  },
+  {
+   "cap": 21,
+   "v": 25,
+   "texto": "Esta es la llamada ley del talión, palabra latina emparentada con “tal”, es decir, igual: la pena debía corresponder al daño, ni más ni menos, y la fijaban los jueces, no la víctima por su cuenta. La tradición judía la entendió como una compensación en dinero equivalente a la herida. Jesús retoma estas palabras en el Sermón del Monte, en Mateo 5."
+  },
+  {
+   "cap": 21,
+   "v": 32,
+   "texto": "Treinta siclos de plata eran unos 330 gramos, una compensación fija que muchos entienden como el precio de un esclavo. En un caso parecido, el Código de Hammurabi fijaba 20 siclos. El Evangelio de Mateo dice que esa misma suma, treinta piezas de plata, fue lo que recibió Judas."
+  },
+  {
+   "cap": 22,
+   "v": 4,
+   "texto": "Estas leyes no conocen la cárcel como castigo: el ladrón devolvía lo robado más una cantidad extra, y si no tenía con qué pagar, era vendido como siervo. Al que entraba a robar de noche se le podía herir sin culpa, quizá porque en la oscuridad no se sabía a qué venía; si ya había salido el sol, matarlo era homicidio."
+  },
+  {
+   "cap": 22,
+   "v": 17,
+   "texto": "Aquí la «dote» no es lo que aporta la novia, sino lo que el novio pagaba a la familia de ella al comprometerse, costumbre muy extendida en el antiguo Oriente. El que sedujo a la joven debía pagarla completa, aun si el padre no permitía la boda."
+  },
+  {
+   "cap": 22,
+   "v": 21,
+   "texto": "El «extranjero» era el forastero que vivía entre el pueblo sin tierra propia ni parientes que lo defendieran, igual que la viuda y el huérfano de los versículos siguientes. La ley apela a la memoria del pueblo: ellos mismos vivieron como extranjeros en Egipto."
+  },
+  {
+   "cap": 22,
+   "v": 25,
+   "texto": "Un «logrero» es el que presta para sacar ganancia, y «usura» aquí es cualquier interés. En Mesopotamia era común prestar con intereses de una quinta parte al año en los préstamos de plata, y de una tercera parte en los de grano; esta ley prohíbe cobrar intereses al pobre del propio pueblo."
+  },
+  {
+   "cap": 22,
+   "v": 27,
+   "texto": "El manto de un pobre era su abrigo de día y su manta de noche; quien lo tomaba como garantía de un préstamo debía devolverlo al ponerse el sol. En 1960, cerca de la costa de Israel, se halló un trozo de cerámica escrito a finales del siglo 7 antes de Cristo, en el que un segador pide a un funcionario que le devuelvan el manto que le habían quitado."
+  },
+  {
+   "cap": 22,
+   "v": 29,
+   "texto": "La palabra «licor» se refiere al jugo de la uva y de la aceituna, el vino y el aceite. Dar a Dios el primogénito no significaba sacrificarlo: el capítulo 13 ya mandó rescatar a los primogénitos de los hijos, y el capítulo 34 lo repetirá."
+  },
+  {
+   "cap": 23,
+   "v": 3,
+   "texto": "Aquí «distinguirás» significa favorecer. La justicia no debía inclinarse ni ante la mayoría ni ante el pobre: la compasión no autorizaba a torcer un juicio. El versículo 6 completa la idea: tampoco se podía negar su derecho al necesitado."
+  },
+  {
+   "cap": 23,
+   "v": 16,
+   "texto": "Son tres fiestas del calendario agrícola: los «ázimos», o panes sin levadura, en el mes de Abib, entre marzo y abril, cuando madura la cebada; la «siega», al cosechar el trigo, siete semanas después; y la «cosecha», en otoño, al recoger los frutos y la uva. Con el tiempo se las conocerá como Pascua, Pentecostés y fiesta de las Cabañas."
+  },
+  {
+   "cap": 23,
+   "v": 19,
+   "texto": "El sentido de esta ley se discute. La tradición judía la tomó como base para no mezclar carne y leche en las comidas. Otros la relacionan con el capítulo 22, versículo 30, que manda dejar la cría siete días con su madre, y ven aquí un cuidado por no mezclar lo que da vida con la muerte."
+  },
+  {
+   "cap": 23,
+   "v": 21,
+   "texto": "Que el nombre de Dios esté «en él» indica que este enviado habla y actúa con su autoridad, como el ángel de la zarza en el capítulo 3. Allí viste las distintas maneras en que judíos y cristianos han entendido esta figura."
+  },
+  {
+   "cap": 23,
+   "v": 23,
+   "texto": "Son los mismos pueblos de Canaán que se nombraron en el capítulo 3. Los hititas de Canaán llevan el mismo nombre que el gran imperio hitita del norte, en la actual Turquía, aunque su relación exacta se discute."
+  },
+  {
+   "cap": 23,
+   "v": 31,
+   "texto": "El «mar Bermejo» es el mar Rojo, aquí quizá el golfo de Aqaba; la «mar de Palestina» es el Mediterráneo, el mar de los filisteos; y «el río», sin más nombre, es en la Biblia el Éufrates. Son los límites amplios de la promesa hecha a Abraham en Génesis 15."
+  },
+  {
+   "cap": 24,
+   "v": 1,
+   "texto": "Nadab y Abiú son los dos hijos mayores de Aarón. Los «setenta de los ancianos» eran jefes de familias y clanes: en un pueblo organizado por tribus, los ancianos representaban a todos y daban validez a los acuerdos."
+  },
+  {
+   "cap": 24,
+   "v": 4,
+   "texto": "Las «columnas» eran grandes piedras puestas de pie, una por tribu, como testigos del pacto. Jacob había levantado una así al hacer pacto con Labán, en Génesis 31. En Canaán se han hallado muchas en lugares de culto, como la hilera de grandes piedras de Gezer, de hacia 1600 antes de Cristo."
+  },
+  {
+   "cap": 24,
+   "v": 10,
+   "texto": "El «zafiro» traduce el hebreo sappir, que según la mayoría era el lapislázuli: una piedra azul intenso con puntos dorados que se traía desde las montañas del actual Afganistán y que egipcios y mesopotámicos apreciaban muchísimo. El texto describe lo que había bajo los pies de Dios, pero no describe a Dios mismo."
+  },
+  {
+   "cap": 25,
+   "v": 4,
+   "texto": "El «jacinto», que otras veces se llama «cárdeno», es un azul violeta, y la «púrpura», un rojo morado. Ambos tintes se sacaban de caracoles marinos de la costa de Canaán y Fenicia, y hacían falta miles para teñir un poco de lana: eran colores de reyes. El «carmesí» venía de un insecto diminuto que vive en ciertas encinas."
+  },
+  {
+   "cap": 25,
+   "v": 5,
+   "texto": "Los «cueros de carneros teñidos de rojo» eran pieles curtidas. La palabra que se traduce «tejones» es oscura: unos piensan en el dugongo, un mamífero marino del mar Rojo, y otros en un cuero fino de un color especial. La madera de «Sittim» es la acacia, árbol de madera dura y resistente que crece en el desierto del Sinaí."
+  },
+  {
+   "cap": 25,
+   "v": 9,
+   "texto": "Tabernáculo viene del latín y significa tienda. La palabra hebrea, mishkán, viene del verbo habitar: es la morada de Dios en medio del campamento, como dice el versículo 8. El «diseño» es un modelo o plano que Dios muestra a Moisés en el monte."
+  },
+  {
+   "cap": 25,
+   "v": 16,
+   "texto": "El arca era un cofre de acacia cubierto de oro, de poco más de un metro de largo y unos 70 centímetros de ancho y de alto, con varas para llevarlo en hombros. Lo que el texto llama «el testimonio» son las tablas de piedra con la ley. En el mundo antiguo, los tratados importantes se guardaban en el templo, delante del dios."
+  },
+  {
+   "cap": 25,
+   "v": 17,
+   "texto": "La «cubierta» era la tapa del arca, de oro puro. En hebreo se llama kapporet, palabra emparentada con el verbo que se usa para expiar, es decir, borrar una culpa; por eso muchas traducciones la llaman propiciatorio, el lugar donde Dios se muestra favorable."
+  },
+  {
+   "cap": 25,
+   "v": 20,
+   "texto": "Los querubines eran figuras con alas, como los que guardaban el camino al árbol de la vida en Génesis 3. En el arte de Canaán y Fenicia se representaba a reyes sentados en tronos cuyos lados eran seres alados con cuerpo de animal y rostro humano. Sobre el arca no había ninguna imagen de Dios: el espacio entre las alas quedaba vacío."
+  },
+  {
+   "cap": 25,
+   "v": 30,
+   "texto": "La mesa medía unos 90 centímetros de largo, 45 de ancho y 70 de alto. El «pan de la proposición» es el pan presentado: en hebreo, literalmente, pan del rostro o de la presencia, porque estaba siempre delante de Dios."
+  },
+  {
+   "cap": 25,
+   "v": 39,
+   "texto": "El candelero, conocido hoy por su nombre hebreo, menorá, era una lámpara de siete brazos labrada en una sola pieza, como un árbol con flores de almendro, el primero que florece al terminar el invierno. Un talento pesaba unos 33 o 34 kilogramos. Las «candilejas» eran lamparitas de aceite, y las «despabiladeras», pinzas para recortar las mechas."
+  },
+  {
+   "cap": 26,
+   "v": 6,
+   "texto": "Cada cortina medía unos 12 metros y medio de largo por casi 2 de ancho. Se cosían en dos grandes paños de cinco cortinas, que se unían con cincuenta «lazadas» y cincuenta «corchetes» de oro, o ganchos, para formar el techo y las paredes de la tienda. Desde dentro se veían los querubines bordados."
+  },
+  {
+   "cap": 26,
+   "v": 11,
+   "texto": "Encima iba una tienda de pelo de cabra, el material de las tiendas negras que los beduinos usan todavía: con la lluvia, las fibras se hinchan y no dejan pasar el agua. Sus once cortinas, de unos 13 metros y medio, eran algo más largas que las de lino. Aquí «alambre» es una palabra antigua para el bronce; el capítulo 36 dirá «metal»."
+  },
+  {
+   "cap": 26,
+   "v": 25,
+   "texto": "Las «tablas» medían unos 4 metros y medio de alto y 70 centímetros de ancho; algunos estudiosos piensan que eran marcos de madera más que tablas macizas, para que pesaran menos. Los «quicios» eran espigas que encajaban en las «basas», bases de plata. Así se calcula que la tienda medía unos 13 metros y medio de largo y 4 y medio de ancho y de alto."
+  },
+  {
+   "cap": 26,
+   "v": 35,
+   "texto": "El «velo» dividía la tienda en dos salas: el lugar santo, de unos 9 metros de largo, y el lugar santísimo, un cubo de unos 4 metros y medio por lado, según los cálculos más comunes. Adentro, solo el arca; afuera, en el lugar santo, la mesa al norte, que el texto llama «aquilón», y el candelero al sur, que llama «mediodía»."
+  },
+  {
+   "cap": 27,
+   "v": 8,
+   "texto": "El altar de los sacrificios medía unos 2 metros y cuarto por lado y 1 metro y 35 centímetros de alto, y el «metal» que lo cubría era bronce o cobre. Los «cuernos» eran salientes en las cuatro esquinas; en Israel se han hallado altares con cuernos, como uno grande en Beerseba, de varios siglos después. Era «hueco», y quizá al acampar se llenaba de tierra o de piedras."
+  },
+  {
+   "cap": 27,
+   "v": 18,
+   "texto": "El atrio era un patio cercado de unos 45 metros de largo por 22 y medio de ancho, con cortinas de lino de unos 2 metros y cuarto de alto, sostenidas por sesenta columnas. Su única entrada, de unos 9 metros, miraba al oriente, por donde sale el sol."
+  },
+  {
+   "cap": 27,
+   "v": 20,
+   "texto": "El aceite «molido» era el primero que salía al machacar las aceitunas en un mortero, antes de prensarlas: el más puro y el que menos humo hacía. Las lámparas ardían toda la noche, «desde la tarde hasta la mañana»."
+  },
+  {
+   "cap": 28,
+   "v": 4,
+   "texto": "Hasta ahora, en Génesis, eran los jefes de familia quienes ofrecían sacrificios; aquí se escoge a la familia de Aarón para el sacerdocio. El «racional» es el pectoral; el «ephod», hoy efod, una prenda tejida con oro que iba sobre el manto, quizá como un chaleco o un delantal; el «manto», una túnica azul violeta, y la «mitra», un turbante."
+  },
+  {
+   "cap": 28,
+   "v": 12,
+   "texto": "El efod tenía dos hombreras, y en cada una iba una de las «piedras oniquinas», es decir, de ónice, con seis nombres de los hijos de Israel. Grabar «á modo de grabaduras de sello» era el oficio de los que tallaban sellos de piedra, con los que se marcaban documentos y objetos, un arte muy desarrollado en Egipto y Mesopotamia. Así Aarón llevaba al pueblo «en sus dos hombros»."
+  },
+  {
+   "cap": 28,
+   "v": 21,
+   "texto": "El pectoral medía un «palmo» por lado, unos 22 centímetros, y era doble, como una bolsa. No se sabe con certeza qué piedra corresponde a cada nombre hebreo; las listas en español siguen a traducciones antiguas. Un diamante, por ejemplo, difícilmente podía grabarse con las herramientas de entonces."
+  },
+  {
+   "cap": 28,
+   "v": 30,
+   "texto": "Nadie sabe con certeza qué eran el Urim y el Thummim, en español Tumim; suelen traducirse como “luces” y “perfecciones”. Muchos piensan que eran dos objetos, como suertes sagradas, que se guardaban en el pectoral y se usaban para consultar a Dios en decisiones importantes, con respuestas de sí o no."
+  },
+  {
+   "cap": 28,
+   "v": 35,
+   "texto": "Las granadas bordadas y las campanillas de oro se alternaban en el borde del manto. La granada, fruto abundante en Canaán, era un adorno muy común en el arte antiguo. El sonido de las campanillas anunciaba los pasos del sacerdote dentro del santuario, aunque nadie pudiera verlo."
+  },
+  {
+   "cap": 28,
+   "v": 38,
+   "texto": "La «plancha» era una lámina de oro atada al frente del turbante. Su inscripción, «SANTIDAD Á JEHOVÁ», quiere decir consagrado a Jehová, y se grababa como un sello. Que Aarón llevara «el pecado de las cosas santas» significa que respondía ante Dios por las faltas que pudiera haber en las ofrendas del pueblo."
+  },
+  {
+   "cap": 28,
+   "v": 42,
+   "texto": "Los «pañetes» eran calzones de lino, de la cintura a los muslos. Cumplen lo que pedía el capítulo 20, versículo 26: que nadie quedara descubierto al servir junto al altar. Los «chapeos» del versículo 40 eran gorros o turbantes sencillos para los hijos de Aarón."
+  },
+  {
+   "cap": 29,
+   "v": 7,
+   "texto": "Ungir era derramar aceite perfumado sobre la cabeza para apartar a alguien para un cargo; en varios pueblos del antiguo Oriente se ungía también a reyes y funcionarios. De la palabra hebrea para ungido viene Mesías, y de su traducción griega, Cristo."
+  },
+  {
+   "cap": 29,
+   "v": 9,
+   "texto": "La frase «henchirás las manos» es una expresión hebrea que significa instalar a alguien en un cargo; quizá viene de poner en sus manos las porciones de la ofrenda, como se verá en el versículo 24, donde dice «lo mecerás», es decir, lo alzarás y lo moverás delante de Dios. En hebreo, la misma expresión reaparece en el capítulo 32, versículo 29."
+  },
+  {
+   "cap": 29,
+   "v": 14,
+   "texto": "La «expiación» era el sacrificio para quitar la culpa y purificar. El «sebo», la grasa, se consideraba la mejor parte y se quemaba en el altar, igual que los riñones y el «redaño», una membrana o lóbulo junto al hígado. El resto del becerro se quemaba fuera del campamento."
+  },
+  {
+   "cap": 29,
+   "v": 20,
+   "texto": "La sangre se ponía en la oreja, en el pulgar de la mano y en el dedo gordo del pie, siempre del lado derecho. Muchos lo han entendido como una consagración de la persona entera: lo que escucha, lo que hace y el camino que recorre."
+  },
+  {
+   "cap": 29,
+   "v": 40,
+   "texto": "La décima parte de un «epha», como el gomer del maná, era algo más de 2 litros de harina. El «hin» tenía algo menos de 4 litros: la cuarta parte era casi un litro de aceite, y otro tanto de vino. La «libación» era el vino derramado como ofrenda."
+  },
+  {
+   "cap": 30,
+   "v": 8,
+   "texto": "El altar del incienso medía unos 45 centímetros por lado y 90 de alto, y estaba en el lugar santo, frente al velo. El «sahumerio» es el incienso: se quemaba cada mañana y cada tarde, cuando se arreglaban y encendían las lámparas."
+  },
+  {
+   "cap": 30,
+   "v": 13,
+   "texto": "El siclo no era una moneda sino un peso de plata, de unos 11 gramos; las monedas se inventaron muchos siglos después, en Lidia, en la actual Turquía. Medio siclo eran unos 5 gramos y medio, y «óbolos» traduce una palabra hebrea para la unidad más pequeña, la vigésima parte del siclo. Siglos más tarde, los judíos seguían pagando cada año medio siclo para el templo."
+  },
+  {
+   "cap": 30,
+   "v": 25,
+   "texto": "Quinientos siclos son unos 5 kilogramos y medio. La mirra es la resina de un arbusto del sur de Arabia y del Cuerno de África; la canela y la casia son cortezas aromáticas, y el cálamo, una caña perfumada, que probablemente llegaban de muy lejos por rutas de caravanas. Todo se mezclaba con unos 4 litros de aceite de oliva."
+  },
+  {
+   "cap": 30,
+   "v": 33,
+   "texto": "La pena de ser «cortado de sus pueblos» ya apareció en la Pascua, en el capítulo 12: quedar excluido del pueblo, o recibir un castigo de la mano de Dios, según cómo se entienda. Aquí protege el uso exclusivo del aceite santo."
+  },
+  {
+   "cap": 30,
+   "v": 36,
+   "texto": "El «incienso limpio» es la resina de un árbol del sur de Arabia y del Cuerno de África, el olíbano. El «gálbano» es otra resina, de olor fuerte; la «estacte» era quizá una resina en gotas, y la «uña olorosa», según muchos, la tapa de la concha de un caracol del mar Rojo, que al quemarse desprende aroma."
+  },
+  {
+   "cap": 31,
+   "v": 6,
+   "texto": "Bezaleel, hoy Bezalel, significa a la sombra de Dios, es decir, bajo su protección; es nieto de Hur, quizá el mismo que se quedó con Aarón en el capítulo 24. Aholiab, cuyo nombre contiene la palabra hebrea para tienda, es de la tribu de Dan. Aquí el talento del artesano se describe como un don del espíritu de Dios."
+  },
+  {
+   "cap": 31,
+   "v": 17,
+   "texto": "Como el arco iris para Noé y la circuncisión para Abraham, el sábado es la «señal» de este pacto. Además, las instrucciones del santuario se dieron en siete discursos que empiezan con «habló Jehová á Moisés» o palabras parecidas; el séptimo, este, trata del día de reposo, como en los siete días de la creación."
+  },
+  {
+   "cap": 31,
+   "v": 18,
+   "texto": "Las tablas eran dos piedras escritas por ambos lados, como dirá el capítulo 32. Tradicionalmente se piensa que una tenía los deberes hacia Dios y la otra los deberes hacia el prójimo; algunos estudiosos proponen que eran dos copias del mismo texto, una para cada parte del pacto, como se hacía con los tratados antiguos."
+  },
+  {
+   "cap": 32,
+   "v": 1,
+   "texto": "Moisés llevaba ya cuarenta días en el monte. La palabra que aquí se traduce «dioses» es elohim, que también significa Dios; por eso se discute si el pueblo pedía otros dioses o una imagen visible del Dios que los sacó de Egipto, algo que fuera «delante de nosotros» en el camino."
+  },
+  {
+   "cap": 32,
+   "v": 4,
+   "texto": "Un «becerro» es un toro joven, símbolo de fuerza en Egipto y en Canaán. La expresión «de fundición» indica metal fundido; como después Moisés lo quema, muchos piensan que era una figura de madera cubierta de oro. El «buril» es una herramienta para grabar, aunque la palabra hebrea también podría significar un molde o una bolsa."
+  },
+  {
+   "cap": 32,
+   "v": 14,
+   "texto": "Ser de «dura cerviz» quiere decir tener el cuello duro: terco, como un buey que no se deja guiar. El verbo hebreo que se traduce «se arrepintió» significa también desistir o cambiar de decisión; aquí, dejar sin efecto el castigo anunciado. Moisés apela a la reputación de Dios ante Egipto y a su juramento a los patriarcas."
+  },
+  {
+   "cap": 32,
+   "v": 20,
+   "texto": "Moisés destruye el becerro por completo: lo quema, lo muele, lo esparce sobre el agua y hace que el pueblo la beba. En un poema de Ugarit, la diosa Anat destruye al dios Mot, enemigo de Baal, de un modo muy parecido: lo corta, lo quema, lo muele y lo esparce en el campo. Era una manera antigua de describir una destrucción total."
+  },
+  {
+   "cap": 32,
+   "v": 29,
+   "texto": "Donde dice «os habéis consagrado», el hebreo dice “llenad hoy vuestras manos”, la misma expresión que en el capítulo 29 se usó para consagrar a los sacerdotes. Los levitas eran la tribu de Moisés y de Aarón; el relato los presenta como los que respondieron al llamado de Moisés en la crisis."
+  },
+  {
+   "cap": 32,
+   "v": 32,
+   "texto": "El «libro» que menciona Moisés es la imagen de un registro de los vivos, como las listas de ciudadanos que llevaban las ciudades antiguas. Si el pueblo no es perdonado, Moisés prefiere ser borrado él también."
+  },
+  {
+   "cap": 33,
+   "v": 3,
+   "texto": "La «tierra que fluye leche y miel» es la misma promesa del capítulo 3. Lo nuevo es el anuncio de que Dios no subirá en medio de ellos: eso es lo que provoca el luto del versículo siguiente."
+  },
+  {
+   "cap": 33,
+   "v": 6,
+   "texto": "Los «atavíos» son adornos, joyas y ropa de fiesta: quitárselos era señal de duelo y de arrepentimiento. Horeb, como ya sabes, es otro nombre del monte Sinaí."
+  },
+  {
+   "cap": 33,
+   "v": 7,
+   "texto": "Aunque el texto la llama «Tabernáculo del Testimonio», esta no es la tienda santuario de los capítulos 25 a 31, todavía sin construir, sino una que Moisés levantaba fuera del campamento para encontrarse con Dios. Como en el capítulo 27, el nombre traduce el hebreo tienda del encuentro. Algunos estudiosos ven aquí una tradición distinta sobre el santuario; otros, una tienda provisional mientras se hacía el definitivo."
+  },
+  {
+   "cap": 33,
+   "v": 11,
+   "texto": "Hablar «cara á cara» describe un trato directo y cercano, «como habla cualquiera á su compañero». Unos versículos después, Dios dirá que nadie puede ver su rostro y vivir; muchos lectores han entendido que aquí se habla de la cercanía del trato, no de ver a Dios tal como es."
+  },
+  {
+   "cap": 34,
+   "v": 7,
+   "texto": "Esta descripción de Dios es una de las más citadas de la Biblia: se repite, con pocas variantes, en Números, en varios Salmos, en Joel, en Jonás y en Nehemías. En la tradición judía se conoce como los trece atributos de la misericordia y se recita en las oraciones de los días solemnes."
+  },
+  {
+   "cap": 34,
+   "v": 13,
+   "texto": "Los «bosques» traducen la palabra hebrea asherim: postes o árboles sagrados de la diosa Asera, que en los textos de Ugarit aparece como esposa del dios El. Las «estatuas» eran piedras sagradas puestas de pie; es la misma palabra hebrea que en el capítulo 24 se tradujo «columnas»."
+  },
+  {
+   "cap": 34,
+   "v": 22,
+   "texto": "La fiesta de la siega del capítulo 23 se llama aquí «fiesta de las semanas», porque se celebraba siete semanas después de empezar la cosecha. En griego se la llamó Pentecostés, que significa quincuagésimo, por los cincuenta días."
+  },
+  {
+   "cap": 34,
+   "v": 28,
+   "texto": "De «las diez palabras» viene el nombre Decálogo, que en griego significa eso mismo. El versículo no aclara quién escribió en las tablas: el versículo 1 dice que lo haría Dios, y los lectores lo han entendido de las dos maneras."
+  },
+  {
+   "cap": 34,
+   "v": 29,
+   "texto": "El verbo hebreo que se traduce «resplandecía» se parece a la palabra para cuerno, porque los rayos de luz se imaginaban como cuernos. La antigua traducción latina llamada Vulgata dice que su rostro tenía cuernos, y por eso muchos artistas lo representaron así, como Miguel Ángel en el famoso Moisés que esculpió en Roma hacia 1515."
+  },
+  {
+   "cap": 35,
+   "v": 3,
+   "texto": "Desde aquí hasta el capítulo 39, el texto cuenta cómo se hizo todo lo que Dios había mandado en los capítulos 25 a 31, casi con las mismas palabras. Empieza, como allí terminaba, con el sábado: incluso durante la obra del santuario se descansaba el séptimo día. Es la primera vez que se prohíbe encender fuego en ese día."
+  },
+  {
+   "cap": 35,
+   "v": 22,
+   "texto": "Los «zarcillos» son aretes, y las «sortijas», anillos. Son joyas como las que el pueblo pidió a los egipcios al salir, según el capítulo 12, y como las que acabaron en el becerro: ahora el oro se entrega para el santuario."
+  },
+  {
+   "cap": 36,
+   "v": 7,
+   "texto": "Es una escena poco común: hay que pedir al pueblo que deje de traer ofrendas. Desde el versículo siguiente, el relato repite casi palabra por palabra la descripción de las cortinas, las tablas y el velo del capítulo 26."
+  },
+  {
+   "cap": 37,
+   "v": 1,
+   "texto": "Este capítulo cuenta cómo Bezaleel hizo los objetos del interior: el arca, la mesa, el candelero y el altar del incienso, con las medidas que ya escuchaste en los capítulos 25 y 30. Al final se mencionan el aceite de la unción y el incienso."
+  },
+  {
+   "cap": 38,
+   "v": 8,
+   "texto": "Los espejos de entonces eran discos de bronce o de cobre muy pulidos, como los que se han hallado en tumbas de Egipto. Las mujeres «que velaban á la puerta» parecen haber sido un grupo que servía en la entrada de la tienda; Éxodo no dice más sobre ellas, y solo vuelven a mencionarse en el primer libro de Samuel."
+  },
+  {
+   "cap": 38,
+   "v": 26,
+   "texto": "Las cuentas cuadran: medio siclo por cada uno de los hombres contados da exactamente los cien talentos y mil setecientos setenta y cinco siclos del versículo anterior, si cada talento vale tres mil siclos. Esa misma cifra de hombres aparecerá en el libro de Números. Sobre el tamaño de esa cifra, recuerda lo que se dijo en el capítulo 12 acerca de la palabra hebrea para mil."
+  },
+  {
+   "cap": 38,
+   "v": 31,
+   "texto": "Con un siclo de unos 11 gramos, el oro del santuario pesaba casi una tonelada, la plata más de tres toneladas y el bronce más de dos. El oro y el bronce vienen de las ofrendas voluntarias; la plata, del medio siclo que pagó cada hombre contado."
+  },
+  {
+   "cap": 39,
+   "v": 43,
+   "texto": "Mientras se hacían las vestiduras, la frase «como Jehová lo había mandado á Moisés», con pequeñas variantes, cerró siete veces cada parte del trabajo. Y muchos lectores notan que este versículo recuerda el final de la creación en Génesis: allí Dios vio todo lo que había hecho; aquí Moisés ve la obra terminada y bendice a quienes la hicieron."
+  },
+  {
+   "cap": 40,
+   "v": 17,
+   "texto": "El santuario se levanta el día de año nuevo, casi un año después de la salida de Egipto. El pueblo llevaba unos diez meses acampado al pie del Sinaí, adonde había llegado en el tercer mes."
+  },
+  {
+   "cap": 40,
+   "v": 33,
+   "texto": "«Y así acabó Moisés la obra» recuerda cuando Dios acabó su obra en el séptimo día de la creación. En este capítulo, la frase «como Jehová había mandado á Moisés» se repite siete veces, una por cada paso del montaje."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 19,
+   "v": 25,
+   "titulo": "Al pie del monte Sinaí",
+   "epoca": "Tercer mes después de la salida de Egipto: hacia 1446 antes de Cristo según la cronología bíblica tradicional; muchos historiadores prefieren el siglo 13 antes de Cristo.",
+   "lugar": "El desierto de Sinaí, frente a la montaña de Dios; su ubicación exacta se discute.",
+   "texto": "Han pasado unas seis o siete semanas desde aquella noche de Pascua en Egipto. En ese tiempo el pueblo cruzó el mar, cantó su liberación, pasó sed y hambre en el desierto, recibió el maná y peleó contra Amalec. Ahora llega al lugar donde todo empezó para Moisés: junto a este monte vio la zarza que ardía sin consumirse, y allí Dios le dio una señal, que el pueblo, una vez libre, vendría a servirle sobre este mismo monte. La tradición judía recuerda la entrega de la ley en la fiesta de las Semanas, cincuenta días después de la Pascua, y el libro de los Hechos cuenta que el Espíritu Santo descendió sobre los discípulos de Jesús en esa misma fiesta, llamada en griego Pentecostés.\n\nSi el monte es el que señala la tradición, en el sur de la península del Sinaí, el paisaje es de montañas de granito rojizo y gris, cortadas por valles secos que los árabes llaman wadis, por donde el agua solo corre después de las raras tormentas. Hay pocos manantiales, algunas acacias, arbustos que comen las cabras y noches frescas aun en verano; en invierno, a veces, la nieve cubre las cumbres.\n\n¿Dónde estaba exactamente el monte? Nadie lo sabe con certeza. Ya viste que la tradición cristiana lo sitúa en el Yébel Musa, junto al monasterio de Santa Catalina; esa cumbre mide unos 2285 metros. Otros prefieren el cercano Yébel Serbal, junto al oasis de Feirán. Hay quienes buscan el monte más al norte, en el centro de la península o en el Néguev, como Har Karkom, donde un arqueólogo italiano halló muchos lugares de culto, aunque en su mayoría son más antiguos que las fechas propuestas para Moisés. Y otros lo sitúan al este del golfo de Aqaba, en la antigua tierra de Madián, de donde era el suegro de Moisés. Allí hay antiguos volcanes, y algunos relacionan con ellos el fuego, el humo y el temblor de este capítulo; otros piensan en una gran tormenta, y muchos lectores ven en esas señales, sin buscarles otra causa, la manifestación de Dios que el texto describe. Deuteronomio da una pista, once días de camino desde Horeb hasta Cades-barnea, pero cada propuesta la interpreta a su favor, y ningún hallazgo ha resuelto la cuestión.\n\nMientras tanto, el mundo vivía la etapa que los arqueólogos llaman Bronce Tardío. Con la fecha tradicional, Egipto estaba en su época de mayor poder, con faraones como Tutmosis tercero y Amenhotep segundo, y dominaba las ciudades de Canaán; con la fecha que prefieren muchos historiadores, reinaba Ramsés segundo, primero rival y luego aliado de los hititas. Babilonia vivía bajo reyes casitas, y en el norte de Mesopotamia el reino de Mitanni, todavía fuerte en el siglo 15, había cedido su lugar en el siglo 13 a una Asiria en ascenso.\n\nLos pueblos vecinos de Israel conocían el lenguaje de la tormenta para hablar de lo divino. En Ugarit, una ciudad de la costa de Siria cuyos textos son de los siglos 14 y 13 antes de Cristo, se decía que el dios Baal daba su voz en el trueno. Pero aquí no hay estatua ni imagen: hay nube, fuego, sonido de cuerno y una voz. También llaman la atención los límites. El pueblo queda al pie, detrás de una línea que no puede cruzar, y solo Moisés, y con él Aarón, son llamados a subir. Lavar la ropa y abstenerse de relaciones sexuales eran formas de preparación conocidas en el mundo antiguo antes de acercarse a lo sagrado. Este orden, de afuera hacia adentro y de abajo hacia arriba, volverá a aparecer cuando se describa el santuario.\n\nPara quienes escucharon este relato por primera vez había algo inesperado: un grupo de antiguos esclavos, sin tierra ni rey, recibe el título de «especial tesoro» y de «reino de sacerdotes». Y antes de conocer una sola ley, el pueblo responde a una voz: «Todo lo que Jehová ha dicho haremos».",
+   "preguntas": [
+    "¿Qué crees que sintió un pueblo de antiguos esclavos al oír que sería «especial tesoro» de Dios?",
+    "¿Por qué piensas que el encuentro necesitó días de preparación y un límite alrededor del monte?"
+   ]
+  },
+  {
+   "cap": 20,
+   "v": 26,
+   "titulo": "Las diez palabras y los tratados antiguos",
+   "epoca": "Los primeros días al pie del Sinaí, hacia 1446 antes de Cristo según la cronología bíblica tradicional; los tratados hititas que se comparan son de los siglos 14 y 13 antes de Cristo.",
+   "lugar": "El campamento frente al monte: el pueblo se queda lejos y Moisés entra en la oscuridad donde está Dios.",
+   "texto": "Antes de dar un solo mandamiento, Dios se presenta y recuerda lo que hizo: «Yo soy JEHOVÁ tu Dios, que te saqué de la tierra de Egipto, de casa de siervos». Para un oyente del mundo antiguo, esa manera de empezar sonaba conocida. En Hattusa, la capital del imperio hitita, en el centro de la actual Turquía, los arqueólogos hallaron a comienzos del siglo 20 miles de tablillas de arcilla, entre ellas tratados que los grandes reyes hititas hicieron con reyes menores en los siglos 14 y 13 antes de Cristo. De esa época es también el tratado de paz entre el faraón Ramsés segundo y el rey hitita Hattusili tercero, hacia 1259 antes de Cristo, que se conserva grabado en templos egipcios y escrito en tablillas halladas en Hattusa.\n\nEsos tratados solían seguir un orden. Primero se presentaba el gran rey con sus títulos; luego se recordaba lo que había hecho en favor del rey menor; después venían las obligaciones, empezando por la lealtad exclusiva, porque el vasallo no podía aliarse con otros reyes. Se mandaba guardar el documento en un templo y leerlo en público cada cierto tiempo, se llamaba como testigos a una larga lista de dioses, y al final venían bendiciones para el que cumpliera y maldiciones para el que no. Desde mediados del siglo 20, muchos estudiosos han notado el parecido con el Sinaí: la presentación de Dios, el recuerdo de la salida de Egipto, la exigencia de no tener «dioses ajenos», las tablas que se guardarán en el arca y el libro que se leerá al pueblo. Algunos piensan que esa forma corresponde bien al segundo milenio antes de Cristo; otros la comparan con los tratados asirios del siglo 7 antes de Cristo y creen que el relato tomó su forma final más tarde.\n\nLas diferencias también cuentan. Aquí el gran rey no es un hombre, sino Dios, y no hay dioses que sirvan de testigos, porque no se admite otro. El vasallo no es un rey, sino todo un pueblo de antiguos esclavos, y los mandamientos hablan a cada persona en singular, de tú. En las cartas diplomáticas de esa época halladas en Amarna, Egipto, los reyes se llaman hermanos y hablan del amor entre aliados, una palabra que incluía la lealtad; algunos estudiosos oyen ese mismo tono cuando Dios habla de «los que me aman, y guardan mis mandamientos».\n\nEl contenido también llamaba la atención en su mundo. En Egipto, cada mañana los sacerdotes abrían el santuario y lavaban, vestían y alimentaban la estatua del dios; en Mesopotamia, un rito llamado lavado de la boca consagraba las estatuas nuevas para que el dios habitara en ellas. Frente a eso: «No te harás imagen». Tampoco se conoce, como ya viste con el maná, otro pueblo antiguo con un descanso fijo cada siete días, y aquí alcanza también a siervos, extranjeros y animales. Y la última palabra, «No codiciarás», toca el deseo, algo que ningún juez podía vigilar.\n\nEl pueblo, asustado por los truenos y el humo, le pide a Moisés: «Habla tú con nosotros, que nosotros oiremos». Así queda confirmado el papel de Moisés como mediador entre Dios y el pueblo. Conviene saber que estos mandamientos aparecen dos veces en la Biblia, aquí y en Deuteronomio 5, con pequeñas diferencias: por ejemplo, aquí el motivo del sábado es la creación, y allí, el recuerdo de la esclavitud en Egipto.",
+   "preguntas": [
+    "¿Qué cambia para ti que las diez palabras comiencen recordando la salida de Egipto?",
+    "¿Cuál de estas palabras te parece más difícil de vivir hoy, y por qué?"
+   ]
+  },
+  {
+   "cap": 23,
+   "v": 33,
+   "titulo": "Un código para la vida diaria",
+   "epoca": "Al pie del Sinaí, hacia 1446 antes de Cristo según la cronología bíblica tradicional; las leyes de Mesopotamia que se comparan son de entre 2100 y 1750 antes de Cristo.",
+   "lugar": "El campamento del Sinaí, aunque las leyes miran a una vida de aldeas, campos, viñas y olivares.",
+   "texto": "Si escuchas con atención los capítulos 21 a 23, aparece un paisaje: bueyes, asnos de carga, ovejas, campos de cereal, viñas y olivares, cisternas abiertas, casas con puerta, espinos que arden, jueces que resuelven pleitos y vecinos que se prestan dinero. Es la vida de aldeas de labradores y pastores, más que la de un pueblo en marcha por el desierto. La lectura tradicional ve en estas leyes una preparación para la vida en la tierra prometida, como anuncia el final del capítulo 23; muchos historiadores piensan que reflejan la vida de Israel ya asentado en Canaán y que se fueron reuniendo con el tiempo.\n\nEstas leyes tienen parientes antiguos. El más famoso es el Código de Hammurabi, rey de Babilonia, de hacia 1750 antes de Cristo. Está grabado en una estela de piedra negra de más de 2 metros de alto que, siglos después, un rey de Elam se llevó como botín a Susa, en el actual Irán; allí la hallaron arqueólogos franceses entre 1901 y 1902, y hoy está en el museo del Louvre, en París. Arriba, un relieve muestra al rey de pie ante Shamash, el dios del sol y de la justicia; debajo hay unas 280 leyes, entre un prólogo y un epílogo donde el rey dice que los dioses lo llamaron para que el fuerte no oprimiera al débil y para proteger a la viuda y al huérfano. Hay colecciones más antiguas, como las de Ur-Nammu, hacia 2100 antes de Cristo, y las de la ciudad de Eshnunna, hacia 1800. Muchos estudiosos creen que no se aplicaban palabra por palabra en los tribunales, sino que mostraban la justicia del rey y servían de modelo a los jueces.\n\nLos parecidos son claros. Todas plantean casos con la forma “si alguien hace esto, entonces”. Varias tratan del buey que cornea: en Eshnunna, cuando un buey mata a otro, los dueños se reparten el precio del vivo y el valor del muerto, casi como en el capítulo 21, versículo 35. Hammurabi legisla también sobre la mujer embarazada que es golpeada y sobre las personas entregadas por deudas, que quedaban libres al cuarto año; en Éxodo, al séptimo. Israel compartía la cultura jurídica de su mundo.\n\nLas diferencias son igual de interesantes. En Babilonia el rey dicta las leyes por encargo de los dioses; aquí las dicta Dios mismo, como parte de un pacto con todo el pueblo. Hammurabi distingue clases: por el ojo de un noble se pierde el ojo; por el de un hombre común se paga en plata; por el de un esclavo, la mitad de su precio a su dueño. En Éxodo la ley es la misma para todos los libres, y el siervo al que su amo le saca un ojo o un diente queda libre. En Babilonia, robar en un templo o en el palacio, o entrar a robar en una casa, se castigaba con la muerte; aquí el robo de bienes se paga restituyendo, y la muerte se reserva para delitos como el homicidio, el secuestro de una persona, los ataques a los padres o las ofensas contra Dios. Hammurabi a veces castigaba al hijo o a la hija del culpable en su lugar; estas leyes no lo hacen. Y las leyes de Mesopotamia casi nunca explican sus normas con motivos como «extranjeros fuisteis vosotros en la tierra de Egipto», o «porque soy misericordioso».\n\nQueda el «Ojo por ojo, diente por diente». En Hammurabi se aplicaba al pie de la letra entre nobles, mientras que las leyes más antiguas de Ur-Nammu castigaban las heridas con multas en plata. En Éxodo aparece dentro de un juicio, ante jueces, y muchos estudiosos lo ven como una medida que impide que la venganza crezca sin límite, como la de Lamec en Génesis 4. En este mismo capítulo, otras heridas se reparan pagando el tiempo perdido y la curación, y la tradición judía entendió el talión como una compensación en dinero.",
+   "preguntas": [
+    "¿Qué ley de estos capítulos te sorprendió más, y por qué?",
+    "¿Por qué crees que un mismo conjunto de leyes mezcla bueyes y cisternas con fiestas y compasión por el extranjero?"
+   ]
+  },
+  {
+   "cap": 24,
+   "v": 18,
+   "titulo": "El pacto sellado con sangre",
+   "epoca": "Al pie del Sinaí, antes de los cuarenta días de Moisés en el monte: hacia 1446 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Un altar con doce piedras al pie del monte y, más arriba, el lugar donde comieron los ancianos.",
+   "texto": "El capítulo 24 describe una ceremonia completa. Moisés cuenta al pueblo las palabras de Dios y el pueblo acepta; Moisés las pone por escrito; levanta un altar y doce piedras, una por tribu; unos jóvenes ofrecen sacrificios; la sangre se divide en dos mitades; se lee el libro en voz alta; el pueblo vuelve a aceptar, y la sangre lo alcanza. Después, setenta y cuatro personas suben al monte, ven al Dios de Israel y comen. Al final, Moisés entra en la nube.\n\n«Moisés escribió todas las palabras de Jehová». En su tiempo, escribir era oficio de especialistas: los jeroglíficos de Egipto y la escritura cuneiforme de Mesopotamia tenían cientos de signos y exigían años de estudio. Pero en el segundo milenio antes de Cristo apareció algo nuevo. En Serabit el Jadim, junto a las minas de turquesa del Sinaí que ya conoces, trabajadores de lengua semítica dejaron inscripciones que se fechan entre 1800 y 1500 antes de Cristo, según distintas dataciones. Usan pocos signos, uno para cada consonante: es uno de los primeros alfabetos conocidos, antepasado de las letras fenicias, hebreas y griegas, y a través de ellas, de las que usamos hoy. Aun así, la mayoría de la gente no sabía leer, y por eso los acuerdos se leían en voz alta, como hace Moisés con «el libro de la alianza».\n\nLa sangre tiene un papel central. En hebreo, hacer un pacto se dice “cortar un pacto”, y en el mundo antiguo los acuerdos se sellaban con animales sacrificados. En Mari, una ciudad junto al Éufrates cuyos archivos son del siglo 18 antes de Cristo, hacer una alianza se decía “matar un asno joven”. En unos tratados arameos de Sefire, en Siria, del siglo 8 antes de Cristo, se corta un becerro y se dice que así será cortado el que rompa el pacto. Abraham ya había vivido algo parecido en Génesis 15, con animales partidos por la mitad. Aquí la sangre se divide: una mitad va al altar, que representa a Dios, y la otra al pueblo. Para la mentalidad bíblica la sangre era la vida, y muchos entienden que así las dos partes quedan unidas por una misma vida: «He aquí la sangre de la alianza que Jehová ha hecho con vosotros».\n\nEn el antiguo Oriente, los acuerdos se cerraban comiendo juntos, y el pacto de Jacob con Labán, en Génesis 31, también terminó con una comida. Por eso llama la atención el versículo 11: los ancianos ven a Dios, «y comieron y bebieron». El texto se detiene en lo que había bajo sus pies, un piso como de lapislázuli, «semejante al cielo cuando está sereno», pero no describe a Dios. Y subraya que Dios «no extendió su mano» sobre ellos, como Jacob en Génesis 32, que se asombró de haber visto a Dios y seguir con vida.\n\nLuego Moisés sube con Josué, su ayudante, y deja a Aarón y a Hur a cargo del pueblo. La nube cubre el monte seis días, y al séptimo Dios llama a Moisés, un ritmo que muchos lectores comparan con la semana de la creación. Desde el campamento, la cumbre se ve como un fuego. Cuarenta días es un número que en la Biblia marca un tiempo completo de espera o de prueba, como los cuarenta días de lluvia del diluvio. Lo que Moisés recibe en esos días es lo que escucharás en los capítulos siguientes.",
+   "preguntas": [
+    "¿Qué significado tiene para ti que el pacto termine con una comida compartida?",
+    "¿Por qué crees que el pueblo debía escuchar todo en voz alta antes de comprometerse?"
+   ]
+  },
+  {
+   "cap": 27,
+   "v": 21,
+   "titulo": "Un santuario que se puede llevar",
+   "epoca": "Los cuarenta días de Moisés en el monte, hacia 1446 antes de Cristo según la cronología bíblica tradicional; los santuarios egipcios que se comparan son de los siglos 14 y 13 antes de Cristo.",
+   "lugar": "La cumbre del Sinaí, donde Moisés ve el modelo; el santuario estará en medio del campamento.",
+   "texto": "El versículo 21 nombra por primera vez el «tabernáculo del testimonio». Casi siempre, esa expresión de 1909 traduce el hebreo ohel moed, que significa tienda del encuentro o de reunión: el lugar donde Dios se reunía con Moisés. Sigue a la antigua traducción griega, que la llamó tienda del testimonio. En cambio, el «arca del testimonio» sí se llama así por las tablas que guarda.\n\nImagina el recorrido de afuera hacia adentro. Primero, un patio rectangular cercado con cortinas de lino sin teñir, con una sola entrada al oriente, adornada con colores. Al entrar, el gran altar de bronce, donde arde el fuego de los sacrificios. Al fondo, una tienda alargada, cubierta de pieles por fuera y adornada por dentro con lino de colores y querubines bordados. En su primera sala, a la luz del candelero, la mesa con los panes. Detrás de un velo, en una sala cuadrada y oscura, el arca con su cubierta de oro y dos querubines. A medida que uno se acerca al centro, los materiales cambian: bronce afuera, plata en las bases, oro adentro. Como en el monte, donde el pueblo quedaba al pie y solo Moisés llegaba a la cumbre, aquí hay grados de cercanía: el patio, la primera sala y el cuarto detrás del velo.\n\nLos templos de Egipto y de Canaán eran casas de los dioses y seguían un orden parecido: un patio, una sala y un cuarto interior, cada vez más pequeño y oscuro. En el fondo de un templo egipcio, una pequeña capilla guardaba la estatua del dios. En Canaán se han excavado templos de tres partes, como uno de Hazor, en el norte. El santuario de Israel tiene esa estructura, pero dos rasgos lo distinguen: es una tienda que se arma y se desarma, y en su cuarto más santo no hay estatua, sino un cofre con las tablas del pacto.\n\nLos santuarios portátiles no eran desconocidos. En las fiestas egipcias, los dioses salían en procesión dentro de capillas en forma de barca, que los sacerdotes llevaban en hombros con varas. En la tumba de Tutankamón, rey de Egipto muerto hacia 1323 antes de Cristo, hallada en 1922, había capillas de madera cubiertas de oro que se armaban por piezas, y un cofre dorado con varas para cargarlo, sobre el que reposa la figura del dios Anubis. Los relieves de la batalla de Cadés, hacia 1274 antes de Cristo, muestran el campamento de Ramsés segundo: un recinto rectangular con la tienda del faraón en el centro. En Timna, en el valle de la Arabá, al norte del golfo de Aqaba, Egipto explotaba minas de cobre en los siglos 13 y 12 antes de Cristo y tenía un pequeño templo a Hathor; según su excavador, los madianitas lo convirtieron después en un santuario cubierto por una tienda, y allí se hallaron restos de telas de lana. Y las tiendas de pelo de cabra de los beduinos todavía se dividen con una cortina en dos espacios.\n\nEl texto insiste en que todo se haga «conforme á su modelo, que te ha sido mostrado en el monte». En el mundo antiguo, un templo debía responder a la voluntad del dios. Gudea, gobernante de la ciudad de Lagash, en Mesopotamia, hacia 2100 antes de Cristo, dejó escrito en unos cilindros de arcilla que un dios le mostró en sueños el plano del templo que debía construir, y una de sus estatuas lo representa sentado con un plano sobre las rodillas.\n\n¿De dónde salieron tantos materiales? Como contaba el capítulo 12, el pueblo salió de Egipto con objetos de plata y de oro que pidió a los egipcios. La acacia crece en el desierto, el cobre se extraía en la Arabá, y los tintes y perfumes llegaban por el comercio. Algunos historiadores piensan que la descripción refleja, al menos en parte, el templo posterior de Jerusalén; otros señalan que la técnica descrita, con madera cubierta de oro, piezas que se arman y varas para cargar, coincide con lo que se hacía en Egipto en el segundo milenio antes de Cristo.",
+   "preguntas": [
+    "Si recorrieras el santuario desde la puerta del atrio hasta el velo, ¿qué crees que sentirías en cada paso?",
+    "¿Por qué crees que este santuario debía poder desarmarse y viajar con el pueblo?"
+   ]
+  },
+  {
+   "cap": 29,
+   "v": 46,
+   "titulo": "Sacerdotes vestidos de lino y oro",
+   "epoca": "Los cuarenta días de Moisés en el monte: hacia 1446 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El monte Sinaí; los ritos se describen para la puerta del santuario, en medio del campamento.",
+   "texto": "Todos los pueblos vecinos de Israel tenían sacerdotes. En Egipto formaban un grupo poderoso: el templo de Amón, en Tebas, poseía tierras, ganado y talleres, y sus sacerdotes servían por turnos, se rapaban el cuerpo, se lavaban varias veces al día y vestían de lino. En los templos de Mesopotamia había cantores, adivinos, encargados de purificar y administradores. En Ugarit, en la costa de Siria, la palabra para sacerdote era la misma que en hebreo, kohén, y los textos mencionan a un jefe de los sacerdotes. Su tarea, en todas partes, era parecida: cuidar la casa del dios, ofrecer sacrificios, purificar, consultar la voluntad divina y bendecir.\n\nLas vestiduras de Aarón combinan lo sencillo y lo espléndido. La túnica, el turbante y los calzones son de lino, como los de los sacerdotes egipcios. Encima van el efod, tejido con oro y lana de colores; el manto azul violeta con granadas y campanillas; el pectoral con doce piedras, y la lámina de oro en la frente. En Egipto, reyes y nobles llevaban sobre el pecho joyas llamadas pectorales, de oro con piedras incrustadas, como cornalina, lapislázuli y turquesa, a menudo con figuras de dioses o el nombre del rey. El pectoral de Aarón lleva, en cambio, los nombres de las doce tribus: el sacerdote presenta a su pueblo «en sus dos hombros por memoria» y «sobre su corazón».\n\nLa consagración dura siete días y sigue un orden: lavado con agua, vestido, unción con aceite y tres sacrificios. El primero, un becerro, sirve para purificar; el segundo, un carnero, se quema entero; el tercero, el carnero de las consagraciones, se reparte: una parte se quema y otra la comen los sacerdotes. La sangre toca la oreja, el pulgar y el pie, y se rocía sobre las ropas. En otros libros de la Biblia se ungirá también a reyes y profetas.\n\nEl capítulo termina con el ritmo diario del culto: un cordero cada mañana y otro cada tarde, con harina, aceite y vino. Junto con las lámparas que ardían de la tarde a la mañana, el día del campamento quedaba enmarcado por el humo del altar y el sonido de las campanillas del sacerdote. Y el texto declara el propósito de todo: «Y habitaré entre los hijos de Israel, y seré su Dios». Según el versículo 46, la salida de Egipto tenía ese fin: habitar «en medio de ellos».\n\nHay un detalle que vale la pena recordar. En el capítulo 19, Dios llamó a todo el pueblo «reino de sacerdotes». Ahora una sola familia recibe el sacerdocio para servir en nombre de todos. Lectores judíos y cristianos han reflexionado mucho sobre cómo se relacionan ese llamado de todo el pueblo y el servicio de unos pocos.",
+   "preguntas": [
+    "¿Qué piensas de que el sacerdote llevara los nombres del pueblo sobre los hombros y sobre el corazón?",
+    "Según el versículo 46, ¿para qué sacó Dios a Israel de Egipto, y qué te sugiere esa respuesta?"
+   ]
+  },
+  {
+   "cap": 32,
+   "v": 35,
+   "titulo": "Un becerro de oro al pie del monte",
+   "epoca": "Al final de los cuarenta días de Moisés en el monte: hacia 1446 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El campamento al pie del Sinaí y la bajada del monte, donde Josué oye los gritos del pueblo.",
+   "texto": "Para entender esta escena conviene ponerse en el lugar del campamento. Moisés lleva cuarenta días en la cumbre, envuelto en una nube que desde abajo parece fuego, y nadie sabe si sigue vivo. Es un pueblo que se formó en Egipto, donde los dioses tenían estatuas visibles, y que está en pleno desierto sin su guía. Piden dioses «que vayan delante de nosotros». En el mundo antiguo, los ejércitos marchaban tras estandartes con emblemas de sus dioses; en la batalla de Cadés, las cuatro divisiones del ejército de Ramsés segundo llevaban nombres de dioses: Amón, Ra, Ptah y Set.\n\nEl toro era una imagen poderosa en todo el Cercano Oriente. Ya viste que en Menfis se veneraba al toro Apis y que la diosa Hathor se representaba como vaca. Apis era un toro vivo, elegido por sus manchas, que al morir se embalsamaba y se enterraba con gran solemnidad, y en Heliópolis se honraba a otro toro, Mnevis, ligado al dios del sol. En Canaán, los textos de Ugarit llaman al dios supremo, El, “el Toro”, y Baal, el dios de la tormenta, se asociaba también con el toro, símbolo de fuerza y fertilidad. En Ascalón, en la costa, se halló en 1990 un becerro de bronce cubierto de plata, de hacia 1600 antes de Cristo, dentro de una pequeña capilla de barro; y en una colina del norte de Samaria apareció una estatuilla de bronce de un toro, de hacia el siglo 12 antes de Cristo. En el arte de Siria y de Anatolia, el dios de la tormenta aparece a veces de pie sobre un toro.\n\n¿Qué representaba el becerro? El texto da dos pistas que parecen tirar en direcciones distintas. El pueblo dice: «Israel, estos son tus dioses, que te sacaron de la tierra de Egipto», y Aarón anuncia: «Mañana será fiesta á Jehová». Algunos estudiosos piensan que el becerro pretendía representar al mismo Dios de Israel, o servirle de pedestal, como los toros sobre los que se ponían de pie los dioses de la tormenta. Otros creen que el pueblo adoptó sin más un culto al estilo de Egipto o de Canaán. En cualquier caso, el capítulo 20 ya lo había dicho: «No hagáis conmigo dioses de plata, ni dioses de oro os haréis».\n\nMoisés intercede como un mediador: recuerda a Dios su reputación ante los egipcios y su juramento a Abraham, Isaac e Israel. Luego baja y rompe las tablas al pie del monte. En Mesopotamia, romper la tablilla de un contrato era una manera de anularlo, y un oyente antiguo podía entender así el gesto. Después vienen el becerro reducido a polvo, el llamado «¿Quién es de Jehová?», la acción de los levitas, la nueva intercesión de Moisés, que se ofrece a ser borrado del libro de Dios, y la plaga.\n\nEl episodio dejó huella en la memoria de Israel: Deuteronomio lo recuerda con detalle, el Salmo 106 lo canta, y en el libro de los Hechos, Esteban lo menciona en su discurso. El relato no esconde la caída del pueblo, ni el papel de Aarón, el hermano de Moisés, a quien el lector acaba de ver escogido como sacerdote.",
+   "preguntas": [
+    "¿Por qué crees que el pueblo buscó algo visible que fuera delante de ellos?",
+    "¿Qué te llama la atención en la manera en que Moisés habla con Dios para defender al pueblo?"
+   ]
+  },
+  {
+   "cap": 34,
+   "v": 35,
+   "titulo": "El nombre proclamado y el rostro radiante",
+   "epoca": "Después del becerro, durante otros cuarenta días de Moisés en el monte: hacia 1446 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "La tienda fuera del campamento, la cumbre del Sinaí y el campamento al que Moisés vuelve con el rostro brillante.",
+   "texto": "Los capítulos 33 y 34 se leen como una conversación difícil que termina en reconciliación. Dios anuncia que enviará un ángel delante del pueblo, pero que él no subirá en medio de ellos. El pueblo se quita sus adornos en señal de duelo. Moisés se encuentra con Dios en la tienda fuera del campamento y le pide saber a quién enviará y conocer su camino; Dios responde: «Mi rostro irá». Moisés insiste en que esa presencia los acompañe y pide ver su gloria. Dios lo pone en la hendidura de una peña, lo cubre con su mano y pasa delante de él. El texto describe a Dios con imágenes humanas, mano, rostro y espalda, y muchos lectores ven en ellas una manera de decir algo que no cabe en palabras.\n\nEn el mundo antiguo, conocer el nombre de un dios era conocer su carácter y poder invocarlo. Los dioses tenían muchos títulos: el poema babilónico de la creación, el Enuma Elish, termina enumerando cincuenta nombres del dios Marduk, cada uno ligado a una hazaña. Aquí es Dios mismo quien proclama su nombre, y lo hace describiendo cómo actúa: «Jehová, Jehová, fuerte, misericordioso, y piadoso; tardo para la ira, y grande en benignidad y verdad». La palabra hebrea que se traduce misericordioso está emparentada con la palabra para el vientre materno. La proclamación sigue con el perdón y con una justicia que no pasa por alto el mal: ambas cosas quedan dichas juntas.\n\nLuego el pacto se renueva. Las nuevas tablas sustituyen a las rotas, y el texto repite leyes que ya conocías: no hacer alianza con los pueblos de Canaán ni con sus dioses, no fundir imágenes, guardar el sábado, celebrar las tres fiestas, ofrecer las primicias. Como esta lista se concentra en el culto, algunos estudiosos la llaman decálogo ritual. Moisés pasa otros cuarenta días en el monte, sin comer ni beber.\n\nAl bajar, su rostro resplandece, y él no lo sabe. En Mesopotamia se hablaba del melammu, un resplandor temible que rodeaba a los dioses, y también a los reyes como reflejo de ellos. Aquí el brillo aparece después de que Moisés habló con Dios. Aarón y el pueblo sienten miedo, pero Moisés los llama y les habla; después se cubre con un velo, que se quita cada vez que entra a hablar con Dios. El apóstol Pablo, en su segunda carta a los Corintios, capítulo 3, vuelve sobre este velo para hablar de la gloria de Dios.\n\nAsí termina este ciclo: el pueblo que había fallado sigue en pie, el pacto se renueva, y Moisés aparece como un mediador único, que habla con Dios «cara á cara» y, sin embargo, no puede ver su rostro. El texto deja juntas la cercanía y el misterio, sin explicar del todo cómo se unen.",
+   "preguntas": [
+    "De todas las palabras con que Dios se describe en el capítulo 34, ¿cuál te sorprende más, y por qué?",
+    "¿Por qué crees que Moisés se cubría el rostro después de hablar con el pueblo?"
+   ]
+  },
+  {
+   "cap": 40,
+   "v": 38,
+   "titulo": "La nube llena la tienda terminada",
+   "epoca": "Primer día del primer mes del segundo año después de la salida: hacia 1445 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El campamento al pie del Sinaí, con el santuario levantado en su centro.",
+   "texto": "Ha pasado casi un año desde la noche en que el pueblo salió de Egipto. Llegaron al Sinaí en el tercer mes; Moisés estuvo dos veces cuarenta días en el monte; el pueblo ofreció sus bienes con tanta generosidad que hubo que detenerlo; Bezaleel, Aholiab y muchos hombres y mujeres trabajaron la madera, el metal, las piedras y las telas. Los capítulos 35 a 39 repiten casi palabra por palabra las instrucciones de los capítulos 25 a 31, y esa repetición muestra, pieza por pieza, que todo se hizo como se había mandado. Moisés revisa la obra, la encuentra conforme y bendice a quienes la hicieron. El santuario se levanta el día de año nuevo.\n\nMuchos lectores, judíos y cristianos, y muchos estudiosos han notado ecos de la creación en estos capítulos. Las instrucciones se dieron en siete discursos, y el séptimo trató del sábado. La frase «como Jehová había mandado á Moisés» marca siete veces los pasos del montaje, como el estribillo que en Génesis 1 cierra cada obra de la creación. Moisés ve la obra terminada, como Dios vio lo que había hecho, y el texto dice «Y así acabó Moisés la obra», como Dios acabó la suya. Para esos lectores, el santuario aparece así como un pequeño mundo ordenado, preparado para que Dios habite en él.\n\nLos pueblos antiguos también contaban la construcción de sus templos con un orden parecido: la orden del dios, el plano, la reunión de materiales traídos de lejos, la obra, la dedicación con fiesta y la bendición. Gudea de Lagash relató cómo, terminado el templo, el dios Ningirsu entró en su nueva casa. En Mesopotamia y en Egipto, ese momento se marcaba llevando en procesión la estatua del dios hasta el cuarto interior. Aquí no entra ninguna estatua: una nube cubre la tienda y la gloria de Jehová la llena, tanto que ni siquiera Moisés puede entrar.\n\nLa nube y el fuego ya eran conocidos para el pueblo: lo habían guiado desde la salida de Egipto y habían cubierto el monte mientras Moisés estaba en la cumbre. Ahora reposan sobre una tienda que se puede desarmar y llevar. En el desierto, las caravanas avanzaban por jornadas, de un pozo de agua al siguiente, y los pastores se movían según las estaciones. El campamento de Israel tendrá otro reloj: se moverá cuando la nube se levante y se quedará mientras no se levante.\n\nEl libro de Éxodo empezó con los hijos de Israel construyendo ciudades de almacenes para el faraón, bajo capataces y con trabajo forzado. Termina con el mismo pueblo construyendo, por voluntad propia, una morada para su Dios. En hebreo, un mismo verbo sirve para decir trabajar como siervo y servir a Dios en el culto, y muchos lectores han visto en ese doble sentido un hilo que recorre todo el libro. Así se cierra Éxodo: con la tienda levantada en medio del campamento y la presencia de Dios «á vista de toda la casa de Israel», de día y de noche.",
+   "preguntas": [
+    "¿Qué cambia para el pueblo ahora que la presencia que vio en el monte viaja con ellos?",
+    "¿Cómo imaginas la vida en un campamento que solo se mueve cuando la nube se levanta?"
+   ]
+  }
+ ]
+}

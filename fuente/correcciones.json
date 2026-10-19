@@ -1,0 +1,26 @@
+[
+ {
+  "ref": "Éxodo 21:2",
+  "antes": "mas el séptimo",
+  "despues": "mas al séptimo",
+  "porque": "BibleGateway y wordproject dicen «al séptimo»"
+ },
+ {
+  "ref": "Levítico 7:13",
+  "antes": "hacimientos de gracias",
+  "despues": "hacimiento de gracias",
+  "porque": "las otras dos fuentes y los demás versículos (7:12, 7:15, 22:29) lo dicen en singular"
+ },
+ {
+  "ref": "Levítico 26:18",
+  "antes": "con esas cosas",
+  "despues": "con estas cosas",
+  "porque": "BibleGateway y wordproject dicen «estas»"
+ },
+ {
+  "ref": "Éxodo 20:21",
+  "antes": "osbcuridad",
+  "despues": "obscuridad",
+  "porque": "errata de digitalización; Génesis 15:12 dice «obscuridad»"
+ }
+]

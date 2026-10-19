@@ -1,0 +1,467 @@
+{
+ "tramo": "LEV-01",
+ "libro": "LEV",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 16,
+  "v": 34
+ },
+ "introduccion": {
+  "titulo": "Levítico, el libro de la santidad",
+  "texto": "Éxodo terminó con una escena solemne. El tabernáculo quedó armado en medio del campamento, una nube lo cubrió y la gloria de Jehová lo llenó de tal manera que ni siquiera Moisés podía entrar. Levítico comienza exactamente ahí: Dios llama a Moisés desde esa tienda y le da las instrucciones para que el pueblo pueda vivir con su presencia en medio de las tiendas de todos. Si Éxodo contó cómo Dios sacó a Israel de Egipto y vino a habitar entre ellos, Levítico se ocupa de la pregunta que quedó abierta: cómo se vive cerca de un Dios santo, cómo se acerca uno a él y qué pasa cuando algo se interpone.\n\nEn este libro casi no hay viaje. Todo ocurre al pie del monte Sinaí, en un tiempo muy corto. Éxodo dice que el tabernáculo se levantó el primer día del primer mes del segundo año después de la salida de Egipto, y el libro de Números comienza el primer día del mes siguiente. Levítico cabe, entonces, en ese mes de espera junto a la montaña. Cuándo fue eso se discute. La cronología bíblica tradicional, que se apoya en los 480 años que el primer libro de los Reyes cuenta entre la salida de Egipto y el comienzo de las obras del templo de Salomón, pone la salida hacia 1446 antes de Cristo, y este mes al pie del Sinaí, hacia 1445. Muchos historiadores prefieren para la salida el siglo 13 antes de Cristo, en tiempos del faraón Ramsés segundo. También se discute dónde estaba el Sinaí: una tradición cristiana muy antigua lo ubica en el sur de la península que hoy lleva ese nombre, aunque se han propuesto otros lugares, en el norte de esa península y en Arabia.\n\nEl nombre Levítico viene de la antigua traducción griega de la Biblia, la Septuaginta, a través del latín, y quiere decir más o menos el libro levítico, el que corresponde a la tribu de Leví, de la que salían los sacerdotes. Es curioso, porque los levitas como tales solo se mencionan en dos versículos del capítulo 25: el libro habla sobre todo de los sacerdotes, que eran Aarón y sus hijos, y del pueblo entero. Los judíos lo llaman por su primera palabra en hebreo, Vayikrá, que significa y llamó. Su contenido se organiza en bloques bastante claros. Los capítulos 1 al 7 describen las ofrendas y los sacrificios. Los capítulos 8 al 10 cuentan la consagración de Aarón y sus hijos y lo que pasó el primer día del culto. Los capítulos 11 al 15 tratan de lo limpio y lo inmundo: los animales que se comen, el parto, las enfermedades de la piel, el moho en ropas y casas, y los flujos del cuerpo. El capítulo 16 describe el día de la expiación, el más solemne del año. Los capítulos 17 al 27 llevan la santidad a toda la vida del pueblo: la familia, el trato con el prójimo, las fiestas, el descanso de la tierra y los votos.\n\nLa tradición judía y cristiana atribuye el libro a Moisés, y el texto mismo presenta casi todo como palabras de Dios dichas a él: la frase «Y habló Jehová á Moisés» marca el ritmo de los capítulos como un estribillo. Muchos estudiosos modernos piensan que el libro reúne tradiciones de los sacerdotes de Israel que se transmitieron y se pusieron por escrito a lo largo de siglos. A ese conjunto lo llaman fuente sacerdotal, y a los capítulos 17 al 26, por su insistencia en que el pueblo sea santo, Código de Santidad. Algunos fechan su forma final en el exilio en Babilonia o poco después, en los siglos 6 y 5 antes de Cristo. Otros, entre ellos varios especialistas judíos en el culto de Israel, sostienen que buena parte de estas leyes es mucho más antigua y refleja la práctica real de un santuario. En todo caso, muchas de sus costumbres tienen paralelos en textos del segundo milenio antes de Cristo, hallados en Ugarit, en el reino hitita y en Mesopotamia.\n\nAl escucharlo conviene tener presentes algunas cosas. Es un libro escrito como un manual: repite fórmulas, enumera pasos y vuelve sobre lo mismo con pequeñas variaciones, porque estaba pensado para que las cosas se hicieran bien. Sus palabras clave no significan lo que solemos pensar hoy. Santo quiere decir apartado, lo que pertenece a Dios. Inmundo no quiere decir sucio ni malvado: es un estado que impide acercarse al santuario y tocar lo sagrado, y que casi siempre se resuelve con agua, con tiempo y a veces con una ofrenda. Además, Levítico es una llave para el resto de la Biblia. Los profetas hablarán con fuerza de sacrificios ofrecidos sin justicia. En los evangelios, Jesús manda a un leproso sanado a presentarse al sacerdote, y María lleva después del parto la ofrenda que este libro pide a quienes tienen poco. El mandamiento de amar al prójimo como a uno mismo, que Jesús citará, está en el capítulo 19. Y palabras del Nuevo Testamento como sangre, cordero, expiación, velo y sumo sacerdote se entienden mejor desde aquí. Una antigua tradición judía cuenta que los niños comenzaban el estudio de la Torá por este libro. Escúchalo con paciencia, imaginando el humo del altar, a los sacerdotes en su ir y venir, y a la gente que llegaba con su animal o con su puñado de harina."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 1,
+   "texto": "Levítico sigue justo donde terminó Éxodo: el tabernáculo ya está armado y la gloria de Dios lo llenó. Aquí, «tabernáculo del testimonio» traduce el hebreo ohel moed, tienda del encuentro o de reunión: el lugar donde Dios se encontraba con Moisés. La forma de 1909 viene de la antigua traducción griega, que la llamó tienda del testimonio."
+  },
+  {
+   "cap": 1,
+   "v": 3,
+   "texto": "Holocausto viene de una palabra griega que significa quemado entero: era la ofrenda que se quemaba completa sobre el altar, salvo la piel. En hebreo se llama olá, lo que sube, probablemente por el humo. El animal debía ser macho y «sin tacha», sin defecto ni enfermedad. Aquí se trata de una ofrenda voluntaria; más adelante el libro la pedirá también en ritos obligatorios."
+  },
+  {
+   "cap": 1,
+   "v": 4,
+   "texto": "Poner la mano sobre la cabeza del animal era un gesto solemne cuyo sentido exacto se discute. Para unos, la persona declaraba que el animal era suyo y que lo ofrecía en su nombre; para otros, se identificaba con él. Expiar traduce el verbo hebreo kipper, que se ha entendido como limpiar, cubrir o rescatar."
+  },
+  {
+   "cap": 1,
+   "v": 5,
+   "texto": "El que traía la ofrenda degollaba él mismo al animal; los sacerdotes recogían la sangre y la rociaban alrededor del altar, que estaba en el atrio frente a la tienda. La sangre nunca se comía: en el capítulo 17 el libro explica que la vida está en la sangre y que Dios la dio para el altar."
+  },
+  {
+   "cap": 1,
+   "v": 9,
+   "texto": "En el versículo 8, el «redaño» es la grasa de las entrañas; en otros pasajes, la misma palabra de 1909 nombra una membrana o lóbulo junto al hígado. La expresión «olor suave», u «olor de suavidad», es una manera antigua de decir que la ofrenda era agradable a Dios y aceptada por él. Ya aparece en el sacrificio de Noé al salir del arca, en Génesis 8."
+  },
+  {
+   "cap": 2,
+   "v": 2,
+   "texto": "El «presente», en hebreo minjá, palabra que también significa regalo o tributo, era una ofrenda de «flor de harina», la harina más fina, con aceite e incienso, una resina aromática y cara que llegaba en caravanas desde el sur de Arabia. Solo se quemaba un puñado, la parte «para recuerdo», que representaba el todo ante Dios; el resto era para los sacerdotes."
+  },
+  {
+   "cap": 2,
+   "v": 7,
+   "texto": "Estos versículos muestran las tres maneras de cocinar el pan en una casa antigua: en horno de barro, en una plancha o sartén sobre el fuego, y en una cazuela más honda. Los «hojaldres» del versículo 4 no son el hojaldre de pastelería: eran tortas muy delgadas, como obleas, untadas con aceite."
+  },
+  {
+   "cap": 2,
+   "v": 11,
+   "texto": "Ni la levadura ni la miel se quemaban en el altar. La levadura hace fermentar la masa, y la «miel» de la Biblia podía ser también jarabe de dátiles o de otras frutas, que fermenta igual. Unos lo relacionan con la descomposición que trae la fermentación; otros, con el pan sin levadura de la salida de Egipto. Como primicias sí podían presentarse, pero no quemarse."
+  },
+  {
+   "cap": 2,
+   "v": 13,
+   "texto": "La sal conserva los alimentos y no se corrompe. En el Medio Oriente, compartir pan y sal ha sido por siglos señal de un lazo de lealtad, y en otros libros de la Biblia se habla de un pacto de sal para decir un pacto que dura. Por eso aquí se la llama «la sal de la alianza»."
+  },
+  {
+   "cap": 3,
+   "v": 1,
+   "texto": "El sacrificio de «paces», en hebreo shelamim, de la misma raíz que shalom, que significa paz y bienestar, era ante todo una comida compartida. La grasa se quemaba para Dios, una parte era para el sacerdote y el resto lo comían el que lo ofrecía, su familia y sus invitados. A diferencia del holocausto, podía ser macho o hembra."
+  },
+  {
+   "cap": 3,
+   "v": 9,
+   "texto": "El «sebo», lo que Génesis llama la grosura en la ofrenda de Abel, es la grasa que envuelve las entrañas y los riñones; los «ijares» son los costados del animal. Se tenía por la parte más rica, y toda era para Dios. La cola es la de la oveja de cola gorda, que todavía se cría en el Medio Oriente y cuya cola puede pesar varios kilos."
+  },
+  {
+   "cap": 3,
+   "v": 17,
+   "texto": "Esta prohibición vale para todos los israelitas y en todas sus casas: nunca comer sangre ni la grasa de los animales que se ofrecían en el altar. Ya a Noé se le había prohibido comer la carne con su sangre, en Génesis 9. De aquí viene la costumbre judía de desangrar y salar la carne antes de cocinarla."
+  },
+  {
+   "cap": 4,
+   "v": 2,
+   "texto": "Aquí empieza otra clase de ofrenda, la «expiación» por el pecado, en hebreo jatat, para faltas cometidas «por yerro», es decir, sin intención o sin darse cuenta. Muchos estudiosos la llaman ofrenda de purificación, porque su sangre se aplicaba al altar o al santuario para limpiarlo de lo que el pecado y la impureza del pueblo dejaban en él."
+  },
+  {
+   "cap": 4,
+   "v": 3,
+   "texto": "El «sacerdote ungido» es el sumo sacerdote, Aarón y los que vinieran después de él. El capítulo va de mayor a menor: el sumo sacerdote y toda la congregación traen un becerro; el «príncipe», que es un jefe de tribu o de clan, un macho cabrío; y una persona común, una cabra o una cordera. La ofrenda va de acuerdo con el lugar que ocupa quien pecó."
+  },
+  {
+   "cap": 4,
+   "v": 7,
+   "texto": "En el santuario había dos altares. El del holocausto, grande y cubierto de bronce, estaba afuera, en el atrio. El del «perfume aromático», pequeño y cubierto de oro, estaba dentro de la tienda, frente al velo del lugar santísimo. Los «cuernos» eran salientes en las cuatro esquinas; en Beerseba se halló un altar de piedra con cuernos así, de la época de la monarquía."
+  },
+  {
+   "cap": 4,
+   "v": 12,
+   "texto": "Cuando la sangre se llevaba dentro de la tienda, nadie comía la carne: el resto del animal, con su piel, se quemaba fuera del campamento, en el lugar limpio donde se echaban las cenizas del altar. La carta a los Hebreos, en el Nuevo Testamento, recordará esta costumbre al hablar de Jesús, que padeció fuera de la puerta de la ciudad."
+  },
+  {
+   "cap": 5,
+   "v": 2,
+   "texto": "Aquí aparece una palabra clave del libro: «inmundo». No significa sucio ni malvado, sino un estado que impide acercarse al santuario y tocar lo sagrado. Se contraía por cosas como tocar un cadáver, y en sí no era pecado. El caso de estos versículos es el de quien no se dio cuenta y lo descubre después."
+  },
+  {
+   "cap": 5,
+   "v": 5,
+   "texto": "En estos casos, quien descubre su falta «confesará aquello en que pecó»: es la primera vez que el libro pide confesar. El testigo del versículo 1 oyó «la voz del que juró»: según la explicación más común, cuando se buscaba a un testigo se pronunciaba en público una maldición contra quien supiera algo y callara."
+  },
+  {
+   "cap": 5,
+   "v": 11,
+   "texto": "Quien no podía pagar un cordero traía dos tórtolas o dos palominos, que son pichones de paloma; y si tampoco, harina. El «epha», hoy efa, era una medida de grano de aproximadamente 22 litros, así que la décima parte era algo más de 2 litros: lo mismo que el gomer de maná que cada persona recogía por día, según Éxodo 16."
+  },
+  {
+   "cap": 5,
+   "v": 15,
+   "texto": "Desde aquí se trata de otra ofrenda, en hebreo asham, que el capítulo 7 llamará «expiación de la culpa»: una ofrenda de reparación. Se pedía cuando alguien había usado sin querer algo consagrado a Dios, como un diezmo o una primicia; además del carnero, devolvía lo tomado y una quinta parte más. El siclo no era una moneda sino un peso, de unos 11 gramos de plata."
+  },
+  {
+   "cap": 6,
+   "v": 5,
+   "texto": "Aquí la falta es contra el prójimo: quedarse con un depósito, robar, engañar o jurar en falso sobre algo perdido. El texto la llama también «prevaricación contra Jehová». Menciona primero la devolución completa a la víctima, con una quinta parte más, y después el carnero que se presenta ante Dios."
+  },
+  {
+   "cap": 6,
+   "v": 9,
+   "texto": "Desde aquí las instrucciones son para los sacerdotes: «Manda á Aarón y á sus hijos». Cada mañana y cada tarde se ofrecía un cordero en holocausto, como mandó Éxodo 29, y el de la tarde se consumía sobre el altar durante toda la noche."
+  },
+  {
+   "cap": 6,
+   "v": 13,
+   "texto": "El fuego del altar no debía apagarse nunca. Para recoger la ceniza, el sacerdote se ponía su vestidura y sus «pañetes» de lino, que eran calzones; para llevarla fuera del «real», que en el castellano de 1909 quiere decir el campamento, se cambiaba de ropa."
+  },
+  {
+   "cap": 6,
+   "v": 28,
+   "texto": "Según el versículo 27, la santidad se transmitía por contacto, igual que la impureza: lo que tocaba la carne de la expiación quedaba santo, apartado. Se suele explicar que la vasija de barro, que es porosa, absorbía el jugo y no se podía limpiar del todo, por eso se rompía; a la de metal bastaba con fregarla y lavarla."
+  },
+  {
+   "cap": 6,
+   "v": 30,
+   "texto": "Una regla que conviene recordar: si la sangre de la expiación se llevaba dentro de la tienda, como en los casos del sumo sacerdote y de toda la congregación, la carne se quemaba; si no, la comían los sacerdotes en el atrio. Esta distinción será importante en el capítulo 10."
+  },
+  {
+   "cap": 7,
+   "v": 10,
+   "texto": "Los sacerdotes no recibirían tierras como las demás tribus, y vivían en buena parte de estas porciones: la piel del holocausto, lo que sobraba de los presentes, la carne de las expiaciones y partes de los sacrificios de paces. Era su sustento y el de sus familias."
+  },
+  {
+   "cap": 7,
+   "v": 17,
+   "texto": "El sacrificio de paces tenía tres motivos: la acción de gracias, que la versión de 1909 llama «hacimiento de gracias»; el «voto», que cumplía una promesa hecha a Dios, a menudo en un momento difícil; y el sacrificio «voluntario», ofrecido sin obligación. La carne debía comerse en uno o dos días, y con un animal entero eso significaba invitar a muchos; lo que quedaba al tercer día se quemaba."
+  },
+  {
+   "cap": 7,
+   "v": 20,
+   "texto": "La frase «será cortada de sus pueblos» describe una pena que se repite en el libro, y su sentido exacto se discute. Unos piensan en la expulsión de la comunidad; otros, en una muerte temprana o en quedarse sin descendencia, por mano de Dios y no de los hombres, como lo entendió la tradición judía."
+  },
+  {
+   "cap": 7,
+   "v": 24,
+   "texto": "Animal «mortecino» es el que murió solo, sin ser degollado, y el arrebatado de fieras es el que mataron las bestias del campo. Su grasa podía usarse para otras cosas, pero no comerse."
+  },
+  {
+   "cap": 7,
+   "v": 30,
+   "texto": "El pecho «agitado» se movía ante el altar, como presentándolo a Dios; la tradición judía describe un vaivén hacia adelante y hacia atrás, y hacia arriba y hacia abajo. Sobre la espaldilla «elevada» se discute si también se alzaba o si la palabra solo indica que se apartaba para Dios. Las dos porciones quedaban después para el sacerdote y su familia."
+  },
+  {
+   "cap": 8,
+   "v": 2,
+   "texto": "Lo que sigue cumple, paso a paso, las instrucciones que Dios había dado en Éxodo 28 y 29 sobre las vestiduras y la consagración de los sacerdotes. Por eso se repite tanto la frase «como Jehová lo había mandado á Moisés». Los «ázimos» son los panes sin levadura."
+  },
+  {
+   "cap": 8,
+   "v": 9,
+   "texto": "El «ephod», hoy efod, era una prenda bordada en oro y colores, como un chaleco o delantal. Encima iba el «racional», un pectoral con doce piedras por las doce tribus, y en él el «Urim y Thummim», hoy Urim y Tumim, objetos para consultar la voluntad de Dios cuya forma no conocemos. La «mitra» era un turbante."
+  },
+  {
+   "cap": 8,
+   "v": 12,
+   "texto": "Ungir era derramar aceite perfumado sobre una persona o un objeto para consagrarlo. La palabra hebrea para ungido, mashíaj, es la que da en español Mesías, y su traducción griega, jristós, da Cristo. Más adelante en la Biblia también los reyes y algunos profetas serán ungidos."
+  },
+  {
+   "cap": 8,
+   "v": 24,
+   "texto": "Moisés pone sangre en la oreja derecha, en el pulgar de la mano derecha y en el del pie derecho; la «ternilla» es el lóbulo o el borde de la oreja. Se han dado varias explicaciones: que el sacerdote quedaba consagrado para escuchar, para obrar y para andar, o que las extremidades representaban a la persona entera."
+  },
+  {
+   "cap": 8,
+   "v": 28,
+   "texto": "El carnero de «las consagraciones» se llama en hebreo milluim, de llenar: Moisés pone las porciones en las manos de Aarón y sus hijos, y llenar la mano era la expresión hebrea para instalar a alguien en su oficio. La «lasaña» del versículo 26 no es el plato italiano: era una torta delgada, como una oblea."
+  },
+  {
+   "cap": 9,
+   "v": 1,
+   "texto": "Pasados los siete días de la consagración llega el «día octavo», el primer día en que Aarón oficia como sacerdote. Todas las ofrendas de los capítulos 1 al 7 aparecen ahora juntas, por Aarón y por el pueblo, con una promesa: «Jehová se aparecerá hoy á vosotros»."
+  },
+  {
+   "cap": 9,
+   "v": 22,
+   "texto": "Aarón levanta las manos y bendice al pueblo. Aquí no se dicen las palabras; muchos lectores, judíos y cristianos, las han relacionado con la bendición sacerdotal que aparece en Números, capítulo 6, y que todavía se pronuncia en sinagogas e iglesias."
+  },
+  {
+   "cap": 9,
+   "v": 24,
+   "texto": "El fuego que sale «de delante de Jehová» consume lo que ya ardía en el altar, y el texto lo presenta como la respuesta de Dios a la ofrenda. La frase «cayeron sobre sus rostros» describe la postración, con la frente en el suelo, el gesto de adoración y respeto más hondo en el antiguo Oriente."
+  },
+  {
+   "cap": 10,
+   "v": 1,
+   "texto": "Nadab y Abiú eran los dos hijos mayores de Aarón, y habían subido al monte con Moisés y los setenta ancianos, en Éxodo 24. El «incensario» era un recipiente para llevar brasas y quemar incienso sobre ellas. Qué fue exactamente el «fuego extraño», el texto no lo dice: solo que era algo que Dios «nunca les mandó»."
+  },
+  {
+   "cap": 10,
+   "v": 6,
+   "texto": "Descubrirse la cabeza o soltarse el cabello, y rasgar la ropa, eran gestos de luto. A Aarón y a los hijos que le quedaban, ungidos y en servicio, se les pide no hacerlo, mientras todo el pueblo sí llora. «Ithamar» es Itamar, otro hijo de Aarón; Misael y «Elzaphán», hoy Elzafán, los que sacaron los cuerpos, eran primos de Aarón, hijos de su tío «Uzziel», hoy Uziel."
+  },
+  {
+   "cap": 10,
+   "v": 9,
+   "texto": "La «sidra» no es aquí la bebida de manzana: así traducía la versión de 1909 una palabra hebrea que nombra cualquier bebida fuerte, como la cerveza de cebada o el vino de dátiles, comunes en el antiguo Oriente. Esta regla va unida a la tarea que se describe enseguida: distinguir y enseñar."
+  },
+  {
+   "cap": 10,
+   "v": 18,
+   "texto": "Moisés se apoya en la regla del capítulo 6: si la sangre de la expiación no entraba en el santuario, los sacerdotes debían comer la carne en el lugar santo, y aquí la quemaron. En el versículo siguiente, Aarón responde desde lo que acaba de vivir ese mismo día."
+  },
+  {
+   "cap": 11,
+   "v": 3,
+   "texto": "Para los animales de tierra se piden dos señales a la vez: pezuña partida en dos y rumiar, es decir, volver a masticar lo que ya se comió. Así entran las vacas, las ovejas, las cabras y animales de caza como el ciervo o la gacela. Los que tienen solo una de las dos señales quedan fuera."
+  },
+  {
+   "cap": 11,
+   "v": 6,
+   "texto": "El «conejo» de la versión de 1909 traduce la palabra hebrea shafán, que se refiere al damán de roca, un animalito que vive entre las piedras en Israel; los conejos no eran de esa región. El damán y la liebre mueven la boca como si rumiaran: el texto describe lo que se ve, no la clasificación de la zoología moderna."
+  },
+  {
+   "cap": 11,
+   "v": 19,
+   "texto": "Los nombres hebreos de estas aves son difíciles de identificar, y las traducciones varían. La mayoría parecen ser aves de rapiña o que comen carroña, como águilas, buitres y cuervos, y algunas aves de agua. La versión de 1909 usó nombres tomados del latín: el «onocrótalo» es el pelícano, y el «herodión», una garza. El murciélago se cuenta entre lo que vuela, sin la clasificación moderna."
+  },
+  {
+   "cap": 11,
+   "v": 22,
+   "texto": "La versión de 1909 usa «reptil» para una palabra hebrea que abarca todo animalito que pulula o se arrastra, también los insectos. De los que vuelan, solo podían comerse langostas y saltamontes, como todavía se hace en partes de Arabia y de África. El «langostín» no es el marisco sino otra clase de saltamontes, y «aregol» y «haghab» son nombres hebreos de langostas."
+  },
+  {
+   "cap": 11,
+   "v": 25,
+   "texto": "Quedar «inmundo hasta la tarde» quería decir que la impureza más leve duraba hasta la puesta del sol, cuando para los israelitas empezaba el día siguiente. Bastaba lavar la ropa o bañarse y esperar. Mientras tanto, la persona no podía entrar al santuario ni comer de lo consagrado, pero seguía con su vida normal."
+  },
+  {
+   "cap": 11,
+   "v": 30,
+   "texto": "Tampoco aquí es seguro qué animal nombra cada palabra hebrea. La versión de 1909 siguió traducciones antiguas, pero varios de estos nombres parecen referirse a distintas clases de lagartijas, como el gecko o el camaleón. Lo que tienen en común es que van pegados al suelo."
+  },
+  {
+   "cap": 11,
+   "v": 45,
+   "texto": "La frase «seréis santos, porque yo soy santo» aparece en estos versículos por primera vez, y volverá varias veces a lo largo del libro. El texto une la santidad con la salida de Egipto: el Dios que los sacó de allí los aparta para sí. Siglos después, la primera carta de Pedro citará estas palabras."
+  },
+  {
+   "cap": 12,
+   "v": 5,
+   "texto": "La madre quedaba impura, como en su menstruación, una semana si nacía un niño y dos si nacía una niña; después seguía un tiempo más largo, 33 o 66 días, en que hacía su vida en casa pero no tocaba nada consagrado ni iba al santuario. Por qué el plazo se duplica con una niña, el texto no lo dice, y las explicaciones propuestas no coinciden."
+  },
+  {
+   "cap": 12,
+   "v": 8,
+   "texto": "El texto no menciona ninguna falta de la madre: dice que, con la ofrenda, ella «será limpia del flujo de su sangre». Las dos tórtolas o palominos son la opción de quien no podía pagar un cordero. Según Lucas, capítulo 2, esa fue la ofrenda que llevaron María y José cuando presentaron a Jesús en el templo."
+  },
+  {
+   "cap": 13,
+   "v": 2,
+   "texto": "La «lepra» de este capítulo traduce la palabra hebrea tsaraat, que abarcaba varias enfermedades de la piel y, como se verá, también manchas de moho en ropas y casas. No es necesariamente lo que hoy llamamos lepra, la enfermedad de Hansen: las señales que se describen no coinciden bien con ella. La «postilla» es una costra, y la «tez», la superficie de la piel."
+  },
+  {
+   "cap": 13,
+   "v": 4,
+   "texto": "El sacerdote no actúa como médico: no receta ni cura, solo observa, decide y declara. Se fija en señales concretas: si el pelo se volvió blanco, si la llaga parece más honda que la piel y si se extiende. Si hay duda, «encerrará» a la persona siete días, es decir, la aísla, y después vuelve a examinarla."
+  },
+  {
+   "cap": 13,
+   "v": 13,
+   "texto": "Parece extraño que quien queda blanco de pies a cabeza sea declarado limpio. Lo que el texto toma como señal de impureza es la «carne viva», la llaga abierta; muchos lo explican como señal de que, cuando toda la piel se ha vuelto blanca, el mal ya siguió su curso. Se han propuesto distintas enfermedades que encajarían con esta descripción."
+  },
+  {
+   "cap": 13,
+   "v": 18,
+   "texto": "La «apostema» es un absceso o forúnculo. Desde aquí el texto aplica los mismos criterios a las marcas que deja un absceso ya sanado y, después, una quemadura: el sacerdote distingue la cicatriz que se queda quieta de la llaga que se extiende."
+  },
+  {
+   "cap": 13,
+   "v": 30,
+   "texto": "La «tiña» de esta versión es una llaga en el cuero cabelludo o en la barba, con el pelo rubio y adelgazado, es decir, amarillento y ralo. Hoy se piensa en infecciones de hongos o en otras enfermedades del cabello. Si vuelve a salir el pelo negro, es señal de que sanó."
+  },
+  {
+   "cap": 13,
+   "v": 41,
+   "texto": "El «empeine» del versículo 39 es una erupción leve de la piel, con manchas blanquecinas, que no hace impura a la persona. Tampoco la calvicie, ni arriba ni en la frente: solo una llaga blanca rojiza en la calva se examina como las demás. El texto separa con cuidado lo inofensivo de lo que no lo es."
+  },
+  {
+   "cap": 13,
+   "v": 46,
+   "texto": "La persona declarada impura vivía fuera del campamento y llevaba las señales del luto: ropa rasgada, cabello suelto y el rostro cubierto hasta el labio, que eso es ir «embozado». Gritar «¡Inmundo!» avisaba a los demás para que no se acercaran. En los evangelios aparecen leprosos que se paran de lejos y le gritan a Jesús."
+  },
+  {
+   "cap": 13,
+   "v": 49,
+   "texto": "Ahora la «lepra» está en la ropa y en el cuero: manchas verdosas o rojizas que crecen, lo que hoy llamaríamos moho u hongos. El «estambre» y la «trama» son los hilos de un tejido, los que van a lo largo y los que van a lo ancho. Lo que no se podía limpiar, se quemaba."
+  },
+  {
+   "cap": 14,
+   "v": 4,
+   "texto": "Como la persona todavía vivía fuera del campamento, el sacerdote salía a verla. Para el rito se usaba madera de cedro; «grana», que es lana o hilo teñido de rojo intenso; e «hisopo», una planta aromática que muchos identifican con una especie de orégano silvestre de la región. Las «aguas vivas» del versículo siguiente son aguas de manantial o corrientes."
+  },
+  {
+   "cap": 14,
+   "v": 7,
+   "texto": "Una avecilla muere y la otra, mojada en su sangre, queda libre y se va volando al campo. Muchos estudiosos ven aquí un rito en el que la impureza se aleja con el ave; en el antiguo Oriente había ritos parecidos, en que un animal se llevaba el mal lejos. El mismo esquema se repetirá con la casa."
+  },
+  {
+   "cap": 14,
+   "v": 9,
+   "texto": "El regreso era por etapas: primero, fuera del campamento, el rito de las aves; luego, dentro del campamento pero fuera de su tienda, siete días; al séptimo, se rapaba todo el pelo y se lavaba; y al octavo, se presentaba en el santuario con sus ofrendas. Así volvía a la vida común y al culto."
+  },
+  {
+   "cap": 14,
+   "v": 10,
+   "texto": "Las «tres décimas» son tres décimas partes de un efa de harina, unos 6 litros y medio. El «log» era una medida pequeña de aceite, de aproximadamente un tercio de litro. Otra medida de líquidos que aparece en Éxodo y más adelante en Levítico es el hin, de algo menos de 4 litros."
+  },
+  {
+   "cap": 14,
+   "v": 14,
+   "texto": "La sangre y luego el aceite se ponen en la oreja derecha, en el pulgar de la mano y en el del pie, igual que en la consagración de los sacerdotes del capítulo 8. La persona que había vivido apartada recibe, al volver, un rito parecido al de los que servían en el santuario."
+  },
+  {
+   "cap": 14,
+   "v": 36,
+   "texto": "Esta ley mira al futuro, cuando el pueblo viviera en casas de piedra en Canaán: las paredes llevaban un revoque de barro, y en los inviernos lluviosos podían aparecer manchas de moho. Un detalle práctico: se vaciaba la casa antes de que el sacerdote entrara, porque lo que había dentro solo quedaba impuro si él la declaraba así."
+  },
+  {
+   "cap": 15,
+   "v": 2,
+   "texto": "Este capítulo habla con pudor de los flujos del cuerpo: «carne» se usa aquí para los órganos sexuales. Primero trata del flujo anormal del varón, que es una enfermedad. Lo que él toca y aquello donde se acuesta o se sienta quedan impuros, y quien tiene contacto con ello se lava y espera a la tarde."
+  },
+  {
+   "cap": 15,
+   "v": 18,
+   "texto": "Las emisiones normales y la unión de un hombre y una mujer solo dejaban impuro hasta la tarde, con un baño, y no pedían ofrenda; la impureza solo impedía, por ese día, acercarse a lo sagrado. Los flujos que se prolongaban por enfermedad, en cambio, terminaban con siete días de espera y una ofrenda al octavo día."
+  },
+  {
+   "cap": 15,
+   "v": 19,
+   "texto": "Durante su menstruación, la mujer quedaba «apartada» siete días. El texto no la saca de su casa: lo que usaba para acostarse o sentarse quedaba impuro, y quien lo tocaba lavaba su ropa, se bañaba y esperaba a la tarde. Siete días es también el plazo de la impureza del varón con flujo, una vez que sana."
+  },
+  {
+   "cap": 15,
+   "v": 25,
+   "texto": "Aquí se trata del flujo de sangre fuera de lo normal, que podía durar mucho tiempo, y la mujer quedaba impura mientras duraba. En los evangelios aparece una mujer que llevaba doce años con flujo de sangre y que, entre la multitud, se atrevió a tocar el borde del manto de Jesús."
+  },
+  {
+   "cap": 16,
+   "v": 2,
+   "texto": "Esta ley llega después de la muerte de Nadab y Abiú, contada en el capítulo 10. Entrar «del velo adentro» es entrar en el lugar santísimo, la parte más interna de la tienda, donde estaba el arca. La «cubierta» era la tapa de oro del arca, con dos querubines, a la que la tradición llama propiciatorio. Allí Dios se manifestaba «en la nube»."
+  },
+  {
+   "cap": 16,
+   "v": 4,
+   "texto": "Para este día el sumo sacerdote deja sus vestiduras de oro y colores y, después de bañarse, se viste solo de lino, con ropa sencilla. Así entraba en el lugar santísimo, y al terminar volvía a lavarse y a ponerse sus vestiduras de siempre."
+  },
+  {
+   "cap": 16,
+   "v": 8,
+   "texto": "Azazel es una palabra que solo aparece en este capítulo de toda la Biblia, y su sentido se discute desde la antigüedad. Por ahora basta saber que se echaban suertes: un macho cabrío se ofrecía a Jehová y el otro se enviaba vivo al desierto. Al final del capítulo nos detendremos en las explicaciones."
+  },
+  {
+   "cap": 16,
+   "v": 16,
+   "texto": "Aquí se ve adónde llevaban los capítulos anteriores: las «inmundicias», las «rebeliones» y los «pecados» del pueblo alcanzaban al santuario, que estaba en medio del campamento, y una vez al año había que limpiarlo, desde el lugar santísimo hasta el altar de afuera."
+  },
+  {
+   "cap": 16,
+   "v": 29,
+   "texto": "La orden «afligiréis vuestras almas» se entendió desde antiguo como ayunar; en otros pasajes de la Biblia, afligir el alma va unido al ayuno. El mes séptimo cae entre septiembre y octubre. Es el único día de ayuno que manda la ley de Moisés, y el descanso alcanza también al extranjero que vive entre ellos."
+  },
+  {
+   "cap": 16,
+   "v": 32,
+   "texto": "La frase «cuya mano hubiere sido llena» usa la expresión hebrea para la consagración, la misma de las «consagraciones» del capítulo 8. Se refiere a los sumos sacerdotes que vendrían después de Aarón, uno tras otro, de padre a hijo."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 7,
+   "v": 38,
+   "titulo": "Cinco ofrendas para acercarse a Dios",
+   "epoca": "En el segundo año después de la salida de Egipto; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El atrio del tabernáculo, en el campamento de Israel al pie del monte Sinaí",
+   "texto": "El versículo 38 dice que todo esto lo «intimó», es decir, lo ordenó, Jehová a Moisés en el monte Sinaí. Imagina el lugar. En medio del campamento, rodeado por las tiendas de las tribus, había un patio cerrado con cortinas de lino, de unos 45 metros de largo por 22 de ancho y algo más de 2 metros de alto. Al entrar por el lado oriental se veía primero el altar del holocausto, un cajón de madera de acacia cubierto de bronce, de algo más de 2 metros por lado y casi metro y medio de alto; después, una fuente de bronce con agua para que los sacerdotes se lavaran; y al fondo, la tienda del santuario. Allí llegaba un israelita con su becerro, su cordero, sus dos tórtolas o su puñado de harina. Si traía un animal, ponía la mano sobre su cabeza y lo degollaba él mismo, mientras los sacerdotes recogían la sangre y cuidaban el fuego. El humo subía casi sin parar.\n\nLos pueblos vecinos también ofrecían sacrificios, y mucho de lo que se lee aquí les habría resultado familiar. En Mesopotamia y en Egipto, el templo era la casa del dios: su estatua recibía cada día comida y bebida, ropa y perfumes, servidos por los sacerdotes, y la gente común rara vez entraba en el interior. En Ugarit, una ciudad de la costa de Siria cuyas tablillas son de los siglos 14 y 13 antes de Cristo, los textos de culto mencionan ofrendas quemadas y sacrificios con un nombre emparentado con el hebreo de las paces. En Mesopotamia, además, muchos animales se sacrificaban para examinar su hígado y leer en él el futuro; en Mari se hallaron modelos de hígado hechos de barro, de hacia el siglo 18 antes de Cristo, que probablemente servían para enseñar o registrar ese arte. Y en la Epopeya de Gilgamesh, cuando Utnapishtim, el sobreviviente del diluvio, ofrece un sacrificio, los dioses huelen el aroma y se juntan como moscas alrededor del que ofrece.\n\nEn otras cosas, el culto que describe Levítico era distinto. En el santuario no había ninguna imagen de Dios: en su interior estaba el arca con las tablas de la ley. Las instrucciones no son un saber secreto de especialistas, porque el libro empieza dirigiéndose a todos: «Habla á los hijos de Israel». No hay conjuros ni lectura de entrañas, y lo único que el texto dice del hígado es que una pieza unida a él se quema en el altar. Casi no se prescriben palabras, salvo la confesión, y por eso algunos estudiosos han hablado de un culto en silencio. Las leyes piensan también en el que tiene poco: quien no tenía ganado podía traer aves, y quien no tenía aves, harina. El libro conserva expresiones antiguas, como el «olor de suavidad» o la ofrenda llamada «vianda», pero en ningún momento describe a Dios comiendo.\n\nLas cinco ofrendas pueden resumirse así. El holocausto se quemaba entero: todo subía a Dios. El presente, de harina, aceite e incienso, era un regalo, como el tributo que se llevaba a un rey. El sacrificio de paces era una comida en la que Dios, el sacerdote y la familia compartían el mismo animal. La expiación por el pecado purificaba el santuario y a la persona de faltas cometidas sin intención y de impurezas. Y la expiación por la culpa reparaba un daño: se devolvía lo tomado, con una quinta parte más. Los estudiosos suelen agruparlas en torno a tres ideas, el regalo, la comunión y la purificación, aunque en una misma ofrenda pueden mezclarse varias.\n\nPara quienes escucharon estas leyes por primera vez, todo esto era parte de la vida. Eran pastores y campesinos que comían carne pocas veces, así que un sacrificio de paces era una fiesta. Lo que se ofrecía salía de su propio rebaño o de su propia cosecha, del trabajo de sus manos. Y estas ofrendas no aparecen de la nada: Abel trajo de los primogénitos de sus ovejas, Noé ofreció holocaustos al salir del arca y Abraham levantó altares por donde pasaba. Lo nuevo es que ahora hay un lugar, un sacerdocio y un orden, en medio del campamento donde Dios había dicho que habitaría.",
+   "preguntas": [
+    "¿Qué te llama la atención de que fuera el mismo oferente quien ponía la mano sobre el animal y lo degollaba?",
+    "¿Por qué crees que la ley daba otras opciones a quien tenía poco?"
+   ]
+  },
+  {
+   "cap": 8,
+   "v": 36,
+   "titulo": "Siete días para consagrar a los sacerdotes",
+   "epoca": "El mes en que se levantó el tabernáculo; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "La puerta del tabernáculo, ante toda la congregación, al pie del Sinaí",
+   "texto": "Lo que acabas de escuchar estaba anunciado. En Éxodo, capítulos 28 y 29, Dios había dado a Moisés las instrucciones sobre las vestiduras de los sacerdotes y sobre esta ceremonia, y aquí se cumplen una por una. Entre aquel encargo y este día pasó algo que los oyentes no podían olvidar: en Éxodo 32, mientras Moisés estaba en el monte, el mismo Aarón hizo el becerro de oro que el pueblo le pidió. Ahora es Aarón quien recibe el sacerdocio, delante de toda la congregación reunida a la puerta del tabernáculo. El texto no comenta nada; solo muestra a Moisés lavándolo, vistiéndolo y ungiéndolo.\n\nConviene distinguir a los sacerdotes de los levitas. Todos venían de la tribu de Leví, la de Moisés y Aarón, pero solo Aarón y sus descendientes eran sacerdotes: ofrecían los sacrificios, entraban en la tienda, bendecían al pueblo, consultaban a Dios con el Urim y Tumim y enseñaban la ley. Los demás levitas, según el libro de Números, los ayudaban y se encargaban de desarmar, llevar y volver a armar el tabernáculo en el camino. En Éxodo 32, después del becerro, fueron los hijos de Leví los que se pusieron del lado de Moisés. Ni los sacerdotes ni los levitas recibirían una porción de tierra como las demás tribus: vivirían de las ofrendas y de los diezmos del pueblo.\n\nLos pueblos vecinos también tenían sacerdotes, a veces muy poderosos. En Egipto, los templos poseían tierras, rebaños y talleres, y a una clase de sacerdotes se la llamaba con una palabra que significa los puros. El historiador griego Heródoto, en el siglo 5 antes de Cristo, cuenta que los sacerdotes egipcios se rapaban todo el cuerpo, vestían solo lino y se bañaban dos veces al día y dos veces cada noche. En Ugarit, en la costa de Siria, a los sacerdotes se los llamaba con una palabra de la misma raíz que la hebrea kohen, la que usa este libro. Lo que llama la atención en Levítico es que la consagración se hace en público, a la vista de todo el pueblo, y que el sumo sacerdote también trae ofrendas por sus propias faltas, como se vio en el capítulo 4.\n\nLa ceremonia sigue un orden. Primero el lavado con agua; luego las vestiduras y la unción con aceite, que apartaba para Dios tanto el santuario como a las personas. Después, tres sacrificios: una expiación que purificaba el altar, un holocausto y el carnero de las consagraciones, cuya sangre tocó la oreja, la mano y el pie de cada uno. Al final, una comida a la puerta del tabernáculo y siete días sin salir de allí, con ofrendas cada día, según Éxodo 29. Muchos pueblos han marcado los grandes cambios de la vida con ritos así, en los que alguien se separa por un tiempo, cruza un umbral y vuelve con un lugar nuevo; los antropólogos los llaman ritos de paso. Algunos lectores han relacionado los siete días con la semana de la creación con que comienza Génesis.\n\nPara los primeros oyentes, la escena tenía un peso que hoy se nos escapa. La unción con aceite se usaría más adelante para consagrar reyes, y de la palabra hebrea para ungido viene, como se dijo, Mesías. El sumo sacerdote llevaba sobre el pecho los nombres de las doce tribus, grabados en piedras, y en la frente una plancha de oro dedicada a Jehová: entraba ante Dios cargando, por así decirlo, a todo el pueblo. Pero todavía faltaba el primer día de servicio, el día octavo.",
+   "preguntas": [
+    "¿Qué habrá pensado el pueblo al ver a Aarón, el del becerro de oro, vestido y ungido como sumo sacerdote?",
+    "¿Por qué crees que la consagración se hizo a la vista de todos?"
+   ]
+  },
+  {
+   "cap": 10,
+   "v": 20,
+   "titulo": "Un día de gloria y de luto",
+   "epoca": "El día octavo, primer día del culto en el tabernáculo; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El atrio y la puerta del tabernáculo, en el campamento al pie del Sinaí",
+   "texto": "Los capítulos 9 y 10 cuentan un solo día. Aarón ofrece por primera vez las ofrendas por sí mismo y por el pueblo, bendice a la multitud, y el fuego que sale de delante de Jehová consume lo que estaba sobre el altar; el pueblo alaba y cae sobre su rostro. Ese mismo día, como dirá Aarón al final, Nadab y Abiú presentan un fuego que Dios no había mandado y mueren. El texto pone las dos escenas una junto a la otra, y en las dos aparece el mismo fuego que sale de delante de Jehová.\n\nNadab y Abiú no eran cualquiera. Eran los hijos mayores de Aarón, llamados a subir al monte con Moisés y los setenta ancianos, en Éxodo 24, donde, dice el texto, vieron al Dios de Israel y comieron y bebieron. Por edad, eran los primeros en la línea del sacerdocio. Qué hicieron mal, el texto lo dice en pocas palabras: ofrecieron «fuego extraño, que él nunca les mandó». Desde antiguo se han dado varias explicaciones. Unos piensan que tomaron brasas que no venían del altar; otros, que ofrecieron incienso a destiempo o entraron donde no les tocaba; otros, que actuaron por su cuenta, sin consultar a Moisés ni a Aarón. Algunos maestros judíos dedujeron, por la ley sobre el vino que viene enseguida, que habían bebido. El texto no decide entre esas posibilidades.\n\nEn el mundo antiguo, acercarse a lo sagrado era a la vez un privilegio y un riesgo. Unas instrucciones hititas para los servidores de los templos, de aproximadamente los siglos 14 y 13 antes de Cristo, piden baños, ropa limpia y mucho cuidado con la comida del dios, y advierten que el descuido podía costar la vida. En Levítico, la presencia de Dios se muestra aquí como fuego: el mismo que acepta la ofrenda del capítulo 9 es el que alcanza a los dos hermanos. Moisés lo explica con palabras que Dios había dicho: «En mis allegados me santificaré». Y el texto añade solo esto: «Y Aarón calló».\n\nLo que sigue muestra las exigencias del sacerdocio. Aarón y los dos hijos que le quedan, Eleazar e Itamar, no pueden hacer las señales de luto ni salir de la puerta del tabernáculo, porque tienen sobre sí el aceite de la unción; los parientes y todo el pueblo serán quienes lloren. Dios habla entonces directamente a Aarón y le da tres encargos: no beber vino ni bebida fuerte al entrar a servir, distinguir entre lo santo y lo profano y entre lo inmundo y lo limpio, y enseñar al pueblo. Esa tarea de distinguir es la que ocupará los capítulos que vienen.\n\nLa discusión del final es difícil de seguir. Moisés esperaba que los sacerdotes comieran la carne del macho cabrío de la expiación, como manda el capítulo 6, y descubre que la quemaron. Aarón le responde con una pregunta: si él hubiera comido de esa ofrenda en un día como ese, ¿lo habría aceptado Jehová? Muchos lo han entendido como una referencia al luto, porque una ley de Deuteronomio, en el capítulo 26, supone que lo consagrado no se come estando de duelo; otros piensan que Aarón juzgó que, después de lo ocurrido, no estaban en condiciones de comer algo tan santo. Moisés escuchó, y «dióse por satisfecho».",
+   "preguntas": [
+    "¿Qué piensas del silencio de Aarón ante lo que acababa de pasar?",
+    "¿Por qué crees que Moisés aceptó la respuesta de su hermano?"
+   ]
+  },
+  {
+   "cap": 11,
+   "v": 47,
+   "titulo": "Lo limpio y lo inmundo",
+   "epoca": "Leyes de la comida que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento del desierto y, después, las aldeas de Canaán",
+   "texto": "El capítulo 10 terminó encargando a los sacerdotes distinguir entre lo inmundo y lo limpio, y el 11 empieza por lo más cotidiano: la comida. Conviene tener claras las palabras. Santo es lo que pertenece a Dios, y profano, lo común. Limpio es lo que puede acercarse a lo santo; inmundo, lo que por un tiempo no puede. La impureza no es suciedad ni pecado: tocar el cadáver de un animal, por ejemplo, a veces era inevitable, y se resolvía lavando la ropa y esperando la tarde. Pero en la comida hay algo más: los animales inmundos no se debían comer nunca, y esa regla alcanzaba a todo el pueblo, no solo a los sacerdotes.\n\nEn el mundo antiguo había muchas reglas de pureza, pero casi siempre tocaban a los sacerdotes y a los templos. Heródoto cuenta que los sacerdotes egipcios no comían pescado. Unas instrucciones hititas para los servidores del templo prevén qué hacer si un cerdo o un perro toca los utensilios donde se prepara la comida del dios: hay que desecharlos. En Israel, en cambio, la regla llega a cada casa y a cada comida. La arqueología muestra algo llamativo: en muchas aldeas de las montañas de Canaán de los siglos 12 y 11 antes de Cristo, que la mayoría de los estudiosos asocia con los primeros israelitas, casi no aparecen huesos de cerdo, mientras que en las ciudades filisteas de la costa son frecuentes. Los arqueólogos discuten qué significa exactamente.\n\n¿Por qué estos animales y no otros? El texto da su propia razón: «seréis santos, porque yo soy santo», y dice que estas reglas sirven para distinguir «entre inmundo y limpio». Los lectores, judíos y cristianos, han propuesto otras explicaciones. Una piensa en la salud: el filósofo judío Maimónides, en el siglo 12 después de Cristo, sostuvo que los animales prohibidos eran dañinos, y en tiempos modernos se ha señalado que el cerdo puede transmitir parásitos; se le objeta que también enferman animales permitidos y que el texto nunca habla de salud. Otra es simbólica: un escrito judío en griego, la Carta de Aristeas, de hacia el siglo 2 antes de Cristo, y después Filón de Alejandría, vieron en la pezuña partida una imagen del discernimiento, y en el rumiar, la de quien medita y recuerda.\n\nUna tercera explicación habla de orden y separación. La antropóloga británica Mary Douglas propuso en 1966 que son limpios los animales que encajan del todo en su medio, como el pez con aletas y escamas en el agua o el animal que rumia y tiene pezuña partida en la tierra, y que los que quedan entre categorías se tienen por impuros; más tarde ella misma matizó su idea. Otros estudiosos, como el estadounidense Jacob Milgrom, unen estas reglas con el respeto por la vida: entre las aves se excluyen sobre todo las que cazan o comen carroña, y nunca se come la sangre. Y el mismo Levítico, en el capítulo 20, une la diferencia entre animales limpios e inmundos con la de un Israel apartado de los demás pueblos. Cada explicación tiene sus defensores y sus críticos.\n\nPara una familia israelita, estas leyes se vivían en cada comida. La dieta común era sobre todo pan, legumbres, aceite de oliva, leche, higos y uvas; la carne de oveja o de cabra se comía en ocasiones especiales. El pescado llegaba del mar o de los lagos, y las langostas, cuando abundaban, eran una comida más. Siglos después, la tradición judía desarrolló a partir de este capítulo y de otros pasajes las reglas de la comida kosher, que muchos judíos guardan hasta hoy. Y en el Nuevo Testamento, la visión de Pedro en Hechos, capítulo 10, y las discusiones de los primeros cristianos muestran que la pregunta por lo limpio y lo inmundo siguió viva.",
+   "preguntas": [
+    "¿Qué efecto crees que tenía en una familia recordar, en cada comida, la diferencia entre lo limpio y lo inmundo?",
+    "¿Cuál de las explicaciones te parece más cercana al texto, y por qué?"
+   ]
+  },
+  {
+   "cap": 15,
+   "v": 33,
+   "titulo": "La pureza del cuerpo y de la casa",
+   "epoca": "Leyes de pureza que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "Las tiendas del campamento y, más tarde, las casas de piedra y barro de Canaán",
+   "texto": "Los capítulos 12 al 15 tratan de lo que le pasa al cuerpo: el parto, las enfermedades de la piel, los flujos. En medio aparecen también la ropa y la casa. Casi todo es natural y muchas veces inevitable, y en estos capítulos el texto no lo presenta como castigo ni como pecado. Lo que pide es tiempo, agua y, en los casos más largos, una ofrenda al final. El versículo 31 del capítulo 15 da una razón: que el pueblo no muera «ensuciando mi tabernáculo que está entre ellos». El texto no habla de higiene, sino de la cercanía del santuario en medio del campamento.\n\nLa llamada lepra merece una explicación. La palabra hebrea, tsaraat, abarcaba varias afecciones que se reconocían por su aspecto: manchas, escamas, llagas que se hundían o se extendían. Cuando la Biblia se tradujo al griego, se usó la palabra lepra, que en la medicina griega designaba enfermedades escamosas de la piel; la enfermedad que hoy llamamos lepra, o de Hansen, recibía otro nombre. Por eso muchos estudiosos piensan en males como la psoriasis, el vitiligo o las infecciones de hongos. Que la misma palabra sirva para el moho de una tela o de una pared hace pensar a muchos que el texto nombra un tipo de mancha que crece y corroe, más que una enfermedad concreta.\n\nEn Mesopotamia, los enfermos acudían a dos clases de especialistas: el asu, que preparaba remedios, y el ashipu, que recitaba conjuros contra los demonios a los que se atribuía el mal. En Babilonia se conservan los kudurru, piedras que registraban donaciones de tierras con sus linderos, muchas de ellas de entre 1400 y 1000 antes de Cristo. Solían terminar con maldiciones contra quien moviera el lindero, como esta: que el dios luna lo cubriera de una enfermedad de la piel como de un vestido, para que anduviera errante fuera de su ciudad. En Levítico no hay conjuros ni remedios. El sacerdote no cura: mira, aísla, espera y declara, y cuando la persona sana, la recibe de vuelta con un rito. Mientras tanto, el enfermo vivía fuera del campamento, con las señales del luto, avisando a gritos que era inmundo.\n\nLa ley de las casas mira hacia el futuro, cuando el pueblo viviera en Canaán. Las casas típicas de las aldeas israelitas, que los arqueólogos llaman casas de cuatro espacios, tenían cimientos de piedra, paredes de piedra o de adobe revocadas con barro, y techos de vigas, ramas y tierra apisonada. En los inviernos lluviosos de las montañas, la humedad y el moho no eran raros. El procedimiento es el mismo que con la piel: mirar, cerrar siete días, quitar las piedras afectadas y, si la mancha volvía, derribar la casa.\n\nEl capítulo 15 está construido con cuidado: primero el flujo anormal del varón, luego lo normal en el varón, luego lo normal en la mujer y al final el flujo anormal de la mujer, con reglas parecidas para los dos. Varios estudiosos han propuesto una explicación de conjunto para estas impurezas: la sangre y el semen que se pierden, la piel que parece carne que se deshace y el cadáver tendrían que ver con la muerte, mientras que el santuario es el lugar del Dios de la vida. Otros prefieren la idea de lo íntegro y lo completo. El texto no lo explica, pero para cada caso señala un camino de regreso cuando el mal termina.",
+   "preguntas": [
+    "¿Qué crees que significaba para una persona aislada fuera del campamento que el sacerdote saliera a verla?",
+    "¿Por qué crees que estas leyes cuidan tanto lo que se acerca al santuario?"
+   ]
+  },
+  {
+   "cap": 16,
+   "v": 34,
+   "titulo": "El día de la expiación",
+   "epoca": "Un rito que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El lugar santísimo del tabernáculo y el desierto que rodeaba el campamento",
+   "texto": "El capítulo 16 recoge los hilos de todo lo anterior. Empieza recordando a Nadab y Abiú, que murieron cuando se llegaron delante de Jehová, y explica la única manera en que el sumo sacerdote podía entrar más allá del velo: un solo día al año, el décimo del mes séptimo, entre septiembre y octubre. Éxodo 30 ya lo había anunciado al hablar del altar del incienso. Los capítulos de la pureza habían dicho que las impurezas del pueblo alcanzaban el santuario; este día es la gran limpieza de todo: el lugar santísimo, la tienda, el altar, los sacerdotes y el pueblo entero.\n\nEl rito se puede seguir paso a paso. Aarón se baña y se viste de lino. Ofrece un becerro por sí mismo y por su casa, entra con el incensario para que la nube del incienso cubra la tapa del arca, y rocía la sangre. Luego hace lo mismo con el macho cabrío que la suerte señaló para Jehová, por el pueblo. Sale y purifica el altar. Entonces pone ambas manos sobre el otro macho cabrío, confiesa sobre él los pecados de Israel, y un hombre lo lleva al desierto. Al final se lava de nuevo, vuelve a sus vestiduras y ofrece los holocaustos. Todo el pueblo, mientras tanto, aflige su alma y no trabaja.\n\nEl nombre Azazel ha recibido varias explicaciones desde antiguo. Algunos maestros judíos lo entendieron como el nombre de un lugar, un peñasco escarpado del desierto. La antigua traducción griega y después la latina lo leyeron como el macho cabrío que se va o que es enviado, y de esa tradición viene nuestra expresión chivo expiatorio. Otros lo ven como el nombre de un ser del desierto: en el libro de Enoc, un escrito judío de los últimos siglos antes de Cristo que no forma parte de la mayoría de las Biblias, Azazel es uno de los jefes de los ángeles caídos. Y hay quien lo entiende como una palabra que significa eliminación total. El texto no presenta al macho cabrío como un sacrificio para Azazel: los dos animales se ponen delante de Jehová, y del que va al desierto se dice que «llevará sobre sí todas las iniquidades de ellos á tierra inhabitada».\n\nRitos parecidos existían en otros pueblos. Entre los hititas, en textos de los siglos 14 y 13 antes de Cristo, había ceremonias en que se adornaba un carnero u otro animal y se lo enviaba hacia tierra enemiga para que se llevara una peste. En Babilonia, según unos textos copiados en los últimos siglos antes de Cristo, durante la fiesta del año nuevo se limpiaba un templo frotándolo con el cuerpo de un carnero, que luego se arrojaba al río, y los que lo hacían debían quedarse fuera de la ciudad hasta el final de la fiesta; el verbo que esos textos usan para esa limpieza es pariente del hebreo kipper. Lo que distingue al rito de Levítico, según muchos estudiosos, es que aquí lo que se lleva no es una peste ni un demonio, sino las faltas del pueblo, confesadas en voz alta.\n\nEste día siguió celebrándose a lo largo de los siglos. La Misná, una recopilación de tradiciones judías puesta por escrito hacia el año 200 después de Cristo, dedica un tratado entero a cómo se hacía en el templo de Jerusalén, y cuenta que el macho cabrío era llevado a un despeñadero del desierto. Después de que los romanos destruyeron el templo, en el año 70 después de Cristo, los judíos siguieron guardando el Yom Kipur con ayuno, oración y confesión, y hasta hoy es el día más solemne de su calendario. En el Nuevo Testamento, la carta a los Hebreos, en sus capítulos 9 y 10, lee la obra de Jesús a la luz de este día en que el sumo sacerdote entraba una vez al año en el lugar santísimo.",
+   "preguntas": [
+    "¿Por qué crees que el rito necesitó dos machos cabríos, uno sacrificado y otro enviado vivo al desierto?",
+    "¿Qué pudo significar para el pueblo ver alejarse aquel animal hacia el desierto?"
+   ]
+  }
+ ]
+}
