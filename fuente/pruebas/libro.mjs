@@ -21,6 +21,9 @@ await p.waitForTimeout(2000);
 ok(await p.locator("#apertura").count() === 1, "a los 2 segundos sigue la apertura");
 await p.waitForTimeout(2800);
 ok(await p.locator("#apertura").count() === 0, "a los 4,8 segundos la apertura ya no está");
+// 1b. En el website está el enlace a godshome.app, y abre en otra pestaña para que el audio siga.
+const sentir = p.locator("#sentir");
+ok(await sentir.isVisible() && (await sentir.getAttribute("href")) === "https://www.godshome.app/" && (await sentir.getAttribute("target")) === "_blank", `enlace: ${(await sentir.innerText()).replace(/\n/g, " ")}`);
 // 2. Separadores: el de Inicio está marcado; tocar Éxodo pasa varias hojas y lleva a su introducción.
 ok((await p.locator('.separador[aria-current="true"]').innerText()).trim() === "Inicio", "el separador marcado es Inicio");
 await p.locator(".separador.sep-EXO").click();
