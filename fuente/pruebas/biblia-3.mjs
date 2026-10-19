@@ -36,19 +36,16 @@ await p.getByRole("heading", { name: "Génesis, Éxodo y Levítico" }).waitFor()
 comprobar(!(await p.getByRole("button", { name: /Continuar/ }).count()), "la primera visita no muestra Continuar");
 await p.screenshot({ path: `${DIR}/portada-390-noche.png` });
 
-// 1. Escuchar desde el principio: suena la introducción general con la voz del guía.
+// 1. Escuchar desde el principio: empieza la introducción de Génesis, con la voz del guía (la portada ya no tiene audio).
 await p.getByRole("button", { name: "Escuchar desde el principio" }).click();
 await p.waitForTimeout(2500);
 let a = await estadoAudio(p);
-comprobar(a && a.src === "INTRO.mp3" && !a.pausado && a.t > 0.5, `suena INTRO.mp3 (${JSON.stringify(a)})`);
+comprobar(a && a.src === "INTRO-GEN.mp3" && !a.pausado && a.t > 0.5, `suena INTRO-GEN.mp3 (${JSON.stringify(a)})`);
 comprobar((await p.locator("#punto-voz").getAttribute("class")).includes("guia"), "el punto del reproductor es el del guía");
-
-// 2. Avance automático: al terminar la introducción sigue la de Génesis y la página la muestra.
-await p.evaluate(() => { const x = window.__audio; x.currentTime = x.duration - 1.2; });
-await p.waitForTimeout(3500);
-a = await estadoAudio(p);
-comprobar(a.src === "INTRO-GEN.mp3" && !a.pausado, `al terminar pasa a INTRO-GEN.mp3 (${a.src})`);
 comprobar((await p.locator("#donde").innerText()) === "Introducción a Génesis", `la vista sigue al audio: ${await p.locator("#donde").innerText()}`);
+comprobar(!(await p.getByText("Antes de empezar").count()), "la introducción general ya no está en la página");
+
+// 2. Avance automático: al terminar la introducción de Génesis sigue Génesis 1 y la página lo muestra.
 await p.evaluate(() => { const x = window.__audio; x.currentTime = x.duration - 1.2; });
 await p.waitForTimeout(3500);
 a = await estadoAudio(p);
@@ -142,7 +139,8 @@ for (const [w, h, tema] of [[360, 740, "dark"], [360, 740, "light"], [390, 844, 
   const { p } = await pagina(w, h, tema, c);
   const t = tema === "dark" ? "noche" : "dia";
   await p.screenshot({ path: `${DIR}/portada-${w}-${t}.png` });
-  await p.getByRole("button", { name: "Ir a Génesis 1" }).click();
+  await p.locator(".libro-tarjeta").first().click();
+  await p.locator('.pie-cap [data-ir="GEN-01"]').click();
   await p.locator('.v[data-k="v3"]').click();
   await p.waitForTimeout(1200);
   await p.screenshot({ path: `${DIR}/capitulo-${w}-${t}.png` });
