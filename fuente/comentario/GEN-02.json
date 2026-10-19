@@ -1,0 +1,361 @@
+{
+ "tramo": "GEN-02",
+ "libro": "GEN",
+ "desde": {
+  "cap": 12,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 25,
+  "v": 18
+ },
+ "notas": [
+  {
+   "cap": 12,
+   "v": 3,
+   "texto": "La forma «bendecirte he» quiere decir «te bendeciré», y aparecerá varias veces. La promesa de que en Abram serán benditas todas las familias de la tierra se repite a lo largo del Génesis, y en el Nuevo Testamento la citan el apóstol Pedro, en el libro de los Hechos, y el apóstol Pablo, en la carta a los Gálatas."
+  },
+  {
+   "cap": 12,
+   "v": 5,
+   "texto": "La expresión «las almas que habían adquirido» se refiere a las personas que se habían sumado a la casa en Harán: siervos y trabajadores. Una antigua tradición judía la entendió también como las personas que Abram y Sarai habían acercado a la fe en el único Dios. Y la palabra «hacienda» quiere decir los bienes, sobre todo el ganado."
+  },
+  {
+   "cap": 12,
+   "v": 8,
+   "texto": "Abram recorre de norte a sur las montañas del centro de Canaán. Sichêm es Siquem, junto a la actual ciudad de Nablus; Bethel es Betel, que significa «casa de Dios», a menos de 20 kilómetros al norte de Jerusalén; y Hai, que también se escribe Ai, significa «el montón de ruinas»."
+  },
+  {
+   "cap": 12,
+   "v": 15,
+   "texto": "Faraón no es un nombre propio, sino un título: viene de una expresión egipcia que significa «casa grande», es decir, el palacio, y con el tiempo pasó a designar al rey. El texto no dice qué faraón gobernaba entonces. Un papiro egipcio de hacia 1200 antes de Cristo registra que se dejó pasar a pastores de Edom hasta unos estanques de Egipto, para que ellos y sus rebaños sobrevivieran."
+  },
+  {
+   "cap": 13,
+   "v": 10,
+   "texto": "La llanura del Jordán es el valle bajo del río, cerca del mar Muerto: una zona muy calurosa que, con agua, se vuelve muy fértil. La comparación con «el huerto de Jehová» recuerda el huerto del Edén, y Egipto era el ejemplo de una tierra siempre regada, gracias al Nilo. Zoar se ubica tradicionalmente en el extremo sur del mar Muerto."
+  },
+  {
+   "cap": 13,
+   "v": 18,
+   "texto": "Alcornocal es un bosque de alcornoques, árboles parecidos a la encina; el hebreo habla de árboles grandes, encinas o terebintos, que servían de señal en el paisaje. Mamre era también el nombre de un aliado de Abram. Hebrón está en las montañas del sur, a unos 30 kilómetros al sur de Jerusalén y a más de 900 metros de altura."
+  },
+  {
+   "cap": 14,
+   "v": 1,
+   "texto": "Shinar es Sinar, el sur de Mesopotamia; Elá, que en el versículo 9 se escribe Elam, era un reino del suroeste del actual Irán. Ninguno de estos cuatro reyes se ha identificado con seguridad fuera de la Biblia, aunque sus nombres tienen formas conocidas: Chêdorlaomer, hoy Quedorlaomer, parece un nombre elamita que incluye el de Lagamar, una divinidad de Elam, y Tidal recuerda a Tudhaliya, nombre de varios reyes hititas."
+  },
+  {
+   "cap": 14,
+   "v": 7,
+   "texto": "Los refaítas, los zuzitas, los emitas y los horeos eran pueblos antiguos de la región; el libro del Deuteronomio recuerda a los emitas y a los refaítas por su gran estatura. Seir es la zona montañosa que después fue de Edom, al sureste del mar Muerto; Cades es un oasis del desierto del sur, y Hazezón-tamar es, según otro pasaje de la Biblia, Engadi, junto al mar Muerto."
+  },
+  {
+   "cap": 14,
+   "v": 10,
+   "texto": "El valle de Siddim, que el versículo 3 identifica con «el mar salado», es decir, el mar Muerto, tenía pozos de betún. El betún es asfalto natural, que en esa zona todavía sale a la superficie y que en la antigüedad se usaba para impermeabilizar y para pegar ladrillos, como en la torre de Babel."
+  },
+  {
+   "cap": 14,
+   "v": 13,
+   "texto": "Es la primera vez que la Biblia llama «Hebreo» a alguien. El nombre se relaciona con Heber, antepasado de Abram, y con una raíz que significa pasar o cruzar: el que vino del otro lado del río. Algunos lo comparan con los habiru, gente sin tierra que mencionan documentos del segundo milenio antes de Cristo, pero esa relación se discute."
+  },
+  {
+   "cap": 14,
+   "v": 15,
+   "texto": "Los 318 hombres eran criados nacidos en su casa, preparados para defenderla. Dan está en el extremo norte del país; antes se llamaba Lais, y recibió el nombre de Dan siglos después de Abram, como cuenta el libro de los Jueces. Los hebreos se orientaban mirando hacia donde sale el sol, así que «á la izquierda de Damasco» quiere decir al norte de Damasco."
+  },
+  {
+   "cap": 14,
+   "v": 18,
+   "texto": "Melchîsedec, hoy Melquisedec, significa «rey de justicia». Salem se identifica tradicionalmente con Jerusalén. El «Dios alto», en hebreo El Elyón, es el Dios Altísimo, y esta es la primera vez que la Biblia llama sacerdote a alguien."
+  },
+  {
+   "cap": 15,
+   "v": 3,
+   "texto": "Eliezer significa «Dios es ayuda». Sin hijos, la herencia de Abram pasaría a este mayordomo, «uno nacido en mi casa». En documentos de Mesopotamia, como las tablillas de Nuzi, hay matrimonios sin hijos que adoptan a alguien para que los cuide en la vejez y los herede, y si después nace un hijo propio, ese hijo tiene la preferencia; se discute si el caso de Eliezer es de ese tipo."
+  },
+  {
+   "cap": 15,
+   "v": 6,
+   "texto": "Este versículo es uno de los más citados de la Biblia: el apóstol Pablo lo usa en sus cartas a los Romanos y a los Gálatas, y Santiago en su carta. La expresión «contóselo por justicia» quiere decir que Dios le tomó en cuenta esa confianza como justicia, como quien anota algo a favor de alguien."
+  },
+  {
+   "cap": 15,
+   "v": 18,
+   "texto": "El «río de Egipto» es, para muchos, el torrente de El Arish, en el norte de la península del Sinaí; otros piensan en el brazo oriental del Nilo. El «río grande» es el Éufrates, muy al norte. Son las fronteras más amplias que la Biblia da a la tierra prometida, parecidas a las que el primer libro de los Reyes atribuye al reino de Salomón."
+  },
+  {
+   "cap": 16,
+   "v": 7,
+   "texto": "Es la primera vez que la Biblia nombra al «ángel de Jehová»; la palabra ángel significa «mensajero». El «camino del Sur» es, en hebreo, el camino de Shur, el desierto del norte del Sinaí junto a la frontera de Egipto: Agar, egipcia, parece volver a su tierra."
+  },
+  {
+   "cap": 16,
+   "v": 12,
+   "texto": "Ismael significa «Dios oye», como explica el versículo anterior. La expresión «hombre fiero» lo compara, en hebreo, con el asno salvaje, el onagro, un animal libre del desierto que nadie logra domar: describe una vida libre e indómita en la estepa."
+  },
+  {
+   "cap": 17,
+   "v": 1,
+   "texto": "«Dios Todopoderoso» traduce el hebreo El Shaddai, un nombre que aparece aquí por primera vez y cuyo origen se discute: se ha relacionado con el poder, con las montañas y con la fecundidad. La orden «sé perfecto» quiere decir sé íntegro, entero delante de Dios."
+  },
+  {
+   "cap": 17,
+   "v": 5,
+   "texto": "Abram significa «padre enaltecido». Abraham suena en hebreo como «padre de una multitud», y así lo explica el mismo versículo. En el mundo antiguo, recibir un nombre nuevo marcaba una nueva condición o una misión, como cuando un rey de Egipto tomaba nombres nuevos al subir al trono."
+  },
+  {
+   "cap": 17,
+   "v": 12,
+   "texto": "La circuncisión, cortar el prepucio, se practicaba en Egipto y entre otros pueblos vecinos, por lo general en la juventud o antes del matrimonio; un relieve de una tumba egipcia de Saqqara, de hacia 2300 antes de Cristo, la representa. Lo propio aquí es hacerla a los ocho días de nacido, a todos los varones de la casa, como señal del pacto."
+  },
+  {
+   "cap": 17,
+   "v": 19,
+   "texto": "Sarai y Sara son dos formas de un mismo nombre, que significa «princesa» o «señora». Isaac significa «él ríe»: el nombre recuerda la risa de Abraham en el versículo 17, y la risa volverá a aparecer alrededor de su nacimiento."
+  },
+  {
+   "cap": 18,
+   "v": 8,
+   "texto": "Abraham ofrece mucho más de lo que dijo. Tres medidas de flor de harina son aproximadamente 22 litros de harina fina, pan para mucha gente; los panes «debajo del rescoldo» se cocían sobre piedras calientes y brasas, y la «manteca» era una especie de cuajada. Matar un becerro era un lujo reservado a huéspedes muy importantes."
+  },
+  {
+   "cap": 18,
+   "v": 11,
+   "texto": "La expresión «según el tiempo de la vida» quiere decir el año próximo, por esta misma época. Que a Sara «había cesado ya la costumbre de las mujeres» significa que ya no tenía la menstruación: había pasado la edad de tener hijos."
+  },
+  {
+   "cap": 18,
+   "v": 20,
+   "texto": "La palabra que aquí se traduce «clamor» es la que en hebreo se usa para el grito de auxilio de quien sufre una injusticia o una violencia. El texto presenta a Dios como un juez que baja a comprobar lo que ha oído antes de actuar."
+  },
+  {
+   "cap": 19,
+   "v": 1,
+   "texto": "La puerta de la ciudad era la plaza principal: allí se reunían los ancianos, se juzgaban los pleitos y se hacían los negocios. Que Lot esté sentado allí sugiere que ya tenía un lugar en la vida de Sodoma. De los tres visitantes de Abraham, solo dos llegan a la ciudad."
+  },
+  {
+   "cap": 19,
+   "v": 8,
+   "texto": "En «para que los conozcamos», el verbo conocer tiene el sentido de tener relaciones: la multitud quiere abusar por la fuerza de los huéspedes. Lot apela a la ley de la hospitalidad, porque quien entraba «á la sombra de mi tejado» quedaba bajo su protección. Desde antiguo, los lectores se han preguntado por la oferta de Lot, que el texto cuenta sin comentarla."
+  },
+  {
+   "cap": 19,
+   "v": 22,
+   "texto": "Zoar suena en hebreo como «pequeña», y por eso Lot insiste en que es una ciudad pequeña. Antes se llamaba Bela, como dijo el capítulo 14."
+  },
+  {
+   "cap": 20,
+   "v": 2,
+   "texto": "Gerar estaba en el oeste del Néguev, entre Beerseba y Gaza. Abimelech, hoy Abimelec, significa «mi padre es rey»; el nombre aparece también en otros textos antiguos, y algunos piensan que pudo ser un título de los reyes de la región."
+  },
+  {
+   "cap": 20,
+   "v": 7,
+   "texto": "Es la primera vez que la Biblia usa la palabra «profeta». Aquí el profeta es, sobre todo, alguien cercano a Dios, que puede interceder por otros con su oración."
+  },
+  {
+   "cap": 20,
+   "v": 12,
+   "texto": "Sara era media hermana de Abraham, hija de su padre pero no de su madre. En aquel tiempo ese matrimonio no estaba prohibido; más adelante, la ley del Levítico prohibirá casarse con una media hermana."
+  },
+  {
+   "cap": 20,
+   "v": 16,
+   "texto": "Las «mil monedas de plata» eran mil siclos de plata pesada, unos 11 kilos: una suma enorme. El «velo de ojos» parece haber sido una compensación pública que cubría la ofensa, para que ante todos quedara clara la honra de Sara."
+  },
+  {
+   "cap": 21,
+   "v": 9,
+   "texto": "En el mundo antiguo los niños se destetaban hacia los dos o tres años, y llegar a esa edad era motivo de fiesta. El verbo «se burlaba» viene en hebreo de la misma raíz que el nombre de Isaac, reír, y puede entenderse como burlarse o como jugar: los estudiosos discuten qué hacía exactamente Ismael."
+  },
+  {
+   "cap": 21,
+   "v": 31,
+   "texto": "Beer-seba significa en hebreo «pozo del siete» y también «pozo del juramento», porque las palabras siete y jurar se parecen: el nombre recoge las siete corderas y el juramento. En el Néguev, donde llueve poco, un pozo era un bien valiosísimo, y haberlo cavado daba derecho a usarlo. Hoy Beerseba es una ciudad del sur de Israel."
+  },
+  {
+   "cap": 21,
+   "v": 34,
+   "texto": "El «bosque» del versículo 33 es en hebreo un tamarisco, un árbol del desierto que da buena sombra, y «Dios eterno» traduce el nombre hebreo El Olam. Los filisteos llegaron a esa costa hacia el siglo 12 antes de Cristo; por eso muchos ven aquí el nombre que la región tenía cuando se escribió el relato, y otros piensan en grupos anteriores venidos del mar."
+  },
+  {
+   "cap": 22,
+   "v": 2,
+   "texto": "Aquí «tentó» quiere decir puso a prueba, y «Heme aquí» es «aquí estoy», la respuesta de quien está atento y disponible. El holocausto era la ofrenda que se quemaba entera sobre el altar. Al decir «tu único», Dios habla de Isaac, el hijo de la promesa, ahora que Ismael ya no vive en la casa."
+  },
+  {
+   "cap": 22,
+   "v": 14,
+   "texto": "En hebreo, «Jehová proveerá» suena como «Jehová verá»: el verbo ver se usa también con el sentido de proveer, de ver por alguien. El nombre del lugar retoma la respuesta de Abraham a Isaac en el versículo 8."
+  },
+  {
+   "cap": 22,
+   "v": 24,
+   "texto": "Estas noticias presentan a la familia que Abraham dejó en Mesopotamia. Nacor tiene doce hijos, ocho de Milca y cuatro de una concubina, es decir, una esposa de segundo rango; entre sus nietos aparece Rebeca. Huz y Buz, hoy Uz y Buz, y Aram son nombres que después designan pueblos y regiones de Siria y del desierto."
+  },
+  {
+   "cap": 23,
+   "v": 2,
+   "texto": "Kiriath-arba, hoy Quiriat-arba, significa «ciudad de Arba» o «ciudad de los cuatro»; el libro de Josué explica que Arba fue un gran hombre entre los anaceos. Es la misma Hebrón donde Abraham había vivido junto al alcornocal de Mamre."
+  },
+  {
+   "cap": 23,
+   "v": 9,
+   "texto": "Macpela se relaciona con una palabra hebrea que significa «doble», y una antigua tradición judía la describe como una cueva de dos cámaras. Ephrón, hoy Efrón, era hitita: los «hijos de Heth» son los hititas, descendientes de Het, el hijo de Canaán nombrado en el capítulo 10."
+  },
+  {
+   "cap": 24,
+   "v": 2,
+   "texto": "Poner la mano debajo del muslo era un gesto de juramento solemne, que vuelve a aparecer más adelante en el Génesis. Muchos piensan que, al tocar cerca de los órganos de la generación, el juramento quedaba ligado a la vida y a la descendencia de quien lo pedía."
+  },
+  {
+   "cap": 24,
+   "v": 10,
+   "texto": "Mesopotamia traduce aquí la expresión hebrea Aram Naharaim, «Aram de los dos ríos», la región del norte entre el Éufrates y sus afluentes, donde estaba Harán. La «ciudad de Nachôr», es decir de Nacor, puede ser la ciudad donde vivía la familia de Nacor; las tablillas de Mari mencionan también una ciudad llamada Nahur en esa región."
+  },
+  {
+   "cap": 24,
+   "v": 22,
+   "texto": "La «pila» es el abrevadero. Un camello sediento puede beber decenas de litros, y eran diez: Rebeca hizo un trabajo enorme. El pendiente, que el versículo 47 coloca en la nariz, pesaba medio siclo, unos 6 gramos de oro, y los dos brazaletes diez siclos, más de 100 gramos."
+  },
+  {
+   "cap": 25,
+   "v": 6,
+   "texto": "Cetura fue otra esposa de Abraham, que este versículo cuenta, como a Agar, entre sus concubinas. Sus hijos y nietos dan nombre a pueblos de Arabia y del desierto: Midiam, es decir Madián, padre de los madianitas, al este del golfo de Aqaba, y Seba y Dedán, en Arabia. Abraham los envía al oriente con regalos, y la herencia queda para Isaac."
+  },
+  {
+   "cap": 25,
+   "v": 8,
+   "texto": "La frase «exhaló el espíritu» es una forma de decir murió, y «fué unido á su pueblo» es una expresión antigua para la muerte: ir a reunirse con los antepasados, a quienes muchas familias enterraban juntos en una misma tumba, generación tras generación."
+  },
+  {
+   "cap": 25,
+   "v": 16,
+   "texto": "Doce príncipes, como Dios le había dicho a Abraham sobre Ismael en el capítulo 17. Las «villas» son poblados, y los «campamentos» son lugares donde se acampaba con los rebaños: entre los descendientes de Ismael había gente asentada y gente que vivía en tiendas."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 12,
+   "v": 9,
+   "titulo": "El llamado y la salida de Harán",
+   "epoca": "Abram tiene 75 años; hacia 2091 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "De Harán, en el norte de Mesopotamia, a Siquem, Betel y el Néguev, en Canaán",
+   "texto": "Al final del capítulo 11 dejaste a la familia en Harán, la ciudad de caravanas del norte de Mesopotamia, después de un largo camino desde Ur. En aquel mundo, la casa del padre lo era todo: daba protección, pastos, herencia, un nombre y también una religión. Eso es lo que el llamado pide dejar. A cambio, la promesa habla de una nación grande, de un nombre engrandecido y de una bendición para todas las familias de la tierra. Abram tenía 75 años, y Sarai no tenía hijos.\n\n¿Cuándo ocurrió? En estas pausas oirás la fecha según la cronología bíblica tradicional, que se calcula con los números de la propia Biblia. El primer libro de los Reyes, en el capítulo 6, dice que Salomón comenzó el templo 480 años después de la salida de Egipto, en el cuarto año de su reinado, que se sitúa hacia 966 antes de Cristo; la salida queda así hacia 1446. El libro de Éxodo, en el capítulo 12, dice que los hijos de Israel habitaron en Egipto 430 años. Sumando hacia atrás las edades que Génesis irá dando, se llega a que Abram nació hacia 2166 antes de Cristo y salió de Harán hacia 2091. Es una cuenta aproximada, porque depende de leer esas edades al pie de la letra.\n\nHay otra cuenta, más corta. La antigua traducción griega de la Biblia y el Pentateuco que conservan los samaritanos dicen, en ese versículo de Éxodo, que los 430 años incluyen el tiempo que los patriarcas vivieron en Canaán. Así, en Egipto serían 215 años, y todas las fechas de los patriarcas bajan unos 215 años: Abram habría salido de Harán hacia 1876 antes de Cristo. El apóstol Pablo, en la carta a los Gálatas, también cuenta 430 años desde la promesa hasta la ley; otros prefieren leer el texto hebreo tal como está.\n\nMuchos historiadores, por su parte, recuerdan que no hay rastros arqueológicos directos de los patriarcas. Muchos ubican el mundo que describen estas historias en la Edad del Bronce Medio, aproximadamente entre 2000 y 1550 antes de Cristo, y muchos piensan que se pusieron por escrito siglos después. En el siglo 20 se citaron como prueba de su antigüedad costumbres parecidas de las tablillas de Mari, junto al Éufrates, del siglo 18 antes de Cristo, y de las de Nuzi, en el norte de Irak, de los siglos 15 y 14. Desde los años setenta, varios estudiosos mostraron que muchos de esos paralelos eran dudosos o se encuentran también en épocas posteriores; hoy se usan con cautela, para entender costumbres y no para fechar. Para la salida de Egipto, muchos historiadores prefieren el siglo 13 antes de Cristo, en tiempos de Ramsés segundo. Desde aquí, las pausas darán la fecha tradicional, con un recordatorio de las otras cuentas cuando importe.\n\nCon la cuenta tradicional, Abram salió de Harán cuando Ur era capital de un reino que dominaba Mesopotamia, y cuando Egipto, dividido entre varios gobernantes, estaba por volver a unirse bajo los reyes de Tebas. Con la cuenta corta, sería el tiempo del Reino Medio egipcio y de los reinos amorreos anteriores a Hammurabi de Babilonia. Las tablillas de Mari describen tribus de pastores de la región del Éufrates y de Harán que se movían con sus rebaños según las estaciones, en trato constante con las ciudades y sus reyes.\n\nAbram vive así, como pastor seminómada: tiendas, ovejas y cabras, asnos para la carga y muchos siervos. De Harán a Siquem hay más de 600 kilómetros en línea recta, semanas de marcha con rebaños. Canaán es una franja estrecha entre el mar Mediterráneo y el desierto, con montañas en el centro y el hondo valle del Jordán al este. Abram avanza por las montañas, donde había espacio para los rebaños, y levanta altares, probablemente sencillos montones de piedras. La tierra no estaba vacía, «el Cananeo estaba entonces en la tierra», y vivía de las lluvias del invierno. El Mediodía, hacia donde se dirige al final, es el Néguev, la región seca del sur.",
+   "preguntas": [
+    "¿Qué crees que significaba para Abram, a los 75 años, partir hacia «la tierra que te mostraré»?",
+    "¿Por qué crees que el relato se detiene en los altares que Abram levanta en cada lugar?"
+   ]
+  },
+  {
+   "cap": 14,
+   "v": 24,
+   "titulo": "Melquisedec, rey de Salem",
+   "epoca": "Abram lleva menos de diez años en Canaán, adonde llegó hacia 2091 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El valle de Sidim, junto al mar Muerto; Dan y Damasco, en el norte; el valle del Rey, cerca de Jerusalén",
+   "texto": "El capítulo 14 no se parece a los anteriores: suena a crónica de guerra, con reyes, años de tributo, rutas y batallas. Cuatro reyes del oriente, encabezados por Quedorlaomer de Elam, castigan a los reyes de las ciudades cercanas al mar Muerto, que después de doce años habían dejado de pagarles tributo. Elam, que tenía una de sus capitales en Susa, más de una vez dominó o atacó a las ciudades de Mesopotamia: hacia el año 2000 antes de Cristo sus tropas saquearon Ur. En las tablillas de Mari, del siglo 18 antes de Cristo, el rey de Elam aparece como uno de los soberanos más poderosos de su tiempo, tratado con gran respeto por los reyes de Mesopotamia y de Siria. Aun así, ninguno de los cuatro reyes de este capítulo se ha encontrado con seguridad en documentos antiguos; durante un tiempo se pensó que Amrafel era Hammurabi de Babilonia, pero hoy casi nadie lo acepta.\n\nLos invasores bajan por el lado oriental del Jordán: desde Basán, al sur de Damasco, por las mesetas que después serían de Amón y de Moab, hasta las montañas de Seir; luego giran hacia Cades, en el desierto del sur, y vuelven por la orilla del mar Muerto. Es más o menos el trazado de una antigua ruta de caravanas que hoy se conoce como el Camino del Rey, entre Damasco y el golfo de Aqaba. Una campaña así buscaba botín y obediencia: los vencedores se llevaban ganado, provisiones, plata y personas, y así se llevaron a Lot.\n\nAbram aparece aquí como un jefe con fuerza propia: 318 hombres de su casa, entrenados, y tres aliados amorreos, Mamre, Escol y Aner, unidos a él por un pacto. Los pastores ricos de aquel tiempo necesitaban alianzas y hombres armados para proteger rebaños, pozos y familias. Abram persigue a los vencedores hasta el norte del país, los ataca de noche con sus hombres desplegados y recupera a Lot, a la gente y los bienes. Un ataque nocturno y por sorpresa era una táctica propia de una fuerza pequeña frente a un ejército que volvía cargado de botín.\n\nAl regreso, dos reyes salen a su encuentro en el valle del Rey, que la tradición sitúa junto a Jerusalén. Uno es el rey de Sodoma; el otro, Melquisedec. Jerusalén es una ciudad muy antigua: aparece en textos egipcios de maldición contra enemigos, de los siglos 19 y 18 antes de Cristo, y en el siglo 14 su rey escribía al faraón en las cartas de Amarna. Un salmo usa Salem como otro nombre de Sion. En el mundo antiguo era común que el rey fuera también el sacerdote principal de su ciudad. La palabra El, que forma parte del nombre El Elyón, era el término semita para Dios y el nombre del dios supremo en pueblos vecinos, como en la ciudad de Ugarit, en la costa de Siria. Abram, al hablar con el rey de Sodoma, llama a ese mismo Dios alto con el nombre de Jehová.\n\nEl pan y el vino eran lo esencial de una mesa bien servida, y ofrecerlos al que volvía victorioso era un gesto de hospitalidad y de amistad. Dar a un rey o a un santuario la décima parte de lo obtenido era una costumbre conocida en el antiguo Cercano Oriente; esta es la primera vez que la Biblia habla del diezmo. Con el rey de Sodoma, Abram actúa de otro modo. «He alzado mi mano», dice: era el gesto de un juramento solemne. Y con la frase «desde un hilo hasta la correa de un calzado» quiere decir que no tomará absolutamente nada. Melquisedec aparece solo en estos versículos, pero la Biblia vuelve a nombrarlo en el Salmo 110 y en la carta a los Hebreos, donde se reflexiona largamente sobre su figura.",
+   "preguntas": [
+    "¿Qué diferencias notas entre la manera en que Abram trata a Melquisedec y la manera en que trata al rey de Sodoma?",
+    "¿Por qué crees que a Abram le importaba que nadie pudiera decir «Yo enriquecí á Abram»?"
+   ]
+  },
+  {
+   "cap": 15,
+   "v": 21,
+   "titulo": "Un pacto entre animales partidos",
+   "epoca": "Abram aún no tiene hijos; la escena es anterior a sus 85 años, que cumple hacia 2081 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Canaán; el texto no dice el lugar, y Abram vivía entonces junto a Mamre, cerca de Hebrón",
+   "texto": "En hebreo, hacer un pacto se dice literalmente cortar un pacto. La expresión viene de ceremonias como la que acabas de escuchar: se partían animales por la mitad, se ponían las mitades una frente a otra, y quienes se comprometían pasaban por en medio. Era un juramento hecho con el cuerpo, que venía a decir: si rompo este pacto, que me pase lo mismo que a estos animales. El profeta Jeremías, en el capítulo 34 de su libro, recuerda a unos jefes de Jerusalén que hicieron un pacto pasando entre las dos mitades de un becerro, y les reprocha haberlo roto.\n\nFuera de la Biblia hay testimonios parecidos. En las tablillas de Mari, del siglo 18 antes de Cristo, la expresión matar un asno significaba cerrar una alianza entre tribus o entre reyes. En unos tratados arameos del siglo 8 antes de Cristo, grabados en piedra y hallados en Sefire, cerca de Alepo, una de las maldiciones compara al que rompa el tratado con un becerro cortado en dos. Los animales de este capítulo, la becerra, la cabra, el carnero, la tórtola y el palomino, son los mismos que después usará la ley de Israel para sus sacrificios. Las aves que bajaban sobre los cuerpos eran aves de rapiña, y «ojeábalas» quiere decir que Abram las espantaba.\n\nLo sorprendente de esta escena es quién pasa entre los animales. Abram prepara todo y espera; al caer el sol lo vence un sueño profundo y lo envuelve un gran temor. Ya de noche, pasan por en medio solo «un horno humeando, y una antorcha de fuego». El horno era probablemente de barro, como los que se usaban para cocer pan, y echaba humo. En muchas partes de la Biblia, el fuego y el humo acompañan la presencia de Dios. Muchos lectores, judíos y cristianos, han notado que en este pacto solo pasa entre los animales la señal de Dios, mientras Abram no camina entre ellos.\n\nDentro de la visión, Dios anuncia lo que vendrá: la descendencia de Abram vivirá como extranjera en una tierra que no es suya, servirá allí y será afligida cuatrocientos años, después saldrá con gran riqueza y volverá en la cuarta generación. El motivo de la espera es que «aun no está cumplida la maldad del Amorrheo»: amorreo funciona aquí como nombre general para los pueblos de Canaán, y el texto une el momento de la entrega de la tierra con la conducta de quienes la habitaban. A Abram se le promete morir en paz y en buena vejez. Más adelante, el libro del Éxodo retomará estas palabras.\n\nLa lista final nombra diez pueblos. Algunos son bien conocidos en la Biblia: los hititas, los amorreos, los cananeos y los jebuseos, que vivían en Jerusalén. Otros casi no dejaron rastro: los cineos, quizá un grupo de herreros del sur; los ceneceos, un clan del sur; los cedmoneos, cuyo nombre significa «orientales»; los ferezeos, tal vez habitantes de aldeas sin muralla; los gergeseos; y los refaítas, ya nombrados en el capítulo 14.",
+   "preguntas": [
+    "¿Qué te sugiere que en este pacto solo pase entre los animales la señal de la presencia de Dios?",
+    "¿Qué crees que pensaba Abram mientras espantaba las aves y esperaba?"
+   ]
+  },
+  {
+   "cap": 16,
+   "v": 16,
+   "titulo": "Agar y el Dios que la ve",
+   "epoca": "Abram tiene 86 años; hacia 2080 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Mamre, en Canaán, y el camino de Shur, en el desierto que lleva a Egipto",
+   "texto": "En el mundo de Sarai, no tener hijos era mucho más que una pena íntima. Los hijos aseguraban el cuidado en la vejez, la herencia y la continuidad del nombre de la familia; en Mesopotamia eran también los encargados de honrar con ofrendas a los padres difuntos. Una esposa sin hijos podía sentir que su lugar en la casa corría peligro. Habían pasado diez años desde la llegada a Canaán, y la promesa de una descendencia seguía sin cumplirse.\n\nLa solución de Sarai, darle su sierva al marido para tener hijos por medio de ella, aparece en documentos de varias épocas. Un contrato de matrimonio asirio del siglo 19 antes de Cristo establece que, si la esposa no da hijos en dos años, ella misma comprará una esclava para su marido. Un contrato de las tablillas de Nuzi, en el norte de Irak, de los siglos 15 y 14 antes de Cristo, dispone que si la esposa no tiene hijos dará a su esposo una sierva, y que ella tendrá autoridad sobre los hijos que nazcan. Y el Código de Hammurabi, hacia 1750 antes de Cristo, trata el caso de una sacerdotisa casada, que no debía tener hijos, y le daba a su marido una esclava: si la esclava, después de darle hijos, se igualaba con su señora, esta no podía venderla, pero sí volver a contarla entre las esclavas. Como la costumbre aparece a lo largo de muchos siglos, estos documentos ayudan a entender la escena, pero no sirven para fecharla.\n\nLa sierva personal de una esposa solía estar bajo la autoridad de ella, no del marido; por eso Abram le responde a Sarai: «He ahí tu sierva en tu mano». Agar era egipcia, quizá una de las siervas que Abram recibió en Egipto, aunque el texto no lo dice. Al sentirse afligida por su señora, huye hacia el sur, por el camino que llevaba a su tierra, y el ángel la encuentra junto a una fuente en el desierto.\n\nAllí ocurre el primer anuncio de un nacimiento que registra la Biblia, y no lo recibe un patriarca, sino una sierva extranjera que huye. Agar oye una promesa de descendencia parecida a la de Abram y el nombre que llevará su hijo. Ella, a su vez, le da un nombre a Dios: «el Dios de la vista», es decir, el Dios que la ve. Pocas personas en la Biblia le dan a Dios un nombre nacido de su propia experiencia. El pozo queda como recuerdo, «Pozo del Viviente que me ve», entre Cades, el oasis del desierto del sur, y Bered, un lugar que no se ha identificado; volverás a oír hablar de ese pozo. Ismael nace cuando Abram tiene 86 años, once años después de salir de Harán.",
+   "preguntas": [
+    "¿Cómo te imaginas a Agar, sierva, extranjera y embarazada, sola junto a una fuente en el desierto?",
+    "¿Qué te dice el nombre que Agar le da a Dios?"
+   ]
+  },
+  {
+   "cap": 19,
+   "v": 38,
+   "titulo": "Sodoma y las ciudades de la llanura",
+   "epoca": "Abraham tiene 99 años; hacia 2067 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Mamre, cerca de Hebrón; el valle del Jordán y el mar Muerto; Zoar y los montes del oriente",
+   "texto": "Los capítulos 18 y 19 forman una sola historia. Empieza en Mamre, en la hora de más calor: el texto le dice al lector que es Jehová quien se aparece, mientras Abraham ve llegar a tres hombres; después, dos de ellos son llamados ángeles. Abraham corre a recibirlos, se inclina, ofrece agua para los pies, sombra y un banquete. En aquel mundo, donde casi no había posadas, la vida del viajero dependía de la hospitalidad, y quien recibía a un forastero se hacía responsable de su seguridad. Lot recibe en Sodoma a los dos visitantes de manera parecida. La gente de la ciudad, en cambio, quiere abusar de ellos.\n\nEntre las dos escenas está la conversación de Abraham con Dios por la ciudad. Tiene la forma de un regateo: cincuenta, cuarenta y cinco, cuarenta, treinta, veinte, diez. Abraham insiste con humildad, se llama a sí mismo «polvo y ceniza», y apela a la justicia del «juez de toda la tierra». La conversación se detiene en diez.\n\nSegún el texto, las ciudades de la llanura estaban en la región del mar Muerto, al que la Biblia llama mar salado. Ese mar ocupa el fondo de una gran falla de la corteza terrestre que recorre el valle del Jordán. Su orilla es el lugar más bajo de la tierra firme del planeta, a más de 400 metros bajo el nivel del mar, y su agua es unas diez veces más salada que la del océano. Alrededor hay depósitos de sal y de azufre, fuentes de agua caliente y betún que sube del fondo, y los terremotos son frecuentes. En la orilla suroeste se alza una montaña de sal, llamada hoy monte Sodoma, con columnas que la lluvia va esculpiendo; a una de ellas la gente de la zona la llama la mujer de Lot.\n\nNadie sabe con certeza dónde estaban Sodoma y Gomorra. Una tradición antigua las sitúa al sur del mar Muerto, cerca de Zoar, y en esa zona se han excavado poblados de la Edad del Bronce Antiguo, como Bab edh Dhra, con un cementerio enorme, que algunos arqueólogos han propuesto como Sodoma. Otros buscan las ciudades al norte, en la parte baja del valle del Jordán, donde algunos proponen la colina de Tall el Hammam, en Jordania. Ninguna identificación está demostrada. El texto presenta la destrucción como obra de Dios, y los profetas y el Nuevo Testamento vuelven a nombrar muchas veces a Sodoma y Gomorra; Jesús mismo, en el Evangelio de Lucas, capítulo 17, pide acordarse de la mujer de Lot.\n\nLa última escena explica el origen de dos pueblos vecinos de Israel, al otro lado del Jordán: Moab, en las mesetas al este del mar Muerto, y Amón, más al norte. Moab suena en hebreo como «del padre», y Ben-ammí significa «hijo de mi pariente». Amán, la capital de la actual Jordania, conserva el nombre de los amonitas, cuya ciudad principal se llamaba Rabá. De Moab se conserva la estela del rey Mesa, del siglo 9 antes de Cristo, una de las inscripciones más importantes de la región, y moabita era Rut, la bisabuela del rey David.",
+   "preguntas": [
+    "¿Qué semejanzas y diferencias notas entre el recibimiento de los visitantes en Mamre y en Sodoma?",
+    "¿Qué te llama la atención de la manera en que Abraham habla con Dios por la ciudad?"
+   ]
+  },
+  {
+   "cap": 21,
+   "v": 21,
+   "titulo": "La risa de Sara, el llanto de Agar",
+   "epoca": "Isaac acaba de ser destetado; nació hacia 2066 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El Néguev, cerca de Beerseba; el desierto de Parán, en la península del Sinaí",
+   "texto": "Isaac nace veinticinco años después de la salida de Harán, cuando Abraham tiene 100 años y Sara 90. Es circuncidado a los ocho días, como se mandó en el capítulo 17, y su nombre, que significa «él ríe», encuentra eco en las palabras de Sara: Dios la ha hecho reír, y todos los que lo oigan reirán con ella. Pero en torno a la fiesta del destete, la alegría de la casa se convierte en conflicto.\n\nLa exigencia de Sara toca un asunto legal: la herencia. Las leyes de Mesopotamia ayudan a entenderla. El Código de Hammurabi, hacia 1750 antes de Cristo, dice que los hijos que un hombre tuvo con una esclava heredan junto con los de la esposa si el padre, en vida, los reconoció como suyos; si no los reconoció, no heredan, pero al morir el padre la esclava y sus hijos quedan libres. Una ley más antigua, del rey Lipit-Ishtar de Isin, hacia 1930 antes de Cristo, establece que si el padre deja libres a la esclava y a sus hijos, esos hijos no reparten la herencia con los de la esposa. Algunos estudiosos leen la escena a la luz de estas leyes: Abraham no vende a Agar como esclava, la deja ir libre con su hijo, pero fuera de la herencia. El texto dice que el asunto le pareció «grave en gran manera», y que Dios le promete hacer también una nación del hijo de la sierva.\n\nAgar sale con pan y un odre, una bolsa hecha con la piel entera de una cabra o de un cabrito, cosida, que servía para llevar agua. Camina por el desierto de Beer-seba, que hoy se escribe Beerseba, en el norte del Néguev, una estepa seca donde en verano el calor es intenso y el agua de un odre dura poco; las fuentes eran escasas y había que conocerlas. Se aleja de su hijo «como un tiro de arco», la distancia que alcanza una flecha, porque, como ella misma dice, no quiere verlo morir. Es la segunda vez que Agar, en el desierto, escucha la voz del ángel, y otra vez recibe una promesa para su hijo.\n\nIsmael crece en el desierto de Parán, la gran región árida del centro y el noreste de la península del Sinaí, y se hace tirador de arco, el arma de los cazadores y guerreros del desierto. Su madre le busca esposa en su propia tierra, Egipto. Siglos después, el apóstol Pablo, en su carta a los Gálatas, capítulo 4, usará a Agar y a Sara como imagen de dos pactos.",
+   "preguntas": [
+    "¿Cómo crees que vivió Abraham la despedida de Ismael, su primer hijo?",
+    "¿Qué te llama la atención de que Dios escuche «la voz del muchacho» en el desierto?"
+   ]
+  },
+  {
+   "cap": 22,
+   "v": 19,
+   "titulo": "Abraham e Isaac en el monte Moriah",
+   "epoca": "Isaac ya no es un niño; nació hacia 2066 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "De Beerseba a la tierra de Moriah, que la tradición identifica con Jerusalén",
+   "texto": "El texto dice solo «tierra de Moriah» y «uno de los montes». Siglos después, el segundo libro de Crónicas, en el capítulo 3, llama monte Moriah al lugar de Jerusalén donde Salomón construyó el templo, y desde entonces la tradición judía y la cristiana sitúan allí este episodio; hoy es la gran explanada del Monte del Templo, en la ciudad vieja de Jerusalén. Los samaritanos, en cambio, lo ubican en el monte Gerizim, junto a Siquem. De Beerseba a Jerusalén hay unos 70 kilómetros en línea recta, y algo más por los caminos de la montaña: tres días de marcha con un asno cargado encaja bien con esa distancia.\n\nEn el mundo de Abraham, los pueblos ofrecían sacrificios a sus dioses, casi siempre animales del rebaño. Algunos llegaron también a sacrificar niños, sobre todo en momentos de gran peligro: el segundo libro de los Reyes cuenta que un rey de Moab, con su ciudad sitiada, ofreció en holocausto a su hijo mayor sobre la muralla. La ley de Israel lo prohíbe con toda claridad, en el Levítico y en el Deuteronomio, y los profetas lo condenan. Los primeros lectores de este relato conocían esas prácticas de los pueblos vecinos.\n\nEl relato es muy sobrio: no dice qué sentía Abraham. Repite tres veces su respuesta, «Heme aquí», a Dios, a su hijo y al ángel, y dos veces que padre e hijo iban juntos. Tampoco dice la edad de Isaac; ya podía cargar la leña del holocausto, así que no era un niño pequeño. El historiador judío Flavio Josefo, en el siglo primero después de Cristo, pensaba que tenía 25 años, y una antigua tradición judía le da 37.\n\nEn la tradición judía este capítulo se llama la Akedá, «la atadura», por el verbo «ató» del versículo 9. Se lee en la fiesta del Año Nuevo judío, y desde antiguo el toque del cuerno de carnero, el shofar, se relaciona con el carnero trabado en el zarzal. Muchos cristianos, desde los primeros siglos, han visto en Isaac, que sube al monte cargando la leña, una imagen de Jesús cargando su cruz. La carta a los Hebreos, en el capítulo 11, dice que Abraham pensaba que Dios podía levantar a su hijo incluso de entre los muertos, y en el capítulo 6 comenta el juramento de este capítulo, «Por mí mismo he jurado», la primera vez que la Biblia muestra a Dios jurando por sí mismo.\n\nLa promesa final repite y amplía las anteriores: las estrellas del cielo, la arena del mar y una descendencia que poseerá «las puertas de sus enemigos», es decir, sus ciudades, porque la puerta era el lugar del poder y de la defensa de una ciudad. Después, Abraham vuelve con los criados a Beerseba.",
+   "preguntas": [
+    "¿Qué crees que pasaba por la mente de Isaac durante esos tres días de camino?",
+    "¿Qué te dicen las palabras «Dios se proveerá de cordero», dichas en ese momento?"
+   ]
+  },
+  {
+   "cap": 23,
+   "v": 20,
+   "titulo": "La cueva de Macpela",
+   "epoca": "Sara muere a los 127 años y Abraham tiene 137; hacia 2029 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Hebrón, entonces llamada Quiriat-arba, en las montañas del sur de Canaán",
+   "texto": "La Biblia dice cuántos años vivió Sara, algo que casi nunca hace con una mujer. Muere en Hebrón, y Abraham hace duelo por ella. En el antiguo Cercano Oriente el duelo era público, con llanto en voz alta, y el entierro solía hacerse pronto, por el calor. Pero Abraham, después de más de sesenta años en Canaán, no tenía dónde enterrarla.\n\nPor eso se presenta ante los hititas como «Peregrino y advenedizo»: un extranjero residente, que vivía en la tierra con permiso de sus habitantes, pero sin propiedad. Es probable que un extranjero necesitara el acuerdo de la comunidad para comprar tierra, y todo se trata en público, a la puerta de la ciudad, la plaza donde se reunían los ancianos, se juzgaba y se cerraban los negocios ante testigos. El texto insiste en que todo ocurre «oyéndolo los hijos de Heth» y ante «todos los que entraban por la puerta de la ciudad»: esa presencia valía como la firma de los testigos en un contrato.\n\nLa negociación sigue las formas de cortesía de Oriente. Los hititas llaman a Abraham «príncipe de Dios», una manera hebrea de decir un príncipe muy grande. Efrón ofrece regalarle el terreno, Abraham insiste en pagar, y Efrón menciona el precio casi de pasada. Abraham paga lo que se pide, sin regatear, delante de todos. Los contratos de compraventa de tierras de Mesopotamia, de distintas épocas, también describen el terreno, sus límites y lo que hay en él, y nombran a los testigos, como hace el versículo 17 con la heredad, la cueva y todos los árboles.\n\nCuatrocientos siclos de plata son unos cuatro kilos y medio. No existían las monedas: la plata se pesaba en balanza, con pesas de piedra o de metal, y la plata «de buena ley entre mercaderes» era la de peso y calidad aceptados en el comercio. Las primeras monedas aparecieron mucho después, en el siglo 7 antes de Cristo, en el reino de Lidia, en la actual Turquía. Para comparar, siglos más tarde el profeta Jeremías compró un campo por 17 siclos; por eso muchos lectores piensan que el precio de Efrón era alto.\n\nLos «hijos de Heth» plantean una pregunta. El gran reino hitita estaba en Anatolia, en el centro de la actual Turquía, y fue poderoso entre los siglos 17 y 12 antes de Cristo; los hititas de Hebrón, en cambio, aparecen como un grupo local de Canaán, con nombres que suenan semitas, como Efrón. Algunos estudiosos piensan en grupos venidos del norte, y otros, en una población local con un nombre parecido. En las montañas de Canaán se enterraba a los muertos en cuevas o en tumbas excavadas en la roca, que una familia usaba durante generaciones. El lugar tradicional de Macpela está hoy en Hebrón, rodeado por un gran muro de piedra levantado en tiempos del rey Herodes, en el siglo primero antes de Cristo, y lo veneran judíos, cristianos y musulmanes.",
+   "preguntas": [
+    "¿Por qué crees que Abraham insistió en pagar, delante de todos, en lugar de aceptar el regalo?",
+    "¿Qué te llama la atención de que lo primero que Abraham posee en la tierra prometida sea un sepulcro?"
+   ]
+  },
+  {
+   "cap": 24,
+   "v": 67,
+   "titulo": "Rebeca, junto al pozo de Nacor",
+   "epoca": "Isaac se casa a los 40 años; hacia 2026 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "De Canaán a Aram Naharaim, en el norte de Mesopotamia, y de regreso al Néguev",
+   "texto": "En el antiguo Cercano Oriente, el matrimonio era un acuerdo entre dos familias. Lo negociaban el padre del novio, o alguien de su confianza, y el padre o los hermanos de la novia, y había regalos de por medio: las leyes de Hammurabi, por ejemplo, hablan de un pago que el novio entregaba a la familia de la novia. Se prefería casarse dentro de la propia parentela, para mantener unidos los bienes, las costumbres y la fe del clan. Rebeca era nieta de Nacor, el hermano de Abraham, es decir, hija de un primo de Isaac. Abraham pone además una condición: su hijo no debe volver a Mesopotamia, porque la tierra prometida es Canaán.\n\nEl criado no tiene nombre en este capítulo; muchos lectores lo identifican con Eliezer de Damasco, el mayordomo del capítulo 15. Viaja con diez camellos cargados de regalos hasta la región de Harán, a unos 700 kilómetros en línea recta, varias semanas de camino. Los camellos plantean una cuestión a los historiadores: muchos piensan que el camello domesticado se volvió común en esta región recién a fines del segundo milenio antes de Cristo, y en las minas de cobre del valle de Arabá, al sur del mar Muerto, sus huesos aparecen hacia el siglo 10 antes de Cristo. Otros responden que hay indicios más antiguos, aunque escasos, y que entonces los camellos habrían sido un lujo de gente muy rica. El debate sigue abierto.\n\nAl atardecer, las jóvenes salían a sacar agua para la casa, con el cántaro al hombro; el pozo, fuera de la ciudad, era un lugar de encuentro. La señal que pide el criado no es pequeña: no basta con que la muchacha le dé de beber a él, sino que debe ofrecerse a dar de beber a los camellos. Rebeca lo hace con prisa y por su cuenta, y solo después se sabe que es de la familia de Abraham.\n\nEn la casa de Rebeca, quien lleva la voz es Labán, su hermano, junto con la madre; el padre, Betuel, apenas aparece. Labán, cuyo nombre significa «blanco», tendrá más adelante un papel importante en la historia de la familia. Los regalos del criado, vasos de plata y de oro, vestidos y cosas preciosas, sellan el acuerdo. Al final le preguntan a Rebeca si quiere ir con aquel hombre, y ella responde «iré». Parte con su nodriza y sus criadas, y su familia la bendice deseándole que su descendencia posea «la puerta de sus enemigos», casi las mismas palabras que Abraham había oído en el monte Moriah.\n\nIsaac vivía en el Néguev, cerca del Pozo del Viviente que me ve, el mismo donde el ángel había encontrado a Agar. Al saber que el hombre que viene por el campo es Isaac, Rebeca se cubre con el velo, quizá como señal de que era la prometida. Isaac la lleva a la tienda que había sido de su madre: en los campamentos de pastores, la esposa principal podía tener su propia tienda. Así termina el capítulo más largo del Génesis.",
+   "preguntas": [
+    "¿Qué te llama la atención de la manera en que el criado pide una señal junto al pozo?",
+    "¿Qué piensas de que, al final, le pregunten a Rebeca si quiere ir?"
+   ]
+  },
+  {
+   "cap": 25,
+   "v": 18,
+   "titulo": "La muerte de Abraham",
+   "epoca": "Abraham muere a los 175 años, hacia 1991 antes de Cristo, e Ismael a los 137, hacia 1943, según la cronología bíblica tradicional.",
+   "lugar": "Hebrón y la cueva de Macpela; los desiertos de Arabia, desde Havila hasta Shur",
+   "texto": "Abraham llegó a Canaán a los 75 años y murió a los 175: cien años como extranjero en la tierra prometida. En todo ese tiempo no llegó a poseer más tierra que un campo con una cueva en Hebrón, y allí lo entierran juntos Isaac e Ismael, los dos hijos que habían crecido separados. Antes de morir, Abraham deja todo a Isaac y despide con regalos, hacia el oriente, a los hijos de sus concubinas.\n\nLas dos listas de este capítulo, los hijos de Cetura y los de Ismael, miran hacia el oriente y el sur: el desierto de Siria y la península arábiga. Varios de esos nombres corresponden a pueblos y oasis conocidos por otros documentos. Cedar fue una poderosa confederación de tribus árabes, nombrada en inscripciones de los reyes de Asiria del siglo 7 antes de Cristo, y la Biblia habla también de las tiendas de Cedar. Duma es el oasis de Dumat al-Jandal, en el norte de la actual Arabia Saudita. Tema es el oasis de Taima, donde el rey de Babilonia Nabonido vivió unos diez años en el siglo 6 antes de Cristo. Y Dedán, nieto de Cetura, es el antiguo nombre del oasis de Al-Ula. Por esos oasis pasaron durante siglos las caravanas que llevaban incienso y mirra del sur de Arabia hacia Egipto, Siria y el Mediterráneo. Havila estaba en algún lugar de Arabia, y Shur, junto a la frontera de Egipto: «desde Havila hasta Shur» abarca los desiertos del sur.\n\nCon la fórmula que ordena el libro, «estas son las generaciones de», se abrió hace un momento la lista de Ismael, y así comenzará enseguida la historia de Isaac. Génesis suele contar primero, en pocas palabras, la línea del hijo que se aparta del relato principal, y después sigue con la otra. Al cerrarse la historia de Abraham se ven, a la vez, los pueblos del desierto y la descendencia de Isaac, por la que seguirá el relato.\n\nAbraham es recordado como padre por tres grandes tradiciones religiosas. Para el pueblo judío es el primer patriarca, el padre de Israel. El Nuevo Testamento lo llama padre de todos los que creen, por las palabras del capítulo 15: «creyó á Jehová, y contóselo por justicia». Para los musulmanes, Ibrahim es un profeta y un modelo de fe en el Dios único, y muchos árabes recuerdan a Ismael como su antepasado. Varios libros de la Biblia, como Isaías y la carta de Santiago, lo llaman amigo de Dios, y con un título parecido lo recuerda la tradición islámica. Su nombre recoge la promesa del capítulo 17: «padre de muchedumbre de gentes».",
+   "preguntas": [
+    "¿Qué te dice que Isaac e Ismael, separados desde jóvenes, entierren juntos a su padre?",
+    "Mirando toda la historia de Abraham, ¿cuál de sus momentos te parece más importante, y por qué?"
+   ]
+  }
+ ]
+}

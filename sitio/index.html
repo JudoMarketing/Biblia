@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Génesis, Éxodo y Levítico completos en la Reina Valera 1909, en voz alta, con notas y pausas de contexto histórico.">
+<meta name="robots" content="noindex">
+<meta name="progreso-servidor" content="api/progreso">
+<meta name="theme-color" content="#12142a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="La Biblia">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icono-192.png">
+<link rel="apple-touch-icon" href="icono-512.png">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0;font:14px system-ui}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Génesis, Éxodo y Levítico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+/* Un lector para escuchar: una columna de libro, el reproductor fijo abajo.
+   Colores del tabernáculo (Éxodo 26): cárdeno, púrpura, carmesí y lino torcido. */
+:root {
+  --fondo: #12142a;
+  --superficie: #1a1d38;
+  --tinta: #ece7da;
+  --tinta-suave: #b6b4c8;
+  --carmesi: #e2705f;
+  --sobre-carmesi: #12142a;
+  --oro: #d9b56c;
+  --cardeno: #95a2e6;
+  --linea: rgba(236, 231, 218, 0.14);
+  --nota: #1f2343;
+  --pausa: #241f38;
+  --sonando: rgba(226, 112, 95, 0.17);
+  --sombra: 0 -10px 30px rgba(0, 0, 0, 0.35);
+  --f-biblia: "Alegreya", "Iowan Old Style", Georgia, serif;
+  --f-guia: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  --f-titulo: "Alegreya SC", "Alegreya", Georgia, serif;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --fondo: #eef0f4; --superficie: #e2e6ef; --tinta: #1c1f40; --tinta-suave: #4d5170;
+    --carmesi: #a5352a; --sobre-carmesi: #ffffff; --oro: #866014; --cardeno: #3a49a0; --linea: rgba(28, 31, 64, 0.14);
+    --nota: #e1e6f4; --pausa: #ebe4f0; --sonando: rgba(165, 53, 42, 0.12); --sombra: 0 -8px 24px rgba(28, 31, 64, 0.12);
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --fondo: #eef0f4; --superficie: #e2e6ef; --tinta: #1c1f40; --tinta-suave: #4d5170;
+  --carmesi: #a5352a; --sobre-carmesi: #ffffff; --oro: #866014; --cardeno: #3a49a0; --linea: rgba(28, 31, 64, 0.14);
+  --nota: #e1e6f4; --pausa: #ebe4f0; --sonando: rgba(165, 53, 42, 0.12); --sombra: 0 -8px 24px rgba(28, 31, 64, 0.12);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html, body { background: var(--fondo); color: var(--tinta); }
+body { font-family: var(--f-guia); font-size: 17px; line-height: 1.55; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--oro); outline-offset: 2px; }
+
+/* Barra de arriba */
+.barra {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.55rem 16px; background: var(--fondo); border-bottom: 1px solid var(--linea);
+}
+.barra .donde { flex: 1; min-width: 0; font-family: var(--f-titulo); font-size: 1.05rem; letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.boton {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+  min-height: 2.5rem; padding: 0.35rem 0.8rem; border-radius: 999px;
+  border: 1px solid var(--linea); background: transparent; cursor: pointer;
+}
+.boton:hover { border-color: var(--tinta-suave); }
+.boton svg { width: 1.15rem; height: 1.15rem; flex: none; }
+.boton.lleno { background: var(--carmesi); border-color: transparent; color: var(--sobre-carmesi); font-weight: 700; }
+
+/* La columna de lectura */
+main { padding-inline: 16px; padding-block: 1.5rem 13rem; }
+.columna { max-width: 38rem; margin-inline: auto; }
+
+.portada { display: grid; gap: 1.2rem; padding-block: 1rem 2rem; }
+.portada .serie { font-family: var(--f-titulo); color: var(--oro); letter-spacing: 0.12em; font-size: 0.9rem; }
+.portada h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(2.1rem, 8vw, 3.2rem); line-height: 1.05; margin: 0; text-wrap: balance; }
+.portada .version { color: var(--tinta-suave); margin: 0; }
+.acciones { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.voces { display: grid; gap: 0.5rem; margin: 0; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 14px; }
+.voz { display: flex; align-items: baseline; gap: 0.6rem; }
+.punto { width: 0.7rem; height: 0.7rem; border-radius: 50%; flex: none; transform: translateY(0.05rem); }
+.punto.biblia { background: var(--carmesi); }
+.punto.guia { background: var(--cardeno); }
+.libros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+.libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 14px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
+.libro-tarjeta strong { display: block; font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1rem, 4.4vw, 1.25rem); overflow-wrap: anywhere; }
+.libro-tarjeta span { color: var(--tinta-suave); font-size: 0.9rem; }
+
+.cabeza-cap { display: grid; gap: 0.2rem; margin-bottom: 1.4rem; }
+.cabeza-cap .libro { font-family: var(--f-titulo); color: var(--oro); letter-spacing: 0.12em; margin: 0; }
+.cabeza-cap h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(2rem, 7vw, 2.8rem); margin: 0; line-height: 1.1; text-wrap: balance; }
+.cabeza-cap .acciones { margin-top: 0.6rem; }
+
+/* El texto bíblico: letra de libro */
+.biblia { font-family: var(--f-biblia); font-size: 1.22rem; line-height: 1.7; margin: 0 0 1.1rem; }
+.v { cursor: pointer; border-radius: 4px; transition: background-color 0.2s; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.v:hover { background: var(--sonando); }
+.v sup { font-family: var(--f-guia); font-size: 0.62em; font-weight: 700; color: var(--carmesi); margin-right: 0.2em; vertical-align: 0.55em; }
+.v i { font-style: italic; }
+.sonando { background: var(--sonando); box-shadow: 0 0 0 3px var(--sonando); }
+
+/* La voz del guía: otra letra, otro color */
+.nota { margin: 0.2rem 0 1.3rem; padding: 0.8rem 1rem; background: var(--nota); border-radius: 12px; cursor: pointer; font-size: 1rem; }
+.nota p { margin: 0; }
+.rotulo { display: flex; align-items: center; gap: 0.45rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--cardeno); margin-bottom: 0.25rem; }
+.rotulo .punto { width: 0.55rem; height: 0.55rem; transform: none; }
+.pausa { margin: 2rem -16px; padding: 1.4rem 16px 1.6rem; background: var(--pausa); border-block: 1px solid var(--linea); cursor: pointer; }
+.pausa .dentro { max-width: 38rem; margin-inline: auto; display: grid; gap: 0.8rem; }
+.pausa h2 { font-family: var(--f-titulo); font-weight: 500; font-size: 1.6rem; line-height: 1.15; margin: 0; color: var(--oro); text-wrap: balance; }
+.pausa dl { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 0.8rem; margin: 0; font-size: 0.95rem; }
+.pausa dt { color: var(--tinta-suave); font-weight: 700; }
+.pausa dd { margin: 0; }
+.pausa p { margin: 0; }
+.pensar { border-top: 1px solid var(--linea); padding-top: 0.8rem; font-style: italic; }
+.pensar ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.lectura p { margin: 0 0 1rem; }
+.lectura h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1.9rem, 7vw, 2.6rem); line-height: 1.1; margin: 0 0 1rem; }
+
+.pie-cap { display: flex; justify-content: space-between; gap: 0.6rem; flex-wrap: wrap; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--linea); }
+.acerca { margin-top: 2.5rem; font-size: 0.9rem; color: var(--tinta-suave); }
+.acerca summary { cursor: pointer; font-weight: 700; color: var(--tinta); }
+.acerca li { margin-bottom: 0.3rem; }
+
+/* Reproductor */
+.reproductor {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  padding: 0.6rem 16px calc(0.7rem + env(safe-area-inset-bottom, 0px));
+  background: var(--superficie); border-top: 1px solid var(--linea); box-shadow: var(--sombra);
+}
+.reproductor .dentro { max-width: 38rem; margin-inline: auto; display: grid; gap: 0.35rem; }
+.estado { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; min-width: 0; }
+.estado .que { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.estado .hora { color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+#barra-tiempo { width: 100%; accent-color: var(--carmesi); margin: 0; }
+.mandos { display: flex; align-items: center; justify-content: space-between; gap: 0.3rem; }
+.mando { width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer; }
+.mando svg { width: 1.45rem; height: 1.45rem; }
+.mando.grande { width: 3.4rem; height: 3.4rem; background: var(--carmesi); color: var(--sobre-carmesi); }
+.mando.grande svg { width: 1.7rem; height: 1.7rem; }
+.mando.texto { width: auto; min-width: 2.75rem; padding-inline: 0.5rem; border-radius: 999px; font-weight: 700; font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+.mando:disabled { opacity: 0.35; cursor: default; }
+
+.volver {
+  position: fixed; left: 50%; transform: translateX(-50%); z-index: 6;
+  bottom: calc(9.6rem + env(safe-area-inset-bottom, 0px));
+  padding: 0.55rem 1rem; border-radius: 999px; border: 0; cursor: pointer;
+  background: var(--oro); color: var(--fondo); font-weight: 700; box-shadow: var(--sombra);
+}
+.estado .punto { transform: none; }
+
+/* Índice */
+dialog { width: min(36rem, calc(100vw - 32px)); max-height: min(85vh, 46rem); border: 1px solid var(--linea); border-radius: 18px; padding: 0; background: var(--fondo); color: var(--tinta); }
+dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
+.indice { display: grid; grid-template-rows: auto auto 1fr; max-height: min(85vh, 46rem); }
+.indice header { display: flex; align-items: center; justify-content: space-between; padding: 0.9rem 1rem 0.4rem; }
+.indice h2 { font-family: var(--f-titulo); font-weight: 500; margin: 0; font-size: 1.4rem; }
+.pestanas { display: flex; gap: 0.4rem; padding: 0.3rem 1rem 0.7rem; flex-wrap: wrap; }
+.pestana[aria-selected="true"] { background: var(--carmesi); color: var(--sobre-carmesi); border-color: transparent; }
+.indice .cuerpo { overflow-y: auto; padding: 0 1rem 1.2rem; }
+.capitulos { display: grid; grid-template-columns: repeat(auto-fill, minmax(2.9rem, 1fr)); gap: 0.4rem; margin: 0.4rem 0 1.2rem; }
+.capitulos button { height: 2.75rem; border-radius: 10px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; font-variant-numeric: tabular-nums; }
+.capitulos button.actual { border-color: var(--carmesi); color: var(--carmesi); font-weight: 700; }
+.capitulos button.oido { background: var(--nota); display: grid; place-content: center; gap: 0.15rem; }
+.capitulos button.oido::after { content: ""; width: 0.35rem; height: 0.35rem; margin-inline: auto; border-radius: 50%; background: var(--cardeno); }
+.leyenda { font-size: 0.85rem; color: var(--tinta-suave); margin: -0.6rem 0 1.2rem; }
+.lista-pausas { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; }
+.lista-pausas button { width: 100%; text-align: left; padding: 0.55rem 0.7rem; border-radius: 10px; border: 1px solid var(--linea); background: transparent; cursor: pointer; display: flex; gap: 0.6rem; }
+.lista-pausas .ref { color: var(--tinta-suave); font-variant-numeric: tabular-nums; flex: none; min-width: 3.4rem; }
+.subtitulo { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-suave); margin: 0.8rem 0 0.3rem; }
+
+/* Guardar el avance con el número de teléfono (solo en el website) */
+.cuenta { display: grid; gap: 0.6rem; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 14px; }
+.cuenta p, .cuenta label { margin: 0; }
+.cuenta .fila { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.cuenta .prefijo { color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+#tel { flex: 1 1 10rem; min-width: 0; min-height: 2.5rem; padding: 0.35rem 0.9rem; border-radius: 999px; border: 1px solid var(--linea); background: var(--superficie); color: var(--tinta); font: inherit; font-size: 16px; font-variant-numeric: tabular-nums; }
+.cuenta .aviso { font-size: 0.85rem; color: var(--tinta-suave); }
+.cuenta .error { font-size: 0.9rem; color: var(--carmesi); font-weight: 700; }
+.cargando { text-align: center; color: var(--tinta-suave); padding-top: 4rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+
+<header class="barra">
+  <button class="boton" id="abrir-indice" type="button" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+    Índice
+  </button>
+  <div class="donde" id="donde">Génesis, Éxodo y Levítico</div>
+</header>
+
+<main id="lector"><div class="columna"><p class="cargando">Cargando los tres libros…</p></div></main>
+
+<button class="volver" id="volver" type="button" hidden>Volver a lo que suena</button>
+<div class="reproductor" role="region" aria-label="Reproductor">
+  <div class="dentro">
+    <div class="estado">
+      <span class="punto biblia" id="punto-voz" aria-hidden="true"></span>
+      <span class="que" id="que-suena">Toca reproducir para empezar</span>
+      <span class="hora" id="hora">0:00 / 0:00</span>
+    </div>
+    <input type="range" id="barra-tiempo" min="0" max="100" step="0.1" value="0" aria-label="Posición en el capítulo">
+    <div class="mandos">
+      <button class="mando" id="anterior" type="button" aria-label="Capítulo anterior"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+      <button class="mando" id="atras" type="button" aria-label="Retroceder 15 segundos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 3v5h5"/><text x="12" y="15.5" font-size="7.5" text-anchor="middle" fill="currentColor" stroke="none" font-family="sans-serif" font-weight="700">15</text></svg></button>
+      <button class="mando grande" id="tocar" type="button" aria-label="Reproducir"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path id="icono-tocar" d="M8 5v14l11-7z"/></svg></button>
+      <button class="mando" id="adelante" type="button" aria-label="Adelantar 15 segundos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v5h-5"/><text x="12" y="15.5" font-size="7.5" text-anchor="middle" fill="currentColor" stroke="none" font-family="sans-serif" font-weight="700">15</text></svg></button>
+      <button class="mando" id="siguiente" type="button" aria-label="Capítulo siguiente"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 5h2v14h-2zM4 5l11 7-11 7z"/></svg></button>
+      <button class="mando texto" id="velocidad" type="button" aria-label="Velocidad de lectura">1×</button>
+    </div>
+  </div>
+</div>
+
+<dialog id="indice" aria-labelledby="titulo-indice">
+  <div class="indice">
+    <header>
+      <h2 id="titulo-indice">Índice</h2>
+      <button class="boton" type="button" id="cerrar-indice">Cerrar</button>
+    </header>
+    <div class="pestanas" role="tablist" id="pestanas"></div>
+    <div class="cuerpo" id="cuerpo-indice"></div>
+  </div>
+</dialog>
+
+<script>
+"use strict";
+(() => {
+  const audio = new Audio();
+  audio.preload = "auto";
+  const $ = (id) => document.getElementById(id);
+  const lector = $("lector");
+  const VELOCIDADES = [1, 1.15, 1.3, 1.5, 0.85];
+  const ICONO_TOCAR = "M8 5v14l11-7z";
+  const ICONO_PAUSA = "M7 5h4v14H7zM13 5h4v14h-4z";
+  const reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  const guardado = {
+    leer(k, d) { try { const v = localStorage.getItem("gel:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+    poner(k, v) { try { localStorage.setItem("gel:" + k, JSON.stringify(v)); } catch { /* sin almacenamiento */ } },
+  };
+
+  let C = null;            // contenido.json
+  let SECUENCIA = [];      // orden de escucha: INTRO, INTRO-GEN, GEN-01...
+  let vista = null;        // id que se muestra
+  let cargado = null;      // id cuyo audio está en el reproductor
+  let partes = [];         // [{clave, t}] del audio cargado
+  let claveActual = null;
+  let siguiendo = true;   // el texto sigue al audio hasta que la persona se mueve por su cuenta
+  let velocidad = guardado.leer("vel", 1);
+  // Capítulos que ya se escucharon hasta el final, para orientarse en el índice.
+  const oidos = new Set(guardado.leer("oidos", []));
+  function marcarOido(id) {
+    if (!id || oidos.has(id)) return;
+    oidos.add(id); guardado.poner("oidos", [...oidos]);
+    subir(true);
+  }
+
+  // ---------- Avance guardado en el servidor con el número de teléfono.
+  // Solo en el website (lo anuncia su <meta name="progreso-servidor">): el artifact no puede llamar a otro servidor.
+  const SERVIDOR = Boolean(document.querySelector('meta[name="progreso-servidor"]'));
+  let telefono = SERVIDOR ? guardado.leer("tel", null) : null;
+  let ultimoEnvio = 0;
+  const soloDigitos = (t) => { let d = String(t || "").replace(/\D/g, ""); if (d.length === 11 && d[0] === "1") d = d.slice(1); return d; };
+  const telValido = (d) => /^[2-9]\d{2}[2-9]\d{6}$/.test(d);
+  const telVisible = (d) => `(${d.slice(0, 3)}) ${d.slice(3, 6)}-${d.slice(6)}`;
+  function estado() {
+    return { pos: guardado.leer("pos", null), oidos: [...oidos], vel: velocidad, velTs: guardado.leer("velTs", 0) };
+  }
+  async function llamar(accion, extra = {}) {
+    const r = await fetch("api/progreso", { method: "POST", keepalive: true, headers: { "Content-Type": "application/json" }, body: JSON.stringify({ accion, telefono, ...extra }) });
+    const cuerpo = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(cuerpo.error || "No se pudo conectar. Revisa la conexión.");
+    return cuerpo;
+  }
+  // Une lo que trae el servidor con lo de este aparato: capítulos de los dos lados, y la posición y la velocidad más recientes.
+  function unirDelServidor(s, repintar) {
+    let cambio = false;
+    for (const id of s.oidos || []) if (SECUENCIA.includes(id) && !oidos.has(id)) { oidos.add(id); cambio = true; }
+    guardado.poner("oidos", [...oidos]);
+    const local = guardado.leer("pos", null);
+    if (s.pos && SECUENCIA.includes(s.pos.id) && (!local || (s.pos.ts || 0) > (local.ts || 0))) { guardado.poner("pos", s.pos); cambio = true; }
+    if (VELOCIDADES.includes(s.vel) && (s.velTs || 0) > guardado.leer("velTs", 0)) {
+      velocidad = s.vel; audio.playbackRate = velocidad; guardado.poner("vel", velocidad); guardado.poner("velTs", s.velTs); cambio = true;
+    }
+    if (repintar && cambio && vista && audio.paused) mostrar(vista, { desplazar: false });
+    pintarMandos();
+  }
+  function subir(urgente) {
+    if (!telefono || !C) return;
+    if (!urgente && Date.now() - ultimoEnvio < 30000) return;
+    ultimoEnvio = Date.now();
+    llamar("guardar", { datos: estado() }).then((s) => unirDelServidor(s, false)).catch(() => { /* se reintenta en el próximo guardado */ });
+  }
+  async function entrar(numero) {
+    const anterior = telefono;
+    telefono = numero;
+    try {
+      const s = await llamar("leer");
+      guardado.poner("tel", numero);
+      unirDelServidor(s, false);
+      subir(true);
+      if (vista) mostrar(vista, { desplazar: false });
+    } catch (e) { telefono = anterior; throw e; }
+  }
+  function salir() {
+    subir(true);
+    telefono = null;
+    guardado.poner("tel", null);
+    if (vista) mostrar(vista, { desplazar: false });
+  }
+  function cuentaHTML() {
+    if (!SERVIDOR) return "";
+    if (telefono) return `<div class="cuenta"><p><strong>Tu avance se guarda con el ${esc(telVisible(telefono))}.</strong> Ábrelo en cualquier teléfono o computadora con ese número y sigues donde ibas.</p>
+      <div class="fila"><button class="boton" type="button" data-salir>Usar otro número</button></div></div>`;
+    return `<form class="cuenta" id="form-tel" novalidate>
+      <label for="tel"><strong>Guarda tu avance con tu número de teléfono</strong> y sigue donde ibas desde cualquier teléfono o computadora.</label>
+      <div class="fila"><span class="prefijo">+1</span><input id="tel" name="tel" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="(555) 123-4567" required><button class="boton lleno" type="submit">Guardar mi avance</button></div>
+      <p class="error" id="error-tel" role="alert" hidden></p>
+      <p class="aviso">El número se guarda cifrado y solo sirve para recordar dónde vas. Cualquiera que escriba tu número podría ver y cambiar tu avance.</p>
+    </form>`;
+  }
+  if (SERVIDOR) {
+    addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") subir(true); });
+    addEventListener("pagehide", () => subir(true));
+  }
+
+  const libroDe = (id) => C.libros.find((l) => id === "INTRO-" + l.id || id.startsWith(l.id + "-"));
+  function datos(id) {
+    if (id === "INTRO") return { tipo: "intro", titulo: C.intro.titulo, texto: C.intro.texto, audio: C.intro.audio, nombre: "Antes de empezar" };
+    const l = libroDe(id);
+    if (id.startsWith("INTRO-")) return { tipo: "intro", titulo: l.intro.titulo, texto: l.intro.texto, audio: l.intro.audio, libro: l, nombre: "Introducción a " + l.nombre };
+    const n = Number(id.split("-")[1]);
+    const cap = l.capitulos[n - 1];
+    return { tipo: "cap", libro: l, cap, audio: cap.audio, nombre: l.nombre + " " + n };
+  }
+  const idCap = (l, n) => `${l}-${String(n).padStart(2, "0")}`;
+  const fmt = (s) => { s = Math.max(0, Math.floor(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+  const esc = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const versoHTML = (x) => esc(x).replace(/\[([^\]]+)\]/g, "<i>$1</i>");
+  const parrafos = (t) => t.split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
+
+  // ---------- Vistas
+  function mostrar(id, { clave = null, desplazar = true } = {}) {
+    vista = id;
+    if (id === cargado) { siguiendo = true; $("volver").hidden = true; }
+    else if (cargado && !audio.paused) $("volver").hidden = false;
+    const d = datos(id);
+    $("donde").textContent = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n}` : d.nombre;
+    document.title = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n} · Génesis, Éxodo y Levítico` : "Génesis, Éxodo y Levítico";
+    const i = SECUENCIA.indexOf(id);
+    const ant = SECUENCIA[i - 1], sig = SECUENCIA[i + 1];
+    const pie = `<nav class="pie-cap" aria-label="Capítulos">
+        ${ant ? `<button class="boton" type="button" data-ir="${ant}">← ${esc(datos(ant).nombre)}</button>` : "<span></span>"}
+        ${sig ? `<button class="boton" type="button" data-ir="${sig}">${esc(datos(sig).nombre)} →</button>` : ""}
+      </nav>`;
+    let html;
+    if (id === "INTRO") html = portada() + pie + acerca();
+    else if (d.tipo === "intro") html = `<article class="lectura" data-k="i"><p class="cabeza-cap"><span class="libro">${esc(d.libro.nombre.toUpperCase())}</span></p><h1>${esc(d.titulo)}</h1>
+        <div class="acciones" style="margin-bottom:1.2rem"><button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button></div>
+        ${parrafos(d.texto)}</article>${pie}`;
+    else html = capitulo(d) + pie;
+    lector.innerHTML = `<div class="columna">${html}</div>`;
+    marcar(cargado === id ? claveActual : null);
+    if (clave) { const el = lector.querySelector(`[data-k="${clave}"]`); if (el) el.scrollIntoView({ block: "center" }); }
+    else if (desplazar) window.scrollTo({ top: 0 });
+    pintarMandos();
+  }
+  const iconoTocar = () => `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="${ICONO_TOCAR}"/></svg>`;
+
+  function portada() {
+    const pos = guardado.leer("pos", null);
+    const seguirBoton = pos && pos.id && SECUENCIA.includes(pos.id)
+      ? `<button class="boton lleno" type="button" data-continuar>${iconoTocar()} Continuar: ${esc(datos(pos.id).nombre)}</button>` : "";
+    const libros = C.libros.map((l) => {
+      const n = l.capitulos.filter((c) => oidos.has(idCap(l.id, c.n))).length;
+      return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos`}</span></button>`;
+    }).join("");
+    return `<section class="portada">
+      <p class="serie">LA BIBLIA EN VOZ ALTA</p>
+      <h1>Génesis, Éxodo y Levítico</h1>
+      <p class="version">Completos, en la Reina Valera de 1909, con notas y pausas de contexto histórico.</p>
+      <div class="acciones">${seguirBoton}<button class="boton ${seguirBoton ? "" : "lleno"}" type="button" data-tocar="INTRO">${iconoTocar()} Escuchar desde el principio</button><button class="boton" type="button" data-ir="GEN-01">Ir a Génesis 1</button></div>
+      <dl class="voces">
+        <div class="voz"><span class="punto biblia" aria-hidden="true"></span><span><strong>Una voz lee la Biblia</strong>, exactamente como está escrita.</span></div>
+        <div class="voz"><span class="punto guia" aria-hidden="true"></span><span><strong>Otra voz, de mujer, explica.</strong> Antes de cada nota o pausa suena un tono suave.</span></div>
+      </dl>
+      ${cuentaHTML()}
+      <div class="libros">${libros}</div>
+    </section>
+    <article class="lectura" data-k="i"><h1>${esc(C.intro.titulo)}</h1>${parrafos(C.intro.texto)}</article>`;
+  }
+
+  function capitulo(d) {
+    const { libro, cap } = d;
+    let html = `<header class="cabeza-cap" data-k="c"><p class="libro">${esc(libro.nombre.toUpperCase())}</p><h1>Capítulo ${cap.n}</h1>
+      <div class="acciones"><button class="boton lleno" type="button" data-tocar="${idCap(libro.id, cap.n)}">${iconoTocar()} Escuchar el capítulo</button></div></header>`;
+    let abierto = false;
+    for (const it of cap.items) {
+      if (it.t === "v") {
+        if (!abierto) { html += `<p class="biblia">`; abierto = true; }
+        html += `<span class="v" data-k="${it.k}"><sup>${it.n}</sup>${versoHTML(it.x)}</span> `;
+        continue;
+      }
+      if (abierto) { html += `</p>`; abierto = false; }
+      if (it.t === "nota") html += `<aside class="nota" data-k="${it.k}"><span class="rotulo"><span class="punto guia" aria-hidden="true"></span>Nota</span><p>${esc(it.x)}</p></aside>`;
+      else html += `<section class="pausa" data-k="${it.k}"><div class="dentro">
+          <span class="rotulo"><span class="punto guia" aria-hidden="true"></span>Pausa para el contexto</span>
+          <h2>${esc(it.titulo)}</h2>
+          <dl><dt>Época</dt><dd>${esc(it.epoca)}</dd><dt>Lugar</dt><dd>${esc(it.lugar)}</dd></dl>
+          ${parrafos(it.x)}
+          ${it.preguntas && it.preguntas.length ? `<div class="pensar"><strong>Para pensar</strong><ul>${it.preguntas.map((q) => `<li>${esc(q)}</li>`).join("")}</ul></div>` : ""}
+        </div></section>`;
+    }
+    if (abierto) html += `</p>`;
+    return html;
+  }
+
+  function acerca() {
+    const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
+    return `<details class="acerca"><summary>Sobre el texto y las voces</summary>
+      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Se conservó la ortografía de 1909. Donde las fuentes no coincidían, se tomó la lectura de eBible, salvo en estas ${(C.correcciones || []).length} palabras, en que tenía un error claro:</p>
+      <ul>${corr}</ul>
+      <p>Las palabras en cursiva son las que los traductores añadieron para que el texto se entienda.</p>
+      <p>Las notas, las pausas y las introducciones son un comentario escrito para esta guía: dan datos y contexto, y dejan las conclusiones a quien escucha.</p>
+      <p>Voces: Google Cloud Text-to-Speech, voces Chirp 3 HD: «Iapetus» (voz de hombre, para el texto bíblico) y «Vindemiatrix» (voz de mujer, para el guía).</p>
+    </details>`;
+  }
+
+  // ---------- Audio
+  // Precarga del capítulo siguiente: en los últimos dos minutos se baja entero, para que al terminar
+  // el capítulo el siguiente empiece de inmediato aunque la conexión sea lenta.
+  const urlAudio = (id) => `audio/${id}.mp4`;
+  let precarga = null;   // { id, url, control }: url es un blob: cuando ya bajó completo
+  let blobActual = null; // blob: que está sonando, para soltarlo al cambiar de capítulo
+  function precargar(id) {
+    if (!id || (precarga && precarga.id === id) || id === cargado || !datos(id).audio) return;
+    soltarPrecarga();
+    const p = { id, url: null, control: new AbortController() };
+    precarga = p;
+    fetch(urlAudio(id), { signal: p.control.signal })
+      .then((r) => (r.ok ? r.blob() : null))
+      .then((b) => { if (b && precarga === p) p.url = URL.createObjectURL(b); })
+      .catch(() => { /* sin precarga: se baja al empezar, como antes */ });
+  }
+  function soltarPrecarga() {
+    if (!precarga) return;
+    precarga.control.abort();
+    if (precarga.url) URL.revokeObjectURL(precarga.url);
+    precarga = null;
+  }
+  function cargar(id) {
+    const d = datos(id);
+    if (!d.audio) return false;
+    if (cargado !== id) {
+      cargado = id;
+      partes = d.audio.partes;
+      const anterior = blobActual;
+      blobActual = null;
+      let fuente = urlAudio(id);
+      if (precarga && precarga.id === id && precarga.url) { fuente = blobActual = precarga.url; precarga = null; }
+      else soltarPrecarga();
+      audio.src = fuente;
+      audio.dataset.archivo = urlAudio(id).split("/").pop();
+      if (anterior) URL.revokeObjectURL(anterior);
+      audio.playbackRate = velocidad;
+      claveActual = null;
+      metadatos();
+    }
+    return true;
+  }
+  function reproducir(id, clave = null) {
+    if (!cargar(id)) return;
+    const p = clave ? partes.find((x) => x.clave === clave) : null;
+    const empezar = () => { if (p) audio.currentTime = p.t; audio.play().catch(() => {}); };
+    if (audio.readyState >= 1) empezar(); else audio.addEventListener("loadedmetadata", empezar, { once: true });
+    if (vista !== id) mostrar(id, { clave });
+  }
+  function alternar() {
+    if (!cargado) { const pos = guardado.leer("pos", null); if (pos && SECUENCIA.includes(pos.id)) return continuar(pos); return reproducir(vista && datos(vista).audio ? vista : "INTRO"); }
+    if (audio.paused) audio.play().catch(() => {}); else audio.pause();
+  }
+  function continuar(pos) {
+    cargar(pos.id);
+    const seguirDesde = () => { audio.currentTime = Math.max(0, (pos.t || 0) - 2); audio.play().catch(() => {}); };
+    if (audio.readyState >= 1) seguirDesde(); else audio.addEventListener("loadedmetadata", seguirDesde, { once: true });
+    mostrar(pos.id);
+  }
+  function saltar(delta) {
+    const i = SECUENCIA.indexOf(cargado || vista);
+    const otro = SECUENCIA[i + delta];
+    if (!otro) return;
+    if (cargado && !audio.paused) reproducir(otro); else mostrar(otro);
+  }
+  function parteEn(t) {
+    let lo = 0, hi = partes.length - 1, r = null;
+    while (lo <= hi) { const m = (lo + hi) >> 1; if (partes[m].t <= t + 0.05) { r = partes[m]; lo = m + 1; } else hi = m - 1; }
+    return r;
+  }
+  function marcar(clave) {
+    lector.querySelectorAll(".sonando").forEach((e) => e.classList.remove("sonando"));
+    if (!clave) return null;
+    const el = lector.querySelector(`[data-k="${CSS.escape(clave)}"]`);
+    if (el) el.classList.add("sonando");
+    return el;
+  }
+  function describir(clave) {
+    const d = datos(cargado);
+    if (!clave || d.tipo === "intro") return { texto: d.nombre, guia: d.tipo === "intro" };
+    if (clave === "c") return { texto: `${d.libro.nombre} ${d.cap.n}`, guia: false };
+    if (clave[0] === "v") return { texto: `${d.libro.nombre} ${d.cap.n}:${clave.slice(1)}`, guia: false };
+    if (clave[0] === "n") return { texto: `Nota · ${d.libro.nombre} ${d.cap.n}:${clave.slice(1).split("-")[0]}`, guia: true };
+    const it = d.cap.items.find((x) => x.k === clave);
+    return { texto: `Pausa · ${it ? it.titulo : ""}`, guia: true };
+  }
+  let ultimoGuardado = 0;
+  audio.addEventListener("timeupdate", () => {
+    const t = audio.currentTime;
+    $("hora").textContent = `${fmt(t)} / ${fmt(audio.duration)}`;
+    if (!arrastrando && audio.duration) $("barra-tiempo").value = (t / audio.duration) * 100;
+    const p = parteEn(t);
+    if (p && p.clave !== claveActual) {
+      claveActual = p.clave;
+      const desc = describir(p.clave);
+      $("que-suena").textContent = desc.texto;
+      $("punto-voz").className = "punto " + (desc.guia ? "guia" : "biblia");
+      if (vista === cargado) {
+        const el = marcar(p.clave);
+        if (el && siguiendo) {
+          const r = el.getBoundingClientRect();
+          if (r.top < 70 || r.bottom > innerHeight - 190) el.scrollIntoView({ block: "center", behavior: reducido ? "auto" : "smooth" });
+        }
+      }
+    }
+    if (audio.duration && t > audio.duration - 8) marcarOido(cargado);
+    if (audio.duration && t > audio.duration - 120) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    if (Date.now() - ultimoGuardado > 4000) { ultimoGuardado = Date.now(); guardado.poner("pos", { id: cargado, t, ts: Date.now() }); posicionSistema(); subir(false); }
+  });
+  audio.addEventListener("play", pintarMandos);
+  audio.addEventListener("pause", () => { pintarMandos(); if (cargado) guardado.poner("pos", { id: cargado, t: audio.currentTime, ts: Date.now() }); subir(true); });
+  audio.addEventListener("ended", () => {
+    marcarOido(cargado);
+    const sig = SECUENCIA[SECUENCIA.indexOf(cargado) + 1];
+    if (!sig) { pintarMandos(); return; }
+    const mirando = vista === cargado;
+    cargar(sig);
+    audio.play().catch(() => {});
+    if (mirando && siguiendo) mostrar(sig);
+  });
+  audio.addEventListener("error", () => { $("que-suena").textContent = "No se pudo cargar el audio. Revisa la conexión y vuelve a tocar reproducir."; });
+
+  function pintarMandos() {
+    $("icono-tocar").setAttribute("d", audio.paused ? ICONO_TOCAR : ICONO_PAUSA);
+    $("tocar").setAttribute("aria-label", audio.paused ? "Reproducir" : "Pausar");
+    const i = SECUENCIA.indexOf(cargado || vista);
+    $("anterior").disabled = i <= 0;
+    $("siguiente").disabled = i < 0 || i >= SECUENCIA.length - 1;
+    $("velocidad").textContent = `${String(velocidad).replace(".", ",")}×`;
+    if ("mediaSession" in navigator) navigator.mediaSession.playbackState = audio.paused ? "paused" : "playing";
+  }
+  function metadatos() {
+    if (!("mediaSession" in navigator) || !cargado) return;
+    // En el website hay un ícono para la pantalla bloqueada; en el artifact no existe y se omite.
+    const icono = document.querySelector('link[rel="apple-touch-icon"]');
+    const artwork = icono ? [{ src: icono.href, sizes: "512x512", type: "image/png" }] : [];
+    navigator.mediaSession.metadata = new MediaMetadata({ title: datos(cargado).nombre, artist: "Reina Valera 1909", album: "Génesis, Éxodo y Levítico", artwork });
+  }
+  // La barra de la pantalla bloqueada y de las notificaciones muestra dónde va el audio.
+  function posicionSistema() {
+    if (!("mediaSession" in navigator) || !navigator.mediaSession.setPositionState || !isFinite(audio.duration)) return;
+    try { navigator.mediaSession.setPositionState({ duration: audio.duration, playbackRate: audio.playbackRate, position: Math.min(audio.currentTime, audio.duration) }); } catch { /* no disponible */ }
+  }
+  audio.addEventListener("loadedmetadata", posicionSistema);
+  audio.addEventListener("ratechange", posicionSistema);
+  audio.addEventListener("seeked", posicionSistema);
+  if ("mediaSession" in navigator) {
+    const ms = navigator.mediaSession;
+    const poner = (a, f) => { try { ms.setActionHandler(a, f); } catch { /* no disponible */ } };
+    poner("play", () => audio.play().catch(() => {}));
+    poner("pause", () => audio.pause());
+    poner("previoustrack", () => saltar(-1));
+    poner("nexttrack", () => saltar(1));
+    poner("seekbackward", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+    poner("seekforward", () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15); });
+    poner("seekto", (e) => { if (cargado && isFinite(e.seekTime)) audio.currentTime = e.seekTime; });
+  }
+
+  // ---------- Mandos
+  let arrastrando = false;
+  $("barra-tiempo").addEventListener("input", () => { arrastrando = true; if (audio.duration) $("hora").textContent = `${fmt(($("barra-tiempo").value / 100) * audio.duration)} / ${fmt(audio.duration)}`; });
+  $("barra-tiempo").addEventListener("change", () => { arrastrando = false; if (audio.duration) audio.currentTime = ($("barra-tiempo").value / 100) * audio.duration; });
+  $("tocar").addEventListener("click", alternar);
+  $("atras").addEventListener("click", () => { if (cargado) audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  $("adelante").addEventListener("click", () => { if (cargado) audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 15); });
+  $("anterior").addEventListener("click", () => saltar(-1));
+  $("siguiente").addEventListener("click", () => saltar(1));
+  $("velocidad").addEventListener("click", () => {
+    velocidad = VELOCIDADES[(VELOCIDADES.indexOf(velocidad) + 1) % VELOCIDADES.length];
+    audio.playbackRate = velocidad; guardado.poner("vel", velocidad); guardado.poner("velTs", Date.now()); pintarMandos(); subir(true);
+  });
+  // Si la persona se mueve por el texto mientras suena, se deja de seguir y aparece el botón para volver.
+  const soltar = () => { if (!audio.paused && vista === cargado && siguiendo) { siguiendo = false; $("volver").hidden = false; } };
+  addEventListener("wheel", soltar, { passive: true });
+  addEventListener("touchmove", soltar, { passive: true });
+  addEventListener("keydown", (e) => { if (["PageUp", "PageDown", "ArrowUp", "ArrowDown", "Home", "End"].includes(e.key)) soltar(); });
+  $("volver").addEventListener("click", () => {
+    siguiendo = true; $("volver").hidden = true;
+    if (cargado && vista !== cargado) mostrar(cargado, { clave: claveActual });
+    const el = claveActual && lector.querySelector(`[data-k="${CSS.escape(claveActual)}"]`);
+    if (el) el.scrollIntoView({ block: "center", behavior: reducido ? "auto" : "smooth" });
+  });
+
+  lector.addEventListener("submit", (e) => {
+    if (e.target.id !== "form-tel") return;
+    e.preventDefault();
+    const d = soloDigitos($("tel").value);
+    const error = $("error-tel");
+    const boton = e.target.querySelector('button[type="submit"]');
+    if (!telValido(d)) { error.textContent = "Escribe un número de Estados Unidos de 10 dígitos, por ejemplo (555) 123-4567."; error.hidden = false; return; }
+    error.hidden = true; boton.disabled = true; boton.textContent = "Guardando…";
+    entrar(d).catch((x) => { error.textContent = x.message; error.hidden = false; boton.disabled = false; boton.textContent = "Guardar mi avance"; });
+  });
+  lector.addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (b && "salir" in b.dataset) return salir();
+    if (b && b.dataset.ir) return mostrar(b.dataset.ir);
+    if (b && b.dataset.tocar) return reproducir(b.dataset.tocar);
+    if (b && "continuar" in b.dataset) return continuar(guardado.leer("pos", null));
+    if (b || e.target.closest("a, summary, details")) return;
+    const k = e.target.closest("[data-k]");
+    if (k && vista && datos(vista).audio) reproducir(vista, k.dataset.k);
+  });
+
+  // ---------- Índice
+  let pestana = "GEN";
+  function pintarIndice() {
+    $("pestanas").innerHTML = [["INICIO", "Inicio"], ...C.libros.map((l) => [l.id, l.nombre])]
+      .map(([id, n]) => `<button class="boton pestana" role="tab" type="button" aria-selected="${id === pestana}" data-pestana="${id}">${esc(n)}</button>`).join("");
+    let html = "";
+    if (pestana === "INICIO") {
+      html = `<p class="subtitulo">Para empezar</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO"><span class="ref">Inicio</span><span>Antes de empezar</span></button></li>
+        ${C.libros.map((l) => `<li><button type="button" data-ir="INTRO-${l.id}"><span class="ref">${esc(l.nombre)}</span><span>Introducción</span></button></li>`).join("")}</ul>`;
+    } else {
+      const l = C.libros.find((x) => x.id === pestana);
+      const actual = vista && vista.startsWith(l.id + "-") ? Number(vista.split("-")[1]) : 0;
+      const oidosLibro = l.capitulos.filter((c) => oidos.has(idCap(l.id, c.n))).length;
+      html = `<p class="subtitulo">Capítulos</p><div class="capitulos">${l.capitulos.map((c) => {
+        const oido = oidos.has(idCap(l.id, c.n));
+        return `<button type="button" data-ir="${idCap(l.id, c.n)}" class="${[c.n === actual ? "actual" : "", oido ? "oido" : ""].join(" ").trim()}" aria-label="${esc(l.nombre)} ${c.n}${oido ? ", ya escuchado" : ""}">${c.n}</button>`;
+      }).join("")}</div>${oidosLibro ? `<p class="leyenda">Los capítulos con un punto ya los escuchaste: ${oidosLibro} de ${l.capitulos.length}.</p>` : ""}`;
+      const pausas = l.capitulos.flatMap((c) => c.items.filter((x) => x.t === "pausa").map((x) => ({ c, x })));
+      html += `<p class="subtitulo">Pausas para el contexto</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO-${l.id}"><span class="ref">Inicio</span><span>Introducción a ${esc(l.nombre)}</span></button></li>
+        ${pausas.map(({ c, x }) => `<li><button type="button" data-ir="${idCap(l.id, c.n)}" data-clave="${x.k}"><span class="ref">${c.n}:${x.k.slice(1).split("-")[0]}</span><span>${esc(x.titulo)}</span></button></li>`).join("")}</ul>`;
+    }
+    $("cuerpo-indice").innerHTML = html;
+  }
+  $("abrir-indice").addEventListener("click", () => {
+    if (!C) return;
+    pestana = vista && vista !== "INTRO" ? (libroDe(vista) || { id: "GEN" }).id : "INICIO";
+    pintarIndice(); $("indice").showModal();
+  });
+  $("cerrar-indice").addEventListener("click", () => $("indice").close());
+  $("indice").addEventListener("click", (e) => {
+    if (e.target === $("indice")) return $("indice").close();
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.pestana) { pestana = b.dataset.pestana; return pintarIndice(); }
+    if (b.dataset.ir) { $("indice").close(); mostrar(b.dataset.ir, { clave: b.dataset.clave || null }); }
+  });
+
+  // ---------- Arranque
+  fetch("contenido.json").then((r) => r.json()).then((datosJSON) => {
+    C = datosJSON;
+    SECUENCIA = ["INTRO"];
+    for (const l of C.libros) { if (l.intro) SECUENCIA.push("INTRO-" + l.id); l.capitulos.forEach((c) => SECUENCIA.push(idCap(l.id, c.n))); }
+    const desdeEnlace = location.hash.slice(1);
+    mostrar(SECUENCIA.includes(desdeEnlace) ? desdeEnlace : "INTRO", { desplazar: false });
+    pintarMandos();
+    if (telefono) llamar("leer").then((s) => { unirDelServidor(s, true); subir(true); }).catch(() => { /* sin conexión: sigue con lo de este aparato */ });
+  }).catch(() => {
+    lector.innerHTML = `<div class="columna"><p class="cargando">No se pudo cargar el contenido. Revisa la conexión y vuelve a abrir la página.</p></div>`;
+  });
+})();
+</script>
+
+</body>
+</html>
