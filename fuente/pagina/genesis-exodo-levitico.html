@@ -163,6 +163,15 @@ button { font: inherit; color: inherit; }
 .acciones { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .voces { display: grid; gap: 0.5rem; margin: 0; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 4px; }
 .voz { display: flex; align-items: baseline; gap: 0.6rem; }
+.leyenda-voces { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.3rem 1.2rem; margin: 0; font-size: 0.95rem; color: var(--tinta-suave); }
+.leyenda-voces > span { display: inline-flex; align-items: center; gap: 0.45rem; }
+.credito { margin: 3rem 0 0; text-align: center; font-size: 0.82rem; letter-spacing: 0.04em; color: var(--tinta-suave); }
+.credito a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--linea); }
+.credito a:hover { color: var(--tinta); }
+.epigrafe { display: grid; place-content: center; gap: 1rem; min-height: 60vh; padding: 2rem 1rem; text-align: center; }
+.epigrafe p { margin: 0; font-family: var(--f-biblia); font-style: italic; font-size: 1.55rem; line-height: 1.45; text-wrap: balance; }
+.epigrafe p::before { content: "❦"; display: block; margin-bottom: 1rem; font-style: normal; font-size: 1.2rem; color: var(--oro); }
+.epigrafe span { font-family: var(--f-titulo); letter-spacing: 0.1em; font-size: 0.85rem; color: var(--carmesi); }
 .punto { width: 0.7rem; height: 0.7rem; border-radius: 50%; flex: none; transform: translateY(0.05rem); }
 .punto.biblia { background: var(--carmesi); }
 .punto.guia { background: var(--cardeno); }
@@ -537,7 +546,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
   const libroDe = (id) => C.libros.find((l) => id === "INTRO-" + l.id || id.startsWith(l.id + "-"));
   function datos(id) {
-    if (id === "INTRO") return { tipo: "intro", titulo: C.intro.titulo, texto: C.intro.texto, audio: C.intro.audio, nombre: "Antes de empezar" };
+    if (id === "INTRO") return { tipo: "portada", audio: null, nombre: "Inicio" };
     const l = libroDe(id);
     if (id.startsWith("INTRO-")) return { tipo: "intro", titulo: l.intro.titulo, texto: l.intro.texto, audio: l.intro.audio, libro: l, nombre: "Introducción a " + l.nombre };
     const n = Number(id.split("-")[1]);
@@ -565,11 +574,12 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
         ${sig ? `<button class="boton" type="button" data-ir="${sig}">${esc(datos(sig).nombre)} →</button>` : ""}
       </nav>`;
     let html;
-    if (id === "INTRO") html = portada() + pie + acerca();
+    if (id === "INTRO") html = portada() + acerca();
     else if (d.tipo === "intro") html = `<article class="lectura" data-k="i"><p class="cabeza-cap"><span class="libro">${esc(d.libro.nombre.toUpperCase())}</span></p><h1>${esc(d.titulo)}</h1>
         <div class="acciones" style="margin-bottom:1.2rem"><button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button></div>
         ${parrafos(d.texto)}</article>${pie}`;
     else html = capitulo(d) + pie;
+    html += creditoHTML();
     lector.innerHTML = `<div class="columna">${html}</div>`;
     marcar(cargado === id ? claveActual : null);
     if (clave) { const el = lector.querySelector(`[data-k="${clave}"]`); if (el) el.scrollIntoView({ block: "center" }); }
@@ -593,10 +603,9 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (!C || !dobleHoja.matches) { caja.innerHTML = ""; return; }
     const l = vista && vista !== "INTRO" ? libroDe(vista) : null;
     if (!l) {
-      caja.innerHTML = `<p class="libro-nombre">Contenido</p><ul class="lista-pausas">${C.libros.map((x) => {
-        const n = x.capitulos.filter((c) => oidos.has(idCap(x.id, c.n))).length;
-        return `<li><button type="button" data-ir="INTRO-${x.id}"><span>${esc(x.nombre)}</span><span class="ref">${n ? `${n} de ${x.capitulos.length}` : `${x.capitulos.length} capítulos`}</span></button></li>`;
-      }).join("")}</ul>`;
+      // En la portada, la página de enfrente lleva el primer versículo, como la primera hoja de una Biblia.
+      const primero = C.libros[0].capitulos[0].items.find((x) => x.t === "v");
+      caja.innerHTML = `<div class="epigrafe"><p>${versoHTML(primero.x)}</p><span>${esc(C.libros[0].nombre)} 1, versículo 1</span></div>`;
       return;
     }
     const actual = vista.startsWith(l.id + "-") ? Number(vista.split("-")[1]) : 0;
@@ -614,8 +623,10 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // Cambiar de capítulo o de libro pasa hojas: una al capítulo de al lado, varias al saltar más lejos.
   let hojeando = false;
   function hojear(id, opciones = {}) {
-    const desde = SECUENCIA.indexOf(vista), hasta = SECUENCIA.indexOf(id);
-    if (movimientoReducido() || hojeando || id === vista || desde < 0) return mostrar(id, opciones);
+    // La portada ("INTRO") va antes del primer capítulo, aunque ya no esté en la secuencia de audio.
+    const lugar = (x) => (x === "INTRO" ? -1 : SECUENCIA.indexOf(x));
+    const desde = lugar(vista), hasta = lugar(id);
+    if (movimientoReducido() || hojeando || id === vista || !vista) return mostrar(id, opciones);
     const r = lector.getBoundingClientRect();
     const arriba = Math.max(r.top, document.querySelector(".barra").getBoundingClientRect().bottom);
     const abajo = Math.min(r.bottom, document.querySelector(".reproductor").getBoundingClientRect().top);
@@ -659,16 +670,12 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     return `<section class="portada">
       <p class="serie">LA BIBLIA EN VOZ ALTA</p>
       <h1>Génesis, Éxodo y Levítico</h1>
-      <p class="version">Completos, en la Reina Valera de 1909, con notas y pausas de contexto histórico.</p>
-      <div class="acciones">${seguirBoton}<button class="boton ${seguirBoton ? "" : "lleno"}" type="button" data-tocar="INTRO">${iconoTocar()} Escuchar desde el principio</button><button class="boton" type="button" data-ir="GEN-01">Ir a Génesis 1</button></div>
-      <dl class="voces">
-        <div class="voz"><span class="punto biblia" aria-hidden="true"></span><span><strong>Una voz lee la Biblia</strong>, exactamente como está escrita.</span></div>
-        <div class="voz"><span class="punto guia" aria-hidden="true"></span><span><strong>Otra voz, de mujer, explica.</strong> Antes de cada nota o pausa suena un tono suave.</span></div>
-      </dl>
-      ${cuentaHTML()}
+      <p class="version">Reina Valera 1909, con notas y pausas de contexto histórico.</p>
+      <div class="acciones">${seguirBoton}<button class="boton ${seguirBoton ? "" : "lleno"}" type="button" data-tocar="${SECUENCIA[0]}">${iconoTocar()} Escuchar desde el principio</button></div>
       <div class="libros">${libros}</div>
-    </section>
-    <article class="lectura" data-k="i"><h1>${esc(C.intro.titulo)}</h1>${parrafos(C.intro.texto)}</article>`;
+      <p class="leyenda-voces"><span><span class="punto biblia" aria-hidden="true"></span>Una voz lee la Biblia</span><span><span class="punto guia" aria-hidden="true"></span>otra, de mujer, explica</span></p>
+      ${cuentaHTML()}
+    </section>`;
   }
 
   function capitulo(d) {
@@ -696,6 +703,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     return html;
   }
 
+  const creditoHTML = () => `<p class="credito">Website por <a href="https://www.judomarketing.net" target="_blank" rel="noopener">Judo Marketing</a></p>`;
   function acerca() {
     const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
     return `<details class="acerca"><summary>Sobre el texto y las voces</summary>
@@ -757,7 +765,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (vista !== id) mostrar(id, { clave });
   }
   function alternar() {
-    if (!cargado) { const pos = guardado.leer("pos", null); if (pos && SECUENCIA.includes(pos.id)) return continuar(pos); return reproducir(vista && datos(vista).audio ? vista : "INTRO"); }
+    if (!cargado) { const pos = guardado.leer("pos", null); if (pos && SECUENCIA.includes(pos.id)) return continuar(pos); return reproducir(vista && datos(vista).audio ? vista : SECUENCIA[0]); }
     if (audio.paused) audio.play().catch(() => {}); else audio.pause();
   }
   function continuar(pos) {
@@ -918,7 +926,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       .map(([id, n]) => `<button class="boton pestana" role="tab" type="button" aria-selected="${id === pestana}" data-pestana="${id}">${esc(n)}</button>`).join("");
     let html = "";
     if (pestana === "INICIO") {
-      html = `<p class="subtitulo">Para empezar</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO"><span class="ref">Inicio</span><span>Antes de empezar</span></button></li>
+      html = `<p class="subtitulo">Para empezar</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO"><span class="ref">Inicio</span><span>Portada</span></button></li>
         ${C.libros.map((l) => `<li><button type="button" data-ir="INTRO-${l.id}"><span class="ref">${esc(l.nombre)}</span><span>Introducción</span></button></li>`).join("")}</ul>`;
     } else {
       const l = C.libros.find((x) => x.id === pestana);
@@ -951,7 +959,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // ---------- Arranque
   fetch("contenido.json").then((r) => r.json()).then((datosJSON) => {
     C = datosJSON;
-    SECUENCIA = ["INTRO"];
+    SECUENCIA = [];   // la portada ("INTRO") ya no tiene audio: se escucha desde la introducción de Génesis
     for (const l of C.libros) { if (l.intro) SECUENCIA.push("INTRO-" + l.id); l.capitulos.forEach((c) => SECUENCIA.push(idCap(l.id, c.n))); }
     const desdeEnlace = location.hash.slice(1);
     mostrar(SECUENCIA.includes(desdeEnlace) ? desdeEnlace : "INTRO", { desplazar: false });

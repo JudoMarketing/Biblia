@@ -57,6 +57,14 @@ await p.locator(".separador.sep-GEN").click();
 ok(await p.locator(".vuelo").count() === 0 && (await p.locator("#donde").innerText()) === "Introducción a Génesis", "con reducir movimiento el separador lleva directo");
 await ctx.close();
 
+// 5b. Portada limpia: los libros una sola vez, sin la introducción general, con el crédito al final.
+({ ctx, p } = await pagina({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" }, BASE + "?limpia"));
+ok(await p.locator(".libro-tarjeta").count() === 3, "la portada muestra los 3 libros una vez");
+ok(!(await p.getByText("Antes de empezar").count()) && !(await p.getByRole("button", { name: "Ir a Génesis 1" }).count()), "sin la introducción general ni botones repetidos");
+const credito = p.locator(".credito a");
+ok((await credito.innerText()) === "Judo Marketing" && (await credito.getAttribute("href")) === "https://www.judomarketing.net", `crédito: ${await p.locator(".credito").innerText()}`);
+await ctx.close();
+
 // 6. Pantalla ancha: la página izquierda muestra los capítulos; el avance guardado se respeta.
 ({ ctx, p } = await pagina({ viewport: { width: 1440, height: 900 }, reducedMotion: "reduce" }, BASE + "?ancho#GEN-01"));
 await p.evaluate(() => { localStorage.setItem("gel:oidos", JSON.stringify(["GEN-01", "GEN-02"])); localStorage.setItem("gel:pos", JSON.stringify({ id: "GEN-02", t: 30, ts: Date.now() })); });
@@ -69,6 +77,9 @@ ok((await p.locator("#donde").innerText()) === "Génesis 3", "tocar el 3 en la p
 ok(await p.locator("#pagina-izq .capitulos button.actual").innerText() === "3", "el 3 queda marcado como actual");
 await p.goto(BASE + "?ancho2", { waitUntil: "load" });
 ok((await p.getByRole("button", { name: /Continuar/ }).innerText()).includes("Génesis 2"), "Continuar sigue ofreciendo Génesis 2");
+ok((await p.locator("#pagina-izq .epigrafe").innerText()).includes("EN el principio crió Dios"), "en la portada, la página izquierda lleva Génesis 1, versículo 1");
+const anchoAncho = await p.evaluate(() => document.documentElement.scrollWidth);
+ok(anchoAncho <= 1440, `sin desborde a 1440 (${anchoAncho})`);
 await ctx.close();
 
 console.log("errores de la página:", errores);
