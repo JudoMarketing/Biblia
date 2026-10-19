@@ -735,20 +735,30 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   }
 
   // ---------- Audio
-  // Precarga del capítulo siguiente: en los últimos dos minutos se baja entero, para que al terminar
-  // el capítulo el siguiente empiece de inmediato aunque la conexión sea lenta.
+  // Precarga del capítulo siguiente: en los últimos cinco minutos se baja entero, con prioridad baja.
+  // Con la página a la vista, el capítulo siguiente sale de esa copia (blob:) y empieza de inmediato.
+  // Con la pantalla bloqueada o el navegador minimizado se pide por su dirección de siempre, que la
+  // precarga ya dejó en la caché del navegador: en el teléfono, una copia blob: puede no cargar en segundo plano.
   const urlAudio = (id) => `audio/${id}.mp4`;
-  let precarga = null;   // { id, url, control }: url es un blob: cuando ya bajó completo
+  const PRECARGA_SEG = 300;
+  let precarga = null;   // { id, url, control, fallo }: url es un blob: cuando ya bajó completo; fallo, cuándo falló
   let blobActual = null; // blob: que está sonando, para soltarlo al cambiar de capítulo
+  let quiereSonar = false; // la persona quiere oír: lo cambian reproducir y pausar, no los cortes de señal
+  let posBuena = 0;        // último segundo que sonó bien del capítulo cargado, para retomar desde ahí
+  let fallos = 0;          // intentos seguidos que fallaron
+  let cortado = 0;         // cuándo empezó el corte de señal en curso (0: no hay corte)
+  let esperando = false;   // ya se reintentó dos veces: se espera a que vuelva la señal
+  let alCargar = null;     // qué hacer cuando el audio que se carga ya sepa su duración (ir a un punto y tocar)
   function precargar(id) {
-    if (!id || (precarga && precarga.id === id) || id === cargado || !datos(id).audio) return;
+    if (!id || id === cargado || !datos(id).audio) return;
+    if (precarga && precarga.id === id && !(precarga.fallo && Date.now() - precarga.fallo > 20000)) return;
     soltarPrecarga();
-    const p = { id, url: null, control: new AbortController() };
+    const p = { id, url: null, control: new AbortController(), fallo: 0 };
     precarga = p;
-    fetch(urlAudio(id), { signal: p.control.signal })
-      .then((r) => (r.ok ? r.blob() : null))
-      .then((b) => { if (b && precarga === p) p.url = URL.createObjectURL(b); })
-      .catch(() => { /* sin precarga: se baja al empezar, como antes */ });
+    fetch(urlAudio(id), { signal: p.control.signal, priority: "low" })
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.blob(); })
+      .then((b) => { if (precarga === p) p.url = URL.createObjectURL(b); })
+      .catch(() => { if (precarga === p) p.fallo = Date.now(); /* se vuelve a intentar a los 20 segundos */ });
   }
   function soltarPrecarga() {
     if (!precarga) return;
@@ -762,10 +772,12 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (cargado !== id) {
       cargado = id;
       partes = d.audio.partes;
+      posBuena = 0; fallos = 0; cortado = 0; esperando = false; alCargar = null;
       const anterior = blobActual;
       blobActual = null;
       let fuente = urlAudio(id);
-      if (precarga && precarga.id === id && precarga.url) { fuente = blobActual = precarga.url; precarga = null; }
+      const lista = precarga && precarga.id === id && precarga.url;
+      if (lista && document.visibilityState === "visible") { fuente = blobActual = precarga.url; precarga = null; }
       else soltarPrecarga();
       audio.src = fuente;
       audio.dataset.archivo = urlAudio(id).split("/").pop();
@@ -776,21 +788,27 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     }
     return true;
   }
+  function cuandoCargue(f) { if (audio.readyState >= 1) { alCargar = null; f(); } else alCargar = f; }
+  audio.addEventListener("loadedmetadata", () => { const f = alCargar; alCargar = null; if (f) f(); });
   function reproducir(id, clave = null) {
     if (!cargar(id)) return;
     const p = clave ? partes.find((x) => x.clave === clave) : null;
-    const empezar = () => { if (p) audio.currentTime = p.t; audio.play().catch(() => {}); };
-    if (audio.readyState >= 1) empezar(); else audio.addEventListener("loadedmetadata", empezar, { once: true });
+    quiereSonar = true;
+    if (p) posBuena = p.t;
+    cuandoCargue(() => { if (p) audio.currentTime = p.t; audio.play().catch(() => {}); });
     if (vista !== id) mostrar(id, { clave });
   }
+  function tocar() { quiereSonar = true; if (audio.error || esperando) retomar(); else audio.play().catch(() => {}); }
+  function pausar() { quiereSonar = false; audio.pause(); }
   function alternar() {
     if (!cargado) { const pos = guardado.leer("pos", null); if (pos && SECUENCIA.includes(pos.id)) return continuar(pos); return reproducir(vista && datos(vista).audio ? vista : SECUENCIA[0]); }
-    if (audio.paused) audio.play().catch(() => {}); else audio.pause();
+    if (audio.paused || audio.error || esperando) tocar(); else pausar();
   }
   function continuar(pos) {
     cargar(pos.id);
-    const seguirDesde = () => { audio.currentTime = Math.max(0, (pos.t || 0) - 2); audio.play().catch(() => {}); };
-    if (audio.readyState >= 1) seguirDesde(); else audio.addEventListener("loadedmetadata", seguirDesde, { once: true });
+    quiereSonar = true;
+    posBuena = Math.max(0, (pos.t || 0) - 2);
+    cuandoCargue(() => { audio.currentTime = posBuena; audio.play().catch(() => {}); });
     mostrar(pos.id);
   }
   function saltar(delta) {
@@ -822,6 +840,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   }
   let ultimoGuardado = 0;
   audio.addEventListener("timeupdate", () => {
+    if (audio.readyState < 1) return;   // un audio que recién empieza a cargar marca 0: no es la posición real
     const t = audio.currentTime;
     $("hora").textContent = `${fmt(t)} / ${fmt(audio.duration)}`;
     if (!arrastrando && audio.duration) $("barra-tiempo").value = (t / audio.duration) * 100;
@@ -840,21 +859,62 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       }
     }
     if (audio.duration && t > audio.duration - 8) marcarOido(cargado);
-    if (audio.duration && t > audio.duration - 120) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    if (audio.duration && t > 10 && t > audio.duration - PRECARGA_SEG) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    if (audio.readyState >= 2 && !audio.seeking && t > 0) posBuena = t;
     if (Date.now() - ultimoGuardado > 4000) { ultimoGuardado = Date.now(); guardado.poner("pos", { id: cargado, t, ts: Date.now() }); posicionSistema(); subir(false); }
   });
   audio.addEventListener("play", pintarMandos);
-  audio.addEventListener("pause", () => { pintarMandos(); if (cargado) guardado.poner("pos", { id: cargado, t: audio.currentTime, ts: Date.now() }); subir(true); });
+  audio.addEventListener("pause", () => {
+    pintarMandos();
+    if (cargado) guardado.poner("pos", { id: cargado, t: audio.readyState >= 1 ? audio.currentTime : posBuena, ts: Date.now() });
+    subir(true);
+  });
   audio.addEventListener("ended", () => {
     marcarOido(cargado);
     const sig = SECUENCIA[SECUENCIA.indexOf(cargado) + 1];
-    if (!sig) { pintarMandos(); return; }
+    if (!sig) { quiereSonar = false; pintarMandos(); return; }
     const mirando = vista === cargado;
     cargar(sig);
     audio.play().catch(() => {});
     if (mirando && siguiendo) mostrar(sig);
   });
-  audio.addEventListener("error", () => { $("que-suena").textContent = "No se pudo cargar el audio. Revisa la conexión y vuelve a tocar reproducir."; });
+  // Si el audio no carga, se vuelve a intentar solo y desde el mismo punto: enseguida si venía de la copia
+  // precargada, y si no, a los 2 y a los 6 segundos. Después prueba cada 20 segundos, cuando el teléfono avisa
+  // que volvió la señal y cuando la página vuelve a la vista. Si el corte pasó de 15 minutos, deja el audio
+  // listo donde iba pero no empieza a sonar de sorpresa.
+  const avisar = (texto, detalle = "") => { $("que-suena").textContent = texto; $("que-suena").title = detalle; };
+  function retomar() {
+    if (!cargado) return;
+    const id = cargado, t = posBuena;
+    if (cortado && Date.now() - cortado > 15 * 60000) quiereSonar = false;
+    esperando = false;
+    const viejo = blobActual;
+    blobActual = null;
+    audio.src = urlAudio(id);
+    if (viejo) URL.revokeObjectURL(viejo);
+    audio.playbackRate = velocidad;
+    claveActual = null;
+    cuandoCargue(() => { if (cargado !== id) return; if (t) audio.currentTime = t; if (quiereSonar) audio.play().catch(() => {}); });
+  }
+  audio.addEventListener("error", () => {
+    if (!cargado || !audio.error) return;
+    const id = cargado, detalle = `código ${audio.error.code}${audio.error.message ? ": " + audio.error.message : ""}`;
+    if (audio.src.startsWith("blob:")) return retomar();   // la copia precargada no sirvió: por su dirección de siempre
+    fallos++;
+    if (!cortado) cortado = Date.now();
+    if (fallos <= 2) {
+      avisar("Sin señal. Reintentando…", detalle);
+      setTimeout(() => { if (cargado === id && audio.error && !esperando) retomar(); }, fallos === 1 ? 2000 : 6000);
+      return;
+    }
+    esperando = true;
+    avisar(quiereSonar ? "Sin señal. Seguirá cuando vuelva" : "Sin señal. Toca reproducir", detalle);
+    pintarMandos();
+    if (quiereSonar) setTimeout(() => { if (cargado === id && esperando) retomar(); }, 20000);
+  });
+  audio.addEventListener("playing", () => { fallos = 0; cortado = 0; esperando = false; $("que-suena").title = ""; });
+  addEventListener("online", () => { if (esperando) retomar(); });
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && esperando) retomar(); });
 
   function pintarMandos() {
     $("icono-tocar").setAttribute("d", audio.paused ? ICONO_TOCAR : ICONO_PAUSA);
@@ -883,8 +943,8 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   if ("mediaSession" in navigator) {
     const ms = navigator.mediaSession;
     const poner = (a, f) => { try { ms.setActionHandler(a, f); } catch { /* no disponible */ } };
-    poner("play", () => audio.play().catch(() => {}));
-    poner("pause", () => audio.pause());
+    poner("play", tocar);
+    poner("pause", pausar);
     poner("previoustrack", () => saltar(-1));
     poner("nexttrack", () => saltar(1));
     poner("seekbackward", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
