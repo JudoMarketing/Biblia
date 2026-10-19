@@ -85,11 +85,11 @@ await p.waitForTimeout(1800);
 comprobar((await p.locator("#que-suena").innerText()) === `Pausa · ${pausaVisible}`, `tocar la pausa la reproduce: ${await p.locator("#que-suena").innerText()}`);
 await p.screenshot({ path: `${DIR}/pausa-sonando-390-noche.png` });
 
-// 5. Fin de libro: Génesis 50 sigue con la introducción de Éxodo; Éxodo 40 con la de Levítico; Levítico 27 se detiene.
-for (const [desde, hacia] of [["GEN-50", "INTRO-EXO"], ["EXO-40", "INTRO-LEV"], ["LEV-27", null]]) {
+// 5. Fin de libro: cada libro sigue con la introducción del siguiente; Josué 24, el último, se detiene.
+for (const [desde, hacia] of [["GEN-50", "INTRO-EXO"], ["EXO-40", "INTRO-LEV"], ["LEV-27", "INTRO-NUM"], ["NUM-36", "INTRO-DEU"], ["DEU-34", "INTRO-JOS"], ["JOS-24", null]]) {
   await p.getByRole("button", { name: "Índice" }).click();
   const [libro, n] = desde.split("-");
-  const nombre = { GEN: "Génesis", EXO: "Éxodo", LEV: "Levítico" }[libro];
+  const nombre = { GEN: "Génesis", EXO: "Éxodo", LEV: "Levítico", NUM: "Números", DEU: "Deuteronomio", JOS: "Josué" }[libro];
   await p.locator(`#pestanas [data-pestana="${libro}"]`).click();
   await p.locator(`#cuerpo-indice .capitulos button[aria-label="${nombre} ${Number(n)}"]`).click();
   await p.getByRole("button", { name: "Escuchar el capítulo" }).click();
