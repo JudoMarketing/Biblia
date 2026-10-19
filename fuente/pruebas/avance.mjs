@@ -6,7 +6,7 @@ const fallos = [], errores = [];
 const ok = (c, q) => { console.log((c ? "  ok  " : "  MAL ") + q); if (!c) fallos.push(q); };
 const espia = () => { const O = window.Audio; window.Audio = function (...a) { const x = new O(...a); window.__audio = x; return x; }; window.Audio.prototype = O.prototype; };
 async function aparato(ancho) {
-  const ctx = await b.newContext({ viewport: { width: ancho, height: 844 }, colorScheme: "dark" });
+  const ctx = await b.newContext({ viewport: { width: ancho, height: 844 }, colorScheme: "dark", reducedMotion: "reduce" });
   await ctx.addInitScript(espia);
   const p = await ctx.newPage(); p.setDefaultTimeout(20000);
   p.on("pageerror", (e) => errores.push(e.message));

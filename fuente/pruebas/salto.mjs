@@ -1,7 +1,7 @@
 // Mide cuánto tarda en empezar el capítulo siguiente con una conexión lenta (3 s de espera por audio).
 import { chromium } from "playwright";
 const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--autoplay-policy=no-user-gesture-required"] });
-const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" });
 await ctx.addInitScript(() => { const O = window.Audio; window.Audio = function (...a) { const x = new O(...a); window.__audio = x; return x; }; window.Audio.prototype = O.prototype; });
 const p = await ctx.newPage(); const errores = []; p.on("pageerror", (e) => errores.push(e.message));
 await p.route("**/audio/*", async (r) => { await new Promise((ok) => setTimeout(ok, 3000)); await r.continue(); });

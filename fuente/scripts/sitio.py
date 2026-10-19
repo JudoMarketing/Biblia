@@ -26,7 +26,7 @@ else:
 os.makedirs(os.path.join(S, "audio"), exist_ok=True)
 
 NOMBRE = "Génesis, Éxodo y Levítico"
-FONDO, TINTA, CARMESI, ORO = "#12142a", "#ece7da", "#e2705f", "#d9b56c"
+FONDO, TINTA, CARMESI, ORO = "#2e1d12", "#f4ecd9", "#9c2b1f", "#d9b56c"   # mesa, papel, rúbrica, oro
 
 cuerpo = open(os.path.join(B, "pagina", "genesis-exodo-levitico.html"), encoding="utf8").read()
 cabeza = f"""<!doctype html>

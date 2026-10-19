@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--autoplay-policy=no-user-gesture-required"] });
-const p = await (await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark" })).newPage();
+const p = await (await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark", reducedMotion: "reduce" })).newPage();
 const errores = []; p.on("pageerror", (e) => errores.push(e.message));
 await p.goto("http://127.0.0.1:8802/index.html#GEN-01", { waitUntil: "networkidle" });
 await p.locator('.v[data-k="v5"]').click();

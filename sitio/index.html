@@ -6,7 +6,7 @@
 <meta name="description" content="Génesis, Éxodo y Levítico completos en la Reina Valera 1909, en voz alta, con notas y pausas de contexto histórico.">
 <meta name="robots" content="noindex">
 <meta name="progreso-servidor" content="api/progreso">
-<meta name="theme-color" content="#12142a">
+<meta name="theme-color" content="#2e1d12">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -22,102 +22,185 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
 <style>
-/* Un lector para escuchar: una columna de libro, el reproductor fijo abajo.
-   Colores del tabernáculo (Éxodo 26): cárdeno, púrpura, carmesí y lino torcido. */
+/* Una Biblia abierta sobre una mesa de madera: el texto vive en la hoja, los libros son separadores de papel
+   en el canto derecho y el reproductor es una cinta de cuero. De día, papel crema y tinta; de noche, la misma
+   hoja a la luz de una vela. Rojo de rúbrica para los versículos, azul cárdeno (Éxodo 26) para el guía. */
 :root {
-  --fondo: #12142a;
-  --superficie: #1a1d38;
-  --tinta: #ece7da;
-  --tinta-suave: #b6b4c8;
-  --carmesi: #e2705f;
-  --sobre-carmesi: #12142a;
-  --oro: #d9b56c;
-  --cardeno: #95a2e6;
-  --linea: rgba(236, 231, 218, 0.14);
-  --nota: #1f2343;
-  --pausa: #241f38;
-  --sonando: rgba(226, 112, 95, 0.17);
-  --sombra: 0 -10px 30px rgba(0, 0, 0, 0.35);
+  --madera: #5a3a25;
+  --madera-osc: #2e1d12;
+  --luz: rgba(255, 214, 150, 0.32);
+  --cuero: #5e1f1d;
+  --cuero-osc: #3d1210;
+  --sobre-cuero: #f3e6c8;
+  --oro-claro: #d9b56c;
+  --papel: #f4ecd9;
+  --papel-canto: #e2d4b4;
+  --papel-sombra: rgba(92, 62, 28, 0.22);
+  --tinta: #2a2017;
+  --tinta-suave: #6b5946;
+  --carmesi: #9c2b1f;
+  --sobre-carmesi: #fbf4e4;
+  --oro: #8a5f16;
+  --cardeno: #34508f;
+  --linea: rgba(90, 60, 25, 0.2);
+  --nota: #ebe0c4;
+  --pausa: #eee2c8;
+  --sonando: rgba(156, 43, 31, 0.12);
+  --superficie: #efe5cf;
+  --fondo: #2e1d12;
+  --sombra: 0 -10px 30px rgba(20, 10, 4, 0.35);
   --f-biblia: "Alegreya", "Iowan Old Style", Georgia, serif;
   --f-guia: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
   --f-titulo: "Alegreya SC", "Alegreya", Georgia, serif;
-  color-scheme: dark;
-}
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --fondo: #eef0f4; --superficie: #e2e6ef; --tinta: #1c1f40; --tinta-suave: #4d5170;
-    --carmesi: #a5352a; --sobre-carmesi: #ffffff; --oro: #866014; --cardeno: #3a49a0; --linea: rgba(28, 31, 64, 0.14);
-    --nota: #e1e6f4; --pausa: #ebe4f0; --sonando: rgba(165, 53, 42, 0.12); --sombra: 0 -8px 24px rgba(28, 31, 64, 0.12);
-    color-scheme: light;
-  }
-}
-:root[data-theme="light"] {
-  --fondo: #eef0f4; --superficie: #e2e6ef; --tinta: #1c1f40; --tinta-suave: #4d5170;
-  --carmesi: #a5352a; --sobre-carmesi: #ffffff; --oro: #866014; --cardeno: #3a49a0; --linea: rgba(28, 31, 64, 0.14);
-  --nota: #e1e6f4; --pausa: #ebe4f0; --sonando: rgba(165, 53, 42, 0.12); --sombra: 0 -8px 24px rgba(28, 31, 64, 0.12);
+  --pad: 18px;
+  --barra: 3.4rem;
   color-scheme: light;
 }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --madera: #2b1c12; --madera-osc: #150d08; --luz: rgba(255, 170, 90, 0.16);
+    --cuero: #431716; --cuero-osc: #250a09; --sobre-cuero: #e9dcc0; --oro-claro: #cfa961;
+    --papel: #3a3227; --papel-canto: #2c251c; --papel-sombra: rgba(0, 0, 0, 0.35);
+    --tinta: #e9dec6; --tinta-suave: #b6a68c; --carmesi: #e3907a; --sobre-carmesi: #2a1d14; --oro: #d6b06a; --cardeno: #a9b8e8;
+    --linea: rgba(233, 222, 198, 0.16); --nota: #433a2d; --pausa: #40372b; --sonando: rgba(227, 144, 122, 0.17);
+    --superficie: #453b2e; --fondo: #150d08;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --madera: #2b1c12; --madera-osc: #150d08; --luz: rgba(255, 170, 90, 0.16);
+  --cuero: #431716; --cuero-osc: #250a09; --sobre-cuero: #e9dcc0; --oro-claro: #cfa961;
+  --papel: #3a3227; --papel-canto: #2c251c; --papel-sombra: rgba(0, 0, 0, 0.35);
+  --tinta: #e9dec6; --tinta-suave: #b6a68c; --carmesi: #e3907a; --sobre-carmesi: #2a1d14; --oro: #d6b06a; --cardeno: #a9b8e8;
+  --linea: rgba(233, 222, 198, 0.16); --nota: #433a2d; --pausa: #40372b; --sonando: rgba(227, 144, 122, 0.17);
+  --superficie: #453b2e; --fondo: #150d08;
+  color-scheme: dark;
+}
+@media (min-width: 700px) { :root { --pad: 2.6rem; } }
 
 * { box-sizing: border-box; }
-html, body { background: var(--fondo); color: var(--tinta); }
-body { font-family: var(--f-guia); font-size: 17px; line-height: 1.55; }
+html { background: var(--madera-osc); }
+body {
+  font-family: var(--f-guia); font-size: 17px; line-height: 1.55; color: var(--tinta);
+  /* La mesa: vetas de madera, la luz de una lámpara arriba y los bordes en penumbra. */
+  background:
+    radial-gradient(ellipse 80% 55% at 50% 0%, var(--luz), transparent 70%),
+    radial-gradient(ellipse 120% 90% at 50% 40%, transparent 55%, rgba(0, 0, 0, 0.35)),
+    repeating-linear-gradient(94deg, rgba(0, 0, 0, 0.06) 0 2px, transparent 2px 11px, rgba(255, 255, 255, 0.025) 11px 13px, transparent 13px 23px),
+    linear-gradient(180deg, var(--madera), var(--madera-osc));
+  background-color: var(--madera);
+  min-height: 100vh;
+}
 button { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--oro); outline-offset: 2px; }
 
-/* Barra de arriba */
+/* Barra de arriba, sobre la mesa */
 .barra {
   position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
-  display: flex; align-items: center; gap: 0.5rem;
-  padding: 0.55rem 16px; background: var(--fondo); border-bottom: 1px solid var(--linea);
+  display: flex; align-items: center; gap: 0.5rem; min-height: var(--barra);
+  padding: 0.45rem 16px; color: var(--sobre-cuero);
+  background: linear-gradient(180deg, rgba(20, 12, 7, 0.92), rgba(20, 12, 7, 0.78));
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(217, 181, 108, 0.25);
 }
-.barra .donde { flex: 1; min-width: 0; font-family: var(--f-titulo); font-size: 1.05rem; letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.barra .donde { flex: 1; min-width: 0; font-family: var(--f-titulo); font-size: 1.05rem; letter-spacing: 0.06em; color: var(--oro-claro); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.barra .boton { border-color: rgba(217, 181, 108, 0.45); color: var(--sobre-cuero); }
 .boton {
   display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
-  min-height: 2.5rem; padding: 0.35rem 0.8rem; border-radius: 999px;
+  min-height: 2.5rem; padding: 0.35rem 0.85rem; border-radius: 999px;
   border: 1px solid var(--linea); background: transparent; cursor: pointer;
 }
 .boton:hover { border-color: var(--tinta-suave); }
 .boton svg { width: 1.15rem; height: 1.15rem; flex: none; }
 .boton.lleno { background: var(--carmesi); border-color: transparent; color: var(--sobre-carmesi); font-weight: 700; }
 
-/* La columna de lectura */
-main { padding-inline: 16px; padding-block: 1.5rem 13rem; }
-.columna { max-width: 38rem; margin-inline: auto; }
+/* El libro: tapa de cuero, hojas con canto y la sombra del lomo */
+.mesa { padding: 1.2rem 4px calc(11.5rem + env(safe-area-inset-bottom, 0px)); }
+.libro-fila { display: flex; align-items: flex-start; justify-content: center; max-width: 68rem; margin-inline: auto; }
+.abierta {
+  position: relative; flex: 1 1 auto; min-width: 0; max-width: 46rem;
+  padding: 7px 6px 10px 9px; border-radius: 6px 10px 10px 6px;
+  background: linear-gradient(90deg, var(--cuero-osc), var(--cuero) 3%, var(--cuero) 97%, var(--cuero-osc));
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.06) inset, 0 24px 50px rgba(0, 0, 0, 0.45), 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.papel {
+  background-color: var(--papel);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .32 0 0 0 0 .18 0 0 0 .1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse 140% 100% at 60% 40%, transparent 60%, var(--papel-sombra));
+}
+.hoja {
+  position: relative; min-height: 70vh; border-radius: 2px 6px 6px 2px;
+  padding-inline: var(--pad); padding-block: 1.6rem 3rem;
+  /* El canto de las hojas a la derecha y abajo */
+  box-shadow: 1px 1px 0 var(--papel-canto), 2px 2px 0 var(--papel), 3px 3px 0 var(--papel-canto), 4px 4px 0 var(--papel), 5px 5px 0 var(--papel-canto);
+}
+.hoja::before { /* sombra del lomo */
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 26px; pointer-events: none; border-radius: 2px 0 0 2px;
+  background: linear-gradient(90deg, rgba(60, 35, 10, 0.22), transparent);
+}
+.columna { position: relative; max-width: 38rem; margin-inline: auto; transition: opacity 0.12s; }
+.pagina-izq { display: none; }
 
-.portada { display: grid; gap: 1.2rem; padding-block: 1rem 2rem; }
-.portada .serie { font-family: var(--f-titulo); color: var(--oro); letter-spacing: 0.12em; font-size: 0.9rem; }
+/* Separadores de papel en el canto derecho */
+.separadores {
+  position: sticky; top: calc(var(--barra) + 1.2rem + env(safe-area-inset-top, 0px)); z-index: 2;
+  display: flex; flex-direction: column; gap: 0.35rem; margin-top: 2.2rem; margin-left: -2px; flex: none;
+}
+.separador {
+  --color: var(--oro);
+  writing-mode: vertical-rl; display: flex; align-items: center; justify-content: center;
+  width: 26px; min-height: 5.6rem; padding: 0.6rem 0; border: 0; border-radius: 0 9px 9px 0; cursor: pointer;
+  font-family: var(--f-titulo); font-size: 0.82rem; letter-spacing: 0.08em; color: var(--tinta);
+  background: linear-gradient(90deg, var(--papel-canto), var(--papel) 35%);
+  box-shadow: inset 4px 0 0 var(--color), 2px 2px 5px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s, width 0.2s;
+}
+.separador:hover, .separador[aria-current="true"] { width: 31px; }
+.separador[aria-current="true"] { font-weight: 700; box-shadow: inset 6px 0 0 var(--color), 3px 3px 7px rgba(0, 0, 0, 0.4); }
+.sep-INICIO { --color: var(--oro); }
+.sep-GEN { --color: #9c2b1f; }
+.sep-EXO { --color: #6b3b8c; }
+.sep-LEV { --color: #2f5a8f; }
+
+.portada { display: grid; gap: 1.2rem; padding-block: 0.6rem 2rem; text-align: center; }
+.portada .serie { font-family: var(--f-titulo); color: var(--carmesi); letter-spacing: 0.16em; font-size: 0.9rem; margin: 0; }
 .portada h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(2.1rem, 8vw, 3.2rem); line-height: 1.05; margin: 0; text-wrap: balance; }
-.portada .version { color: var(--tinta-suave); margin: 0; }
+.portada h1::after { content: "❦"; display: block; margin-top: 0.6rem; font-size: 1.3rem; color: var(--oro); }
+.portada .version { color: var(--tinta-suave); margin: 0; font-family: var(--f-biblia); font-style: italic; font-size: 1.1rem; }
+.portada .acciones { justify-content: center; }
+.portada .voces, .portada .cuenta { text-align: left; }
 .acciones { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-.voces { display: grid; gap: 0.5rem; margin: 0; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 14px; }
+.voces { display: grid; gap: 0.5rem; margin: 0; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 4px; }
 .voz { display: flex; align-items: baseline; gap: 0.6rem; }
 .punto { width: 0.7rem; height: 0.7rem; border-radius: 50%; flex: none; transform: translateY(0.05rem); }
 .punto.biblia { background: var(--carmesi); }
 .punto.guia { background: var(--cardeno); }
 .libros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
-.libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 14px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
+.libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 4px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
 .libro-tarjeta strong { display: block; font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1rem, 4.4vw, 1.25rem); overflow-wrap: anywhere; }
 .libro-tarjeta span { color: var(--tinta-suave); font-size: 0.9rem; }
 
-.cabeza-cap { display: grid; gap: 0.2rem; margin-bottom: 1.4rem; }
-.cabeza-cap .libro { font-family: var(--f-titulo); color: var(--oro); letter-spacing: 0.12em; margin: 0; }
+.cabeza-cap { display: grid; gap: 0.2rem; margin-bottom: 1.4rem; text-align: center; }
+.cabeza-cap .libro { font-family: var(--f-titulo); color: var(--carmesi); letter-spacing: 0.16em; margin: 0; }
 .cabeza-cap h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(2rem, 7vw, 2.8rem); margin: 0; line-height: 1.1; text-wrap: balance; }
-.cabeza-cap .acciones { margin-top: 0.6rem; }
+.cabeza-cap h1::after { content: ""; display: block; width: 4rem; height: 1px; margin: 0.7rem auto 0; background: var(--oro); }
+.cabeza-cap .acciones { margin-top: 0.6rem; justify-content: center; }
 
 /* El texto bíblico: letra de libro */
-.biblia { font-family: var(--f-biblia); font-size: 1.22rem; line-height: 1.7; margin: 0 0 1.1rem; }
-.v { cursor: pointer; border-radius: 4px; transition: background-color 0.2s; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+p.biblia { font-family: var(--f-biblia); font-size: 1.22rem; line-height: 1.7; margin: 0 0 1.1rem; text-align: justify; hyphens: auto; }
+.v { cursor: pointer; border-radius: 3px; transition: background-color 0.2s; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .v:hover { background: var(--sonando); }
 .v sup { font-family: var(--f-guia); font-size: 0.62em; font-weight: 700; color: var(--carmesi); margin-right: 0.2em; vertical-align: 0.55em; }
 .v i { font-style: italic; }
 .sonando { background: var(--sonando); box-shadow: 0 0 0 3px var(--sonando); }
 
-/* La voz del guía: otra letra, otro color */
-.nota { margin: 0.2rem 0 1.3rem; padding: 0.8rem 1rem; background: var(--nota); border-radius: 12px; cursor: pointer; font-size: 1rem; }
+/* La voz del guía: anotaciones al margen, en otra letra y otro color */
+.nota { margin: 0.2rem 0 1.3rem; padding: 0.7rem 0.9rem; background: var(--nota); border-left: 3px solid var(--cardeno); border-radius: 0 4px 4px 0; cursor: pointer; font-size: 1rem; }
 .nota p { margin: 0; }
 .rotulo { display: flex; align-items: center; gap: 0.45rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--cardeno); margin-bottom: 0.25rem; }
 .rotulo .punto { width: 0.55rem; height: 0.55rem; transform: none; }
-.pausa { margin: 2rem -16px; padding: 1.4rem 16px 1.6rem; background: var(--pausa); border-block: 1px solid var(--linea); cursor: pointer; }
+.pausa { margin: 2rem calc(-1 * var(--pad)); padding: 1.4rem var(--pad) 1.6rem; background: var(--pausa); border-block: 3px double var(--linea); cursor: pointer; }
 .pausa .dentro { max-width: 38rem; margin-inline: auto; display: grid; gap: 0.8rem; }
 .pausa h2 { font-family: var(--f-titulo); font-weight: 500; font-size: 1.6rem; line-height: 1.15; margin: 0; color: var(--oro); text-wrap: balance; }
 .pausa dl { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 0.8rem; margin: 0; font-size: 0.95rem; }
@@ -127,28 +210,33 @@ main { padding-inline: 16px; padding-block: 1.5rem 13rem; }
 .pensar { border-top: 1px solid var(--linea); padding-top: 0.8rem; font-style: italic; }
 .pensar ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
 .lectura p { margin: 0 0 1rem; }
-.lectura h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1.9rem, 7vw, 2.6rem); line-height: 1.1; margin: 0 0 1rem; }
+.lectura h1 { font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1.9rem, 7vw, 2.6rem); line-height: 1.1; margin: 0 0 1rem; text-wrap: balance; }
 
-.pie-cap { display: flex; justify-content: space-between; gap: 0.6rem; flex-wrap: wrap; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--linea); }
+.pie-cap { position: relative; display: flex; justify-content: space-between; gap: 0.6rem; flex-wrap: wrap; margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--linea); }
+.pie-cap::before { content: "❦"; position: absolute; top: -0.85rem; left: 50%; transform: translateX(-50%); padding-inline: 0.5rem; background: var(--papel); color: var(--oro); }
 .acerca { margin-top: 2.5rem; font-size: 0.9rem; color: var(--tinta-suave); }
 .acerca summary { cursor: pointer; font-weight: 700; color: var(--tinta); }
 .acerca li { margin-bottom: 0.3rem; }
 
-/* Reproductor */
+/* Reproductor: una cinta de cuero con costura dorada */
 .reproductor {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
-  padding: 0.6rem 16px calc(0.7rem + env(safe-area-inset-bottom, 0px));
-  background: var(--superficie); border-top: 1px solid var(--linea); box-shadow: var(--sombra);
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; color: var(--sobre-cuero);
+  padding: 0.65rem 16px calc(0.7rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(180deg, var(--cuero), var(--cuero-osc));
+  box-shadow: var(--sombra);
 }
+.reproductor::before { content: ""; position: absolute; left: 8px; right: 8px; top: 5px; border-top: 1px dashed rgba(217, 181, 108, 0.55); pointer-events: none; }
 .reproductor .dentro { max-width: 38rem; margin-inline: auto; display: grid; gap: 0.35rem; }
 .estado { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; min-width: 0; }
 .estado .que { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.estado .hora { color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
-#barra-tiempo { width: 100%; accent-color: var(--carmesi); margin: 0; }
+.estado .hora { color: var(--oro-claro); font-variant-numeric: tabular-nums; }
+.estado .punto.biblia { background: #e98f7c; }
+.estado .punto.guia { background: #aebcec; }
+#barra-tiempo { width: 100%; accent-color: var(--oro-claro); margin: 0; }
 .mandos { display: flex; align-items: center; justify-content: space-between; gap: 0.3rem; }
 .mando { width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer; }
 .mando svg { width: 1.45rem; height: 1.45rem; }
-.mando.grande { width: 3.4rem; height: 3.4rem; background: var(--carmesi); color: var(--sobre-carmesi); }
+.mando.grande { width: 3.4rem; height: 3.4rem; background: var(--oro-claro); color: #2a160c; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35); }
 .mando.grande svg { width: 1.7rem; height: 1.7rem; }
 .mando.texto { width: auto; min-width: 2.75rem; padding-inline: 0.5rem; border-radius: 999px; font-weight: 700; font-variant-numeric: tabular-nums; font-size: 0.95rem; }
 .mando:disabled { opacity: 0.35; cursor: default; }
@@ -157,13 +245,13 @@ main { padding-inline: 16px; padding-block: 1.5rem 13rem; }
   position: fixed; left: 50%; transform: translateX(-50%); z-index: 6;
   bottom: calc(9.6rem + env(safe-area-inset-bottom, 0px));
   padding: 0.55rem 1rem; border-radius: 999px; border: 0; cursor: pointer;
-  background: var(--oro); color: var(--fondo); font-weight: 700; box-shadow: var(--sombra);
+  background: var(--oro-claro); color: #2a160c; font-weight: 700; box-shadow: var(--sombra);
 }
 .estado .punto { transform: none; }
 
-/* Índice */
-dialog { width: min(36rem, calc(100vw - 32px)); max-height: min(85vh, 46rem); border: 1px solid var(--linea); border-radius: 18px; padding: 0; background: var(--fondo); color: var(--tinta); }
-dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
+/* Índice: una hoja suelta */
+dialog { width: min(36rem, calc(100vw - 32px)); max-height: min(85vh, 46rem); border: 0; border-radius: 4px; padding: 0; color: var(--tinta); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); }
+dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 .indice { display: grid; grid-template-rows: auto auto 1fr; max-height: min(85vh, 46rem); }
 .indice header { display: flex; align-items: center; justify-content: space-between; padding: 0.9rem 1rem 0.4rem; }
 .indice h2 { font-family: var(--f-titulo); font-weight: 500; margin: 0; font-size: 1.4rem; }
@@ -171,18 +259,18 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
 .pestana[aria-selected="true"] { background: var(--carmesi); color: var(--sobre-carmesi); border-color: transparent; }
 .indice .cuerpo { overflow-y: auto; padding: 0 1rem 1.2rem; }
 .capitulos { display: grid; grid-template-columns: repeat(auto-fill, minmax(2.9rem, 1fr)); gap: 0.4rem; margin: 0.4rem 0 1.2rem; }
-.capitulos button { height: 2.75rem; border-radius: 10px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; font-variant-numeric: tabular-nums; }
+.capitulos button { height: 2.75rem; border-radius: 4px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; font-variant-numeric: tabular-nums; }
 .capitulos button.actual { border-color: var(--carmesi); color: var(--carmesi); font-weight: 700; }
 .capitulos button.oido { background: var(--nota); display: grid; place-content: center; gap: 0.15rem; }
 .capitulos button.oido::after { content: ""; width: 0.35rem; height: 0.35rem; margin-inline: auto; border-radius: 50%; background: var(--cardeno); }
 .leyenda { font-size: 0.85rem; color: var(--tinta-suave); margin: -0.6rem 0 1.2rem; }
 .lista-pausas { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; }
-.lista-pausas button { width: 100%; text-align: left; padding: 0.55rem 0.7rem; border-radius: 10px; border: 1px solid var(--linea); background: transparent; cursor: pointer; display: flex; gap: 0.6rem; }
+.lista-pausas button { width: 100%; text-align: left; padding: 0.55rem 0.7rem; border-radius: 4px; border: 1px solid var(--linea); background: transparent; cursor: pointer; display: flex; gap: 0.6rem; }
 .lista-pausas .ref { color: var(--tinta-suave); font-variant-numeric: tabular-nums; flex: none; min-width: 3.4rem; }
 .subtitulo { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--tinta-suave); margin: 0.8rem 0 0.3rem; }
 
 /* Guardar el avance con el número de teléfono (solo en el website) */
-.cuenta { display: grid; gap: 0.6rem; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 14px; }
+.cuenta { display: grid; gap: 0.6rem; padding: 0.9rem 1rem; border: 1px solid var(--linea); border-radius: 4px; }
 .cuenta p, .cuenta label { margin: 0; }
 .cuenta .fila { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
 .cuenta .prefijo { color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
@@ -190,8 +278,118 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
 .cuenta .aviso { font-size: 0.85rem; color: var(--tinta-suave); }
 .cuenta .error { font-size: 0.9rem; color: var(--carmesi); font-weight: 700; }
 .cargando { text-align: center; color: var(--tinta-suave); padding-top: 4rem; }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Libro abierto en pantallas anchas: a la izquierda, los capítulos del libro que se lee */
+@media (min-width: 1100px) {
+  .abierta { display: grid; grid-template-columns: 19rem minmax(0, 44rem); max-width: 64rem; padding-left: 7px; }
+  .pagina-izq { display: block; position: relative; border-radius: 6px 2px 2px 6px; box-shadow: -1px 1px 0 var(--papel-canto), -2px 2px 0 var(--papel), -3px 3px 0 var(--papel-canto), -4px 4px 0 var(--papel); }
+  .pagina-izq::after { content: ""; position: absolute; inset: 0 0 0 auto; width: 30px; pointer-events: none; background: linear-gradient(270deg, rgba(60, 35, 10, 0.24), transparent); }
+  .pagina-izq-dentro { position: sticky; top: calc(var(--barra) + 1rem); max-height: calc(100vh - var(--barra) - 12rem); overflow-y: auto; padding: 1.6rem 1.6rem 2rem 1.8rem; }
+  .pagina-izq .libro-nombre { font-family: var(--f-titulo); font-size: 1.5rem; margin: 0 0 0.2rem; text-align: center; }
+  .pagina-izq .libro-nombre::after { content: ""; display: block; width: 3rem; height: 1px; margin: 0.5rem auto 0.4rem; background: var(--oro); }
+  .hoja { border-radius: 2px 6px 6px 2px; }
+}
+
+/* Pasar hojas al cambiar de libro o de capítulo */
+.vuelo { position: fixed; z-index: 4; pointer-events: none; perspective: 1000px; }
+.hoja-vuelo {
+  position: absolute; inset: 0; transform-origin: left center; border-radius: 2px 6px 6px 2px;
+  background-color: var(--papel);
+  background-image:
+    repeating-linear-gradient(180deg, transparent 0 1.55rem, var(--linea) 1.55rem calc(1.55rem + 1px)),
+    linear-gradient(90deg, rgba(60, 35, 10, 0.18), transparent 12%, transparent 85%, rgba(60, 35, 10, 0.12));
+  background-clip: content-box; padding: 2.2rem var(--pad);
+  box-shadow: 6px 4px 18px rgba(0, 0, 0, 0.25);
+  animation: pasar 0.72s cubic-bezier(0.45, 0.05, 0.3, 1) both;
+}
+.hoja-vuelo::before { content: ""; position: absolute; inset: 0; background: var(--papel); z-index: -1; border-radius: inherit; }
+.hoja-vuelo::after { /* luz y sombra de la hoja al doblarse */
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25), transparent 30%, rgba(60, 35, 10, 0.28));
+  animation: brillo 0.72s ease-in-out both; animation-delay: inherit;
+}
+@keyframes brillo { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+.atras .hoja-vuelo { transform-origin: right center; animation-name: volver; }
+@keyframes pasar {
+  0% { transform: rotateY(0deg); filter: brightness(1); }
+  50% { filter: brightness(0.86); }
+  85% { opacity: 1; }
+  100% { transform: rotateY(-178deg); filter: brightness(0.95); opacity: 0; }
+}
+@keyframes volver {
+  0% { transform: rotateY(0deg); filter: brightness(1); }
+  50% { filter: brightness(0.86); }
+  85% { opacity: 1; }
+  100% { transform: rotateY(178deg); filter: brightness(0.95); opacity: 0; }
+}
+
+/* Al entrar: la Biblia cerrada sobre la mesa, la tapa se abre y la cámara llega a la primera hoja */
+.apertura {
+  position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; overflow: hidden; cursor: pointer;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 35%, var(--luz), transparent 70%),
+    radial-gradient(ellipse 120% 90% at 50% 45%, transparent 50%, rgba(0, 0, 0, 0.5)),
+    repeating-linear-gradient(94deg, rgba(0, 0, 0, 0.07) 0 2px, transparent 2px 11px, rgba(255, 255, 255, 0.03) 11px 13px, transparent 13px 23px),
+    linear-gradient(180deg, var(--madera), var(--madera-osc));
+  animation: apertura-salir 0.7s ease-in 3.6s both;
+}
+.apertura.saliendo { animation: apertura-salir 0.4s ease-in both; }
+.escena { perspective: 1400px; animation: camara 4.3s cubic-bezier(0.55, 0, 0.35, 1) both; }
+.tomo {
+  --w: min(64vw, 37vh, 340px);
+  position: relative; width: var(--w); height: calc(var(--w) * 1.42); transform-style: preserve-3d;
+  transform: rotateX(18deg);
+}
+.tomo-hojas {
+  position: absolute; inset: 2% 1.5% 2% 0; border-radius: 2px 5px 5px 2px; display: grid; place-content: center; text-align: center; gap: 0.6rem;
+  padding: 12%; color: var(--tinta);
+  box-shadow: 2px 2px 0 var(--papel-canto), 4px 4px 0 var(--papel), 6px 6px 0 var(--papel-canto), 8px 8px 0 var(--papel), 9px 10px 22px rgba(0, 0, 0, 0.5);
+}
+.tomo-hojas p { margin: 0; font-family: var(--f-titulo); letter-spacing: 0.14em; font-size: calc(var(--w) * 0.038); color: var(--carmesi); }
+.tomo-hojas strong { font-family: var(--f-titulo); font-weight: 500; font-size: calc(var(--w) * 0.095); line-height: 1.1; text-wrap: balance; }
+.tomo-hojas strong::after { content: "❦"; display: block; margin-top: 0.4em; font-size: 0.5em; color: var(--oro); }
+.tomo-hojas small { font-family: var(--f-biblia); font-style: italic; font-size: calc(var(--w) * 0.045); color: var(--tinta-suave); }
+.tomo-tapa { position: absolute; inset: 0; transform-origin: left center; transform-style: preserve-3d; animation: tapa 2.1s cubic-bezier(0.6, 0, 0.3, 1) 1s both; }
+.tapa-frente, .tapa-dorso { position: absolute; inset: 0; border-radius: 4px 9px 9px 4px; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.tapa-frente {
+  display: grid; place-content: center; text-align: center; gap: 0.5rem; color: var(--oro-claro);
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(255, 255, 255, 0.08), transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.6' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, var(--cuero-osc), var(--cuero) 8%, var(--cuero));
+  box-shadow: inset 0 0 0 calc(var(--w) * 0.035) transparent, inset 0 0 0 calc(var(--w) * 0.04) rgba(217, 181, 108, 0.6), 0 14px 30px rgba(0, 0, 0, 0.55);
+}
+.tapa-frente strong { font-family: var(--f-titulo); font-weight: 700; letter-spacing: 0.2em; font-size: calc(var(--w) * 0.085); text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+.tapa-frente small { font-family: var(--f-titulo); letter-spacing: 0.18em; font-size: calc(var(--w) * 0.04); opacity: 0.85; }
+.tapa-frente .cruz { width: calc(var(--w) * 0.11); height: calc(var(--w) * 0.16); margin: 0 auto 0.6rem; background: linear-gradient(var(--oro-claro), var(--oro-claro)) center / 22% 100% no-repeat, linear-gradient(var(--oro-claro), var(--oro-claro)) center 30% / 100% 16% no-repeat; opacity: 0.9; }
+.tapa-dorso { transform: rotateY(180deg); background: linear-gradient(270deg, var(--cuero-osc), var(--cuero)); box-shadow: inset 0 0 0 calc(var(--w) * 0.05) var(--papel-canto); }
+.saltar {
+  position: absolute; right: 16px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 1;
+  padding: 0.5rem 1.1rem; border-radius: 999px; border: 1px solid rgba(217, 181, 108, 0.6);
+  background: rgba(20, 12, 7, 0.55); color: var(--sobre-cuero); cursor: pointer; font-size: 0.95rem;
+}
+@keyframes camara {
+  0% { transform: translateY(10vh) scale(0.62) rotateX(38deg); }
+  30% { transform: translateY(4vh) scale(0.82) rotateX(24deg); }
+  72% { transform: translateY(0) scale(0.98) rotateX(8deg); }
+  100% { transform: translateY(0) scale(2.7) rotateX(0deg); }
+}
+@keyframes tapa { from { transform: rotateY(0deg); } to { transform: rotateY(-168deg); } }
+@keyframes apertura-salir { from { opacity: 1; } to { opacity: 0; visibility: hidden; pointer-events: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+  .apertura, .vuelo { display: none !important; }
+}
 </style>
+
+<div class="apertura" id="apertura">
+  <div class="escena" aria-hidden="true"><div class="tomo">
+    <div class="tomo-hojas papel"><p>La Biblia en voz alta</p><strong>Génesis, Éxodo y Levítico</strong><small>Reina Valera 1909</small></div>
+    <div class="tomo-tapa"><div class="tapa-frente"><span class="cruz"></span><strong>SANTA BIBLIA</strong><small>REINA VALERA 1909</small></div><div class="tapa-dorso"></div></div>
+  </div></div>
+  <button class="saltar" id="saltar-apertura" type="button">Saltar</button>
+</div>
 
 <header class="barra">
   <button class="boton" id="abrir-indice" type="button" aria-haspopup="dialog">
@@ -201,7 +399,15 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
   <div class="donde" id="donde">Génesis, Éxodo y Levítico</div>
 </header>
 
-<main id="lector"><div class="columna"><p class="cargando">Cargando los tres libros…</p></div></main>
+<div class="mesa">
+  <div class="libro-fila">
+    <div class="abierta" id="abierta">
+      <aside class="pagina-izq papel" aria-label="Capítulos del libro"><div class="pagina-izq-dentro" id="pagina-izq"></div></aside>
+      <main id="lector" class="hoja papel"><div class="columna"><p class="cargando">Cargando los tres libros…</p></div></main>
+    </div>
+    <nav class="separadores" id="separadores" aria-label="Libros"></nav>
+  </div>
+</div>
 
 <button class="volver" id="volver" type="button" hidden>Volver a lo que suena</button>
 <div class="reproductor" role="region" aria-label="Reproductor">
@@ -223,7 +429,7 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
   </div>
 </div>
 
-<dialog id="indice" aria-labelledby="titulo-indice">
+<dialog id="indice" class="papel" aria-labelledby="titulo-indice">
   <div class="indice">
     <header>
       <h2 id="titulo-indice">Índice</h2>
@@ -265,6 +471,7 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
     if (!id || oidos.has(id)) return;
     oidos.add(id); guardado.poner("oidos", [...oidos]);
     subir(true);
+    pintarPaginaIzq();
   }
 
   // ---------- Avance guardado en el servidor con el número de teléfono.
@@ -376,7 +583,77 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
     if (clave) { const el = lector.querySelector(`[data-k="${clave}"]`); if (el) el.scrollIntoView({ block: "center" }); }
     else if (desplazar) window.scrollTo({ top: 0 });
     pintarMandos();
+    pintarSeparadores();
+    pintarPaginaIzq();
   }
+
+  // ---------- El libro: separadores, página izquierda y hojas que pasan
+  const movimientoReducido = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function pintarSeparadores() {
+    const actual = !vista || vista === "INTRO" ? "INICIO" : (libroDe(vista) || {}).id;
+    $("separadores").innerHTML = [["INICIO", "Inicio", "INTRO"], ...C.libros.map((l) => [l.id, l.nombre, "INTRO-" + l.id])]
+      .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}"${id === actual ? ' aria-current="true"' : ""}><span>${esc(nombre)}</span></button>`).join("");
+  }
+  // En pantallas anchas el libro se ve abierto: a la izquierda, los capítulos del libro que se está leyendo.
+  const dobleHoja = matchMedia("(min-width: 1100px)");
+  function pintarPaginaIzq() {
+    const caja = $("pagina-izq");
+    if (!C || !dobleHoja.matches) { caja.innerHTML = ""; return; }
+    const l = vista && vista !== "INTRO" ? libroDe(vista) : null;
+    if (!l) {
+      caja.innerHTML = `<p class="libro-nombre">Contenido</p><ul class="lista-pausas">${C.libros.map((x) => {
+        const n = x.capitulos.filter((c) => oidos.has(idCap(x.id, c.n))).length;
+        return `<li><button type="button" data-ir="INTRO-${x.id}"><span>${esc(x.nombre)}</span><span class="ref">${n ? `${n} de ${x.capitulos.length}` : `${x.capitulos.length} capítulos`}</span></button></li>`;
+      }).join("")}</ul>`;
+      return;
+    }
+    const actual = vista.startsWith(l.id + "-") ? Number(vista.split("-")[1]) : 0;
+    const pausas = l.capitulos.flatMap((c) => c.items.filter((x) => x.t === "pausa").map((x) => ({ c, x })));
+    caja.innerHTML = `<p class="libro-nombre">${esc(l.nombre)}</p>
+      <p class="subtitulo">Capítulos</p><div class="capitulos">${l.capitulos.map((c) => {
+        const oido = oidos.has(idCap(l.id, c.n));
+        return `<button type="button" data-ir="${idCap(l.id, c.n)}" class="${[c.n === actual ? "actual" : "", oido ? "oido" : ""].join(" ").trim()}" aria-label="Capítulo ${c.n}${oido ? ", ya escuchado" : ""}">${c.n}</button>`;
+      }).join("")}</div>
+      <p class="subtitulo">Pausas para el contexto</p><ul class="lista-pausas">${pausas.map(({ c, x }) => `<li><button type="button" data-ir="${idCap(l.id, c.n)}" data-clave="${x.k}"><span class="ref">${c.n}:${x.k.slice(1).split("-")[0]}</span><span>${esc(x.titulo)}</span></button></li>`).join("")}</ul>`;
+    const marcado = caja.querySelector(".capitulos .actual");
+    if (marcado) caja.scrollTop = Math.max(0, marcado.offsetTop - caja.clientHeight / 3);
+  }
+  dobleHoja.addEventListener("change", pintarPaginaIzq);
+  // Cambiar de capítulo o de libro pasa hojas: una al capítulo de al lado, varias al saltar más lejos.
+  let hojeando = false;
+  function hojear(id, opciones = {}) {
+    const desde = SECUENCIA.indexOf(vista), hasta = SECUENCIA.indexOf(id);
+    if (movimientoReducido() || hojeando || id === vista || desde < 0) return mostrar(id, opciones);
+    const r = lector.getBoundingClientRect();
+    const arriba = Math.max(r.top, document.querySelector(".barra").getBoundingClientRect().bottom);
+    const abajo = Math.min(r.bottom, document.querySelector(".reproductor").getBoundingClientRect().top);
+    const capa = document.createElement("div");
+    capa.className = "vuelo " + (hasta >= desde ? "adelante" : "atras");
+    capa.style.cssText = `left:${r.left}px;width:${r.width}px;top:${arriba}px;height:${Math.max(0, abajo - arriba)}px`;
+    const hojas = opciones.hojas || (Math.abs(hasta - desde) > 1 ? 4 : 1);
+    for (let i = hojas - 1; i >= 0; i--) {
+      const h = document.createElement("div");
+      h.className = "hoja-vuelo";
+      h.style.animationDelay = `${80 + i * 120}ms`;
+      capa.appendChild(h);
+    }
+    document.body.appendChild(capa);
+    hojeando = true;
+    setTimeout(() => mostrar(id, opciones), 60);
+    setTimeout(() => { capa.remove(); hojeando = false; }, 80 + (hojas - 1) * 120 + 760);
+  }
+  $("separadores").addEventListener("click", (e) => { const b = e.target.closest("[data-separador]"); if (b) hojear(b.dataset.separador, { hojas: 5 }); });
+  $("pagina-izq").addEventListener("click", (e) => { const b = e.target.closest("[data-ir]"); if (b) hojear(b.dataset.ir, { clave: b.dataset.clave || null }); });
+  // La Biblia que se abre al entrar. Dura unos 4 segundos; se puede saltar tocando la pantalla o con Escape.
+  (function apertura() {
+    const a = $("apertura");
+    if (movimientoReducido()) { a.remove(); return; }
+    let fin = false;
+    const terminar = () => { if (fin) return; fin = true; a.classList.add("saliendo"); setTimeout(() => a.remove(), 420); };
+    a.addEventListener("click", terminar);
+    addEventListener("keydown", (e) => { if (e.key === "Escape") terminar(); });
+    setTimeout(() => { fin = true; a.remove(); }, 4400);
+  })();
   const iconoTocar = () => `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="${ICONO_TOCAR}"/></svg>`;
 
   function portada() {
@@ -634,7 +911,7 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
   lector.addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (b && "salir" in b.dataset) return salir();
-    if (b && b.dataset.ir) return mostrar(b.dataset.ir);
+    if (b && b.dataset.ir) return hojear(b.dataset.ir);
     if (b && b.dataset.tocar) return reproducir(b.dataset.tocar);
     if (b && "continuar" in b.dataset) return continuar(guardado.leer("pos", null));
     if (b || e.target.closest("a, summary, details")) return;
@@ -676,7 +953,7 @@ dialog::backdrop { background: rgba(10, 10, 25, 0.55); }
     const b = e.target.closest("button");
     if (!b) return;
     if (b.dataset.pestana) { pestana = b.dataset.pestana; return pintarIndice(); }
-    if (b.dataset.ir) { $("indice").close(); mostrar(b.dataset.ir, { clave: b.dataset.clave || null }); }
+    if (b.dataset.ir) { $("indice").close(); hojear(b.dataset.ir, { clave: b.dataset.clave || null }); }
   });
 
   // ---------- Arranque

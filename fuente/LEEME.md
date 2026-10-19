@@ -23,3 +23,4 @@ Website fuera de Claude (Vercel, proyecto biblia-gel del equipo judomarketing):
 - scripts/publicar.sh crea el secreto si falta, publica y revisa el sitio.
 - La página precarga el capítulo siguiente en los últimos dos minutos, para que el salto entre capítulos sea inmediato.
 - Pruebas nuevas: pruebas/avance.mjs (avance entre dos aparatos) y pruebas/salto.mjs (salto entre capítulos con conexión lenta), con un servidor de prueba en el puerto 8802.
+- Diseño de libro: al entrar se abre una Biblia de cuero (unos 4 segundos, se salta tocando la pantalla), el texto está en una hoja de papel, los libros son separadores de papel en el canto derecho y cambiar de libro o de capítulo pasa hojas. En pantallas anchas el libro se ve abierto, con los capítulos en la página izquierda. Con "reducir movimiento" no hay animaciones. Prueba: pruebas/libro.mjs.

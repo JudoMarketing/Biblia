@@ -7,7 +7,7 @@ const errores = [];
 const fallos = [];
 const comprobar = (ok, que) => { console.log((ok ? "  ok  " : "  MAL ") + que); if (!ok) fallos.push(que); };
 async function pagina(ancho, alto, tema, ctxPrevio) {
-  const ctx = ctxPrevio ?? (await b.newContext({ viewport: { width: ancho, height: alto }, colorScheme: tema }));
+  const ctx = ctxPrevio ?? (await b.newContext({ viewport: { width: ancho, height: alto }, colorScheme: tema, reducedMotion: "reduce" }));
   const p = await ctx.newPage();
   p.setDefaultTimeout(20000);
   p.on("pageerror", (e) => errores.push("pageerror " + e.message));
@@ -29,7 +29,7 @@ const espia = () => {
 };
 
 if (!process.env.SOLO_CAPTURAS) {
-const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark" });
+const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: "dark", reducedMotion: "reduce" });
 await ctx.addInitScript(espia);
 const { p } = await pagina(390, 844, "dark", ctx);
 await p.getByRole("heading", { name: "Génesis, Éxodo y Levítico" }).waitFor();
@@ -138,7 +138,7 @@ await ctx.close();
 }
 // 7. Capturas en otros anchos y en los dos temas.
 for (const [w, h, tema] of [[360, 740, "dark"], [360, 740, "light"], [390, 844, "light"], [768, 1024, "dark"], [1440, 900, "dark"], [1440, 900, "light"]]) {
-  const c = await b.newContext({ viewport: { width: w, height: h }, colorScheme: tema });
+  const c = await b.newContext({ viewport: { width: w, height: h }, colorScheme: tema, reducedMotion: "reduce" });
   const { p } = await pagina(w, h, tema, c);
   const t = tema === "dark" ? "noche" : "dia";
   await p.screenshot({ path: `${DIR}/portada-${w}-${t}.png` });
