@@ -17,7 +17,7 @@ Website (Vercel, proyecto biblia del equipo judomarketing, dominio godhome.app).
 - scripts/sitio.py arma el website (página completa, manifiesto para instalarla en el teléfono, íconos, vercel.json con encabezados de seguridad) y copia sitio-api/progreso.js como api/progreso.js.
 - sitio-api/progreso.js guarda el avance de cada persona con su número de teléfono de Estados Unidos en Upstash Redis. El número no se guarda: la clave es un HMAC con PROGRESO_SECRETO. Límite de 20 números distintos cada 10 minutos por conexión.
 - scripts/publicar.sh es el camino alternativo con el CLI de Vercel: crea el secreto si falta, publica y revisa el sitio.
-- La página precarga el capítulo siguiente en los últimos dos minutos, para que el salto entre capítulos sea inmediato.
+- La página precarga el capítulo siguiente en los últimos cinco minutos. Con la página a la vista, el siguiente sale de esa copia y empieza de inmediato; con la pantalla bloqueada se pide por su dirección, que la precarga ya dejó en la caché. Si una carga falla, reintenta sola desde el mismo punto y sigue cuando vuelve la señal (prueba: pruebas/corte.mjs).
 - Diseño de libro: al entrar se abre una Biblia de cuero (unos 4 segundos, se salta tocando la pantalla), el texto está en una hoja de papel, los libros son separadores de papel en el canto derecho y cambiar de libro o de capítulo pasa hojas. En pantallas anchas el libro se ve abierto, con los capítulos en la página izquierda. Con "reducir movimiento" no hay animaciones.
 - Encabezados de seguridad y `noindex` en `sitio/vercel.json`, para que no aparezca en buscadores.
 
