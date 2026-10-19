@@ -1,0 +1,401 @@
+{
+ "tramo": "NUM-01",
+ "libro": "NUM",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 10,
+  "v": 10
+ },
+ "introduccion": {
+  "titulo": "Introducción al libro de Números",
+  "texto": "Números continúa sin pausa lo que contaron Éxodo y Levítico. El pueblo de Israel lleva casi un año acampado al pie del monte Sinaí, con el tabernáculo levantado en medio del campamento. Ahora tiene que ponerse en camino hacia la tierra prometida a los patriarcas. El libro cuenta ese camino: la preparación para la marcha, el viaje por el desierto y la llegada a los campos de Moab, al este del río Jordán, frente a Jericó. En hebreo se llama Bemidbar, que significa en el desierto, por una palabra de su primer versículo. El nombre Números viene de la antigua traducción griega, a través del latín, y se debe a los dos censos del pueblo que hay en el libro: uno al principio y otro mucho más adelante.\n\nSe suele dividir en tres partes, según los lugares. Hasta el capítulo 10, versículo 10, el pueblo sigue en el Sinaí: se cuenta y se ordena a las tribus, se reparten los oficios de los levitas, se dan leyes de pureza y se celebra la Pascua. Desde allí hasta el capítulo 21, el pueblo atraviesa el desierto, y un lugar ocupa el centro del relato: Cades Barnea, un oasis al sur de Canaán. Del capítulo 22 al final, Israel está acampado en los campos de Moab, a la espera de cruzar el Jordán. Según Deuteronomio, del Horeb, otro nombre del Sinaí, a Cades Barnea había once jornadas de camino; el relato de Números abarca casi cuarenta años, y el libro cuenta por qué. Mezcla listas, leyes, itinerarios, relatos y algunos poemas, como los oráculos de un adivino extranjero llamado Balaam. Comparar el primer censo con el segundo es una de las claves para seguirlo.\n\nLa tradición judía y la cristiana atribuyen el libro a Moisés, como los otros cuatro de la Torá, y el capítulo 33 dice que «Moisés escribió sus salidas conforme á sus jornadas». Muchos estudiosos modernos piensan que Números reúne materiales de distintas épocas: listas y leyes que atribuyen a los círculos sacerdotales, y relatos y poemas que muchos consideran más antiguos. El propio libro cita una obra que no ha llegado hasta nosotros, «el libro de las batallas de Jehová». Muchos fechan su forma final durante el destierro en Babilonia o después, en los siglos 6 y 5 antes de Cristo; otros sostienen que su núcleo viene de la época de Moisés.\n\nSobre la fecha hay varias posturas, y conviene conocerlas con calma. Esta guía sigue la cronología bíblica tradicional, que se calcula con el propio texto. El primer libro de los Reyes, en el capítulo 6, pone la salida de Egipto 480 años antes del cuarto año del rey Salomón, que fue hacia 966 antes de Cristo; la salida habría sido, entonces, hacia 1446. Números empieza en el segundo año, hacia 1445, y termina en el año cuarenta, hacia 1406 antes de Cristo, con el pueblo en Moab. Quienes defienden esta fecha citan también otros datos de la Biblia, como los trescientos años que, según el libro de los Jueces, habían pasado entre la llegada de Israel al este del Jordán y los días del juez Jefté.\n\nLa segunda postura es la llamada cuenta corta. La antigua traducción griega y el Pentateuco samaritano leen en Éxodo 12 que los 430 años incluyen también el tiempo de los patriarcas en Canaán. Con esa lectura, la salida sigue cayendo hacia 1446, porque esa fecha depende del libro de los Reyes, pero la estancia en Egipto se reduce a unos 215 años: Israel habría llegado allí hacia 1661 antes de Cristo, en tiempos de los hicsos, y las fechas de los patriarcas bajan otro tanto. Para los años de Números, por tanto, las dos cuentas coinciden.\n\nLa tercera es la de muchos historiadores, que prefieren poner la salida en el siglo 13 antes de Cristo, en tiempos de Ramsés segundo, que reinó aproximadamente entre 1279 y 1213. Se apoyan, entre otras cosas, en el nombre de la ciudad de Raamses que, según Éxodo 1, construyeron los hebreos, y leen los 480 años como una cifra redonda: doce generaciones de cuarenta años. Con esa cuenta, los años del desierto y la llegada a Canaán caerían hacia fines del siglo 13. La estela del faraón Merneptah, de hacia 1208 antes de Cristo, es la primera mención de Israel fuera de la Biblia, y lo nombra como un pueblo que ya estaba en Canaán; las dos posturas la usan a su favor. Además, no se han hallado restos que puedan atribuirse con seguridad a los campamentos de Israel en el desierto: unos lo explican porque un pueblo que vive en tiendas deja pocas huellas, y otros ven en ello un motivo de duda. Las conclusiones son tuyas.\n\nAl escucharlo, ten presente que los primeros capítulos son de listas y de cifras, y que se siguen mejor si imaginas el campamento: un gran cuadro de tiendas con el santuario en el centro. Las cifras son enormes, y la manera de leerlas también se discute; lo verás en la primera pausa. Después viene el camino, con sus dificultades, y ahí el libro se vuelve sobre todo un relato. Los salmos, los profetas y el Nuevo Testamento vuelven muchas veces a estos años de desierto, y en la tradición judía el libro se lee completo cada año en la sinagoga."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 1,
+   "texto": "El censo empieza el primer día del segundo mes del segundo año: un mes después de levantado el tabernáculo, según Éxodo 40, y algo más de un año después de la salida de Egipto. El pueblo llevaba unos once meses al pie del Sinaí. El «tabernáculo del testimonio», como ya viste, es la tienda del encuentro, donde Dios hablaba con Moisés."
+  },
+  {
+   "cap": 1,
+   "v": 3,
+   "texto": "El «encabezamiento» del versículo 2 es el censo, la cuenta por cabezas. Se cuentan los varones de veinte años en adelante que podían ir a la guerra, según el orden de la sociedad israelita: la tribu, las familias o clanes que la formaban y, dentro de ellos, la «casa de sus padres», la familia extendida bajo un mismo jefe. Las «cuadrillas» son las unidades de la tropa."
+  },
+  {
+   "cap": 1,
+   "v": 11,
+   "texto": "José no da nombre a una tribu: sus hijos Ephraim y Manasés, hoy Efraín y Manasés, forman una cada uno, porque Jacob los adoptó como propios, según Génesis 48; así, sin contar a Leví, siguen siendo doce. Gedeón, el padre de Abidán, no es el juez de ese nombre que aparecerá siglos después."
+  },
+  {
+   "cap": 1,
+   "v": 15,
+   "texto": "En esta lista, Issachâr es Isacar; Nephtalí, Neftalí, y Eliasaph, Eliasaf; Phegiel se llamará Pagiel en el capítulo 7. Varios nombres hablan de Dios: Elisur significa mi Dios es roca; Zurisaddai, mi roca es Shaddai, el nombre que Éxodo 6 traduce Dios Omnipotente, y Nathanael, Dios ha dado. Ninguno lleva la forma breve del nombre Jehová, tan común en nombres posteriores, como Elías o Isaías."
+  },
+  {
+   "cap": 1,
+   "v": 35,
+   "texto": "Efraín, el menor de los hijos de José, supera aquí a Manasés, el mayor, por más de ocho mil hombres. Génesis 48 cuenta que Jacob, al bendecirlos, cruzó las manos para poner la derecha sobre la cabeza del menor, y dijo de Manasés: «su hermano menor será más grande que él»."
+  },
+  {
+   "cap": 1,
+   "v": 53,
+   "texto": "Los «vasos» del tabernáculo son todos sus utensilios, no solo los recipientes. En el versículo 51, el «extraño» no es un extranjero, sino cualquiera que no tenía ese oficio, aunque fuera israelita. Las tiendas de los levitas formaban un anillo entre el santuario y las tribus, para que nadie se acercara sin permiso y no cayera la «ira», el castigo, sobre el pueblo."
+  },
+  {
+   "cap": 2,
+   "v": 2,
+   "texto": "La «bandera» era el estandarte de cada grupo de tres tribus, y las «enseñas», las señales de cada familia. El texto no dice cómo eran. Una tradición judía antigua cuenta que cada bandera tenía el color de la piedra de su tribu en el pectoral del sumo sacerdote, y que la de Judá llevaba un león, como en la bendición de Jacob: «Cachorro de león Judá»."
+  },
+  {
+   "cap": 2,
+   "v": 3,
+   "texto": "El oriente era el frente: la única entrada del atrio miraba hacia donde sale el sol, y de ese lado acampa Judá, que marchará primero. En hebreo, la palabra para oriente, kédem, significa también lo que está delante. Su jefe, Naasón, era cuñado de Aarón, según Éxodo 6, y el libro de Rut lo pondrá entre los antepasados del rey David."
+  },
+  {
+   "cap": 2,
+   "v": 10,
+   "texto": "En el castellano de 1909, el «mediodía» es el sur, donde está el sol a esa hora; el «aquilón», en el versículo 25, es el norte, por el nombre latino del viento del norte, y el «levante», el oriente. Rubén, el primogénito de Jacob, no va delante: encabeza el segundo grupo, del lado sur."
+  },
+  {
+   "cap": 2,
+   "v": 14,
+   "texto": "Aquí el padre de Eliasaf se llama Rehuel, y en los demás pasajes, Dehuel. En la escritura hebrea, la letra de la d y la de la r se distinguen por un trazo pequeño, y es fácil que un copista las confundiera; las dos formas se han conservado en el texto."
+  },
+  {
+   "cap": 3,
+   "v": 4,
+   "texto": "La fórmula «estas son las generaciones», la de Génesis, anuncia la familia de Aarón y de Moisés, pero solo nombra a los hijos de Aarón, que eran los sacerdotes; los de Moisés, Gersom y Eliezer, quedaron como simples levitas. Lo de Nadab y Abiú se contó en Levítico 10. Ithamar es Itamar, y servir «delante de Aarón» es hacerlo en vida de él y bajo su mando."
+  },
+  {
+   "cap": 3,
+   "v": 9,
+   "texto": "Las «alhajas» del versículo 8 no son joyas, sino los muebles y utensilios del santuario. «Enteramente dados» traduce una palabra hebrea repetida, dados, dados: los levitas son una entrega completa a los sacerdotes. Desde aquí el texto distingue dos grupos de la misma tribu: los sacerdotes, Aarón y sus hijos, y los demás levitas, que sirven en el santuario pero no ofrecen los sacrificios."
+  },
+  {
+   "cap": 3,
+   "v": 15,
+   "texto": "Los versículos 12 y 13 remiten a la noche de la Pascua: en Éxodo 13, Dios pidió para sí todo primogénito, «así de los hombres como de los animales», y mandó rescatar a los hijos. Ahora la tribu de Leví ocupa su lugar. Por eso los levitas se cuentan desde que tienen un mes, igual que los primogénitos, y no desde los veinte años, como los soldados."
+  },
+  {
+   "cap": 3,
+   "v": 20,
+   "texto": "Las tres familias de Leví llevan el nombre de sus hijos: Gersón, Coath, hoy Coat, y Merari. Coat era el abuelo de Moisés y de Aarón, porque su hijo Amram es el padre de ambos, según Éxodo 6: la familia de los dos es la que el versículo 27 llama «familia Amramítica». Uzziel es Uziel."
+  },
+  {
+   "cap": 3,
+   "v": 26,
+   "texto": "Aquí empiezan los cargos de las tres familias de levitas. A los gersonitas, descendientes de Gersón, les toca lo que era de tela o de piel: las cortinas, las cubiertas y cada «pabellón», que en 1909 es la cortina que cerraba una entrada, tanto la de la tienda como la del atrio, con sus cuerdas."
+  },
+  {
+   "cap": 3,
+   "v": 32,
+   "texto": "Elisaphán hijo de Uzziel, hoy Elizafán, es el Elzaphán de Levítico 10, uno de los primos de Aarón que sacaron del santuario los cuerpos de Nadab y Abiú. Ahora encabeza a los coatitas. El «prepósito» es el que está al frente: Eleazar, el hijo de Aarón, supervisa a los jefes de todos los levitas."
+  },
+  {
+   "cap": 3,
+   "v": 39,
+   "texto": "Si se suman las tres familias, siete mil quinientos, ocho mil seiscientos y seis mil doscientos, dan veintidós mil trescientos, no veintidós mil. El Talmud, que recoge siglos de discusiones de los maestros judíos, explica que los trescientos de más eran ellos mismos primogénitos y no podían rescatar a otros. Otros proponen un error de copia, porque en hebreo seis y tres se diferencian en una sola letra."
+  },
+  {
+   "cap": 3,
+   "v": 43,
+   "texto": "Veintidós mil doscientos setenta y tres primogénitos parecen pocos para un pueblo de más de seiscientos mil hombres adultos: harían pensar en familias con decenas de hijos varones. Unos lo explican porque solo se contaron los nacidos después de la salida de Egipto, cuando Dios pidió para sí los primogénitos; otros ven aquí una señal más de que las cifras grandes del libro se pueden leer de otra manera."
+  },
+  {
+   "cap": 3,
+   "v": 50,
+   "texto": "Cinco siclos eran unos 55 gramos de plata, lo mismo que Levítico 27 fija para un varón de un mes a cinco años; los «óbolos», como ya viste, eran la vigésima parte del siclo. Doscientos setenta y tres por cinco dan los mil trescientos sesenta y cinco siclos, unos 15 kilos de plata. Es el rescate de los primogénitos que se anunció en Éxodo 13."
+  },
+  {
+   "cap": 4,
+   "v": 3,
+   "texto": "Para cargar el santuario se cuentan los hombres de treinta a cincuenta años, los de mayor fuerza y experiencia. «Entran en compañía» traduce una expresión hebrea que suele usarse para el servicio militar: el trabajo del santuario se describe como el de una tropa. El orden va de lo más santo a lo menos santo, y empieza por los coatitas."
+  },
+  {
+   "cap": 4,
+   "v": 6,
+   "texto": "Antes de que los coatitas se acerquen, los sacerdotes bajan el velo, la cortina que cerraba el lugar santísimo, y con él cubren el arca, sin que nadie más la vea. Encima van las pieles que 1909 llama de tejones, un cuero que no se sabe identificar con certeza, y por fuera, un paño de «cárdeno», azul violeta. El arca es el único objeto cuyo envoltorio exterior era de color."
+  },
+  {
+   "cap": 4,
+   "v": 10,
+   "texto": "La «mesa de la proposición» es la de los panes presentados ante Dios, que aquí se llaman «pan continuo» porque no faltaban nunca, ni siquiera en el camino: viajaban sobre la mesa. Los «tazones para libar» servían para derramar el vino de las ofrendas, y las «parihuelas» eran andas, armazones de varas para llevar una carga entre varias personas."
+  },
+  {
+   "cap": 4,
+   "v": 14,
+   "texto": "El gran altar de bronce, donde se quemaban los sacrificios, se envolvía en «púrpura», un paño rojo morado, después de quitarle la ceniza. Los «garfios» eran tenedores grandes para mover la carne, y los «braseros», recipientes para llevar brasas. Lo más delicado, el aceite, el incienso y la ofrenda diaria, quedaba a cargo de Eleazar, según el versículo 16."
+  },
+  {
+   "cap": 4,
+   "v": 20,
+   "texto": "«No cortaréis» quiere decir no dejéis que desaparezcan. Los coatitas eran los que más cerca andaban de lo santo, y el texto los protege: no podían tocar los objetos sagrados ni mirarlos mientras se cubrían. Los sacerdotes hacían esa parte y después asignaban a cada uno su carga."
+  },
+  {
+   "cap": 4,
+   "v": 33,
+   "texto": "Itamar, el hijo menor de Aarón, dirige a gersonitas y meraritas, como ya dirigió, según Éxodo 38, la cuenta de los materiales del santuario. A los meraritas les toca lo más pesado: tablas o marcos, barras, columnas y basas, cien de ellas de plata, de un talento cada una, unos 34 kilos. Todo se les entregaba «por sus nombres», como en un inventario."
+  },
+  {
+   "cap": 5,
+   "v": 3,
+   "texto": "Estas impurezas ya se explicaron en Levítico: la del «leproso», con una enfermedad de la piel que no siempre es la que hoy llamamos lepra, en el capítulo 13; los flujos del cuerpo, en el 15, y el contacto con un muerto, que el capítulo 19 tratará con detalle. Según la tradición judía, el leproso salía de todo el campamento, y el impuro por un muerto, solo de la zona del santuario."
+  },
+  {
+   "cap": 5,
+   "v": 8,
+   "texto": "Esta ley retoma las de Levítico 5 y 6: confesar la falta y devolver lo tomado con una quinta parte más. Lo nuevo es el caso de una víctima sin «pariente», en hebreo goel, el familiar que respondía por los suyos: entonces la reparación iba al sacerdote. La tradición judía pensó en un extranjero que había muerto sin herederos, porque un israelita siempre tenía algún pariente."
+  },
+  {
+   "cap": 5,
+   "v": 15,
+   "texto": "Desde el versículo 12, el caso es el de una mujer sospechosa de adulterio, sin testigos. Su ofrenda es de harina de cebada, el grano más barato, y no de flor de harina, como en Levítico 2; y va sin aceite ni incienso, como la del pobre por el pecado en Levítico 5. Es un «presente de recordación»: pone el asunto delante de Dios para que él lo juzgue."
+  },
+  {
+   "cap": 5,
+   "v": 18,
+   "texto": "«Descubrirá la cabeza» puede querer decir que le soltaba el cabello, un gesto de luto o de vergüenza, como el del leproso en Levítico 13. El «agua santa» era quizá agua de la fuente de bronce del atrio, y se mezclaba con polvo del suelo del santuario. El verbo «conjurará», en el versículo 19, quiere decir que la hacía jurar."
+  },
+  {
+   "cap": 5,
+   "v": 22,
+   "texto": "Qué significa que caiga el muslo y se hinche el vientre no está claro; muchos lo entienden como un mal que dejaba a la mujer estéril o le hacía perder un embarazo, porque el versículo 28 promete a la inocente que «será fecunda». Al decir «Amén, amén», que significa así sea, ella acepta el juramento."
+  },
+  {
+   "cap": 5,
+   "v": 23,
+   "texto": "El «libro» era un rollo o una hoja donde se escribían las maldiciones; luego se lavaba la tinta en el agua, y la mujer bebía, por así decirlo, las mismas palabras. Los maestros judíos notaron que entre ellas estaba el nombre de Dios, que nunca debía borrarse, y dijeron que Dios permitía borrarlo con tal de traer la paz entre marido y mujer."
+  },
+  {
+   "cap": 6,
+   "v": 2,
+   "texto": "Nazareo, hoy también nazireo, viene del hebreo nazir, de un verbo que significa apartar o consagrar; no tiene que ver con Nazaret, el pueblo de Jesús. El voto estaba abierto a hombres y a mujeres, y cada uno lo hacía por su voluntad y por un tiempo, para dedicarse de manera especial a Dios."
+  },
+  {
+   "cap": 6,
+   "v": 4,
+   "texto": "La «sidra» no es la de manzana: traduce el hebreo shekar, cualquier bebida fuerte fermentada, como la cerveza de cebada o el vino de dátiles. «Desde los granillos hasta el hollejo» quiere decir de las pepitas a la cáscara de la uva: nada que viniera de la vid. Los sacerdotes se abstenían de vino al entrar a servir, según Levítico 10; el nazareo, durante todo su voto."
+  },
+  {
+   "cap": 6,
+   "v": 5,
+   "texto": "Las «guedejas» son los mechones del cabello, que el nazareo dejaba crecer sin cortar. La Biblia nombra a otros consagrados de por vida desde antes de nacer: Sansón, en el libro de los Jueces, y Samuel, por quien su madre prometió que no pasaría navaja sobre su cabeza. En el Nuevo Testamento, del niño Juan el Bautista se anuncia que no beberá vino ni sidra."
+  },
+  {
+   "cap": 6,
+   "v": 7,
+   "texto": "«Consagración» traduce el hebreo nézer, la misma palabra de la «diadema santa» que el sumo sacerdote llevaba sobre el turbante, según Éxodo 29: el cabello largo del nazareo era como una corona visible de su voto. Y como al sumo sacerdote, según Levítico 21, no se le permitía contaminarse con ningún muerto, ni siquiera de su familia."
+  },
+  {
+   "cap": 6,
+   "v": 12,
+   "texto": "Si alguien moría de repente a su lado, el voto quedaba interrumpido: se rapaba al séptimo día, presentaba sus ofrendas al octavo y empezaba de nuevo, porque «los días primeros serán anulados». La Misná, la colección de leyes judías de hacia el año 200 después de Cristo, dice que un voto de nazareo sin plazo fijo duraba treinta días."
+  },
+  {
+   "cap": 6,
+   "v": 18,
+   "texto": "Al cumplir el voto, el nazareo ofrecía los tres sacrificios principales, holocausto, expiación y paces, con un canastillo de «cenceñas», que son panes sin levadura; luego se rapaba a la puerta del santuario y echaba su cabello en el fuego del sacrificio de paces. El libro de los Hechos cuenta que el apóstol Pablo, en el templo de Jerusalén, pagó los gastos de cuatro hombres que terminaban un voto así."
+  },
+  {
+   "cap": 7,
+   "v": 1,
+   "texto": "Aquí el relato vuelve un mes atrás, al día en que se terminó de levantar el tabernáculo, el primero del primer mes, según Éxodo 40. Números agrupa por temas y no siempre sigue el orden de las fechas: estas ofrendas son anteriores al censo del capítulo 1, y la Pascua del capítulo 9 también."
+  },
+  {
+   "cap": 7,
+   "v": 3,
+   "texto": "Eran carretas tiradas por bueyes, el medio de carga pesada de la época: lentas, pero capaces de llevar lo que no podían los hombros. La palabra hebrea que se traduce «cubiertos» es rara, y se discute si quiere decir carros con toldo o de algún tipo especial. Los príncipes son los mismos jefes de tribu del censo del capítulo 1."
+  },
+  {
+   "cap": 7,
+   "v": 9,
+   "texto": "Los meraritas, con las piezas más pesadas, reciben el doble de carros que los gersonitas, y los coatitas ninguno: lo más santo se llevaba en hombros, con varas. El primer libro de Crónicas, en el capítulo 15, recordará esta norma cuando el arca sea llevada a Jerusalén en tiempos del rey David."
+  },
+  {
+   "cap": 7,
+   "v": 11,
+   "texto": "«Dedicación» traduce el hebreo janucá, la palabra que dio nombre a la fiesta judía de Janucá, que recuerda la nueva dedicación del templo de Jerusalén hacia 164 antes de Cristo, en tiempos de los Macabeos. Ya la Misná manda leer en esa fiesta la lista de los príncipes, y hasta hoy se lee en esos días, una ofrenda tras otra."
+  },
+  {
+   "cap": 7,
+   "v": 14,
+   "texto": "Con un siclo de unos 11 gramos, el plato de plata pesaba casi un kilo y medio, y el jarro, casi 800 gramos; el jarro era un tazón para rociar, como los del altar. La «cuchara» de oro, de unos 110 gramos, era un recipiente pequeño con forma de palma de la mano, lleno de incienso, que aquí se llama «perfume»."
+  },
+  {
+   "cap": 7,
+   "v": 17,
+   "texto": "Cada príncipe trae los tres sacrificios que describió Levítico: holocausto, expiación y paces, veintiún animales por día. Las paces terminaban en una comida compartida. Desde aquí el texto repite la misma lista once veces más, palabra por palabra, en el orden en que acampaban las tribus: primero las del oriente, luego las del sur, las del occidente y las del norte."
+  },
+  {
+   "cap": 7,
+   "v": 88,
+   "texto": "Los totales cuadran: doce platos de ciento treinta siclos y doce jarros de setenta suman dos mil cuatrocientos siclos, unos 26 kilos de plata, y las doce cucharas, ciento veinte siclos de oro, algo más de un kilo. Los animales son doscientos cincuenta y dos en doce días. Con 89 versículos, este es el capítulo más largo de los cinco libros de Moisés."
+  },
+  {
+   "cap": 8,
+   "v": 4,
+   "texto": "Las siete lámparas debían dar su luz hacia adelante, frente al candelero; la tradición judía entendió que las de los brazos miraban hacia la del centro. El candelero, la menorá, era una sola pieza de oro «labrado á martillo». En el Arco de Tito, en Roma, se ve uno así llevado como botín tras la destrucción del templo de Jerusalén, en el año 70 después de Cristo."
+  },
+  {
+   "cap": 8,
+   "v": 7,
+   "texto": "A los sacerdotes se los vistió con ropas nuevas y se los ungió; a los levitas solo se los purifica: se los rocía con agua de purificación, se rasuran todo el cuerpo y lavan su propia ropa. Son servidores del santuario, no sacerdotes."
+  },
+  {
+   "cap": 8,
+   "v": 11,
+   "texto": "Los hijos de Israel ponen las manos sobre los levitas, quizá por medio de sus representantes, como quien presentaba un animal ponía la mano sobre su cabeza: los levitas son la ofrenda del pueblo, en lugar de sus primogénitos. «En ofrenda» traduce la palabra de la ofrenda mecida, la que se alzaba delante del altar; aquí, de manera única, lo que se presenta son personas."
+  },
+  {
+   "cap": 8,
+   "v": 19,
+   "texto": "Que los levitas «reconcilien» a los hijos de Israel traduce kipper, el verbo de la expiación. Al hacer guardia entre el pueblo y el santuario, evitan que alguien se acerque sin permiso y caiga una «plaga», como ya advirtió el capítulo 1. En el versículo 16, «enteramente dados» repite la palabra doble del capítulo 3: dados, dados."
+  },
+  {
+   "cap": 8,
+   "v": 26,
+   "texto": "El capítulo 4 contaba a los levitas de treinta a cincuenta años, y aquí se habla de veinticinco: el Talmud lo explica con cinco años de aprendizaje antes de servir, y otros piensan que el capítulo 4 se refiere solo al trabajo de cargar el santuario. Después de los cincuenta, el levita ya no cargaba, pero seguía ayudando en la guarda."
+  },
+  {
+   "cap": 9,
+   "v": 1,
+   "texto": "El relato vuelve otra vez atrás: esta orden se da en el mes primero, antes del censo del capítulo 1, que fue en el segundo. Es la primera Pascua que se celebra después de la de Egipto, justo un año después de aquella noche. «Entre las dos tardes», como ya viste en Éxodo 12, es el atardecer, aunque se discute la hora exacta."
+  },
+  {
+   "cap": 9,
+   "v": 7,
+   "texto": "El texto no dice quiénes eran estos hombres. En el Talmud se propusieron varias respuestas: unos pensaron en los que cargaban el ataúd con los huesos de José, que Israel llevaba desde Egipto según Éxodo 13; otros, en los que habían sacado del santuario los cuerpos de Nadab y Abiú. La impureza por un muerto duraba siete días, como dirá el capítulo 19."
+  },
+  {
+   "cap": 9,
+   "v": 11,
+   "texto": "Esta segunda Pascua, un mes después, sigue las reglas de Éxodo 12: las «cenceñas», panes sin levadura, las hierbas amargas y ningún hueso quebrado. El calendario judío la conserva con el nombre de Pésaj Shení, la segunda Pascua, y el segundo libro de Crónicas, en el capítulo 30, cuenta que el rey Ezequías celebró una Pascua en el mes segundo."
+  },
+  {
+   "cap": 9,
+   "v": 16,
+   "texto": "Es la misma nube que guiaba al pueblo desde la salida, columna de nube de día y de fuego de noche, según Éxodo 13, y que cubrió el tabernáculo el día en que se levantó, al final de Éxodo. Aquí no se cuenta un solo día, sino la costumbre de todo el viaje."
+  },
+  {
+   "cap": 9,
+   "v": 22,
+   "texto": "Donde dice «un año», el hebreo dice literalmente días, que puede significar un tiempo largo o un año entero. «Quedos» quiere decir quietos, y «alojaban», acampaban. En hebreo, la expresión que aquí se traduce «al mandato» o «al dicho» de Jehová aparece siete veces en estos versículos."
+  },
+  {
+   "cap": 10,
+   "v": 2,
+   "texto": "Estas trompetas, en hebreo jatsotsrot, eran tubos rectos de metal con la boca en forma de campana, distintos del shofar, el cuerno de carnero. El historiador judío Josefo las describe de algo menos de un codo de largo. En la tumba de Tutankamón se hallaron dos trompetas rectas, una de plata y otra de bronce, y en el Arco de Tito se ven trompetas largas entre los objetos del templo."
+  },
+  {
+   "cap": 10,
+   "v": 7,
+   "texto": "Había dos maneras de tocar. Para reunir al pueblo se daba un toque largo y parejo; la «alarma», en hebreo terúa, era un sonido entrecortado o vibrante, que ponía en marcha el campamento. El texto solo detalla las señales de los dos primeros grupos, el del oriente y el del sur, y deja el toque en manos de los sacerdotes, los hijos de Aarón."
+  },
+  {
+   "cap": 10,
+   "v": 9,
+   "texto": "Esta ley mira ya a la vida en la tierra prometida: cuando un enemigo atacara, el toque de las trompetas sería un clamor a Dios, para estar «en memoria» delante de él, es decir, para que él se acordara de su pueblo."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 1,
+   "v": 54,
+   "titulo": "Un pueblo contado en el desierto",
+   "epoca": "Primer día del segundo mes del segundo año después de la salida de Egipto; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento de Israel en el desierto de Sinaí, junto al tabernáculo recién levantado",
+   "texto": "Han pasado unos once meses desde que el pueblo llegó al Sinaí. En ese tiempo recibió las diez palabras y las leyes del pacto, construyó el tabernáculo y vio consagrar a los sacerdotes. Ahora, un mes después de levantado el santuario, llega una orden distinta: contar a los hombres que pueden ir a la guerra. El pueblo que salió de Egipto como una multitud de siervos se organiza como un ejército, por tribus, por familias y por nombres, porque tiene por delante un camino largo y una tierra que todavía no es suya. Moisés y Aarón no lo hacen solos: un jefe de cada tribu está con ellos, y cada uno responde por los suyos.\n\nEn el mundo antiguo, contar a la gente era una tarea de reyes. Servía para cobrar tributos, para reunir trabajadores y, sobre todo, para reclutar soldados. En el Egipto de las pirámides, los años de un reinado se nombraban por los censos del ganado que se hacían cada cierto tiempo. En las tablillas de Mari, una ciudad junto al Éufrates, del siglo 18 antes de Cristo, se habla de censos de la población, también de los pueblos de pastores, para alistar soldados. Contar a un pueblo era además un asunto delicado: Éxodo 30 pedía que cada hombre contado diera un rescate, «y no habrá en ellos mortandad por haberlos contado». Según Éxodo 38, los que dieron ese medio siclo de plata fueron exactamente tantos como los que suma este capítulo.\n\nLas cifras llaman la atención. Seiscientos tres mil quinientos cincuenta hombres de veinte años en adelante, sin contar a los levitas, supondrían, con las mujeres, los niños y los ancianos, un pueblo de dos millones de personas o más. Para comparar, se calcula que el ejército de Ramsés segundo en la batalla de Cadés tenía unos veinte mil soldados. La tradición judía y la cristiana han leído la cifra tal como está, y ven en ella el cumplimiento de la promesa a Abraham de una descendencia como las estrellas, y de lo que dice Éxodo 1: que los hijos de Israel se multiplicaron «en extremo». Quienes la leen así recuerdan también que el texto presenta el sustento de ese pueblo en el desierto como obra de Dios, con el maná y el agua.\n\nOtros lectores proponen entender de otra manera la palabra hebrea élef, que significa mil, pero que en otros pasajes designa un clan o una unidad de soldados: en el libro de los Jueces, Gedeón la usa para decir que su familia es la más pobre de Manasés. Leída así, la cifra de Rubén, cuarenta y seis élef y quinientos, querría decir cuarenta y seis grupos con quinientos hombres en total. Sumadas las doce tribus, darían quinientos noventa y ocho grupos y cinco mil quinientos cincuenta hombres. La propuesta tiene sus dificultades, porque el propio texto suma las cifras como miles, y sus defensores responden que esas sumas se habrían hecho más tarde. Hay también quienes ven en estos números un valor simbólico. Aquí tienes las posturas; la conclusión es tuya.\n\nQueda un detalle. Los levitas no entran en esta cuenta: no irán a la guerra, porque su servicio es el santuario, y sus tiendas rodearán el tabernáculo. El capítulo siguiente mostrará cómo se ordenaba todo ese pueblo alrededor de la tienda de Dios. Y recuerda que la fecha de estos hechos se discute: la cronología tradicional los pone hacia 1445 antes de Cristo, y muchos historiadores, en el siglo 13 antes de Cristo, como viste en la introducción.",
+   "preguntas": [
+    "¿Qué cambia para un pueblo cuando cada persona es contada por su nombre y por su familia?",
+    "¿Cómo te imaginas la vida diaria de un campamento tan grande en medio del desierto?"
+   ]
+  },
+  {
+   "cap": 2,
+   "v": 34,
+   "titulo": "Doce tribus alrededor de una tienda",
+   "epoca": "Los días del censo, en el segundo mes del segundo año; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento en el desierto de Sinaí, ordenado en cuadro alrededor del tabernáculo",
+   "texto": "Imagina el campamento visto desde un cerro. En el centro, el atrio del tabernáculo, un patio cercado de cortinas blancas de unos 45 metros de largo, con su única entrada hacia el oriente. Alrededor, las tiendas de los levitas, y frente a la entrada, las de Moisés, de Aarón y de sus hijos, como dirá el capítulo 3. Más afuera, cuatro grandes grupos de tres tribus, uno a cada lado, cada uno con su bandera: al oriente, Judá, Isacar y Zabulón; al sur, Rubén, Simeón y Gad; al occidente, Efraín, Manasés y Benjamín; al norte, Dan, Aser y Neftalí. Al ponerse en marcha, el orden se conservaba: primero el grupo de Judá, luego el de Rubén, después el santuario con los levitas, y al final los de Efraín y de Dan.\n\nEl reparto no es al azar, y quien recuerde Génesis lo reconoce. Al oriente están tres hijos de Lea: Judá, Isacar y Zabulón. Al sur, otros dos hijos de Lea, Rubén y Simeón, con Gad, hijo de Zilpa, la sierva de Lea. Al occidente, los descendientes de Raquel: Efraín y Manasés, hijos de José, y Benjamín. Al norte, Dan y Neftalí, hijos de Bilha, la sierva de Raquel, y Aser, hijo de Zilpa. Rubén era el primogénito, pero el lugar de delante es para Judá. En su bendición, en Génesis 49, Jacob le dijo a Rubén «no seas el principal», por haber subido al lecho de su padre, y a Judá le prometió que no le sería quitado el cetro.\n\nLos ejércitos antiguos acampaban con un orden parecido. Ya viste en Éxodo que los relieves de la batalla de Cadés, hacia 1274 antes de Cristo, muestran el campamento de Ramsés segundo como un recinto rectangular con la tienda del faraón en el centro; en esas escenas, el recinto está rodeado por una fila de escudos de los soldados. Algunos estudiosos han comparado ese plano con el del campamento de Israel. La diferencia salta a la vista: en el centro del campamento de Israel no está la tienda de un rey, sino la del Dios que lo sacó de Egipto, y en su interior no hay ninguna imagen.\n\nPara quienes vivían en ese campamento, el orden tenía consecuencias prácticas. Cada familia sabía dónde plantar su tienda cada vez que se acampaba y en qué lugar de la columna caminar. En un viaje por el desierto, con niños, ancianos, rebaños y carga, el desorden podía ser peligroso. Y la tienda de Dios quedaba siempre en el centro, a la vista desde cualquier punto del campamento, con la nube encima.\n\nSiglos más tarde, este orden siguió presente en la imaginación de Israel. En el libro de Ezequiel, las tribus se reparten la tierra en franjas, con una porción santa para el santuario en medio, y la ciudad tiene doce puertas con los nombres de las tribus, tres por cada lado. El Apocalipsis, al final del Nuevo Testamento, describe una ciudad con doce puertas, tres al oriente, tres al norte, tres al sur y tres al occidente, con los nombres de las doce tribus de Israel.",
+   "preguntas": [
+    "¿Qué te llama la atención del lugar que le toca a cada tribu?",
+    "¿Qué significaría para una familia acampar cada noche con la tienda de Dios en el centro?"
+   ]
+  },
+  {
+   "cap": 4,
+   "v": 49,
+   "titulo": "Guardianes y cargadores del santuario",
+   "epoca": "Al pie del Sinaí, en el segundo año después de la salida de Egipto; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El anillo de tiendas de los levitas, entre el tabernáculo y las doce tribus",
+   "texto": "Leví fue el tercer hijo de Jacob y de Lea. En Génesis, su historia no es tranquila: con su hermano Simeón vengó con violencia a su hermana Dina en Siquem, y Jacob, al final de su vida, dijo de los dos: «los apartaré en Jacob, y los esparciré en Israel». En el Sinaí, después del becerro de oro, fueron los hijos de Leví los que respondieron al llamado de Moisés. Moisés y Aarón eran de esta tribu. Ahora la tribu recibe un lugar propio: no será contada para la guerra ni, como se dirá más adelante, recibirá una porción de tierra como las demás, sino que vivirá dedicada al santuario.\n\nEl capítulo 3 explica el cambio con los primogénitos. En el mundo antiguo, el hijo mayor tenía un lugar especial: heredaba una parte mayor y quedaba como cabeza de la familia. En las tablillas de Nuzi, en el norte de Irak, de los siglos 15 y 14 antes de Cristo, el primogénito suele recibir una porción doble, como mandará Deuteronomio, aunque a veces el padre podía nombrar primogénito a otro hijo. En Israel, además, el primogénito pertenecía a Dios desde la noche en que murieron los primogénitos de Egipto. En lugar de los hijos mayores de cada familia, Dios toma una tribu entera para su servicio, y los primogénitos que sobran se rescatan con plata. Hasta hoy, en muchas familias judías, el padre entrega cinco monedas de plata a un descendiente de Aarón cuando su primer hijo varón cumple un mes.\n\nEl capítulo 4 es casi un manual de mudanza. Cuando había que levantar el campamento, Aarón y sus hijos entraban primero y envolvían cada objeto santo en paños y pieles; solo entonces llegaban los coatitas, que los cargaban en hombros con sus varas. Los gersonitas llevaban las telas, y los meraritas, las piezas pesadas, en carros, como se verá en el capítulo 7. Ya viste que en Egipto los dioses salían en procesión dentro de capillas en forma de barca, llevadas en hombros por los sacerdotes. Aquí, lo que se carga no se exhibe: viaja cubierto, y nadie fuera de los sacerdotes lo ve.\n\nEl texto insiste en el peligro: el que no tenía ese oficio y se acercaba, moría, y los mismos coatitas no podían tocar ni mirar lo santo. Otros pueblos también rodeaban sus templos de guardias. Unas instrucciones hititas para el personal de los templos, de los siglos 14 y 13 antes de Cristo, que ya se mencionaron al comentar Levítico, mandan vigilar el templo toda la noche y castigan con la muerte el descuido de los guardias. Algunos estudiosos ven a los levitas sobre todo como una guardia así: su tarea era cuidar que nadie cruzara un límite que podía costar vidas, como había pasado con Nadab y Abiú.\n\nLas cifras del final completan el cuadro. De los veintidós mil levitas contados desde un mes de edad, ocho mil quinientos ochenta tenían entre treinta y cincuenta años. Los meraritas, la familia más pequeña, eran los que más hombres tenían en esa edad, y a ellos les tocaba la carga más pesada.",
+   "preguntas": [
+    "¿Qué habrán sentido los coatitas al cargar sobre los hombros lo más santo sin poder verlo?",
+    "¿Por qué crees que el texto se detiene tanto en quién toca, quién mira y quién carga cada cosa?"
+   ]
+  },
+  {
+   "cap": 5,
+   "v": 31,
+   "titulo": "Las aguas amargas de los celos",
+   "epoca": "Leyes que el texto sitúa en el Sinaí; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "La puerta del tabernáculo, en el campamento al pie del Sinaí",
+   "texto": "El capítulo 5 reúne tres leyes que tienen algo en común: protegen el campamento, que el texto describe como el lugar de aquellos «entre los cuales yo habito». Primero se saca fuera a los impuros; luego se pide reparar el daño hecho al prójimo; por último, se trata una sospecha que podía romper un matrimonio y enfrentar a dos familias. El caso es preciso: un marido sospecha que su mujer le ha sido infiel, pero no hay testigos ni pruebas. El texto prevé incluso que los celos sean infundados: «no habiéndose ella contaminado».\n\nEl procedimiento se hace en el santuario, ante el sacerdote, y no en la casa ni en la plaza. La mujer es puesta «delante de Jehová», con la cabeza descubierta y la ofrenda de cebada en las manos. Pronuncia un juramento y responde «Amén, amén». Las maldiciones se escriben, se lavan en el agua y ella la bebe. Si era culpable, sufriría el mal anunciado; si era inocente, quedaba libre y podría tener hijos. Muchos estudiosos notan que el agua, con polvo y tinta, no era dañina en sí misma, y que el resultado se dejaba en manos de Dios.\n\nOtros pueblos tenían pruebas parecidas. El Código de Hammurabi, de hacia 1750 antes de Cristo, trata dos casos casi iguales. Si el propio marido acusa a su mujer sin haberla sorprendido con otro, ella jura por el dios y vuelve a su casa. Pero si son otros los que la señalan, debe arrojarse al río, al que se tenía por un dios, y si no se ahoga, queda como inocente. En esa prueba del río, muy conocida en Mesopotamia, el peligro era real, y el que se hundía quedaba condenado. La comparación se ha leído de dos maneras: unos subrayan que en Números la acusada no arriesga la vida en un río, y que la ley impide que el marido o los vecinos la castiguen por su cuenta; otros, que la prueba es humillante y que solo existe para la mujer, no para el marido.\n\nLa tradición judía dedicó a este rito un tratado de la Misná, llamado Sotá, la que se desvía, por el verbo hebreo del versículo 12. Allí se exige que el marido haya advertido antes a su mujer delante de dos testigos y que ella se haya quedado a solas con el otro hombre; los maestros añadieron que el agua no tenía efecto si el marido tampoco estaba libre de culpa. La misma Misná cuenta que, cuando se multiplicaron los adulterios, el rito dejó de practicarse, y que lo suspendió el maestro Yojanán ben Zakai, en el siglo 1 después de Cristo, en la época de la destrucción del templo.\n\nEl versículo final dice que el marido quedaba «libre de iniquidad» y que la mujer culpable llevaría su pecado. Hoy es uno de los pasajes de la Torá que más preguntas despiertan. El texto no da más explicaciones: describe un rito para un caso sin testigos, en un mundo en el que una sospecha así podía terminar en violencia.",
+   "preguntas": [
+    "¿Cómo crees que vivía esta ley una mujer de aquel tiempo, y cómo la vivía su marido?",
+    "¿Qué te parece que el texto prevea también el caso de unos celos sin motivo?"
+   ]
+  },
+  {
+   "cap": 6,
+   "v": 27,
+   "titulo": "Una bendición grabada en plata",
+   "epoca": "Palabras que el texto sitúa en el Sinaí, hacia 1445 antes de Cristo según la cronología bíblica tradicional; los amuletos que las copian son de hacia 600 antes de Cristo",
+   "lugar": "El campamento al pie del Sinaí; siglos después, una tumba excavada en la roca junto a Jerusalén",
+   "texto": "El capítulo 6 empieza con personas que se apartan para Dios por un tiempo y termina con palabras que ponen el nombre de Dios sobre todo el pueblo. Levítico 9 contó que, el primer día del culto, «alzó Aarón sus manos hacia el pueblo y bendíjolos», pero no dijo con qué palabras. Aquí están. No son una oración que el pueblo dirige a Dios, sino una bendición que Dios manda pronunciar a los sacerdotes, y el versículo final la pone en boca de Dios mismo: «yo los bendeciré».\n\nEn hebreo, la bendición tiene tres líneas que van creciendo: de tres, de cinco y de siete palabras. El nombre de Dios aparece en cada una, y el «te» va en singular, como si se dijera a cada persona. Muchos estudiosos relacionan sus imágenes con el trato en la corte de un rey: que el rostro de alguien poderoso se ilumine al verte quiere decir que te mira con favor; que alce su rostro hacia ti, que te atiende y no te da la espalda. Los Salmos repiten estas imágenes, y uno de ellos pide a Dios que haga resplandecer su rostro sobre su pueblo. La última palabra es shalom, paz: no solo la ausencia de guerra, sino bienestar, salud y una vida completa.\n\nEn 1979, un equipo dirigido por el arqueólogo Gabriel Barkay excavaba unas tumbas talladas en la roca en Ketef Hinnom, en la ladera del valle de Hinom, al suroeste de la ciudad vieja de Jerusalén. En una de ellas aparecieron dos rollitos de plata de pocos centímetros, probablemente amuletos para llevar colgados. Desenrollarlos sin romperlos llevó años. Cuando se pudieron leer, contenían una forma de esta bendición, con el nombre de Dios. Son de hacia 600 antes de Cristo, poco antes de que Babilonia destruyera Jerusalén, y son el texto bíblico más antiguo que se conoce escrito, varios siglos anterior a los rollos del mar Muerto. Unos estudios hechos en 2004, con nuevas técnicas de fotografía, confirmaron la lectura y la fecha. Hoy se guardan en el Museo de Israel, en Jerusalén.\n\nLa bendición no dejó de pronunciarse. La Misná cuenta que en el templo de Jerusalén los sacerdotes decían el nombre de Dios tal como se escribe, y fuera del templo, con otra palabra en su lugar. Hasta hoy, en las sinagogas, los descendientes de las familias sacerdotales, los cohanim, alzan las manos con los dedos abiertos y la pronuncian sobre la congregación, y muchas iglesias cristianas despiden con ella a los fieles al final del culto.",
+   "preguntas": [
+    "¿Por qué crees que alguien quiso llevar estas palabras consigo, grabadas en plata?",
+    "¿Qué cambia cuando una bendición para todo un pueblo se dice a cada uno en singular?"
+   ]
+  },
+  {
+   "cap": 7,
+   "v": 89,
+   "titulo": "Doce días de ofrendas y una voz",
+   "epoca": "Los doce días que empezaron con la unción del altar, en el primer mes del segundo año; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "Delante del altar del holocausto, en el atrio del tabernáculo, al pie del Sinaí",
+   "texto": "Conviene ordenar las fechas, porque el libro no las cuenta en orden. El primer día del primer mes del segundo año se levanta el tabernáculo. Ese mes, desde el día en que se unge el altar, los príncipes presentan sus ofrendas, una tribu por día, durante doce días. El día 14 se celebra la Pascua, que contará el capítulo 9. El primer día del mes segundo comienza el censo del capítulo 1, y el día 14 de ese mes llega la segunda Pascua, para quienes no pudieron celebrar la primera. Todo cabe en menos de dos meses, y al final de ese tiempo el pueblo estará listo para partir.\n\n¿Por qué repetir doce veces la misma lista, si todos trajeron lo mismo? Una respuesta mira a los archivos antiguos: los templos y los palacios del Oriente anotaban con cuidado cada donación, quién la traía, cuánto pesaba y en qué día llegaba, y algunos estudiosos ven en este capítulo la forma de un registro así. Otra mira al oído: cuando el texto se leía en voz alta, cada tribu escuchaba su nombre, su día y su ofrenda completa. Judá, la tribu más numerosa, y Manasés, la más pequeña, traen exactamente lo mismo. Los antiguos comentarios judíos, por su parte, buscaron un sentido distinto para la ofrenda de cada príncipe, como si cada uno hubiera pensado en algo diferente al traer lo mismo.\n\nPara un pueblo que vivía en tiendas, la ofrenda era grande: unos 26 kilos de plata y más de un kilo de oro en vasijas, y doscientos cincuenta y dos animales, entre becerros, bueyes, carneros, corderos y machos cabríos, sin contar la harina, el aceite y el incienso. A eso se sumaban las seis carretas y los doce bueyes para el transporte. Como contó Éxodo, el pueblo había salido de Egipto con plata y oro. Siglos después, el libro de los Reyes contará la dedicación del templo de Salomón, en Jerusalén, con una fiesta de sacrificios mucho mayor.\n\nEl capítulo termina con un versículo breve, distinto de todo lo anterior. Moisés entra en la tienda y oye «la Voz» que le habla desde encima de la cubierta del arca, entre los dos querubines. Es lo que Dios había anunciado en Éxodo 25: «hablaré contigo de sobre la cubierta, de entre los dos querubines». En los templos vecinos, el dios tenía una estatua, y sus respuestas llegaban por medio de sacerdotes, sueños o señales. Aquí no hay imagen: solo un espacio entre unas alas de oro, y una voz. La forma del verbo hebreo es poco común, y Rashi, un comentarista judío de Francia del siglo 11, entendió que la voz hablaba como para sí, y que Moisés la escuchaba.",
+   "preguntas": [
+    "¿Qué te sugiere que todas las tribus, grandes y pequeñas, trajeran exactamente lo mismo?",
+    "¿Cómo imaginas a Moisés entrando solo en la tienda después de doce días de fiesta?"
+   ]
+  },
+  {
+   "cap": 9,
+   "v": 14,
+   "titulo": "La primera Pascua en el desierto",
+   "epoca": "Día 14 del primer mes del segundo año, un año después de la primera Pascua; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento en el desierto de Sinaí, ante Moisés y Aarón",
+   "texto": "Ha pasado un año desde la noche en que los israelitas comieron un cordero asado, vestidos para el viaje y con el bastón en la mano, mientras en Egipto morían los primogénitos. Ahora celebran el mismo rito en el desierto, al atardecer del día 14, con luna llena, porque los meses empezaban con la luna nueva. Tienen rebaños: según Éxodo 12, salieron con «ovejas, y ganados muy muchos». Tienen además un santuario y sacerdotes. Pero la Pascua sigue siendo una comida de familia, como aquella primera vez.\n\nLa tradición judía observó que el texto no menciona ninguna otra Pascua durante los años del desierto: la siguiente que cuenta la Biblia será ya en Canaán, en el libro de Josué. Esta tiene, además, algo de especial: es la Pascua del aniversario, celebrada todavía al pie del monte donde el pueblo hizo su pacto con Dios.\n\nEn medio de la fiesta aparece un problema. Unos hombres estaban impuros por haber tocado un muerto, y la impureza les impedía participar. Enterrar a los propios muertos era un deber que nadie podía eludir, así que el caso no era raro. Su queja es directa: «¿por qué seremos impedidos de ofrecer ofrenda á Jehová á su tiempo entre los hijos de Israel?». Moisés no responde por su cuenta. Les pide que esperen y consulta a Dios, como en Levítico 24, cuando el pueblo esperó una respuesta sobre el hijo de Selomit. La respuesta crea una ley nueva: una segunda fecha, un mes después, para el impuro y para el que esté de viaje lejos.\n\nMuchas leyes antiguas, como las de Hammurabi, están escritas como casos: si alguien hace tal cosa, sucederá tal otra. En la Torá, algunas leyes nacen así, de un caso real que se presenta ante Moisés y que la ley todavía no preveía. Esta es una de ellas, y cuida dos cosas a la vez: que nadie impuro se acerque a lo santo, y que nadie quede excluido de la fiesta para siempre. Al mismo tiempo, endurece la regla para quien podía celebrarla y no quiso: ese sería cortado de su pueblo.\n\nEl último versículo vuelve sobre el extranjero que vivía con Israel, el peregrino. Éxodo 12 ya le permitía celebrar la Pascua si se circuncidaba, porque con Israel había salido de Egipto mucha gente de otros pueblos. Aquí se repite el principio: «un mismo rito tendréis, así el peregrino como el natural de la tierra».",
+   "preguntas": [
+    "¿Qué piensas de que una ley nueva naciera de la pregunta de unos hombres que no querían quedarse fuera de la fiesta?",
+    "¿Por qué crees que Moisés prefirió esperar antes que responder por su cuenta?"
+   ]
+  },
+  {
+   "cap": 10,
+   "v": 10,
+   "titulo": "La nube, las trompetas y el camino",
+   "epoca": "Los últimos días al pie del Sinaí, en el segundo mes del segundo año; hacia 1445 antes de Cristo, según la cronología bíblica tradicional",
+   "lugar": "El campamento al pie del Sinaí, listo para levantarse y partir",
+   "texto": "El campamento está listo, y tiene dos señales para moverse. La primera viene de Dios: la nube que se alza de la tienda. La segunda la dan los sacerdotes: el sonido de las trompetas de plata, que reúne a la congregación o pone en marcha a cada grupo. La nube marca cuándo; las trompetas, cómo. Y el texto lo repite muchas veces: el pueblo no se mueve por su cuenta, y puede quedarse una noche o un año, según la nube.\n\nPara quien conoce el desierto, eso no es poca cosa. La península del Sinaí es una tierra de montañas de granito en el sur, mesetas de piedra caliza en el centro y arena hacia el norte, cruzada por lechos secos de arroyos, que en árabe se llaman uadis. Llueve muy poco, el verano es muy caluroso y las noches pueden ser frías. Las caravanas viajaban por jornadas, de un pozo al siguiente, y los pastores se movían según las estaciones y los pastos. El campamento de Israel tiene otro reloj: la nube.\n\nLas trompetas de metal, largas y rectas, servían en el antiguo Oriente sobre todo en la guerra y en las ceremonias; se piensa que las dos de la tumba de Tutankamón eran de uso militar o ceremonial. Según este pasaje, en Israel tienen tres usos: reunir y mover el campamento, clamar a Dios en la guerra y sonar sobre los sacrificios en los días de fiesta. Mucho después, entre los rollos del mar Muerto, el llamado Rollo de la Guerra describe trompetas con inscripciones distintas para cada señal.\n\nEl versículo 10 mira a una vida asentada, con fiestas y calendario. Los «principios de vuestros meses» son los días de luna nueva, con que empezaba cada mes y que se celebraban; el primer libro de Samuel cuenta, por ejemplo, una comida en la mesa del rey Saúl en ese día. La frase «os serán por memoria delante de vuestro Dios» presenta el toque como un recordatorio ante Dios, y el pasaje termina con la firma que cierra tantas leyes: «Yo Jehová vuestro Dios».\n\nCon este pasaje se cierra la estancia en el Sinaí, que empezó en el capítulo 19 de Éxodo. En casi un año, el pueblo recibió el pacto y las leyes, construyó y consagró el santuario, vio nacer su sacerdocio, celebró su primera Pascua en libertad y fue contado y ordenado tribu por tribu. Ahora tiene banderas, oficios y señales. Lo que pase en el camino, el texto lo contará a su tiempo.",
+   "preguntas": [
+    "Después de casi un año al pie del monte, ¿con qué ánimo crees que el pueblo esperaba la señal de partir?",
+    "¿Qué diferencia ves entre una señal que viene del cielo, como la nube, y otra que dan los sacerdotes, como las trompetas?"
+   ]
+  }
+ ]
+}
