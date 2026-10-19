@@ -1,10 +1,10 @@
-# Génesis, Éxodo y Levítico
+# La Biblia en voz alta
 
-Los tres primeros libros de la Biblia completos, en la Reina Valera 1909 (dominio público), para escuchar en voz alta. Una voz lee el texto bíblico y otra, la del guía, explica con notas y pausas de contexto histórico. Son unas 17 horas y media de audio.
+Los seis primeros libros de la Biblia completos, de Génesis a Josué, en la Reina Valera 1909 (dominio público), para escuchar en voz alta. Una voz lee el texto bíblico y otra, la del guía, explica con notas y pausas de contexto histórico. Se publica en https://www.godhome.app.
 
 ## Qué hay aquí
 
-- `sitio/`: el website tal como se publica en Vercel (proyecto `biblia-gel`). Es estático, más una función en `sitio/api/progreso.js` que guarda el avance de cada persona con su número de teléfono.
+- `sitio/`: el website tal como se publica en Vercel (proyecto `biblia` del equipo judomarketing, con los dominios godhome.app y www.godhome.app). Es estático, más una función en `sitio/api/progreso.js` que guarda el avance de cada persona con su número de teléfono.
 - `fuente/`: todo lo necesario para rehacerlo: el texto (`texto-final.json`), el comentario (`comentario/`), la guía de estilo (`GUIA.md`), la página (`pagina/`), la voz (`voz/`), los scripts (`scripts/`) y las pruebas (`pruebas/`). `fuente/LEEME.md` tiene el detalle.
 
 ## Publicar
