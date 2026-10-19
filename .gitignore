@@ -1,0 +1,13 @@
+# Se rehacen con los scripts y pesan mucho
+fuente/salida/
+fuente/voz/cache/
+fuente/voz/modelos/
+fuente/voz/venv/
+__pycache__/
+node_modules/
+shots-*/
+
+# Vercel y secretos: nunca al repositorio
+.vercel/
+.env
+.env.*
