@@ -52,11 +52,14 @@ escucha.
 8. **Nombres y palabras de 1909.** La RV1909 usa grafías y palabras antiguas.
    La primera vez que aparezcan en tu tramo, da la forma actual o el sentido:
    Rachêl es Raquel, Ephraim es Efraín, Beth-lehem es Belén, Hetheo es hitita,
-   Amorrheo es amorreo; "crió" es "creó"; "la haz" es la superficie;
+   Amorrheo es amorreo; "la haz" es la superficie;
    "expansión" es el firmamento; "conocer a su mujer" es tener relaciones;
    "simiente" es descendencia; "horro" es libre; "el Mediodía" es el Néguev, el
    sur de Canaán. En 1909 la preposición "a" se escribía "á" y la conjunción
    "o", "ó": no hace falta explicarlo cada vez (la introducción general lo dice).
+   Donde la de 1909 decía "crió", "criado" o "criador" con el sentido de crear,
+   el texto ya dice "creó", "creado" y "creador" (está en correcciones.json):
+   no hace falta explicarlo. Donde quiere decir criar, quedó igual.
 9. Las palabras entre corchetes en el texto, como "tráeme[lo]", son palabras
    que los traductores añadieron para que se entienda (se muestran en
    cursiva). No hace falta comentarlas.
