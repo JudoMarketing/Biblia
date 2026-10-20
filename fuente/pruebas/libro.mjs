@@ -90,7 +90,7 @@ ok((await p.locator("#donde").innerText()) === "Génesis 3", "tocar el 3 en la p
 ok(await p.locator("#pagina-izq .capitulos button.actual").innerText() === "3", "el 3 queda marcado como actual");
 await p.goto(BASE + "?ancho2", { waitUntil: "load" });
 ok((await p.getByRole("button", { name: /Continuar/ }).innerText()).includes("Génesis 2"), "Continuar sigue ofreciendo Génesis 2");
-ok((await p.locator("#pagina-izq .epigrafe").innerText()).includes("EN el principio crió Dios"), "en la portada, la página izquierda lleva Génesis 1, versículo 1");
+ok((await p.locator("#pagina-izq .epigrafe").innerText()).includes("EN el principio creó Dios"), "en la portada, la página izquierda lleva Génesis 1, versículo 1");
 const anchoAncho = await p.evaluate(() => document.documentElement.scrollWidth);
 ok(anchoAncho <= 1440, `sin desborde a 1440 (${anchoAncho})`);
 await ctx.close();

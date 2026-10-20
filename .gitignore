@@ -1,6 +1,7 @@
 # Se rehacen con los scripts y pesan mucho
 fuente/salida/
 fuente/voz/cache/
+fuente/voz/cache
 fuente/voz/modelos/
 fuente/voz/venv/
 __pycache__/
