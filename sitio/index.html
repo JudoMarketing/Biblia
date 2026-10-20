@@ -387,11 +387,17 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 .tomo-hojas strong { font-family: var(--f-titulo); font-weight: 500; font-size: calc(var(--w) * 0.1); line-height: 1.1; text-wrap: balance; }
 .tomo-hojas strong::after { content: "❦"; display: block; margin-top: 0.4em; font-size: 0.5em; color: var(--oro); }
 .tomo-hojas small { font-family: var(--f-biblia); font-style: italic; font-size: calc(var(--w) * 0.05); color: var(--tinta-suave); }
-/* La cinta marcapáginas: cuelga por debajo del libro cerrado y queda sobre la hoja al abrirlo */
-.tomo-cinta {
-  position: absolute; left: 86%; top: 34%; width: 4.4%; height: 80%; transform: translateZ(1px);
-  background: linear-gradient(90deg, #6f1010, #c2382a 45%, #8a1915);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 92%, 0 100%);
+/* Los separadores de papel en el canto de las hojas, como en la página: asoman un poco con el libro cerrado */
+.tomo-separadores {
+  position: absolute; top: 8%; right: calc(var(--w) * -0.045); width: calc(var(--w) * 0.08); transform: translateZ(0.5px);
+  display: flex; flex-direction: column; gap: calc(var(--w) * 0.014); opacity: 0; transition: opacity 0.4s;
+}
+.tomo-separadores.listos { opacity: 1; }
+.tomo-separadores i {
+  display: grid; place-items: center; height: calc(var(--w) * 0.13); border-radius: 0 calc(var(--w) * 0.022) calc(var(--w) * 0.022) 0;
+  writing-mode: vertical-rl; font-style: normal; font-family: var(--f-titulo); font-size: calc(var(--w) * 0.034); letter-spacing: 0.06em; color: var(--tinta);
+  background: linear-gradient(90deg, var(--papel-canto), var(--papel) 40%);
+  box-shadow: inset calc(var(--w) * 0.013) 0 0 var(--color), 1px 1px 2px rgba(0, 0, 0, 0.35);
 }
 .tomo-tapa { position: absolute; inset: 0; transform-origin: left center; transform-style: preserve-3d; transform: translateZ(3px) rotateY(0deg); }
 .tapa-frente, .tapa-dorso { position: absolute; inset: 0; border-radius: 3px 10px 10px 3px; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
@@ -424,7 +430,11 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     repeating-linear-gradient(45deg, var(--guarda) 0 1px, transparent 1px 8px),
     repeating-linear-gradient(-45deg, var(--guarda) 0 1px, transparent 1px 8px),
     var(--papel);
-  box-shadow: inset 0 0 0 calc(var(--w) * 0.04) var(--cuero), inset 0 0 0 calc(var(--w) * 0.047) rgba(0, 0, 0, 0.3), inset -18px 0 20px -12px rgba(0, 0, 0, 0.45);
+  /* el cuero doblado se ve arriba, abajo y en el borde de afuera; junto al lomo sigue el papel */
+  box-shadow:
+    inset calc(var(--w) * 0.04) 0 0 var(--cuero), inset 0 calc(var(--w) * 0.04) 0 var(--cuero), inset 0 calc(var(--w) * -0.04) 0 var(--cuero),
+    inset calc(var(--w) * 0.047) 0 0 rgba(0, 0, 0, 0.3), inset 0 calc(var(--w) * 0.047) 0 rgba(0, 0, 0, 0.3), inset 0 calc(var(--w) * -0.047) 0 rgba(0, 0, 0, 0.3),
+    inset -18px 0 20px -12px rgba(0, 0, 0, 0.45);
 }
 .saltar {
   position: absolute; right: 16px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 1;
@@ -443,7 +453,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   <div class="escena" aria-hidden="true"><div class="tomo">
     <div class="tomo-trasera"></div>
     <div class="tomo-hojas papel"><i class="filete"></i><p>Reina Valera 1909</p><strong>La Biblia en voz alta</strong><small>Con notas y pausas de contexto histórico</small></div>
-    <div class="tomo-cinta"></div>
+    <div class="tomo-separadores" id="tomo-separadores"></div>
     <div class="tomo-tapa">
       <div class="tapa-frente"><svg class="cruz" viewBox="0 0 40 60"><defs><linearGradient id="oro-cruz" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e2a8"/><stop offset=".5" stop-color="#cfa654"/><stop offset="1" stop-color="#8f6a26"/></linearGradient></defs><path d="M16 2h8v14h14v8H24v34h-8V24H2v-8h14z" fill="url(#oro-cruz)" stroke="rgba(60,30,10,.45)" stroke-width=".8"/></svg><strong>SANTA<br>BIBLIA</strong><small>REINA VALERA 1909</small></div>
       <div class="tapa-dorso"></div>
@@ -656,6 +666,9 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // Abreviaturas de los separadores, como en las Biblias impresas; solo se usan en pantallas bajas.
   const CORTOS = { INICIO: "Inicio", GEN: "Gn", EXO: "Éx", LEV: "Lv", NUM: "Nm", DEU: "Dt", JOS: "Jos" };
   function pintarSeparadores() {
+    // Los mismos separadores, chicos, en la Biblia de la apertura (si todavía está a la vista).
+    const tomo = $("tomo-separadores");
+    if (tomo && !tomo.childElementCount) { tomo.innerHTML = C.libros.map((l) => `<i class="sep-${l.id}">${esc(CORTOS[l.id] || l.nombre)}</i>`).join(""); tomo.classList.add("listos"); }
     const actual = !vista || vista === "INTRO" ? "INICIO" : (libroDe(vista) || {}).id;
     $("separadores").innerHTML = [["INICIO", "Inicio", "INTRO"], ...C.libros.map((l) => [l.id, l.nombre, "INTRO-" + l.id])]
       .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}" aria-label="${esc(nombre)}"${id === actual ? ' aria-current="true"' : ""}><span class="largo">${esc(nombre)}</span><span class="corto" aria-hidden="true">${esc(CORTOS[id] || nombre)}</span></button>`).join("");
@@ -716,7 +729,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     const a = $("apertura");
     if (movimientoReducido() || !a.animate) { a.remove(); return; }
     const escena = a.querySelector(".escena"), tomo = a.querySelector(".tomo"), tapa = a.querySelector(".tomo-tapa");
-    // Al final la primera hoja crece hasta cubrir la pantalla, ya sin su título ni la cinta, y recién entonces
+    // Al final la primera hoja crece hasta cubrir la pantalla, ya sin su título ni los separadores, y recién entonces
     // se desvanece: lo que queda debajo es la página de verdad, así que no se ven dos páginas a la vez.
     const cubrir = Math.max(innerWidth / tomo.offsetWidth, innerHeight / tomo.offsetHeight) * 1.08;
     const camara = (x, y, s, r) => `translateX(${x}%) translateY(${y}vh) scale(${s}) rotateX(${r}deg)`;
@@ -732,7 +745,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       ], { duration: 4350, fill: "both" }),
       tomo.animate([{ transform: "translateX(0)" }, { transform: "translateX(50%)" }], { delay: 800, duration: 1500, easing: suave, fill: "both" }),
       tapa.animate([{ transform: "translateZ(3px) rotateY(0deg)" }, { transform: "translateZ(3px) rotateY(-178deg)" }], { delay: 800, duration: 1600, easing: suave, fill: "both" }),
-      ...[...a.querySelectorAll(".tomo-hojas > *, .tomo-cinta")].map((x) => x.animate([{ opacity: 1 }, { opacity: 0 }], { delay: 3050, duration: 400, fill: "both" })),
+      ...[...a.querySelectorAll(".tomo-hojas > *, .tomo-separadores")].map((x) => x.animate([{ opacity: 1 }, { opacity: 0 }], { delay: 3050, duration: 400, fill: "both" })),
       $("saltar-apertura").animate([{ opacity: 1 }, { opacity: 0 }], { delay: 3100, duration: 300, fill: "both" }),
     ];
     const salida = a.animate([{ opacity: 1 }, { opacity: 0 }], { delay: 3750, duration: 600, easing: "ease-in", fill: "both" });
@@ -800,7 +813,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function acerca() {
     const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
     return `<details class="acerca"><summary>Sobre el texto y las voces</summary>
-      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Donde las fuentes no coincidían, se decidió con un ejemplar impreso de la revisión de 1909 (La Liga Bíblica, digitalizado en archive.org), que coincide con eBible. Se conservó la ortografía de 1909. Solo se corrigió esto:</p>
+      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Donde las fuentes no coincidían, se decidió con un ejemplar impreso de la revisión de 1909 (La Liga Bíblica, digitalizado en archive.org), que coincide con eBible. Se conservó la ortografía de 1909. Solo se cambió esto:</p>
       <ul>${corr}</ul>
       <p>Las palabras en cursiva son las que los traductores añadieron para que el texto se entienda.</p>
       <p>Las notas, las pausas y las introducciones son un comentario escrito para esta guía: dan datos y contexto, y dejan las conclusiones a quien escucha.</p>

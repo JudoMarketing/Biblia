@@ -2,6 +2,7 @@
 fuente/salida/*
 !fuente/salida/tiempos/
 fuente/voz/cache/
+fuente/voz/cache
 fuente/voz/modelos/
 fuente/voz/venv/
 __pycache__/
