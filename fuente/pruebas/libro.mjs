@@ -15,10 +15,16 @@ async function pagina(opciones, url = BASE) {
 }
 
 // 1. La apertura se ve al entrar, dura unos 4 segundos y se quita sola.
+//    (La de antes dejaba la tapa abierta fuera de la pantalla en el teléfono.)
 let { ctx, p } = await pagina({ viewport: { width: 390, height: 844 } });
 ok(await p.locator("#apertura").isVisible(), "al entrar se ve la Biblia cerrada");
 await p.waitForTimeout(2000);
 ok(await p.locator("#apertura").count() === 1, "a los 2 segundos sigue la apertura");
+// Abierta, en el teléfono se ven las dos páginas: la tapa (por dentro) y la primera hoja, enteras en la pantalla.
+// Se mide en el segundo 2,8 de la animación, no del reloj: el script puede empezar un poco después de cargar.
+const medir = () => { for (const x of document.getAnimations()) x.currentTime = 2800; return ["tapa-dorso", "tomo-hojas"].map((c) => { const r = document.querySelector("." + c).getBoundingClientRect(); return { c, izq: Math.round(r.left), der: Math.round(r.right), ancho: Math.round(r.width) }; }); };
+const dentro = await p.evaluate(medir);
+ok(dentro.every((r) => r.izq >= 0 && r.der <= 390 && r.ancho > 120), `la Biblia abierta cabe en la pantalla: ${JSON.stringify(dentro)}`);
 await p.waitForTimeout(2800);
 ok(await p.locator("#apertura").count() === 0, "a los 4,8 segundos la apertura ya no está");
 // 1b. En el website está el enlace a godshome.app, y abre en otra pestaña para que el audio siga.
@@ -41,6 +47,13 @@ await p.waitForTimeout(1200);
 ok((await p.locator("#donde").innerText()) === "Éxodo 1", "llega a Éxodo 1");
 const ancho = await p.evaluate(() => document.documentElement.scrollWidth);
 ok(ancho <= 390, `sin desborde a 390 (${ancho})`);
+await ctx.close();
+
+// 3b. En un teléfono más chico también cabe abierta.
+({ ctx, p } = await pagina({ viewport: { width: 360, height: 640 } }));
+await p.waitForTimeout(300);
+const chico = await p.evaluate(medir);
+ok(chico.every((r) => r.izq >= 0 && r.der <= 360), `a 360 de ancho también cabe abierta: ${JSON.stringify(chico)}`);
 await ctx.close();
 
 // 4. Saltar: tocar la pantalla quita la apertura enseguida.
