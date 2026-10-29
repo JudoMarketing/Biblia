@@ -1,0 +1,138 @@
+{
+ "tramo": "RUT-01",
+ "libro": "RUT",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 4,
+  "v": 22
+ },
+ "introduccion": {
+  "titulo": "Introducción al libro de Rut",
+  "texto": "El libro de Rut es uno de los más breves de la Biblia: cuatro capítulos y 85 versículos. Cuenta la historia de una familia de Belén. En un tiempo de hambre, Elimelec se va con su mujer, Noemí, y sus dos hijos a vivir en Moab, al otro lado del mar Muerto. Allí mueren los tres hombres, y Noemí vuelve a Belén viuda y sin hijos, con Rut, su nuera moabita, que se niega a dejarla. En Belén aparece Booz, un pariente rico de la familia.\n\nLa historia avanza en cuatro escenas, una por capítulo: el camino de vuelta desde Moab, el campo de Booz durante la siega, una noche en la era, donde se trillaba el grano, y una reunión en la puerta de la ciudad. Termina con una lista de nombres que llega hasta el rey David. Gran parte del libro es diálogo, y Dios casi no actúa en primer plano: solo dos veces, al principio y al final, cuenta el narrador algo que hizo Jehová. Los personajes, en cambio, lo nombran sin cesar. Conviene seguir algunas palabras que vuelven, como volver, llena y vacía, o descanso, y dos palabras hebreas que las notas te irán explicando: hésed, la lealtad generosa, y goel, el pariente que rescata.\n\nEl libro empieza «en los días que gobernaban los jueces», pero no da el año. La cronología bíblica tradicional que sigue esta guía pone el comienzo del reinado de David en 1010 antes de Cristo, cuando tenía 30 años, así que habría nacido hacia 1040. Como la lista final pone a Booz tres generaciones antes de David, la historia cabría hacia el siglo 12 antes de Cristo, en la segunda mitad del tiempo de los jueces. Es solo una estimación, como verás en la última pausa. La tradición judía da sus propias pistas: el Talmud identifica a Booz con Ibzan, un juez de Belén posterior a Jefté, y el historiador judío Flavio Josefo, del siglo 1 después de Cristo, pone la historia en tiempos del sacerdote Elí, que conocerás en Samuel.\n\nQuién lo escribió, el libro no lo dice. El Talmud, en el tratado Bava Batra, atribuye a Samuel el libro de Jueces y el de Rut. Entre los estudiosos hay dos posturas principales. Unos lo sitúan en tiempos de los reyes: su hebreo se parece al de los relatos de Samuel, y su interés por los antepasados de David encaja en una época en que reinaba su familia. Otros lo sitúan después del destierro en Babilonia, en el siglo 5 antes de Cristo, por algunas palabras que consideran tardías y por el ambiente de entonces: Esdras pidió a muchos judíos que despidieran a sus mujeres extranjeras, y Nehemías reprendió a los que se habían casado con mujeres de Asdod, de Ammón y de Moab. Para estos estudiosos, Rut sería otra voz en esa discusión. Un detalle del capítulo 4 sugiere cierta distancia con los hechos: el narrador explica un gesto con el zapato diciendo que «Había ya de largo tiempo esta costumbre en Israel», como quien habla a lectores que ya no la conocían.\n\nEn la Biblia hebrea, Rut no está junto a Jueces, entre los Profetas, sino en la tercera parte, los Escritos. Es uno de los cinco rollos que se leen en la sinagoga en fiestas y fechas señaladas del año, y le corresponde Shavuot, la fiesta de las semanas, llamada también Pentecostés. Se suelen dar dos razones: buena parte de la historia transcurre entre el comienzo de la siega de la cebada y el final de la del trigo, las siete semanas que se cuentan hasta esa fiesta, y Shavuot recuerda en la tradición judía la entrega de la ley en el Sinaí, que Rut, según esa tradición, hizo suya. El lugar exacto varía: en la lista del Talmud, Rut abre los Escritos, justo antes de los Salmos de David; en el códice de Leningrado, el manuscrito completo más antiguo de la Biblia hebrea, de comienzos del siglo 11 después de Cristo, va detrás de Proverbios, cuyo último capítulo elogia a la mujer virtuosa. En las Biblias cristianas, siguiendo la antigua traducción griega, va después de Jueces, entre los jueces y los reyes.\n\nEl texto insiste en que Rut es moabita: la llama una y otra vez «Ruth la Moabita». Según Génesis 19, Moab descendía de Lot, el sobrino de Abraham, y de su hija mayor. En Números, Balac, rey de Moab, contrató a Balaam para maldecir a Israel, y las hijas de Moab llevaron al pueblo a los sacrificios de sus dioses; en Jueces, Eglón, rey de Moab, oprimió a Israel dieciocho años. Deuteronomio 23, recordando que Moab no salió a recibir a Israel con pan y agua, manda: «No entrará Ammonita ni Moabita en la congregación de Jehová; ni aun en la décima generación». La Misná, en el tratado Yevamot, entiende que esa ley se refiere a los varones de Moab y no a sus mujeres, y así explica la tradición judía el caso de Rut, a quien considera el modelo de quien se une al pueblo de Israel por propia decisión. El Evangelio de Mateo pone a Booz y a Rut entre los antepasados de Jesús, junto a Tamar y a Rahab. Cómo encaja esta historia con aquella ley lo han discutido judíos y cristianos durante siglos: las pausas te darán las piezas, y las conclusiones son tuyas."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 1,
+   "texto": "Beth-lehem de Judá es Belén, unos 8 kilómetros al sur de Jerusalén, en la serranía de Judá; su nombre suele explicarse como casa del pan. Se le añade «de Judá» para distinguirla de otra Belén, en el territorio de Zabulón. Peregrinar es ir a vivir como extranjero en tierra ajena."
+  },
+  {
+   "cap": 1,
+   "v": 2,
+   "texto": "Elimelech es Elimelec, que quiere decir mi Dios es rey, y Noemi, que hoy se escribe con tilde, quiere decir placentera. Mahalón y Chelión son Mahlón y Quelión; sus nombres suelen relacionarse con palabras hebreas de enfermedad y de acabarse, aunque su sentido no es seguro. Los Ephrateos son los efrateos, gente de Efrata, otro nombre de la zona de Belén."
+  },
+  {
+   "cap": 1,
+   "v": 4,
+   "texto": "Orpha es Orfa, y Ruth es Rut, la que da nombre al libro. Sus nombres no tienen un sentido seguro; una antigua explicación rabínica relaciona Orfa con la palabra hebrea para nuca, porque terminó dando la espalda a su suegra."
+  },
+  {
+   "cap": 1,
+   "v": 9,
+   "texto": "«Misericordia», en el versículo 8, traduce la palabra hebrea hésed, que ya escuchaste con Rahab: la lealtad generosa entre quienes están unidos por un lazo. Aparece tres veces en Rut. El «descanso» que Noemí desea a sus nueras es un hogar seguro junto a un nuevo marido; la misma idea volverá en el capítulo 3."
+  },
+  {
+   "cap": 1,
+   "v": 20,
+   "texto": "Mara quiere decir amarga, lo contrario de Noemí, placentera. «El Todopoderoso» traduce el nombre hebreo Shaddai, con el que Dios se presentó a Abram en Génesis 17: «Yo soy el Dios Todopoderoso». Noemí lo nombra dos veces en su queja."
+  },
+  {
+   "cap": 2,
+   "v": 1,
+   "texto": "«Varón poderoso y de hecho» traduce una expresión hebrea que habla de fuerza, valía y bienes: un hombre rico y respetado en la ciudad. La misma palabra hebrea se dirá de Rut en el capítulo 3. Booz era pariente de Elimelec, pero el texto no dice en qué grado."
+  },
+  {
+   "cap": 2,
+   "v": 3,
+   "texto": "«Aconteció por ventura» insiste en hebreo en la casualidad, con un verbo y un nombre de la misma raíz: el narrador lo cuenta como algo fortuito, y muchos lectores perciben ahí una sonrisa. «La suerte del campo» es una parcela: los campos abiertos se dividían en partes de distintas familias, separadas por mojones."
+  },
+  {
+   "cap": 2,
+   "v": 17,
+   "texto": "Un epha, en español efa, era una medida de unos 22 litros: de cebada ya limpia, más de diez kilos, mucho para un solo día de espigar. Rut desgranó lo recogido golpeando las espigas; es el mismo verbo hebreo que se usa para Gedeón cuando sacudía el trigo en el lagar, en Jueces 6."
+  },
+  {
+   "cap": 2,
+   "v": 20,
+   "texto": "«Benevolencia» es otra vez hésed, la palabra del capítulo 1. «Redentores» traduce goel: el pariente cercano que, según Levítico 25, debía rescatar la tierra que un familiar empobrecido había tenido que vender, o al familiar mismo si se había vendido como siervo."
+  },
+  {
+   "cap": 3,
+   "v": 3,
+   "texto": "La parva, en el versículo anterior, es la mies ya trillada en la era, y aventarla es lanzarla al aire para que el viento se lleve la paja. «Te ungirás» es perfumarte con aceite. El texto no dice qué vestidos: unos piensan que los mejores; otros, que Rut deja la ropa de viuda, como Tamar en Génesis 38."
+  },
+  {
+   "cap": 3,
+   "v": 9,
+   "texto": "«Extiende el borde de tu capa» era una forma de pedir matrimonio y amparo; en Ezequiel 16, Dios dice que extendió su manto sobre Jerusalén al hacer pacto con ella. La palabra hebrea traducida «borde» es la misma que en el capítulo 2 se tradujo «alas», cuando Booz le deseó a Rut el amparo de Dios. «Pariente cercano» es otra vez goel."
+  },
+  {
+   "cap": 4,
+   "v": 7,
+   "texto": "Deuteronomio 25 conoce otro uso del zapato: la viuda descalzaba al cuñado que se negaba a darle descendencia y le escupía en la cara, como afrenta. Aquí no hay afrenta: un zapato pasa de una mano a otra como señal de que se cede un derecho. El texto parece decir que el pariente se lo quitó, aunque los rabinos discutieron quién se lo dio a quién."
+  },
+  {
+   "cap": 4,
+   "v": 12,
+   "texto": "Rachêl es Raquel, y Ephrata, Efrata, otro nombre de Belén. Phares es Fares y Thamar es Tamar: en Génesis 38, Tamar, viuda de dos hijos de Judá, tuvo del mismo Judá a los gemelos Fares y Zara. De Fares venía la familia de Booz, como dirá la lista final."
+  },
+  {
+   "cap": 4,
+   "v": 17,
+   "texto": "Obed quiere decir el que sirve, o siervo. Isaí es el nombre que en otras lenguas se escribe Jesé. Así, Rut la moabita es la bisabuela del rey David. Que las vecinas pongan el nombre al niño es poco común: en otros relatos lo hacen la madre o el padre."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 1,
+   "v": 22,
+   "titulo": "De Moab a Belén",
+   "epoca": "En los días de los jueces, al comienzo de la siega de la cebada: hacia el siglo 12 antes de Cristo, según una estimación con la cronología bíblica tradicional.",
+   "lugar": "Los campos de Moab, al este del mar Muerto, y el camino de vuelta a Belén de Judá.",
+   "texto": "Moab era la meseta alta que se levanta al este del mar Muerto. En días claros, desde las colinas de Belén se ven sus montañas al otro lado del agua, pero el camino no era corto: rodeando el mar por el norte, había que bajar unos mil metros hasta el valle del Jordán, cruzar el río cerca de Jericó y volver a subir a la meseta, varios días a pie. La región ya la conoces por Números: cañones profundos, como el del Arnón, cortan la meseta, y arriba hay tierras de cereal y buenos pastos. En Números y en Josué, los campos de Moab eran la llanura junto al Jordán, frente a Jericó, donde acampó Israel; en Rut, el hebreo usa otra palabra, y la expresión quiere decir el territorio de Moab en general. Moab ya era una tierra con nombre propio en el siglo 13 antes de Cristo: una inscripción de Ramsés segundo en el templo de Luxor la nombra entre sus campañas.\n\nEl hambre empujaba a la gente a moverse. La frase con que empieza el libro, «hubo hambre en la tierra», es la misma de Génesis 12, cuando Abram bajó a Egipto, y de Génesis 26, en tiempos de Isaac; por hambre bajaron también a Egipto los hijos de Jacob. En una tierra que vivía de la lluvia, uno o dos inviernos secos bastaban para perder la cosecha. Belén tampoco es un nombre nuevo para ti: en los dos últimos relatos de Jueces aparece gente de «Beth-lehem de Judá»: el joven levita que se fue de allí a buscar dónde vivir y la concubina del levita de Efraín.\n\nUna viuda sin hijos varones estaba entre las personas más desprotegidas de aquel mundo, porque la tierra y el sustento pasaban por los hombres de la familia. Por eso la ley de Israel nombra una y otra vez juntos al extranjero, al huérfano y a la viuda: «A ninguna viuda ni huérfano afligiréis», dice Éxodo 22. El texto no dice por qué murieron Elimelec y sus hijos; algunos rabinos del Talmud lo atribuyeron a que dejaron la tierra de Israel en tiempo de hambre, y otros lectores subrayan que el narrador no lo juzga. Noemí habla con la lógica de su tiempo: una viuda joven podía rehacer su vida en casa de su familia y con un nuevo marido de su pueblo. Su pregunta sobre los hijos que ya no puede dar alude a la costumbre que hoy se llama levirato, la de Génesis 38 y Deuteronomio 25: si un hombre moría sin hijo, su hermano tomaba a la viuda, y el primer hijo llevaba el nombre del muerto. Ella ya no tiene hijos que ofrecer.\n\nOrfa hace lo que Noemí le pide, y el texto no se lo reprocha. Rut se queda, y sus palabras van más allá de acompañar a una suegra: elige un pueblo, un Dios y un lugar de sepultura. En aquel mundo cada pueblo tenía sus dioses; Noemí dice que Orfa se volvió «á su pueblo y á sus dioses», es decir, a Quemos, el dios de Moab, que ya conociste en Números, y Rut, en cambio, jura por Jehová. El Talmud, en el tratado Yevamot, lee este diálogo como el modelo de cómo se recibe a quien quiere unirse al pueblo judío.\n\nLa llegada a Belén la cuentan las mujeres de la ciudad: en hebreo, el verbo de la pregunta está en femenino, y ellas volverán a hablar al final del libro. Noemí les responde jugando con su nombre y se queja del Todopoderoso: «Yo me fuí llena, mas vacía me ha vuelto Jehová». La palabra volver se repite una y otra vez en este capítulo. El último versículo marca el tiempo: llegan «en el principio de la siega de las cebadas», hacia abril, la primera cosecha del año. Si la historia ocurrió hacia el siglo 12, como permite estimar la lista del final del libro, eran los tiempos en que Egipto se retiraba de Canaán y los filisteos se asentaban en la costa, como escuchaste en Jueces.",
+   "preguntas": [
+    "¿Qué crees que pesó más en la decisión de Rut de quedarse con Noemí?",
+    "¿Qué te parece que Noemí atribuya a Dios su amargura y, a la vez, lo invoque para bendecir a sus nueras?"
+   ]
+  },
+  {
+   "cap": 2,
+   "v": 23,
+   "titulo": "Rut espiga en el campo de Booz",
+   "epoca": "Las siete semanas de la siega, de la cebada al trigo: hacia el siglo 12 antes de Cristo, según una estimación con la cronología bíblica tradicional.",
+   "lugar": "Los campos de cebada y de trigo alrededor de Belén, en la serranía de Judá.",
+   "texto": "La siega empezaba con la cebada, hacia abril, y seguía con el trigo, que madura unas semanas más tarde; Éxodo 9 ya lo dejaba ver al contar la plaga del granizo, cuando la cebada estaba espigada y el trigo se salvó porque era tardío. Entre el comienzo de una y el final de la otra pasaban unas siete semanas, las que Levítico 23 y Deuteronomio 16 mandan contar hasta la fiesta de las semanas, «desde que comenzare la hoz en las mieses». Los segadores cortaban el cereal a puñados con hoces, otros lo ataban en gavillas para llevarlo a la era, y detrás iban los pobres recogiendo las espigas que caían.\n\nEspigar era un derecho que daba la ley. Levítico 19 y 23 mandan no segar hasta el último rincón del campo ni recoger lo que queda: «para el pobre, y para el extranjero la dejarás». Deuteronomio 24 añade la gavilla olvidada, que es «para el extranjero, para el huérfano, y para la viuda». Rut es extranjera, viuda y pobre. La Misná dedica todo un tratado, Peá, a estas leyes del rincón y de las espigas. Lo que el capítulo cuenta es que Booz va más allá de lo mandado: deja que Rut recoja entre las gavillas, ordena a sus mozos dejarle caer manojos a propósito y la sienta a comer con los segadores. El vinagre era vino agrio, en el que se mojaba el pan, y el «potaje» es en hebreo grano tostado, el que Levítico 23 prohibía comer antes de ofrecer la primera gavilla de la cosecha.\n\nBooz aparece saludando a sus segadores: «Jehová sea con vosotros», y ellos responden: «Jehová te bendiga». La Misná, en el tratado Berajot, cita este saludo para mostrar que se puede saludar con el nombre de Dios. La tradición judía identifica además a Booz con Ibzan de Belén, el juez de Jueces 12 que tuvo treinta hijos y treinta hijas y los casó con gente de fuera; así lo dice el Talmud, en el tratado Bava Batra. El libro de Rut no dice que Booz fuera juez, y algunos estudiosos piensan que la Belén de Ibzan pudo ser la otra, la de Zabulón, porque el juez que viene después de él es de esa tribu.\n\nEl capítulo deja ver también los riesgos de una mujer sola en el campo: Booz manda a los mozos que no la toquen, y Noemí prefiere que Rut siga con las criadas de Booz y que no la encuentren en otro campo. Al final, Noemí reconoce en Booz a uno de «nuestros redentores». La palabra goel tenía varias caras: en Levítico 25 es el pariente que rescata la tierra o la libertad de un familiar empobrecido; en Números 35 es «el pariente del muerto», el que debía vengar una sangre derramada. Y en Éxodo 6 Dios mismo usa ese verbo al prometer a Israel en Egipto: «os redimiré con brazo extendido». Los profetas y el libro de Job llamarán a Dios Redentor con esta misma palabra.\n\nBooz le había deseado a Rut el amparo de Dios, «debajo de sus alas», con la imagen de un ave que cubre a sus crías, como el águila de Deuteronomio 32, que «extiende sus alas». El capítulo termina cuando acaban las dos siegas: Rut ha pasado esas semanas en el campo de Booz y sigue viviendo con su suegra. En el calendario de Israel, esas semanas terminaban con la fiesta que Deuteronomio 16 manda celebrar con alegría junto con «el extranjero, y el huérfano, y la viuda».",
+   "preguntas": [
+    "¿Qué parte tiene la casualidad en este capítulo, y qué parte las decisiones de cada uno?",
+    "Si fueras Rut, ¿qué habrías sentido al oír que Booz ya conocía tu historia?"
+   ]
+  },
+  {
+   "cap": 3,
+   "v": 18,
+   "titulo": "Una noche en la era",
+   "epoca": "Al final de la siega, la noche en que se aventaba la cebada: hacia el siglo 12 antes de Cristo, según una estimación con la cronología bíblica tradicional.",
+   "lugar": "La era de Booz, junto a Belén.",
+   "texto": "La era era un espacio abierto, de suelo plano y duro, a menudo en un lugar expuesto al viento y fuera del poblado; el texto dice que Rut bajó a ella. Allí se trillaba la mies, con bueyes que la pisaban, como supone Deuteronomio 25, «No pondrás bozal al buey cuando trillare», o que arrastraban un trillo de madera. Después se aventaba con horcas cuando soplaba el viento, que en esa tierra suele llegar del mar por la tarde y al anochecer. El grano limpio se amontonaba y, al terminar la faena, se comía y se bebía; el dueño dormía junto al montón para cuidarlo.\n\nNoemí busca para Rut el «descanso» que había deseado a sus dos nueras en Moab: un hogar seguro. Su plan tiene pasos precisos: lavarse, perfumarse, vestirse, esperar a que Booz coma y beba, descubrir sus pies y acostarse allí; después, «él te dirá lo que hayas de hacer». Lo que ocurre a medianoche se aparta del plan: Booz despierta sobresaltado, y es Rut quien le dice lo que ha de hacer.\n\nEsta escena se ha leído de maneras muy distintas. Varias palabras del relato, como acostarse, descubrir y pies, pueden tener en hebreo un doble sentido, y la noche, la comida, la bebida y el lugar apartado añaden tensión. Muchos estudiosos piensan que el narrador deja la escena a media luz a propósito. La tradición judía, en cambio, subraya que no hubo nada impropio y alaba el dominio de sí de Booz, y muchos lectores cristianos la leen del mismo modo. Lo que el texto sí cuenta es la respuesta de Booz: la bendice, la llama «mujer virtuosa», promete resolverlo de día delante del otro pariente y la despide antes de que nadie pueda reconocerla: «No se sepa que haya venido mujer á la era».\n\nMuchos lectores, antiguos y modernos, han puesto esta noche junto a otras dos historias que ya escuchaste. En Génesis 19, las hijas de Lot, solas y sin esperanza de marido, dan de beber vino a su padre de noche, y de la mayor nace Moab, el pueblo de Rut. En Génesis 38, Tamar, viuda y sin el hijo que le correspondía, deja su ropa de viuda y busca a Judá, que termina reconociendo: «Más justa es que yo». En las tres historias una mujer toma la iniciativa para que no se pierda una descendencia; en qué se parecen y en qué se distinguen, puedes pensarlo tú.\n\nBooz la llama «mujer virtuosa» con la misma expresión hebrea con que Proverbios 31 describe a la mujer ideal, y con la misma palabra que en el capítulo 2 lo describió a él como «varón poderoso y de hecho». Pero hay otro pariente más cercano, con más derecho, y Booz no decide por él. Al despedirla le da seis medidas de cebada; el texto no dice qué medida, y seis efas serían más de 130 litros, demasiado para llevar a cuestas, por lo que se piensa en una medida menor. Rut se lo cuenta a Noemí con unas palabras de Booz que el narrador no había contado: «Porque no vayas vacía á tu suegra». Es la palabra con que Noemí, al llegar a Belén, dijo que Jehová la había hecho volver vacía.",
+   "preguntas": [
+    "¿Qué piensas del plan de Noemí y de la manera en que Rut lo llevó a cabo?",
+    "¿Qué te llama la atención en la respuesta de Booz?"
+   ]
+  },
+  {
+   "cap": 4,
+   "v": 22,
+   "titulo": "El rescate en la puerta de Belén",
+   "epoca": "La mañana después de la noche en la era, y luego el nacimiento de Obed: hacia el siglo 12 antes de Cristo, según una estimación con la cronología bíblica tradicional.",
+   "lugar": "La puerta de Belén, donde se reunían los ancianos.",
+   "texto": "La puerta de la ciudad era su plaza y su tribunal: allí se sentaban los ancianos para juzgar y servir de testigos. Así compró Abraham la cueva de Macpela en Génesis 23, ante «todos los que entraban por la puerta de la ciudad», y a la puerta debía ir, según Deuteronomio 25, la viuda cuyo cuñado se negaba a darle descendencia. Booz se sienta allí, llama al pariente y reúne a diez ancianos; el Talmud, en el tratado Ketubot, saca de este pasaje la costumbre de reunir diez hombres para las bendiciones de una boda. Al pariente, el narrador lo llama fulano, una expresión hebrea para no decir un nombre, y muchos lectores notan que el hombre que no quiso suscitar el nombre del muerto se queda sin nombre en la historia.\n\nBooz plantea el asunto en dos tiempos. Primero, la tierra: Noemí vende la parte del campo que fue de Elimelec, y el pariente más cercano tiene derecho a rescatarla para que no salga de la familia. Cómo podía vender tierras una viuda, si la ley de herencias de Números 27 no nombra a las viudas, se discute: unos piensan que Noemí guardaba el derecho sobre el campo en nombre de su marido; otros, que el campo se había vendido o empeñado cuando la familia se fue a Moab, y que lo que ella ofrece es el derecho a recuperarlo. El pariente acepta. Luego viene lo segundo: quien tome el campo debe tomar también a Rut, «para que suscites el nombre del muerto sobre su posesión». Según la explicación más común, un hijo de Rut heredaría ese campo en nombre de Mahlón, y el pariente habría pagado por una tierra que no quedaría para sus propios hijos. Por eso se retira.\n\nAquí se juntan dos costumbres que la ley trata por separado: el rescate por el pariente cercano, de Levítico 25, y el levirato de Deuteronomio 25, que obligaba al hermano del muerto. Booz no es cuñado de Rut, y en esta escena se habla de redimir, la palabra del goel. Cómo se relacionaban las dos cosas en la vida real se discute: unos piensan que en esa época, si no había hermanos, el deber pasaba a otros parientes; otros, que Booz no estaba obligado y actúa por propia voluntad. Hay también un eco de palabras: Deuteronomio avergüenza al varón que «no edificare la casa de su hermano», y los testigos bendicen a Booz recordando a Raquel y a Lea, que «edificaron la casa de Israel». Raquel había muerto en el camino de Efrata, que es Belén, y Lea fue la madre de Judá.\n\nCuando nace el hijo, las mujeres que al principio preguntaban «¿No es ésta Noemi?» bendicen ahora a Noemí: el niño será «restaurador de tu alma», dicho en hebreo con el mismo verbo volver del capítulo 1, y su nuera le vale «más que siete hijos». Noemí lo pone en su regazo; algunos ven en el gesto una forma de adopción, como cuando Raquel pide en Génesis 30 que su sierva dé a luz sobre sus rodillas, y otros, el cariño de una abuela.\n\nEl libro termina con «las generaciones de Phares», con la fórmula de las listas de Génesis. Son diez nombres, de Fares a David, como eran diez de Adán a Noé y de Sem a Abram, y Booz ocupa el séptimo lugar; algunos estudiosos creen que el orden es intencionado. Son, además, pocas generaciones para tantos años: Hesrón bajó a Egipto con Jacob, según Génesis 46, y Nahasón, que en Números 1 aparece como Naasón, era el jefe de Judá en el desierto y cuñado de Aarón. Entre él y David, que según la cronología tradicional nació hacia 1040 antes de Cristo, hay cuatro nombres para unos cuatrocientos años. Por eso muchos piensan que la lista es selectiva, como otras genealogías bíblicas. El Evangelio de Mateo, que la repite, dice que la madre de Booz fue Rahab, la de Jericó. Con David termina el libro; la estela de Tel Dan, que conociste en Jueces, ya nombra la casa de David hacia 840 antes de Cristo, y su historia empezará en Samuel.",
+   "preguntas": [
+    "¿Por qué crees que el libro termina con una lista de nombres que llega hasta David?",
+    "De todos los personajes de esta historia, ¿cuál te ha hecho pensar más?"
+   ]
+  }
+ ]
+}
