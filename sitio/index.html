@@ -203,6 +203,16 @@ button { font: inherit; color: inherit; }
 .sep-NUM { --color: #4f7a3a; }
 .sep-DEU { --color: #a5672a; }
 .sep-JOS { --color: #5d4a8a; }
+.sep-JDG { --color: #2d7d74; }
+.sep-RUT { --color: #9a4a6a; }
+/* Si los separadores no caben entre la barra de arriba y el reproductor, van con el nombre corto */
+.separadores.compactos .separador .largo { display: none; }
+.separadores.compactos .separador .corto { display: inline; }
+.separadores.compactos .separador { min-height: 3.2rem; }
+.separadores.muy-compactos { gap: 0.15rem; }
+.separadores.muy-compactos .separador { min-height: 2.5rem; padding: 0.3rem 0; font-size: 0.7rem; }
+.separadores.desliza { overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+.separadores.desliza::-webkit-scrollbar { display: none; }
 .libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 4px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
 .libro-tarjeta strong { display: block; font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1rem, 4.4vw, 1.25rem); overflow-wrap: anywhere; }
 .libro-tarjeta span { color: var(--tinta-suave); font-size: 0.9rem; }
@@ -672,7 +682,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // ---------- El libro: separadores, página izquierda y hojas que pasan
   const movimientoReducido = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
   // Abreviaturas de los separadores, como en las Biblias impresas; solo se usan en pantallas bajas.
-  const CORTOS = { INICIO: "Inicio", GEN: "Gn", EXO: "Éx", LEV: "Lv", NUM: "Nm", DEU: "Dt", JOS: "Jos" };
+  const CORTOS = { INICIO: "Inicio", GEN: "Gn", EXO: "Éx", LEV: "Lv", NUM: "Nm", DEU: "Dt", JOS: "Jos", JDG: "Jue", RUT: "Rt" };
   function pintarSeparadores() {
     // Los mismos separadores, chicos, en la Biblia de la apertura (si todavía está a la vista).
     const tomo = $("tomo-separadores");
@@ -680,7 +690,26 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     const actual = !vista || vista === "INTRO" ? "INICIO" : (libroDe(vista) || {}).id;
     $("separadores").innerHTML = [["INICIO", "Inicio", "INTRO"], ...C.libros.map((l) => [l.id, l.nombre, "INTRO-" + l.id])]
       .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}" aria-label="${esc(nombre)}"${id === actual ? ' aria-current="true"' : ""}><span class="largo">${esc(nombre)}</span><span class="corto" aria-hidden="true">${esc(CORTOS[id] || nombre)}</span></button>`).join("");
+    ajustarSeparadores();
   }
+  // Con muchos libros, los separadores con el nombre largo no caben en un teléfono: pasan al nombre corto, después
+  // a uno más chico, y si aun así no caben entre la barra de arriba y el reproductor, la columna se desliza.
+  function ajustarSeparadores() {
+    const caja = $("separadores"), abajo = document.querySelector(".reproductor");
+    if (!caja || !abajo) return;
+    caja.classList.remove("compactos", "muy-compactos", "desliza");
+    caja.style.maxHeight = "";
+    const arriba = () => Math.max(parseFloat(getComputedStyle(caja).top) || 0, caja.getBoundingClientRect().top);
+    const espacio = () => abajo.getBoundingClientRect().top - 8 - arriba();
+    for (const nivel of ["", "compactos", "muy-compactos"]) {
+      if (nivel) caja.classList.add(nivel);
+      if (caja.scrollHeight <= espacio()) return;
+    }
+    caja.classList.add("desliza");
+    caja.style.maxHeight = `${Math.max(120, espacio())}px`;
+  }
+  addEventListener("resize", () => { if (C) ajustarSeparadores(); });
+
   // En pantallas anchas el libro se ve abierto: a la izquierda, los capítulos del libro que se está leyendo.
   const dobleHoja = matchMedia("(min-width: 1100px)");
   function pintarPaginaIzq() {

@@ -31,14 +31,14 @@ ok(await p.locator("#apertura").count() === 0, "a los 4,8 segundos la apertura y
 const sentir = p.locator("#sentir");
 ok(await sentir.isVisible() && (await sentir.getAttribute("href")) === "https://www.godshome.app/" && (await sentir.getAttribute("target")) === "_blank", `enlace: ${(await sentir.innerText()).replace(/\n/g, " ")}`);
 // 2. Separadores: el de Inicio está marcado; tocar Éxodo pasa varias hojas y lleva a su introducción.
-ok((await p.locator('.separador[aria-current="true"]').innerText()).trim() === "Inicio", "el separador marcado es Inicio");
+ok((await p.locator('.separador[aria-current="true"]').getAttribute("aria-label")) === "Inicio", "el separador marcado es Inicio");
 await p.locator(".separador.sep-EXO").click();
 await p.waitForTimeout(150);
 ok(await p.locator(".vuelo .hoja-vuelo").count() === 5, `al tocar un separador pasan ${await p.locator(".vuelo .hoja-vuelo").count()} hojas`);
 await p.waitForTimeout(1500);
 ok(await p.locator(".vuelo").count() === 0, "las hojas se quitan al terminar");
 ok((await p.locator("#donde").innerText()) === "Introducción a Éxodo", `lleva a: ${await p.locator("#donde").innerText()}`);
-ok((await p.locator('.separador[aria-current="true"]').innerText()).trim() === "Éxodo", "queda marcado Éxodo");
+ok((await p.locator('.separador[aria-current="true"]').getAttribute("aria-label")) === "Éxodo", "queda marcado Éxodo");
 // 3. Ir al capítulo siguiente pasa una sola hoja.
 await p.locator('.pie-cap [data-ir="EXO-01"]').click();
 await p.waitForTimeout(150);
@@ -72,7 +72,8 @@ await ctx.close();
 
 // 5b. Portada limpia: los libros una sola vez, sin la introducción general, con el crédito al final.
 ({ ctx, p } = await pagina({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" }, BASE + "?limpia"));
-ok(await p.locator(".libro-tarjeta").count() === 6, "la portada muestra los 6 libros una vez");
+const nLibros = await p.evaluate(() => fetch("contenido.json").then((r) => r.json()).then((c) => c.libros.length));
+ok(await p.locator(".libro-tarjeta").count() === nLibros, `la portada muestra los ${nLibros} libros una vez`);
 ok(!(await p.getByText("Antes de empezar").count()) && !(await p.getByRole("button", { name: "Ir a Génesis 1" }).count()), "sin la introducción general ni botones repetidos");
 const credito = p.locator(".credito a");
 ok((await credito.innerText()) === "Judo Marketing" && (await credito.getAttribute("href")) === "https://www.judomarketing.net", `crédito: ${await p.locator(".credito").innerText()}`);
