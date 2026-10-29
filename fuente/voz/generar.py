@@ -12,13 +12,19 @@ from multiprocessing import Pool
 import numpy as np
 B = sys.argv[1]
 sys.path.insert(0, os.path.join(B, "voz"))
-from hablar import para_voz
+from hablar import para_voz, huella
 
 SR = 24000
 VOZ_BIBLIA = "es-US-Chirp3-HD-" + os.environ.get("VOZ_BIBLIA", "Iapetus")
 VOZ_GUIA = "es-US-Chirp3-HD-" + os.environ.get("VOZ_GUIA", "Vindemiatrix")
 RITMO = {VOZ_BIBLIA: 0.95, VOZ_GUIA: 1.0}   # speakingRate de Google
-KBPS = int(os.environ.get("KBPS", "30"))   # AAC en .mp4: a 24 kbps el MP3 cortaba todo arriba de 6000 Hz
+KBPS = int(os.environ.get("KBPS", "30"))
+# Cuota gratis de Chirp 3 HD: un millón de caracteres al mes, que Google reinicia el día 1 (hora del Pacífico).
+# Antes de pedir nada se cuenta lo que falta en la caché; si el mes pasaría del tope, no se genera. El consumo
+# queda anotado en voz/consumo.json, que va al repositorio, para que la cuenta siga aunque la máquina sea otra.
+TOPE = int(os.environ.get("TOPE_MENSUAL", "950000"))
+CONSUMO = os.path.join(B, "voz", "consumo.json")
+REHACER = os.path.join(B, "voz", "rehacer.txt")   # capítulos con audio cuyo texto cambió y hay que volver a grabar   # AAC en .mp4: a 24 kbps el MP3 cortaba todo arriba de 6000 Hz
 
 def codificar(pcm, ruta):
     """PCM mono de 24000 Hz a AAC en contenedor MP4 (.mp4), con el índice al principio para empezar a sonar rápido."""
@@ -65,10 +71,13 @@ def voz(nombre, dicho):
 
 CACHE = os.path.join(B, "voz", "cache")
 
+def ruta_cache(dicho, nombre):
+    clave = hashlib.sha1(f"{nombre}|{RITMO[nombre]}|{dicho}".encode("utf8")).hexdigest()
+    return os.path.join(CACHE, clave[:2], clave + ".pcm")
+
 def decir(texto, nombre):
     dicho = para_voz(texto)
-    clave = hashlib.sha1(f"{nombre}|{RITMO[nombre]}|{dicho}".encode("utf8")).hexdigest()
-    ruta = os.path.join(CACHE, clave[:2], clave + ".pcm")
+    ruta = ruta_cache(dicho, nombre)
     if os.path.exists(ruta):
         return np.fromfile(ruta, dtype=np.int16)
     pcm = voz(nombre, dicho)
@@ -125,14 +134,48 @@ def generar(trabajo):
     codificar(pcm, salida_audio)
     peso = os.path.getsize(salida_audio)
     dur = len(pcm) / SR
-    json.dump({"id": trabajo["id"], "duracion": round(dur, 2), "partes": tiempos}, open(salida_t, "w", encoding="utf8"), ensure_ascii=False)
+    json.dump({"id": trabajo["id"], "duracion": round(dur, 2), "huella": huella(trabajo, VOCES, RITMO), "partes": tiempos}, open(salida_t, "w", encoding="utf8"), ensure_ascii=False)
     return trabajo["id"], dur, peso, time.time() - t0
+
+VOCES = {"biblia": VOZ_BIBLIA, "guia": VOZ_GUIA}
+
+def por_pedir(lista):
+    """Caracteres que habría que pedirle a Google: todo lo que no está en la caché (cada texto, una vez)."""
+    vistos, n = set(), 0
+    for t in lista:
+        for p in t["partes"]:
+            nombre = VOCES[p["voz"]]
+            for texto in p["textos"]:
+                dicho = para_voz(texto); ruta = ruta_cache(dicho, nombre)
+                if ruta not in vistos and not os.path.exists(ruta): vistos.add(ruta); n += len(dicho)
+    return n
+
+def mes_google():
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    return datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m")
+
+def leer_consumo():
+    try: return json.load(open(CONSUMO, encoding="utf8"))
+    except FileNotFoundError: return {"tope_mensual": TOPE, "meses": {}}
+
+def anotar(mes, caracteres, ids):
+    from datetime import datetime, timezone
+    c = leer_consumo()
+    m = c["meses"].setdefault(mes, {"caracteres": 0, "registros": []})
+    m["caracteres"] += caracteres
+    m["registros"].append({"fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "caracteres": caracteres, "audios": ids})
+    json.dump(c, open(CONSUMO, "w", encoding="utf8"), ensure_ascii=False, indent=1); open(CONSUMO, "a").write("\n")
 
 if __name__ == "__main__":
     trabajos = json.load(open(os.path.join(B, "salida", "trabajos.json"), encoding="utf8"))
     os.environ.setdefault("OMP_NUM_THREADS", "1")
     if "--calentar" in sys.argv:
         textos = sorted({t for tr in trabajos for p in tr["partes"] if p["voz"] == "biblia" for t in p["textos"]}, key=len, reverse=True)
+        mes = mes_google(); usado = leer_consumo()["meses"].get(mes, {}).get("caracteres", 0)
+        falta = sum(len(para_voz(t)) for t in textos if not os.path.exists(ruta_cache(para_voz(t), VOZ_BIBLIA)))
+        if usado + falta > TOPE: print(f"NO SE GENERA: {falta:,} caracteres pasarían el tope de {mes} ({usado:,} ya usados de {TOPE:,}).", flush=True); sys.exit(2)
+        if falta: anotar(mes, falta, ["--calentar"])
         print(f"{len(textos)} textos de la Biblia por decir (los que ya están guardados salen al instante)", flush=True)
         total = 0.0
         with Pool(int(os.environ.get("PROCESOS", "6"))) as pool:
@@ -146,7 +189,18 @@ if __name__ == "__main__":
     hechos = lambda t: any(os.path.exists(os.path.join(d, f"{t['id']}.mp4")) for d in (os.path.join(B, "salida", "audio"), os.path.join(B, "..", "sitio", "audio")))
     lista = [t for t in trabajos if (t["id"] in pedidos if pedidos else not hechos(t))]
     os.environ.setdefault("OMP_NUM_THREADS", "1")
-    print(f"{len(lista)} audios por generar", flush=True)
+    mes, falta = mes_google(), por_pedir(lista)
+    usado = leer_consumo()["meses"].get(mes, {}).get("caracteres", 0)
+    print(f"{len(lista)} audios por generar · hay que pedir {falta:,} caracteres · {mes}: ya usados {usado:,} de un tope de {TOPE:,}", flush=True)
+    if usado + falta > TOPE:
+        print(f"NO SE GENERA: pasaría el tope del mes por {usado + falta - TOPE:,} caracteres. Espera al mes que viene o pide menos audios.", flush=True)
+        sys.exit(2)
+    if falta:
+        anotar(mes, falta, [t["id"] for t in lista])   # se anota antes: si algo falla a mitad, la cuenta sobra, no falta
     with Pool(int(os.environ.get("PROCESOS", "6"))) as pool:
         for i, (ide, dur, peso, seg) in enumerate(pool.imap_unordered(generar, lista), 1):
             print(f"  {i}/{len(lista)} {ide}: {dur/60:.1f} min de audio, {peso/1e6:.2f} MB, en {seg:.0f} s", flush=True)
+    if os.path.exists(REHACER):   # lo que se acaba de grabar sale de la lista de pendientes
+        hechos_ahora = {t["id"] for t in lista}
+        quedan = [x for x in open(REHACER, encoding="utf8").read().split() if x not in hechos_ahora]
+        open(REHACER, "w", encoding="utf8").write("".join(x + "\n" for x in quedan))

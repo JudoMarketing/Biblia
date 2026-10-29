@@ -1,0 +1,29 @@
+{
+ "tope_mensual": 950000,
+ "nota": "Caracteres pedidos a Google Cloud Text-to-Speech (Chirp 3 HD) por mes, en hora del Pacífico. La cuota gratis es de 1.000.000 al mes; voz/generar.py no genera si el mes pasaría del tope. Lo anota solo.",
+ "meses": {
+  "2026-10": {
+   "caracteres": 832300,
+   "registros": [
+    {
+     "fecha": "2026-10-13",
+     "caracteres": 831067,
+     "audios": [
+      "Génesis, Éxodo y Levítico completos"
+     ],
+     "nota": "estimado: el texto de esos tres libros y la introducción general"
+    },
+    {
+     "fecha": "2026-10-20 19:55 UTC",
+     "caracteres": 1233,
+     "audios": [
+      "GEN-01",
+      "GEN-02",
+      "GEN-05",
+      "GEN-06"
+     ]
+    }
+   ]
+  }
+ }
+}
