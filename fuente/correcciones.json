@@ -1,32 +1,20 @@
 [
  {
-  "ref": "Éxodo 21:2",
-  "antes": "mas el séptimo",
-  "despues": "mas al séptimo",
-  "porque": "BibleGateway y wordproject dicen «al séptimo»"
- },
- {
-  "ref": "Levítico 7:13",
-  "antes": "hacimientos de gracias",
-  "despues": "hacimiento de gracias",
-  "porque": "las otras dos fuentes y los demás versículos (7:12, 7:15, 22:29) lo dicen en singular"
- },
- {
-  "ref": "Levítico 26:18",
-  "antes": "con esas cosas",
-  "despues": "con estas cosas",
-  "porque": "BibleGateway y wordproject dicen «estas»"
- },
- {
   "ref": "Éxodo 20:21",
   "antes": "osbcuridad",
   "despues": "obscuridad",
-  "porque": "errata de digitalización; Génesis 15:12 dice «obscuridad»"
+  "porque": "errata de digitalización; el ejemplar impreso de 1909 y Génesis 15:12 dicen «obscuridad»"
  },
  {
-  "ref": "Génesis 1:1, 1:21, 1:27, 2:3, 2:4, 5:1, 5:2 y 6:7",
-  "antes": "crió, criado, criados",
-  "despues": "creó, creado, creados",
+  "ref": "Números 12:16 a 13:33 y 29:40 a 30:16",
+  "antes": "numeración hebrea (13:1 empezaba en «Y DESPUÉS movió el pueblo»)",
+  "despues": "numeración de la edición de 1909",
+  "porque": "el texto digital seguía la numeración hebrea en esos capítulos; se ordenó como en el ejemplar impreso, sin cambiar ninguna palabra"
+ },
+ {
+  "ref": "Génesis 1:1, 1:21, 1:27, 2:3, 2:4, 5:1, 5:2 y 6:7; Deuteronomio 4:32 y 32:18",
+  "antes": "crió, criado, criados, criador",
+  "despues": "creó, creado, creados, creador",
   "porque": "en 1909 criar también quería decir crear; donde significa crear se escribe como hoy, para que se entienda al oírlo. Donde quiere decir criar, como criar a un niño o criar gusanos, quedó igual"
  }
 ]

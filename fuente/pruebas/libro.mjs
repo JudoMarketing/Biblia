@@ -72,7 +72,7 @@ await ctx.close();
 
 // 5b. Portada limpia: los libros una sola vez, sin la introducción general, con el crédito al final.
 ({ ctx, p } = await pagina({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" }, BASE + "?limpia"));
-ok(await p.locator(".libro-tarjeta").count() === 3, "la portada muestra los 3 libros una vez");
+ok(await p.locator(".libro-tarjeta").count() === 6, "la portada muestra los 6 libros una vez");
 ok(!(await p.getByText("Antes de empezar").count()) && !(await p.getByRole("button", { name: "Ir a Génesis 1" }).count()), "sin la introducción general ni botones repetidos");
 const credito = p.locator(".credito a");
 ok((await credito.innerText()) === "Judo Marketing" && (await credito.getAttribute("href")) === "https://www.judomarketing.net", `crédito: ${await p.locator(".credito").innerText()}`);

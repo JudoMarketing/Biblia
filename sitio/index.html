@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Génesis, Éxodo y Levítico completos en la Reina Valera 1909, en voz alta, con notas y pausas de contexto histórico.">
+<meta name="description" content="La Biblia en voz alta, en la Reina Valera 1909, con notas y pausas de contexto histórico: de Génesis a Josué.">
 <meta name="robots" content="noindex">
 <meta name="progreso-servidor" content="api/progreso">
 <meta name="theme-color" content="#2e1d12">
@@ -17,7 +17,7 @@
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0;font:14px system-ui}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
-<title>Génesis, Éxodo y Levítico</title>
+<title>La Biblia en voz alta</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
@@ -156,13 +156,13 @@ button { font: inherit; color: inherit; }
 /* Separadores de papel en el canto derecho */
 .separadores {
   position: sticky; top: calc(var(--barra) + 1.2rem + env(safe-area-inset-top, 0px)); z-index: 2;
-  display: flex; flex-direction: column; gap: 0.35rem; margin-top: 2.2rem; margin-left: -2px; flex: none;
+  display: flex; flex-direction: column; gap: 0.3rem; margin-top: 2.2rem; margin-left: -2px; flex: none;
 }
 .separador {
   --color: var(--oro);
   writing-mode: vertical-rl; display: flex; align-items: center; justify-content: center;
-  width: 26px; min-height: 5.6rem; padding: 0.6rem 0; border: 0; border-radius: 0 9px 9px 0; cursor: pointer;
-  font-family: var(--f-titulo); font-size: 0.82rem; letter-spacing: 0.08em; color: var(--tinta);
+  width: 26px; min-height: 4.4rem; padding: 0.55rem 0; border: 0; border-radius: 0 9px 9px 0; cursor: pointer;
+  font-family: var(--f-titulo); font-size: 0.76rem; letter-spacing: 0.08em; color: var(--tinta);
   background: linear-gradient(90deg, var(--papel-canto), var(--papel) 35%);
   box-shadow: inset 4px 0 0 var(--color), 2px 2px 5px rgba(0, 0, 0, 0.35);
   transition: transform 0.2s, width 0.2s;
@@ -197,6 +197,12 @@ button { font: inherit; color: inherit; }
 .punto.biblia { background: var(--carmesi); }
 .punto.guia { background: var(--cardeno); }
 .libros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+@media (max-width: 520px) { .libros { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.separador .corto { display: none; }
+@media (max-height: 760px) { .separador .largo { display: none; } .separador .corto { display: inline; } .separador { min-height: 3.2rem; } }
+.sep-NUM { --color: #4f7a3a; }
+.sep-DEU { --color: #a5672a; }
+.sep-JOS { --color: #5d4a8a; }
 .libro-tarjeta { text-align: left; padding: 0.75rem 0.8rem; min-width: 0; border-radius: 4px; border: 1px solid var(--linea); background: var(--superficie); cursor: pointer; }
 .libro-tarjeta strong { display: block; font-family: var(--f-titulo); font-weight: 500; font-size: clamp(1rem, 4.4vw, 1.25rem); overflow-wrap: anywhere; }
 .libro-tarjeta span { color: var(--tinta-suave); font-size: 0.9rem; }
@@ -252,7 +258,14 @@ p.biblia { font-family: var(--f-biblia); font-size: 1.22rem; line-height: 1.7; m
 .estado .hora { color: var(--oro-claro); font-variant-numeric: tabular-nums; }
 .estado .punto.biblia { background: #e98f7c; }
 .estado .punto.guia { background: #aebcec; }
-#barra-tiempo { width: 100%; accent-color: var(--oro-claro); margin: 0; }
+/* La barra del capítulo, como la de YouTube: lo oído en dorado, lo que ya bajó en dorado claro, el resto apagado */
+#barra-tiempo { --oido: 0%; --cargado: 0%; -webkit-appearance: none; appearance: none; width: 100%; height: 1.4rem; margin: 0; background: transparent; cursor: pointer; }
+#barra-tiempo::-webkit-slider-runnable-track { height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--oro-claro) 0 var(--oido), rgba(217, 181, 108, 0.42) var(--oido) var(--cargado), rgba(243, 230, 200, 0.16) var(--cargado) 100%); }
+#barra-tiempo::-moz-range-track { height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--oro-claro) 0 var(--oido), rgba(217, 181, 108, 0.42) var(--oido) var(--cargado), rgba(243, 230, 200, 0.16) var(--cargado) 100%); }
+#barra-tiempo::-webkit-slider-thumb { -webkit-appearance: none; width: 15px; height: 15px; margin-top: -5px; border: 0; border-radius: 50%; background: var(--oro-claro); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+#barra-tiempo::-moz-range-thumb { width: 15px; height: 15px; border: 0; border-radius: 50%; background: var(--oro-claro); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+#barra-tiempo:focus-visible { outline: 2px solid var(--oro-claro); outline-offset: 3px; border-radius: 3px; }
+.sin-voz { margin: 0.2rem 0 0; font-family: var(--f-guia); font-size: 0.95rem; color: var(--tinta-suave); font-style: italic; }
 .mandos { display: flex; align-items: center; justify-content: space-between; gap: 0.3rem; }
 .mando { width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer; }
 .mando svg { width: 1.45rem; height: 1.45rem; }
@@ -461,7 +474,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
     Índice
   </button>
-  <div class="donde" id="donde">Génesis, Éxodo y Levítico</div>
+  <div class="donde" id="donde">La Biblia en voz alta</div>
   <a class="sentir" id="sentir" href="https://www.godshome.app/" target="_blank" rel="noopener" hidden>¿Cómo te sientes? <strong>Conversa con Dios</strong></a>
 </header>
 
@@ -543,6 +556,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // ---------- Avance guardado en el servidor con el número de teléfono.
   // Solo en el website (lo anuncia su <meta name="progreso-servidor">): el artifact no puede llamar a otro servidor.
   const SERVIDOR = Boolean(document.querySelector('meta[name="progreso-servidor"]'));
+  if (SERVIDOR && "serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => { /* sin carga adelantada */ });
   let telefono = SERVIDOR ? guardado.leer("tel", null) : null;
   $("sentir").hidden = !SERVIDOR;
   let ultimoEnvio = 0;
@@ -632,7 +646,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     else if (cargado && !audio.paused) $("volver").hidden = false;
     const d = datos(id);
     $("donde").textContent = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n}` : d.nombre;
-    document.title = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n} · Génesis, Éxodo y Levítico` : "Génesis, Éxodo y Levítico";
+    document.title = d.tipo === "cap" ? `${d.libro.nombre} ${d.cap.n} · La Biblia en voz alta` : "La Biblia en voz alta";
     const i = SECUENCIA.indexOf(id);
     const ant = SECUENCIA[i - 1], sig = SECUENCIA[i + 1];
     const pie = `<nav class="pie-cap" aria-label="Capítulos">
@@ -642,7 +656,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     let html;
     if (id === "INTRO") html = portada() + acerca();
     else if (d.tipo === "intro") html = `<article class="lectura" data-k="i"><p class="cabeza-cap"><span class="libro">${esc(d.libro.nombre.toUpperCase())}</span></p><h1>${esc(d.titulo)}</h1>
-        <div class="acciones" style="margin-bottom:1.2rem"><button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button></div>
+        <div class="acciones" style="margin-bottom:1.2rem">${d.audio ? `<button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button>` : `<p class="sin-voz">${SIN_VOZ}</p>`}</div>
         ${parrafos(d.texto)}</article>${pie}`;
     else html = capitulo(d) + pie;
     html += creditoHTML();
@@ -657,14 +671,15 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
   // ---------- El libro: separadores, página izquierda y hojas que pasan
   const movimientoReducido = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // Abreviaturas de los separadores, como en las Biblias impresas; solo se usan en pantallas bajas.
+  const CORTOS = { INICIO: "Inicio", GEN: "Gn", EXO: "Éx", LEV: "Lv", NUM: "Nm", DEU: "Dt", JOS: "Jos" };
   function pintarSeparadores() {
     // Los mismos separadores, chicos, en la Biblia de la apertura (si todavía está a la vista).
     const tomo = $("tomo-separadores");
-    const ABREVIADO = { GEN: "Gn", EXO: "Éx", LEV: "Lv" };   // como en las Biblias impresas
-    if (tomo && !tomo.childElementCount) { tomo.innerHTML = C.libros.map((l) => `<i class="sep-${l.id}">${esc(ABREVIADO[l.id] || l.nombre)}</i>`).join(""); tomo.classList.add("listos"); }
+    if (tomo && !tomo.childElementCount) { tomo.innerHTML = C.libros.map((l) => `<i class="sep-${l.id}">${esc(CORTOS[l.id] || l.nombre)}</i>`).join(""); tomo.classList.add("listos"); }
     const actual = !vista || vista === "INTRO" ? "INICIO" : (libroDe(vista) || {}).id;
     $("separadores").innerHTML = [["INICIO", "Inicio", "INTRO"], ...C.libros.map((l) => [l.id, l.nombre, "INTRO-" + l.id])]
-      .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}"${id === actual ? ' aria-current="true"' : ""}><span>${esc(nombre)}</span></button>`).join("");
+      .map(([id, nombre, destino]) => `<button type="button" class="separador sep-${id}" data-separador="${destino}" aria-label="${esc(nombre)}"${id === actual ? ' aria-current="true"' : ""}><span class="largo">${esc(nombre)}</span><span class="corto" aria-hidden="true">${esc(CORTOS[id] || nombre)}</span></button>`).join("");
   }
   // En pantallas anchas el libro se ve abierto: a la izquierda, los capítulos del libro que se está leyendo.
   const dobleHoja = matchMedia("(min-width: 1100px)");
@@ -764,12 +779,13 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       ? `<button class="boton lleno" type="button" data-continuar>${iconoTocar()} Continuar: ${esc(datos(pos.id).nombre)}</button>` : "";
     const libros = C.libros.map((l) => {
       const n = l.capitulos.filter((c) => oidos.has(idCap(l.id, c.n))).length;
-      return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos`}</span></button>`;
+      const estado = n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos${conVoz(l) ? "" : " · sin voz todavía"}`;
+      return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${estado}</span></button>`;
     }).join("");
     return `<section class="portada">
-      <p class="serie">LA BIBLIA EN VOZ ALTA</p>
-      <h1>Génesis, Éxodo y Levítico</h1>
-      <p class="version">Reina Valera 1909, con notas y pausas de contexto histórico.</p>
+      <p class="serie">REINA VALERA 1909</p>
+      <h1>La Biblia en voz alta</h1>
+      <p class="version">De ${esc(C.libros[0].nombre)} a ${esc(C.libros[C.libros.length - 1].nombre)}, con notas y pausas de contexto histórico.</p>
       <div class="acciones">${seguirBoton}<button class="boton ${seguirBoton ? "" : "lleno"}" type="button" data-tocar="${SECUENCIA[0]}">${iconoTocar()} Escuchar desde el principio</button></div>
       <div class="libros">${libros}</div>
       <p class="leyenda-voces"><span><span class="punto biblia" aria-hidden="true"></span>Una voz lee la Biblia</span><span><span class="punto guia" aria-hidden="true"></span>otra, de mujer, explica</span></p>
@@ -780,7 +796,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function capitulo(d) {
     const { libro, cap } = d;
     let html = `<header class="cabeza-cap" data-k="c"><p class="libro">${esc(libro.nombre.toUpperCase())}</p><h1>Capítulo ${cap.n}</h1>
-      <div class="acciones"><button class="boton lleno" type="button" data-tocar="${idCap(libro.id, cap.n)}">${iconoTocar()} Escuchar el capítulo</button></div></header>`;
+      <div class="acciones">${cap.audio ? `<button class="boton lleno" type="button" data-tocar="${idCap(libro.id, cap.n)}">${iconoTocar()} Escuchar el capítulo</button>` : `<p class="sin-voz">${SIN_VOZ}</p>`}</div></header>`;
     let abierto = false;
     for (const it of cap.items) {
       if (it.t === "v") {
@@ -802,11 +818,14 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     return html;
   }
 
+  // Libros que ya se pueden leer pero todavía no tienen voz: se muestran igual, sin el botón de escuchar.
+  const SIN_VOZ = "Este libro todavía no tiene voz: ya puedes leerlo, y la voz llega pronto.";
+  const conVoz = (l) => l.capitulos.some((c) => c.audio);
   const creditoHTML = () => `<p class="credito">Website por <a href="https://www.judomarketing.net" target="_blank" rel="noopener">Judo Marketing</a></p>`;
   function acerca() {
     const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
     return `<details class="acerca"><summary>Sobre el texto y las voces</summary>
-      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Se conservó la ortografía de 1909. Donde las fuentes no coincidían, se tomó la lectura de eBible. Solo se cambió esto:</p>
+      <p>Texto bíblico: Reina Valera 1909, de dominio público, tomado de eBible.org y cotejado palabra por palabra con BibleGateway (Reina Valera Antigua) y con wordproject.org. Donde las fuentes no coincidían, se decidió con un ejemplar impreso de la revisión de 1909 (La Liga Bíblica, digitalizado en archive.org), que coincide con eBible. Se conservó la ortografía de 1909. Solo se cambió esto:</p>
       <ul>${corr}</ul>
       <p>Las palabras en cursiva son las que los traductores añadieron para que el texto se entienda.</p>
       <p>Las notas, las pausas y las introducciones son un comentario escrito para esta guía: dan datos y contexto, y dejan las conclusiones a quien escucha.</p>
@@ -815,14 +834,13 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   }
 
   // ---------- Audio
-  // Precarga del capítulo siguiente: en los últimos cinco minutos se baja entero, con prioridad baja.
-  // Con la página a la vista, el capítulo siguiente sale de esa copia (blob:) y empieza de inmediato.
-  // Con la pantalla bloqueada o el navegador minimizado se pide por su dirección de siempre, que la
-  // precarga ya dejó en la caché del navegador: en el teléfono, una copia blob: puede no cargar en segundo plano.
+  // Carga adelantada, como en YouTube: el service worker (sw.js) guarda completos el capítulo que suena y el
+  // siguiente, y el reproductor los pide siempre por su dirección. Así se adelanta sin esperar, el capítulo
+  // siguiente empieza enseguida y un corte de internet no lo detiene mientras haya audio guardado. Sin service
+  // worker, la precarga igual deja el siguiente en la caché del navegador. No se usan copias blob: la política
+  // de seguridad del sitio solo deja reproducir audio del propio sitio (por eso la precarga de antes fallaba).
   const urlAudio = (id) => `audio/${id}.mp4`;
-  const PRECARGA_SEG = 300;
-  let precarga = null;   // { id, url, control, fallo }: url es un blob: cuando ya bajó completo; fallo, cuándo falló
-  let blobActual = null; // blob: que está sonando, para soltarlo al cambiar de capítulo
+  let precarga = null;   // { id, control, fallo }: la descarga del capítulo siguiente; fallo, cuándo falló
   let quiereSonar = false; // la persona quiere oír: lo cambian reproducir y pausar, no los cortes de señal
   let posBuena = 0;        // último segundo que sonó bien del capítulo cargado, para retomar desde ahí
   let fallos = 0;          // intentos seguidos que fallaron
@@ -833,17 +851,14 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (!id || id === cargado || !datos(id).audio) return;
     if (precarga && precarga.id === id && !(precarga.fallo && Date.now() - precarga.fallo > 20000)) return;
     soltarPrecarga();
-    const p = { id, url: null, control: new AbortController(), fallo: 0 };
+    const p = { id, control: new AbortController(), fallo: 0 };
     precarga = p;
     fetch(urlAudio(id), { signal: p.control.signal, priority: "low" })
-      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.blob(); })
-      .then((b) => { if (precarga === p) p.url = URL.createObjectURL(b); })
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.arrayBuffer(); })
       .catch(() => { if (precarga === p) p.fallo = Date.now(); /* se vuelve a intentar a los 20 segundos */ });
   }
   function soltarPrecarga() {
-    if (!precarga) return;
-    precarga.control.abort();
-    if (precarga.url) URL.revokeObjectURL(precarga.url);
+    if (precarga) precarga.control.abort();
     precarga = null;
   }
   function cargar(id) {
@@ -852,16 +867,11 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (cargado !== id) {
       cargado = id;
       partes = d.audio.partes;
-      posBuena = 0; fallos = 0; cortado = 0; esperando = false; alCargar = null;
-      const anterior = blobActual;
-      blobActual = null;
-      let fuente = urlAudio(id);
-      const lista = precarga && precarga.id === id && precarga.url;
-      if (lista && document.visibilityState === "visible") { fuente = blobActual = precarga.url; precarga = null; }
+      posBuena = 0; fallos = 0; cortado = 0; esperando = false; alCargar = null; guardadoEntero = false;
+      if (precarga && precarga.id === id) precarga = null;   // ya está bajando lo que ahora suena: que termine
       else soltarPrecarga();
-      audio.src = fuente;
+      audio.src = urlAudio(id);
       audio.dataset.archivo = urlAudio(id).split("/").pop();
-      if (anterior) URL.revokeObjectURL(anterior);
       audio.playbackRate = velocidad;
       claveActual = null;
       metadatos();
@@ -871,7 +881,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function cuandoCargue(f) { if (audio.readyState >= 1) { alCargar = null; f(); } else alCargar = f; }
   audio.addEventListener("loadedmetadata", () => { const f = alCargar; alCargar = null; if (f) f(); });
   function reproducir(id, clave = null) {
-    if (!cargar(id)) return;
+    if (!cargar(id)) { if (vista !== id) mostrar(id, { clave }); return; }   // libro sin voz todavía: se puede leer
     const p = clave ? partes.find((x) => x.clave === clave) : null;
     quiereSonar = true;
     if (p) posBuena = p.t;
@@ -939,7 +949,10 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       }
     }
     if (audio.duration && t > audio.duration - 8) marcarOido(cargado);
-    if (audio.duration && t > 10 && t > audio.duration - PRECARGA_SEG) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    // El siguiente se baja a los 10 segundos; con «ahorro de datos» activado, recién en los últimos cinco minutos.
+    const ahorro = navigator.connection && navigator.connection.saveData;
+    if (audio.duration && t > 10 && (!ahorro || t > audio.duration - 300)) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    pintarCarga();
     if (audio.readyState >= 2 && !audio.seeking && t > 0) posBuena = t;
     if (Date.now() - ultimoGuardado > 4000) { ultimoGuardado = Date.now(); guardado.poner("pos", { id: cargado, t, ts: Date.now() }); posicionSistema(); subir(false); }
   });
@@ -952,7 +965,11 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   audio.addEventListener("ended", () => {
     marcarOido(cargado);
     const sig = SECUENCIA[SECUENCIA.indexOf(cargado) + 1];
-    if (!sig) { quiereSonar = false; pintarMandos(); return; }
+    if (!sig || !datos(sig).audio) {   // fin de lo que tiene voz: se detiene (y avisa si el libro siguiente aún no la tiene)
+      quiereSonar = false; pintarMandos();
+      if (sig) avisar(`${datos(sig).nombre}: todavía sin voz`);
+      return;
+    }
     const mirando = vista === cargado;
     cargar(sig);
     audio.play().catch(() => {});
@@ -968,10 +985,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     const id = cargado, t = posBuena;
     if (cortado && Date.now() - cortado > 15 * 60000) quiereSonar = false;
     esperando = false;
-    const viejo = blobActual;
-    blobActual = null;
     audio.src = urlAudio(id);
-    if (viejo) URL.revokeObjectURL(viejo);
     audio.playbackRate = velocidad;
     claveActual = null;
     cuandoCargue(() => { if (cargado !== id) return; if (t) audio.currentTime = t; if (quiereSonar) audio.play().catch(() => {}); });
@@ -979,7 +993,6 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   audio.addEventListener("error", () => {
     if (!cargado || !audio.error) return;
     const id = cargado, detalle = `código ${audio.error.code}${audio.error.message ? ": " + audio.error.message : ""}`;
-    if (audio.src.startsWith("blob:")) return retomar();   // la copia precargada no sirvió: por su dirección de siempre
     fallos++;
     if (!cortado) cortado = Date.now();
     if (fallos <= 2) {
@@ -993,6 +1006,25 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (quiereSonar) setTimeout(() => { if (cargado === id && esperando) retomar(); }, 20000);
   });
   audio.addEventListener("playing", () => { fallos = 0; cortado = 0; esperando = false; $("que-suena").title = ""; });
+
+  // La barra muestra lo oído y lo que ya está bajado más adelante, como en YouTube. Si el service worker ya
+  // guardó el capítulo entero, se llena hasta el final.
+  let guardadoEntero = false, ultimaConsulta = 0;
+  function pintarCarga() {
+    const barra = $("barra-tiempo"), d = audio.duration;
+    let hasta = 0;
+    if (d) for (let i = 0; i < audio.buffered.length; i++) if (audio.buffered.start(i) <= audio.currentTime + 1) hasta = Math.max(hasta, audio.buffered.end(i));
+    if (guardadoEntero) hasta = d;
+    if (!arrastrando) barra.style.setProperty("--oido", d ? `${(audio.currentTime / d) * 100}%` : "0%");
+    barra.style.setProperty("--cargado", d ? `${Math.min(100, (hasta / d) * 100)}%` : "0%");
+    if (!guardadoEntero && cargado && "caches" in window && Date.now() - ultimaConsulta > 4000) {
+      ultimaConsulta = Date.now();
+      const id = cargado;
+      caches.open("audio-v1").then((c) => c.match(new URL(urlAudio(id), location.href).href)).then((r) => { if (r && cargado === id) { guardadoEntero = true; pintarCarga(); } }).catch(() => {});
+    }
+  }
+  audio.addEventListener("progress", pintarCarga);
+  audio.addEventListener("loadedmetadata", pintarCarga);
   addEventListener("online", () => { if (esperando) retomar(); });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && esperando) retomar(); });
 
@@ -1010,7 +1042,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     // En el website hay un ícono para la pantalla bloqueada; en el artifact no existe y se omite.
     const icono = document.querySelector('link[rel="apple-touch-icon"]');
     const artwork = icono ? [{ src: icono.href, sizes: "512x512", type: "image/png" }] : [];
-    navigator.mediaSession.metadata = new MediaMetadata({ title: datos(cargado).nombre, artist: "Reina Valera 1909", album: "Génesis, Éxodo y Levítico", artwork });
+    navigator.mediaSession.metadata = new MediaMetadata({ title: datos(cargado).nombre, artist: "Reina Valera 1909", album: "La Biblia en voz alta", artwork });
   }
   // La barra de la pantalla bloqueada y de las notificaciones muestra dónde va el audio.
   function posicionSistema() {
@@ -1034,7 +1066,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
   // ---------- Mandos
   let arrastrando = false;
-  $("barra-tiempo").addEventListener("input", () => { arrastrando = true; if (audio.duration) $("hora").textContent = `${fmt(($("barra-tiempo").value / 100) * audio.duration)} / ${fmt(audio.duration)}`; });
+  $("barra-tiempo").addEventListener("input", () => { arrastrando = true; $("barra-tiempo").style.setProperty("--oido", `${$("barra-tiempo").value}%`); if (audio.duration) $("hora").textContent = `${fmt(($("barra-tiempo").value / 100) * audio.duration)} / ${fmt(audio.duration)}`; });
   $("barra-tiempo").addEventListener("change", () => { arrastrando = false; if (audio.duration) audio.currentTime = ($("barra-tiempo").value / 100) * audio.duration; });
   $("tocar").addEventListener("click", alternar);
   $("atras").addEventListener("click", () => { if (cargado) audio.currentTime = Math.max(0, audio.currentTime - 15); });
@@ -1094,7 +1126,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       html = `<p class="subtitulo">Capítulos</p><div class="capitulos">${l.capitulos.map((c) => {
         const oido = oidos.has(idCap(l.id, c.n));
         return `<button type="button" data-ir="${idCap(l.id, c.n)}" class="${[c.n === actual ? "actual" : "", oido ? "oido" : ""].join(" ").trim()}" aria-label="${esc(l.nombre)} ${c.n}${oido ? ", ya escuchado" : ""}">${c.n}</button>`;
-      }).join("")}</div>${oidosLibro ? `<p class="leyenda">Los capítulos con un punto ya los escuchaste: ${oidosLibro} de ${l.capitulos.length}.</p>` : ""}`;
+      }).join("")}</div>${oidosLibro ? `<p class="leyenda">Los capítulos con un punto ya los escuchaste: ${oidosLibro} de ${l.capitulos.length}.</p>` : ""}${conVoz(l) ? "" : `<p class="leyenda">${SIN_VOZ}</p>`}`;
       const pausas = l.capitulos.flatMap((c) => c.items.filter((x) => x.t === "pausa").map((x) => ({ c, x })));
       html += `<p class="subtitulo">Pausas para el contexto</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO-${l.id}"><span class="ref">Inicio</span><span>Introducción a ${esc(l.nombre)}</span></button></li>
         ${pausas.map(({ c, x }) => `<li><button type="button" data-ir="${idCap(l.id, c.n)}" data-clave="${x.k}"><span class="ref">${c.n}:${x.k.slice(1).split("-")[0]}</span><span>${esc(x.titulo)}</span></button></li>`).join("")}</ul>`;

@@ -1,0 +1,293 @@
+{
+ "tramo": "JOS-01",
+ "libro": "JOS",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 12,
+  "v": 24
+ },
+ "introduccion": {
+  "titulo": "Introducción al libro de Josué",
+  "texto": "El libro de Josué sigue la historia donde la dejó Deuteronomio. Moisés acaba de morir, e Israel está acampado en los campos de Moab, al este del Jordán, frente a Jericó. Su protagonista es Josué hijo de Nun, de la tribu de Efraín. En hebreo se llama Yehoshúa, un nombre que suele explicarse como Jehová salva. Antes se llamaba Oseas, que quiere decir salvación, y Números 13 cuenta que «á Oseas hijo de Nun, le puso Moisés el nombre de Josué». En la antigua traducción griega, y también en el Nuevo Testamento, ese nombre se escribe Iesús, el mismo que en español damos a Jesús.\n\nYa lo conoces: dirigió la batalla contra Amalec en Éxodo 17, era el ayudante de Moisés y fue uno de los doce hombres que reconocieron la tierra. Él y Caleb fueron los únicos de su generación a quienes se prometió que entrarían, y Moisés le impuso las manos delante del pueblo como su sucesor.\n\nEl libro cuenta cómo Israel entra en la tierra prometida a los patriarcas, y tiene tres partes. Los capítulos 1 al 12 cuentan la entrada y la conquista: el cruce del Jordán, la toma de Jericó y de Hai, el pacto con los gabaonitas y dos campañas, una en el sur y otra en el norte, que terminan con una lista de reyes vencidos. Los capítulos 13 al 21 cuentan el reparto de la tierra entre las tribus, con largas listas de fronteras y de ciudades. Los capítulos 22 al 24 son una despedida, con los últimos discursos de Josué.\n\nLa tradición judía atribuye el libro al mismo Josué: el Talmud de Babilonia, en el tratado Baba Batra, dice que él lo escribió, y que los versículos finales los completaron después el sacerdote Eleazar y su hijo Finees. El texto deja ver algo de cómo se escribió: varias veces dice que algo sigue así «hasta hoy», y una vez cita otro libro, el libro de Jasher. Muchos estudiosos lo leen como parte de una obra que empieza con Deuteronomio y sigue en Jueces, Samuel y Reyes, con el mismo lenguaje y la misma mirada sobre la historia. El estudioso alemán Martin Noth la llamó en 1943 historia deuteronomista, y pensó que se compuso durante el destierro en Babilonia, en el siglo 6 antes de Cristo, con fuentes más antiguas. Otros proponen una primera edición en tiempos del rey Josías, a fines del siglo 7, y otros sostienen que el núcleo viene de la época de Josué o de poco después, con nombres y notas puestos al día más tarde.\n\nSegún la cronología bíblica tradicional, que sigue esta guía, Israel salió de Egipto hacia 1446 antes de Cristo y, después de cuarenta años en el desierto, cruzó el Jordán hacia 1406, en primavera. La cuenta sale de Primero de Reyes 6, que pone la salida 480 años antes del cuarto año de Salomón; quienes la defienden citan también Jueces 11, donde Jefté dice que Israel llevaba trescientos años en la región de Hesbón. Las cartas de Amarna, de hacia 1360 a 1330 antes de Cristo, muestran cómo era Canaán: un mosaico de pequeñas ciudades estado bajo el dominio lejano de Egipto, cuyos reyes, como los de Jerusalén, Laquis, Meguido o Hazor, escriben al faraón, se acusan unos a otros y se quejan de unos grupos llamados habiru. Su relación con los hebreos se discute: la mayoría de los estudiosos piensa que el nombre designaba a gente desarraigada de muchas regiones, no a un pueblo.\n\nMuchos historiadores prefieren el siglo 13 antes de Cristo para la salida, en tiempos de Ramsés segundo, y ponen la entrada en Canaán hacia fines de ese siglo. La estela de Merneptah, de hacia 1208 antes de Cristo, es la primera mención de Israel fuera de la Biblia, y lo nombra como un pueblo ya presente en Canaán. La arqueología encuentra ciudades destruidas en el siglo 13, como Hazor, pero en Jericó y en Hai los resultados no encajan con facilidad en ninguna de las dos fechas, como verás en sus pausas. También muestra que desde aproximadamente 1200 antes de Cristo aparecieron cientos de aldeas nuevas en las montañas del centro, y se discute si sus habitantes llegaron de fuera, salieron de la misma población de Canaán, o ambas cosas. Las conclusiones te tocan a ti.\n\nAl escucharlo, conviene tener presentes tres cosas. La primera son los relatos de guerra: el libro cuenta ciudades enteras destruidas, lo que esta traducción llama dar al anatema, y lo presenta como mandato de Dios. Están entre los pasajes más difíciles de la Biblia, y las pausas te darán lo que dice el texto, lo que muestran los documentos de la época y cómo los han leído judíos y cristianos, sin decidir por ti. La segunda es que el libro mira hacia atrás: Dios le dice a Josué «como yo fuí con Moisés, seré contigo», el Jordán se abre como se abrió el mar y el pueblo cumple lo mandado en Deuteronomio. La tercera es el mapa: el texto distingue las montañas del centro, la Sefela, que son las colinas bajas que descienden hacia la costa, el Néguev, al sur, que esta traducción llama el mediodía, y el hondo valle del Jordán. Las notas te irán ubicando los lugares."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 1,
+   "texto": "«Ministro» quiere decir aquí ayudante o servidor personal, no un cargo de gobierno: es la misma palabra de Éxodo 24, cuando subieron al monte «Moisés, y Josué su ministro». Ahora el ayudante recibe el mando."
+  },
+  {
+   "cap": 1,
+   "v": 4,
+   "texto": "Son las fronteras ideales de la promesa, como en Génesis 15 y Deuteronomio 11: el desierto del sur, el Líbano al norte, el río Eufrates al noreste y el Mediterráneo, «la gran mar del poniente del sol». Los Hetheos son los hititas; en textos asirios posteriores, tierra de Hatti designaba en general a Siria y sus vecinos."
+  },
+  {
+   "cap": 1,
+   "v": 15,
+   "texto": "Rubén, Gad y la mitad de la tribu de Manasés ya tenían sus tierras al este del Jordán, en Galaad y Basán. Números 32 cuenta el acuerdo con Moisés: podían quedarse allí si sus guerreros cruzaban con los demás hasta que todos tuvieran su parte. «De esta parte del Jordán hacia donde nace el sol» quiere decir al oriente del río."
+  },
+  {
+   "cap": 2,
+   "v": 1,
+   "texto": "Sittim, que significa acacias, es Abel-sitim, el último campamento de Israel en los campos de Moab; allí había ocurrido la caída con las hijas de Moab, en Números 25. De la acacia salía la «madera de Sittim» con que se hizo el arca."
+  },
+  {
+   "cap": 2,
+   "v": 6,
+   "texto": "El «terrado» es la azotea plana de las casas, donde se trabajaba, se secaban las cosechas y se dormía en las noches de calor. Los «tascos de lino» son los tallos del lino, que se dejaban secar al sol antes de sacarles la fibra para tejer."
+  },
+  {
+   "cap": 3,
+   "v": 4,
+   "texto": "Dos mil codos son unos 900 metros, si se toma el codo de aproximadamente 45 centímetros. La distancia era una forma de respeto ante el arca y, a la vez, permitía que todo el pueblo la viera de lejos y supiera por dónde ir, porque nunca habían pasado «por este camino»."
+  },
+  {
+   "cap": 3,
+   "v": 10,
+   "texto": "Los pueblos de la lista, con sus nombres de hoy, son los cananeos, los hititas, los heveos, los ferezeos, los gergeseos, los amorreos y los jebuseos. Algunos son bien conocidos; de otros, como los ferezeos y los gergeseos, se sabe muy poco fuera de la Biblia. Los jebuseos vivían en Jerusalén."
+  },
+  {
+   "cap": 3,
+   "v": 16,
+   "texto": "«Reverter» quiere decir desbordarse. Adam, la ciudad junto a la cual se detuvieron las aguas, suele identificarse con Tell ed Damiya, a casi 30 kilómetros río arriba en línea recta; Sarethan, Saretán, no se ha localizado con seguridad. «La mar de los llanos, al mar Salado» es el mar Muerto, y «en derecho de Jericó» significa frente a Jericó."
+  },
+  {
+   "cap": 4,
+   "v": 9,
+   "texto": "Este versículo parece hablar de un segundo grupo de doce piedras, levantado en medio del cauce, donde estuvieron los pies de los sacerdotes. Otros lo entienden como las mismas piedras sacadas de allí y llevadas a Gilgal, de las que habla el versículo 20."
+  },
+  {
+   "cap": 5,
+   "v": 3,
+   "texto": "En hebreo, los «cuchillos afilados» son cuchillos de pedernal, como el que usó Séfora en Éxodo 4; la piedra siguió usándose para este rito aun cuando ya se conocía el metal. «El monte de los prepucios» es un nombre de lugar, en hebreo Guibeat haaralot, la colina de los prepucios."
+  },
+  {
+   "cap": 5,
+   "v": 9,
+   "texto": "Gilgal suena en hebreo como el verbo de la frase «he quitado», que literalmente es he hecho rodar, y se parece también a la palabra círculo, quizá por un círculo de piedras. El «oprobio de Egipto» puede ser la vergüenza de la esclavitud o la burla de los egipcios, que según Éxodo 32 podían decir que Dios sacó al pueblo «para matarlos en los montes»."
+  },
+  {
+   "cap": 6,
+   "v": 11,
+   "texto": "Las «bocinas de cuernos de carneros» son el shofar, el cuerno de carnero que se sigue tocando hoy en las sinagogas en el año nuevo judío y al terminar el día del perdón. Aquí el hebreo usa también la palabra yobel, de la que viene el nombre del año del jubileo de Levítico 25. «El real» es el campamento."
+  },
+  {
+   "cap": 6,
+   "v": 17,
+   "texto": "«Anatema» traduce el hebreo jérem: algo apartado por completo para Dios, que nadie podía usar ni tomar para sí. En la guerra, dar una ciudad al anatema significaba destruirla sin tomar botín y llevar los metales al tesoro del santuario. El capítulo siguiente gira en torno a esta palabra."
+  },
+  {
+   "cap": 6,
+   "v": 26,
+   "texto": "La maldición anuncia que quien reedifique Jericó lo pagará con su hijo mayor al echar los cimientos y con el menor al poner las puertas. Primero de Reyes 16 cuenta que, en tiempos del rey Acab, en el siglo 9 antes de Cristo, Hiel de Betel reedificó la ciudad y perdió así a su primogénito y a su hijo menor."
+  },
+  {
+   "cap": 7,
+   "v": 2,
+   "texto": "Achân es Acán, y «prevaricación» significa aquí infidelidad, romper la confianza. Su antepasado Zera es Zara, el hijo de Judá que en Génesis 38 nació con un hilo de grana en la mano. Hai, que muchas versiones actuales escriben Ai, estaba en las montañas, al este de Betel, que aquí se escribe Beth-el; Beth-aven, Bet-avén, no se ha localizado."
+  },
+  {
+   "cap": 7,
+   "v": 21,
+   "texto": "El «manto babilónico» es, en hebreo, un manto de Sinar, la región de Babilonia, famosa por sus telas. Si se toma el siclo de aproximadamente 11 gramos, doscientos siclos de plata son algo más de 2 kilogramos, y el «changote», un lingote de oro, literalmente una lengua de oro, de cincuenta siclos, unos 550 gramos."
+  },
+  {
+   "cap": 8,
+   "v": 12,
+   "texto": "El versículo 3 hablaba de treinta mil hombres enviados de noche, y aquí se mencionan cinco mil en la emboscada. Unos piensan en dos grupos distintos; otros, en que la palabra hebrea para mil, élef, podía designar también un clan o una unidad militar, de modo que las cifras serían mucho menores."
+  },
+  {
+   "cap": 8,
+   "v": 18,
+   "texto": "La lanza que Josué mantiene extendida recuerda a Moisés en la batalla contra Amalec, en Éxodo 17: «cuando alzaba Moisés su mano, Israel prevalecía». Aquella vez, Josué era el que peleaba abajo."
+  },
+  {
+   "cap": 8,
+   "v": 29,
+   "texto": "Deuteronomio 21 mandaba que el cuerpo de un ajusticiado colgado en un madero se bajara antes de la noche: «No estará su cuerpo por la noche en el madero». Colgar al rey vencido era una manera pública de mostrar la victoria, y el montón de piedras sobre su cuerpo, como el de Acán, quedaba como señal."
+  },
+  {
+   "cap": 9,
+   "v": 17,
+   "texto": "Gabaón es hoy el Jib, a unos 9 kilómetros al noroeste de Jerusalén, y Astaroth, en el versículo 10, es Astarot. Caphira es Cafira; Chiriath-jearim es Quiriat-jearim, la ciudad de los bosques, al oeste de Jerusalén, donde mucho después se guardaría el arca, según Primero de Samuel 7; y la ubicación de Beeroth, Beerot, se discute."
+  },
+  {
+   "cap": 10,
+   "v": 3,
+   "texto": "Adonisedec quiere decir mi señor es justicia, un nombre parecido al de Melquisedec, rey de Salem. Oham es Hoham, Phiream es Piream y Japhia, Jafía; Jerimoth, que en el capítulo 12 se escribe Jarmuth, es Jarmut, y Lachîs es Laquis, una gran ciudad de la Sefela. Debir es aquí un rey, y más adelante, una ciudad."
+  },
+  {
+   "cap": 10,
+   "v": 13,
+   "texto": "El libro de Jasher, que hoy se escribe Jaser, o libro del justo, no se ha conservado. Se cita también en Segundo de Samuel 1, con el lamento de David por Saúl y Jonatán, y por eso muchos piensan que era una colección de cantos que fue creciendo con el tiempo. Los libros que hoy circulan con ese nombre son muy posteriores."
+  },
+  {
+   "cap": 10,
+   "v": 24,
+   "texto": "Poner el pie sobre el cuello del vencido era un gesto de victoria conocido en el Cercano Oriente. Los faraones se hacían representar pisando a sus enemigos, y entre los objetos de la tumba de Tutankamón hay un escabel decorado con figuras de extranjeros atados, para apoyar en ellos los pies."
+  },
+  {
+   "cap": 10,
+   "v": 33,
+   "texto": "Gezer vigilaba el camino de la llanura de la costa hacia las montañas. El texto dice que su rey murió, pero no que la ciudad fuera tomada; Primero de Reyes 9 cuenta que, mucho después, un faraón la conquistó, mató a los cananeos que vivían en ella y se la dio en dote a su hija, la mujer de Salomón."
+  },
+  {
+   "cap": 10,
+   "v": 41,
+   "texto": "En el versículo 40, las «montañas» son las de Judá, el «mediodía» es el Néguev, los «llanos» son la Sefela, unas colinas bajas entre las montañas y la costa, y las «cuestas», las laderas que bajan de las montañas. La «tierra de Gosén» de este versículo no es la de Egipto, sino una región del sur de Canaán que no se ha localizado con exactitud."
+  },
+  {
+   "cap": 11,
+   "v": 2,
+   "texto": "Hasor, que en el versículo 11 se escribe Asor, es Hazor, la gran ciudad del norte, y Achsaph es Acsaf. Cinneroth es Cineret, el mar de Galilea, y «al mediodía de Cinneroth» quiere decir al sur de ese mar; Dor era un puerto de la costa, al sur del monte Carmelo."
+  },
+  {
+   "cap": 11,
+   "v": 6,
+   "texto": "Desjarretar es cortar los tendones de las patas traseras de los caballos para que no sirvan más en la guerra. Los carros eran el arma más poderosa de los ejércitos cananeos, e Israel no los incorpora: los quema. Deuteronomio 17 advertía que el rey de Israel no debía acumular caballos."
+  },
+  {
+   "cap": 11,
+   "v": 8,
+   "texto": "Se discute dónde estaban las aguas de Merom: unos piensan en unos manantiales cerca de Merón, en la alta Galilea, y otros en la zona del antiguo lago Hule. Sidón era la gran ciudad de los fenicios, en la costa del actual Líbano, y las «aguas calientes» traducen un nombre de lugar del norte, Misrefot maim, que no se ha identificado con seguridad."
+  },
+  {
+   "cap": 11,
+   "v": 13,
+   "texto": "Los «cabezos» son las colinas formadas por las ruinas de ciudades construidas una sobre otra, que en árabe se llaman tell. Hazor, la excepción, era la ciudad más grande de Canaán, de unas 80 hectáreas. Sus excavadores hallaron que su última ciudad cananea terminó en un gran incendio en el siglo 13 antes de Cristo; a quién atribuirlo se discute."
+  },
+  {
+   "cap": 11,
+   "v": 22,
+   "texto": "Los Anaceos, o anaquitas, son los hijos de Anac, los hombres de gran estatura que asustaron a los espías en Números 13. Gaza, Gath, que es Gat, y Asdod eran ciudades de la llanura de la costa que después serían de los filisteos; de Gat era Goliat."
+  },
+  {
+   "cap": 12,
+   "v": 5,
+   "texto": "El Arnón, hoy Wadi Mujib, es el cañón que baja al mar Muerto por el este, y el Jaboc, hoy río Zarqa, desemboca en el Jordán; Galaad son las montañas al este del río, y Basán, la meseta del noreste. Los Rapheos son los refaítas, un pueblo antiguo de gran estatura; Gessuri y Maachâti, los gesureos y los maacateos, pequeños reinos arameos al noreste del mar de Galilea."
+  },
+  {
+   "cap": 12,
+   "v": 14,
+   "texto": "Horma viene de la misma raíz hebrea que anatema, y recuerda la victoria de Números 21 junto a Arad, en el Néguev, cuando Israel destruyó aquellas ciudades «y llamó el nombre de aquel lugar Horma»."
+  },
+  {
+   "cap": 12,
+   "v": 21,
+   "texto": "Taanach es Taanac, y Megiddo, Meguido, una ciudad que vigilaba el paso del monte Carmelo hacia el valle de Jezreel. Allí venció el faraón Tutmosis tercero a una coalición de reyes de Canaán y de Siria en el siglo 15 antes de Cristo, y su nombre se suele relacionar con el Armagedón del Apocalipsis. Chêdes, en el versículo siguiente, es Cedes."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 2,
+   "v": 24,
+   "titulo": "Rahab y los espías en Jericó",
+   "epoca": "Poco después de la muerte de Moisés, al final de los cuarenta años en el desierto: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Sittim, en los campos de Moab, y Jericó, al otro lado del Jordán",
+   "texto": "Para seguir esta escena conviene mirar el mapa. Israel está acampado en Sittim, en la llanura de Moab, al este del Jordán. Al otro lado del río, a pocas horas de camino, está Jericó, junto a un manantial abundante que la convierte en un oasis en medio de un valle seco y caluroso; Deuteronomio la llamó «ciudad de las palmas». Está a más de 200 metros bajo el nivel del mar, una de las ciudades más bajas del mundo, y era la puerta natural para subir del valle del Jordán a las montañas del centro de Canaán. Quien entrara por ese lado tenía que pasar por ella.\n\nEn la época que el texto describe, Canaán estaba dividida en pequeñas ciudades estado. Cada una tenía su rey, su muralla y sus aldeas y campos alrededor; por eso Jericó tiene rey, como lo tendrán Hai, Jerusalén o Hazor. Sobre todas ellas pesaba, de lejos, el poder de Egipto, que desde el siglo 15 antes de Cristo cobraba tributos y tenía guarniciones en algunos puntos del país. En un mundo así, las noticias corrían de ciudad en ciudad, y Rahab dice que ya han llegado a Jericó: el paso del mar Bermejo, que es el mar Rojo, y la derrota de Sehón y de Og, los reyes amorreos del otro lado del Jordán, que escuchaste en Números y Deuteronomio. Su frase final, que Jehová «es Dios arriba en los cielos y abajo en la tierra», recuerda casi palabra por palabra lo que Moisés dijo en Deuteronomio 4.\n\nJosué sabía lo que era espiar una tierra. Cuarenta años antes, él y Caleb habían sido dos de los doce hombres enviados a reconocer Canaán, y diez de ellos volvieron con miedo: hablaron de ciudades «grandes y muradas hasta el cielo» y de gigantes. Ahora envía solo dos, en secreto, y vuelven con otro informe: «todos los moradores del país están desmayados delante de nosotros». Lo que traen es, sobre todo, lo que les dijo una mujer de Jericó.\n\nEl texto llama a Rahab «ramera», y así la recuerdan también, en el Nuevo Testamento, la carta a los Hebreos y la de Santiago. Algunos intérpretes antiguos, como el historiador judío Flavio Josefo y la traducción aramea de los profetas llamada Targum de Jonatán, la presentaron como posadera; en cualquier caso, una casa que recibía forasteros era un lugar donde dos extranjeros podían entrar sin llamar la atención. Su casa estaba en la muralla: en muchas ciudades antiguas había casas pegadas al muro o levantadas sobre él. Y el lino que secaba en el terrado es un detalle de la estación: en el valle del Jordán se cosechaba a comienzos de la primavera, y el calendario de Gezer, una tablilla del siglo 10 antes de Cristo, pone un mes del lino justo antes del mes de la cosecha de la cebada.\n\nEl acuerdo que hacen es un juramento con una señal. Rahab pide que hagan con su familia la misma misericordia que ella hizo con ellos; la palabra hebrea, jésed, es la lealtad que se deben quienes están unidos por un pacto. La señal es un cordón de grana, es decir, de color rojo intenso, atado a la ventana, y la condición es quedarse dentro: «Cualquiera que saliere fuera de las puertas de tu casa, su sangre será sobre su cabeza». Si ella los delataba, ellos quedaban «desobligados», es decir, libres del juramento. Muchos lectores lo han comparado con la noche de la pascua en Egipto, cuando nadie debía salir «de las puertas de su casa» marcada con sangre. Clemente de Roma, un autor cristiano de fines del siglo 1, vio en el cordón rojo una imagen de la sangre de Cristo, y el Evangelio de Mateo cuenta a Rahab entre los antepasados del rey David y de Jesús.",
+   "preguntas": [
+    "¿Qué crees que movió a Rahab a arriesgar su vida y la de su familia por dos extranjeros?",
+    "¿Qué diferencias notas entre este informe y el de los espías de cuarenta años antes?"
+   ]
+  },
+  {
+   "cap": 4,
+   "v": 24,
+   "titulo": "El Jordán se detiene",
+   "epoca": "El día 10 del mes primero, en primavera: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El cauce del Jordán frente a Jericó y el campamento de Gilgal, entre el río y la ciudad",
+   "texto": "El Jordán nace al pie del monte Hermón, atraviesa el mar de Galilea y baja hasta el mar Muerto por el valle más hondo de la tierra. En línea recta, entre esos dos mares hay algo más de 100 kilómetros, pero el río da tantas vueltas que su recorrido es más del doble. Hoy lleva poca agua, porque gran parte se desvía para el riego, pero en la antigüedad crecía en primavera con las lluvias y con la nieve que se derretía en el Hermón, y se salía de su cauce. El texto lo dice de paso: el río se desbordaba «todo el tiempo de la siega», que en el valle es la cosecha de la cebada, hacia marzo y abril. Era la peor época del año para cruzarlo con mujeres, niños y ganado.\n\nEn todo el relato, el centro es el arca. El pueblo la sigue a unos 900 metros, los sacerdotes entran con ella en el agua y se quedan en medio del cauce hasta que pasa el último, y solo cuando salen vuelve el río. En el desierto, el arca iba delante cuando el campamento se ponía en marcha, y Moisés decía: «Levántate, Jehová, y sean disipados tus enemigos». Aquí el texto la llama «el arca del pacto del Señoreador de toda la tierra», es decir, del Señor de toda la tierra, en un país donde cada ciudad tenía sus propios dioses.\n\nLas aguas que bajaban se detuvieron «como en un montón» junto a Adam, río arriba, cerca de donde el Jaboc se une al Jordán. La palabra hebrea para montón es la misma del cántico del mar, en Éxodo 15: «paráronse las corrientes como en un montón». En esa zona las orillas son altas y de tierra blanda, y algunos comentaristas citan una crónica árabe según la cual en 1267 después de Cristo un derrumbe cerca de Damiya cortó el río durante varias horas; se informó algo parecido con el terremoto de 1927. Otros subrayan que, a diferencia del paso del mar, donde se nombra un viento, aquí el texto no menciona ninguna causa: solo dice que el agua se detuvo cuando los pies de los sacerdotes la tocaron, como se había anunciado.\n\nLas doce piedras son un monumento pensado para las preguntas de los hijos. La fórmula ya la conoces de Éxodo, con la pascua, y de Deuteronomio, con la ley: cuando mañana te pregunte tu hijo, le contarás. En el mundo antiguo, levantar piedras era una manera común de recordar un hecho o un pacto; Jacob lo hizo en Betel y en Galaad. El texto dice que las piedras del río seguían allí «hasta hoy», una expresión que se repetirá muchas veces en Josué. Unos ven en ella la voz de alguien que escribía cuando esos monumentos todavía podían verse; muchos estudiosos piensan que el libro explicaba así el origen de lugares que sus lectores conocían.\n\nHay además una fecha. El pueblo sube del Jordán «el diez del mes primero», el mismo día en que, cuarenta años antes, cada familia en Egipto debía tomar el cordero de la pascua. Acampa en Gilgal, entre el río y Jericó, un lugar que no se ha identificado con seguridad. Y el capítulo termina con dos destinatarios: «todos los pueblos de la tierra», que deben conocer la mano de Jehová, e Israel, que debe temerle «todos los días».",
+   "preguntas": [
+    "¿Cómo imaginas a los sacerdotes, de pie en medio del cauce, mientras pasaba todo el pueblo?",
+    "¿Qué cambia cuando un recuerdo se guarda en piedras que los hijos pueden ver y preguntar?"
+   ]
+  },
+  {
+   "cap": 5,
+   "v": 15,
+   "titulo": "En Gilgal, antes de Jericó",
+   "epoca": "Los días que siguen al cruce, con la pascua el día 14 del mes primero: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El campamento de Gilgal, en los llanos de Jericó, y las cercanías de la ciudad",
+   "texto": "Israel acaba de pisar la tierra, con Jericó a la vista, y lo primero que hace no es atacar. El texto se detiene en tres cosas que miran hacia atrás: la circuncisión, la pascua y el fin del maná. Desde el punto de vista militar, la primera parecía una imprudencia, porque dejaba a los hombres doloridos durante días frente a una ciudad enemiga. Génesis 34 había contado lo que podía pasar en esos días, cuando Simeón y Leví atacaron Siquem «al tercer día, cuando sentían ellos el mayor dolor». Aquí, en cambio, el pueblo se queda en el campamento «hasta que sanaron», mientras los reyes de la tierra, según el versículo 1, estaban sin aliento.\n\nLa circuncisión era la señal del pacto con Abraham, en Génesis 17. Otros pueblos vecinos también la practicaban; en Egipto, un relieve de una tumba de Saqqara, de la segunda mitad del tercer milenio antes de Cristo, muestra una circuncisión. En Israel tenía un sentido propio: marcaba la pertenencia al pacto. El texto explica que los que salieron de Egipto estaban circuncidados y los nacidos en el desierto no; no dice por qué no se hizo en esos cuarenta años, y los intérpretes han dado explicaciones distintas. Lo que sí deja claro es el orden: Éxodo 12 había mandado que «ningún incircunciso» comiera la pascua.\n\nLa pascua se celebra el día 14 del mes, por la tarde, como en Egipto. Según lo que cuentan los libros anteriores, la última pascua registrada había sido la del desierto de Sinaí, un año después de la salida, en Números 9. Al día siguiente, el pueblo come del fruto de la tierra, panes sin levadura y espigas tostadas de los campos de Jericó, que estaban en plena cosecha, y al otro día deja de caer el maná. Éxodo ya lo había anunciado: «Así comieron los hijos de Israel maná cuarenta años, hasta que entraron en la tierra habitada». Para quienes habían nacido en el desierto, era el primer pan de una tierra sembrada.\n\nDespués viene uno de los encuentros más misteriosos del libro. Cerca de Jericó, Josué ve a un hombre con una espada desenvainada y le hace la pregunta de un soldado: «¿Eres de los nuestros, ó de nuestros enemigos?». La respuesta empieza con un no. El que habla se presenta como «Príncipe del ejército de Jehová»; en hebreo, ejército es la palabra que se traduce también huestes, y puede referirse a los ejércitos de Israel o a los del cielo. Josué se postra y recibe la misma orden que Moisés junto a la zarza: «Quita tus zapatos de tus pies». En Éxodo 3, la orden seguía así: «porque el lugar en que tú estás, tierra santa es».\n\nEl texto no dice quién es. Muchos intérpretes judíos lo entienden como un ángel, un enviado de Dios al frente de sus huestes. Muchos autores cristianos de los primeros siglos, como Justino Mártir, en el siglo 2, vieron aquí al Hijo de Dios antes de hacerse hombre. El encuentro termina con un gesto, sin más palabras: «Y Josué lo hizo así».",
+   "preguntas": [
+    "¿Por qué crees que el texto pone la circuncisión y la pascua antes de la primera batalla?",
+    "¿Qué te sugiere que el príncipe no diga que es de los nuestros ni de los enemigos?"
+   ]
+  },
+  {
+   "cap": 6,
+   "v": 27,
+   "titulo": "Las murallas de Jericó",
+   "epoca": "Poco después de la pascua, en primavera: hacia 1406 antes de Cristo según la cronología bíblica tradicional; muchos historiadores piensan en fines del siglo 13.",
+   "lugar": "Jericó, el oasis al oeste del Jordán, al norte del mar Muerto",
+   "texto": "Jericó es una de las ciudades más antiguas que se conocen. Junto a su manantial, que hoy se llama Ain es Sultán y se conoce también como fuente de Eliseo, por el relato de Segundo de Reyes 2, hubo gente viviendo desde hace más de diez mil años, y allí se halló una torre de piedra de hacia 8000 antes de Cristo. La ciudad antigua es hoy una colina artificial, Tell es Sultán, hecha de capas de ruinas, una sobre otra. Hacia 1600 antes de Cristo la rodeaba un gran terraplén de tierra, con un muro de piedra en la base y murallas de ladrillo encima.\n\nEn el mundo antiguo, tomar una ciudad así exigía meses de cerco, rampas de tierra y arietes, o una traición desde dentro. Lo que el texto describe es otra cosa: una procesión. Delante van los hombres armados, después siete sacerdotes con cuernos de carnero, luego el arca y detrás el resto del pueblo, sin una palabra mientras suenan los cuernos, durante seis días; el séptimo, siete vueltas, el sonido largo del cuerno y el grito. El muro cae «á plomo», es decir, se desploma en su lugar, y cada uno sube «en derecho de sí», derecho hacia adelante. Después, el texto pone juntas dos cosas: la ciudad entera es dada al anatema, con todo lo que tenía vida, y Rahab, la extranjera, se salva con toda su familia y «habitó ella entre los Israelitas hasta hoy».\n\n¿Qué ha encontrado la arqueología? La pregunta lleva casi un siglo de discusión. John Garstang, que excavó en los años treinta, halló murallas caídas y una gruesa capa de incendio, y fechó la destrucción hacia 1400 antes de Cristo, muy cerca de la fecha tradicional. En los años cincuenta, Kathleen Kenyon, con métodos más precisos, mostró que las murallas que Garstang había fechado eran mucho más antiguas, de la Edad del Bronce Antiguo, y concluyó que la gran destrucción de la ciudad ocurrió hacia 1550, al final de la Edad del Bronce Medio. Según ella, hacia 1400 no había en Jericó una ciudad amurallada, sino a lo sumo un pequeño asentamiento, y pensó que la erosión de la colina había borrado casi todo lo que quedaba de esa época.\n\nEn 1990, Bryant Wood volvió a estudiar la cerámica de esas excavaciones y defendió que la destrucción era de hacia 1400. En la capa del incendio había muchas vasijas llenas de grano quemado: para unos, eso encaja con un cerco corto, en primavera, después de la cosecha, y con una ciudad cuyo botín nadie se llevó; para otros, solo describe la caída de 1550. Para quienes ponen la entrada en el siglo 13, la dificultad es mayor, porque entonces la colina parece casi vacía. Por eso muchos historiadores piensan que el relato, tal como se cuenta, no corresponde a lo que se ha excavado, y otros responden que la colina está muy erosionada y excavada solo en parte. La discusión sigue abierta.",
+   "preguntas": [
+    "¿Qué pudieron pensar los de Jericó al ver, seis días seguidos, aquella procesión sin gritos, con el arca y los cuernos?",
+    "¿Qué lugar ocupa Rahab en este relato, salvada con los suyos en medio de la destrucción?"
+   ]
+  },
+  {
+   "cap": 7,
+   "v": 26,
+   "titulo": "El anatema y la falta de Acán",
+   "epoca": "Poco después de la caída de Jericó: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El campamento junto a Jericó, la subida hacia Hai y el valle de Acor",
+   "texto": "Todo este capítulo gira en torno al anatema, lo que se apartaba por completo para Dios. Levítico 27 ya lo había dicho: «todo lo consagrado será cosa santísima á Jehová», y no podía venderse ni rescatarse. En la guerra, dar una ciudad al anatema significaba no quedarse con nada: los metales iban al tesoro del santuario, y lo demás, personas, animales y casas, se destruía. Por eso la falta de Acán no es un robo cualquiera: es tomar lo que pertenecía a Dios, y el texto dice que con eso el mismo Israel había «venido á ser anatema».\n\nIsrael no era el único pueblo que conocía esta práctica: ya escuchaste que la estela de Mesa, rey de Moab, de hacia 840 antes de Cristo, usa el mismo verbo para la ciudad de Nebo, que Mesa consagró a su dios Quemos. La misma piedra cuenta un detalle que ilumina este capítulo: de Nebo, Mesa se llevó los objetos de Jehová y los arrastró delante de Quemos. Es una de las menciones más antiguas del nombre de Jehová fuera de la Biblia, y muestra que en aquel mundo la guerra era también un asunto entre dioses: lo tomado en la batalla se presentaba ante el dios al que se atribuía la victoria, como en Jericó la plata y el oro fueron «al tesoro de Jehová».\n\nEl relato está contado con cuidado. Primero el narrador te dice lo que Josué no sabe: Acán tomó del anatema. Después vienen la derrota en Hai, con treinta y seis muertos, y el duelo de Josué y de los ancianos con los gestos de la época, las ropas rasgadas y el polvo sobre la cabeza. Josué se queja con palabras que recuerdan las del pueblo en Números 14: «¡Ojalá nos hubiéramos quedado de la otra parte del Jordán!». Luego viene el señalamiento: tribu, familia, casa y hombre, uno tras otro. El texto no dice cómo se hacía; muchos piensan en suertes echadas delante de Jehová, quizá con el Urim que llevaba el sumo sacerdote. Y Acán confiesa con tres verbos, vi, codicié y tomé, que recuerdan a Génesis 3, donde la mujer vio el árbol, lo encontró codiciable y tomó de su fruto.\n\nEl castigo es lo más duro del capítulo. Acán es apedreado y quemado en el valle de Acor, y el texto incluye a sus hijos y a sus hijas, sus animales y su tienda. En hebreo, el versículo 25 pasa del singular al plural, y los lectores discuten si la familia murió con él o si solo se destruyó lo que tenía. Algunos intérpretes piensan que los suyos tenían que saber lo que estaba enterrado en medio de la tienda; otros recuerdan que Deuteronomio 24 manda: «Los padres no morirán por los hijos, ni los hijos por los padres», y ven aquí una tensión que el texto no resuelve. El nombre del lugar queda unido a la historia: Acor suena como el verbo turbar, el de la pregunta de Josué, «¿Por qué nos has turbado?». Siglos después, el profeta Oseas prometió que ese mismo valle sería una puerta de esperanza.",
+   "preguntas": [
+    "¿Qué cambia en la historia porque el narrador te cuenta la falta de Acán antes que a Josué?",
+    "¿Cómo lees que la falta de un solo hombre se cuente como pecado de todo Israel?"
+   ]
+  },
+  {
+   "cap": 8,
+   "v": 35,
+   "titulo": "Hai y el altar del monte Ebal",
+   "epoca": "Poco después de la toma de Hai: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Hai, en las montañas al este de Betel, y Siquem, entre los montes Ebal y Gerizim",
+   "texto": "Hai estaba arriba, en las montañas, a unos 20 kilómetros de Jericó en línea recta y más de mil metros más alto; por eso el texto dice siempre que subían. Era un lugar conocido para los oyentes: Génesis 12 cuenta que Abram levantó un altar en un monte, «teniendo á Bethel al occidente y Hai al oriente». La segunda batalla es una maniobra clásica: una emboscada escondida al oeste, una retirada fingida, los defensores que salen en persecución y dejan la ciudad abierta, y una señal desde lejos. Esta vez sí se permite tomar el botín y los animales, como Israel había hecho con Sehón y con Og, según Deuteronomio 2 y 3.\n\nLa arqueología de Hai es uno de los grandes problemas de este libro. El nombre significa la ruina, y casi siempre se ha identificado con et Tell, que en árabe quiere decir el montículo, cerca de la aldea de Beitin, donde muchos sitúan Betel. Allí, las excavaciones de Judith Marquet Krause en los años treinta y de Joseph Callaway entre 1964 y 1972 hallaron una gran ciudad amurallada de la Edad del Bronce Antiguo, destruida unos mil años antes de la fecha tradicional, y después, hacia 1200 antes de Cristo, una pequeña aldea sin murallas. Ni en 1406 ni en el siglo 13 parece haber habido allí una ciudad.\n\nLas respuestas son varias. Muchos estudiosos piensan que el relato explicaba el origen de unas ruinas enormes que todos podían ver, y que el texto mismo describe como «un montón perpetuo, asolado hasta hoy». Otros piensan que la Hai de Josué estaba en otro lugar: desde 1995, un equipo dirigido por Bryant Wood excavó en Khirbet el Maqatir, muy cerca de et Tell, una pequeña fortaleza que fechó cerca de la fecha tradicional, aunque esa identificación se discute. En el texto, los que fueron a reconocerla dicen que los de Hai «son pocos», aunque después se cuentan doce mil muertos entre hombres y mujeres.\n\nDespués, el texto lleva al pueblo unos 35 kilómetros más al norte, a los dos montes que rodean Siquem: Ebal, de unos 940 metros, y Gerizim, algo más bajo, separados por un valle estrecho donde hoy está la ciudad de Nablus. En Siquem, Abram había oído por primera vez «A tu simiente daré esta tierra». Y allí se cumple, punto por punto, lo que Deuteronomio 27 había mandado: un altar de piedras sin labrar, la ley escrita sobre piedras y el pueblo dividido entre los dos montes para las bendiciones y las maldiciones. Sobre el altar se ofrecen holocaustos y «víctimas pacíficas», es decir, sacrificios de paz, como los de Levítico 3. «La repetición de la ley» traduce el hebreo Misné Torá, y de una expresión parecida en Deuteronomio 17 viene el nombre griego de Deuteronomio, segunda ley.\n\nEl texto no dice cómo llegó el pueblo hasta allí, en medio de un país todavía en guerra, y el pasaje tiene su propia historia en los manuscritos. La antigua traducción griega lo pone un poco más adelante, después de los dos primeros versículos del capítulo 9, y un fragmento de Josué hallado entre los manuscritos del mar Muerto parece ponerlo justo después del cruce del Jordán. Para muchos estudiosos, es un pasaje que se añadió durante la transmisión del libro, y por eso aparece en lugares diferentes.\n\nEn el monte Ebal hay, además, un hallazgo discutido. Entre 1982 y 1989, el arqueólogo israelí Adam Zertal excavó allí una construcción rectangular de piedra, de unos 7 por 9 metros, con una rampa para subir a lo alto y rellena de capas de piedras, tierra y cenizas, entre las que había huesos de toros jóvenes, ovejas, cabras y gamos. Por la cerámica y por dos pequeños sellos egipcios en forma de escarabajo, la fechó entre fines del siglo 13 y el siglo 12 antes de Cristo, y la identificó con este altar. Muchos arqueólogos aceptan que fue un lugar de culto, pero discuten que sea el altar de Josué, y otros, como Aharon Kempinski, vieron en ella una torre de vigilancia.",
+   "preguntas": [
+    "¿Qué efecto tiene en el relato que, después de dos batallas, el texto se detenga en una lectura pública de la ley?",
+    "¿Por qué crees que el texto insiste en que la oyeron también las mujeres, los niños y los extranjeros?"
+   ]
+  },
+  {
+   "cap": 9,
+   "v": 27,
+   "titulo": "El pacto con los gabaonitas",
+   "epoca": "Después de la toma de Jericó y de Hai: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El campamento de Gilgal y Gabaón, en las montañas al norte de Jerusalén",
+   "texto": "Gabaón era una ciudad importante de las montañas del centro y encabezaba un grupo de cuatro ciudades. Entre 1956 y 1962, el arqueólogo James Pritchard excavó el Jib, su sitio actual, y halló decenas de asas de jarras con el nombre de Gabaón grabado, de siglos posteriores, que confirmaron la identificación, además de un gran pozo excavado en la roca para llegar al agua. Llama la atención que los gabaonitas no hablen de un rey, sino de «nuestros ancianos», y algunos piensan que la ciudad se gobernaba por un consejo.\n\nPara entender el engaño hay que recordar Deuteronomio 20. Allí se permitía ofrecer la paz a las ciudades que estuvieran «muy lejos», pero no a las de los pueblos de la tierra, y Éxodo y Deuteronomio prohibían hacer alianza con ellos. Los gabaonitas parecen saberlo, porque no dicen de dónde son: dicen que vienen de una tierra lejana, y lo prueban con un disfraz completo, pan seco y mohoso, odres de piel rotos y cosidos, sandalias gastadas. Su discurso también es cuidadoso: hablan de Egipto y de los reyes del otro lado del Jordán, pero no de Jericó ni de Hai, que serían noticias demasiado frescas para quien viene de tan lejos.\n\nLa falta que el texto señala es una sola: los hombres de Israel «tomaron de su provisión del camino, y no preguntaron á la boca de Jehová». Probar el pan de los visitantes, o compartirlo, podía ser parte del trato; lo que no hicieron fue consultar a Dios por medio del sacerdote, como Números 27 había mandado para Josué: «á él preguntará por el juicio del Urim delante de Jehová». Y una vez jurado el pacto, no hay vuelta atrás. En el mundo antiguo, un juramento hecho en nombre de un dios no se deshacía aunque se hubiera obtenido con engaño; los tratados de la época, como los hititas, ponían a los dioses por testigos y amenazaban con sus castigos a quien los rompiera.\n\nLa Biblia vuelve sobre este juramento siglos después. Segundo de Samuel 21 cuenta que el rey Saúl quiso acabar con los gabaonitas y que, en tiempos de David, eso se recordó como una culpa grave sobre todo el país. Mientras tanto, quedan en una situación intermedia: viven, pero como leñadores y aguadores para la congregación y para el altar. Deuteronomio 29 ya incluía en el pacto a los extranjeros del campamento, «desde el que corta tu leña hasta el que saca tus aguas», y en un santuario donde se ofrecían sacrificios cada día, la leña y el agua eran un trabajo de nunca acabar. Así, después de Rahab, el libro cuenta un segundo caso de cananeos que quedan vivos dentro de Israel, y dice que siguen así «hasta hoy».",
+   "preguntas": [
+    "¿Qué piensas de que un juramento obtenido con engaño se siga cumpliendo?",
+    "¿Cómo entiendes la explicación que dan los gabaonitas en el versículo 24?"
+   ]
+  },
+  {
+   "cap": 10,
+   "v": 43,
+   "titulo": "Gabaón, el sol y la campaña del sur",
+   "epoca": "Poco después del pacto con Gabaón: hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Gabaón, la bajada de Bet-horón hacia el valle de Ajalón, y las ciudades del sur de Canaán",
+   "texto": "La alianza con Gabaón alarmó a las ciudades vecinas. Adonisedec, rey de Jerusalén, llama a otros cuatro reyes del sur, y juntos atacan a Gabaón. Era un tipo de guerra conocido en Canaán. En las cartas de Amarna, Abdi Heba, rey de Jerusalén unas décadas después de la fecha tradicional, escribe al faraón para quejarse de sus vecinos y de los habiru, acusa a otras ciudades, entre ellas Gezer y Laquis, de ayudar a sus enemigos, y le pide arqueros. Esas cartas muestran también que el nombre de la ciudad ya existía entonces: en ellas aparece como Urusalim.\n\nJosué sube de noche desde Gilgal: unos 30 kilómetros de camino y unos mil metros de subida, desde el fondo del valle del Jordán hasta las montañas. Cae de sorpresa sobre los sitiadores, que huyen hacia el oeste por la bajada de Bet-horón, el paso que lleva de las montañas al valle de Ajalón y a la llanura de la costa. Ese camino fue escenario de muchas batallas: allí venció Judas Macabeo a un ejército sirio en el siglo 2 antes de Cristo, y allí sufrió una legión romana una dura derrota en el año 66 después de Cristo. En la huida, dice el texto, cayó un granizo que mató a más que las espadas.\n\nEntonces viene la frase más famosa del libro: «Sol, detente en Gabaón; y tú, Luna, en el valle de Ajalón». El texto dice que estaba escrita en el libro de Jasher, y tiene la forma de la poesía hebrea, en dos líneas que se responden. Varios lectores han notado que Gabaón queda al este del valle de Ajalón, y piensan en una mañana, con el sol al oriente y la luna al poniente; el versículo 13, en cambio, dice que el sol se paró «en medio del cielo».\n\n¿Qué pasó? Las lecturas son varias. La lectura tradicional, judía y cristiana, entiende un milagro: el día se alargó para que Israel terminara la batalla, y el texto lo subraya diciendo que «nunca fué tal día antes ni después de aquél». Otros notan que el verbo hebreo que se traduce detente, dom, significa también callar o quedarse quieto, y piensan en un sol que dejó de quemar o en una oscuridad causada por la misma tormenta. Otros lo leen como el lenguaje de un canto de victoria, que describe con imágenes del cielo una jornada que pareció no terminar, y se han propuesto incluso eclipses. En el siglo 17, el pasaje entró en la discusión sobre si la Tierra gira alrededor del sol: Galileo Galilei lo comentó en una carta de 1613.\n\nDespués de Maceda, el relato avanza como un parte de guerra: Libna, Laquis, Eglón, Hebrón y Debir, con las mismas frases repetidas, «metióla á cuchillo» y «sin quedar nada». Laquis era una de las ciudades más fuertes del sur, y también aparece en las cartas de Amarna. El resumen final abarca desde Cades-barnea, en el desierto, hasta Gaza, en la costa, y hasta Gabaón. Y el capítulo termina con el mismo versículo que ya había aparecido en el 15: «Y tornóse Josué, y todo Israel con él, al campo en Gilgal». La antigua traducción griega no tiene ninguno de los dos, y muchos piensan que el del versículo 15 es una repetición anticipada del final.",
+   "preguntas": [
+    "¿Cómo lees tú la frase «habiendo atendido Jehová á la voz de un hombre»?",
+    "¿Qué te llama la atención de que Josué suba a defender a quienes lo habían engañado?"
+   ]
+  },
+  {
+   "cap": 12,
+   "v": 24,
+   "titulo": "Treinta y un reyes y una pregunta difícil",
+   "epoca": "Los años de guerra que siguen a la entrada, desde 1406 antes de Cristo, según la cronología bíblica tradicional; muchos historiadores piensan en fines del siglo 13.",
+   "lugar": "Toda la tierra de Canaán, desde el Arnón y el Hermón, al este del Jordán, hasta el Néguev y la Galilea",
+   "texto": "La campaña del norte repite el modelo del sur, con una coalición de reyes encabezada por Hazor que reúne caballos y carros, el arma más temida de la época. El capítulo 12 hace después el balance como lo haría un archivo real. Primero recuerda a los reyes vencidos por Moisés al este del Jordán, Sehón y Og, y luego nombra a treinta y uno al oeste, uno por uno. Es el retrato de un país de ciudades estado, cada una con su rey, como el que muestran las cartas de Amarna, y la lista incluye ciudades cuya conquista no se ha contado, como Betel, Tapúa, Afec, Meguido o Taanac. Los reyes de Egipto también grababan listas de lugares vencidos: en el templo de Karnak, el faraón Tutmosis tercero, en el siglo 15 antes de Cristo, hizo grabar más de cien nombres de ciudades de Canaán y de Siria.\n\nLlegados aquí, conviene detenerse en lo más difícil de estos capítulos. Una y otra vez, el texto dice que Josué mató a todo lo que tenía vida, «al modo que Jehová Dios de Israel lo había mandado», y que fue Jehová quien endureció el corazón de esos reyes para que salieran a la guerra. La pregunta de cómo leer estos relatos ha acompañado a judíos y cristianos durante siglos, y las respuestas han sido distintas.\n\nAlgunos lectores se fijan en lo que el mismo texto deja ver. Junto a las frases de destrucción total, dice que los sobrevivientes del sur «se metieron en las ciudades fuertes», que la guerra duró «muchos días», que los anaceos siguieron en Gaza, Gat y Asdod, y que Rahab y los gabaonitas quedaron dentro de Israel. Éxodo 23 y Deuteronomio 7 ya habían dicho que esos pueblos serían echados «poco á poco», y el libro de los Jueces empieza con una lista de ciudades donde los cananeos siguieron viviendo. Otros se fijan en la forma. El estudioso Lawson Younger comparó en 1990 estos capítulos con los anales de reyes asirios, hititas y egipcios, y encontró el mismo estilo de frases que se repiten de ciudad en ciudad y de victorias totales, como las que ya escuchaste de Mesa y de Merneptah, que daban a Israel por desaparecido cuando seguía en pie. Por eso muchos estudiosos leen estas frases como el lenguaje de guerra de la época, que agrandaba la victoria.\n\nLas tradiciones judía y cristiana también han dado sus lecturas. En Deuteronomio escuchaste la tradición del Talmud de Jerusalén según la cual Josué ofreció a los pueblos de Canaán irse, hacer la paz o pelear; el mismo pasaje resume así el resultado: los gergeseos se fueron, Gabaón hizo la paz y treinta y un reyes pelearon y cayeron. El texto, por su parte, dice que «No hubo ciudad que hiciese paz», salvo Gabaón. Otros lectores señalan que Génesis 15 y Deuteronomio 9 presentan la entrada como un juicio sobre «la impiedad de estas gentes», y no como un premio a la justicia de Israel. Orígenes, a quien ya escuchaste leer estas guerras como imagen de la lucha contra el mal dentro de cada persona, desarrolló esa lectura en sus homilías sobre este mismo libro, en el siglo 3 después de Cristo. Hoy, muchos creyentes y no creyentes cuentan todavía estos capítulos entre los más difíciles de la Biblia, y la pregunta sigue abierta.",
+   "preguntas": [
+    "¿Qué notas al poner juntas las frases de destrucción total y los pasajes donde los cananeos siguen en la tierra?",
+    "¿Cómo te ayudan, o no, los paralelos de Mesa y de Merneptah para leer estos capítulos?"
+   ]
+  }
+ ]
+}

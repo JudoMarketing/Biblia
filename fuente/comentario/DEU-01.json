@@ -1,0 +1,313 @@
+{
+ "tramo": "DEU-01",
+ "libro": "DEU",
+ "desde": {
+  "cap": 1,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 11,
+  "v": 32
+ },
+ "introduccion": {
+  "titulo": "Deuteronomio, las palabras de Moisés en Moab",
+  "texto": "Deuteronomio empieza con una frase que le da su nombre hebreo: «ESTAS son las palabras que habló Moisés á todo Israel». Los judíos lo llaman Devarim, que significa palabras. El nombre que usamos viene de la antigua traducción griega, hecha en Alejandría, y quiere decir segunda ley. Salió del capítulo 17, donde se manda que el rey escriba para sí «un traslado de esta ley», es decir, una copia: la expresión hebrea viene de una raíz que significa repetir o duplicar, y los traductores griegos la vertieron como esta segunda ley. El nombre encaja, porque el libro vuelve sobre mucho de lo que ya escuchaste en Éxodo, Levítico y Números, y la tradición judía también lo llamó Misné Torá, repetición de la ley.\n\nNo es un relato como los libros anteriores: casi todo son discursos de Moisés en primera persona, dentro de un marco breve de narración. El texto marca sus partes con encabezados, como el del capítulo 4, versículo 44: «Esta, pues, es la ley que Moisés propuso delante de los hijos de Israel». Los capítulos 1 al 4 recuerdan el camino desde el monte Horeb, como este libro llama casi siempre al Sinaí, hasta Moab. Los capítulos 5 al 11 repiten los diez mandamientos y exhortan a amar a Dios y a no olvidarlo. Los capítulos 12 al 26 reúnen un código de leyes para la vida en la tierra. Después vienen bendiciones y maldiciones, un pacto en Moab, el encargo a Josué, un cántico y una bendición de Moisés.\n\nLa tradición judía y la cristiana atribuyen el libro a Moisés, y así se presenta: como sus palabras al pueblo. En los evangelios, Jesús lo cita muchas veces: cuando es tentado en el desierto, sus tres respuestas son frases de este libro. Ya en el siglo 12, el comentarista judío Abraham ibn Ezra insinuó con discreción que algunas frases parecían escritas desde Canaán, como la del primer versículo, que en hebreo llama al lado oriental, donde estaba Moisés, el otro lado del Jordán.\n\nDesde comienzos del siglo 19, muchos estudiosos relacionan el libro con lo que cuenta Segundo de Reyes 22. Hacia 622 antes de Cristo, el sumo sacerdote Hilcías encontró en el templo de Jerusalén un libro de la ley. Al oírlo leer, el rey Josías rasgó sus vestidos y emprendió una reforma: destruyó los altares de los lugares altos y las imágenes, y celebró la Pascua en Jerusalén, medidas muy parecidas a lo que pide Deuteronomio, que insiste en adorar a Dios en un solo lugar, el que él escoja. Para esos estudiosos, aquel libro era Deuteronomio o una parte de él, escrito o completado en esa época a partir de tradiciones más antiguas, con añadidos del tiempo del destierro en Babilonia. Otros sostienen que la sustancia del libro viene de Moisés, como dice la tradición, y que lo hallado era una copia antigua, olvidada durante reinados que no siguieron la ley.\n\nA mediados del siglo 20, varios estudiosos notaron que Deuteronomio se parece a los tratados que los grandes reyes del antiguo Oriente hacían con sus vasallos: una presentación, un repaso de la historia común, las obligaciones, la orden de guardar y leer el documento, los testigos, y bendiciones y maldiciones. Unos lo comparan sobre todo con los tratados hititas de los siglos 14 y 13 antes de Cristo, que suelen empezar con un repaso histórico como el de los primeros capítulos de este libro, y ven en eso una señal de antigüedad. Otros lo comparan con los tratados de sucesión de Asarhadón, rey de Asiria, del año 672 antes de Cristo, que exigen a los vasallos amar al príncipe heredero y traen maldiciones muy parecidas; para ellos, el libro tomó forma en el siglo 7, cuando Judá estaba bajo el dominio asirio.\n\nTodo ocurre en un solo lugar y en poco tiempo: en los campos de Moab, la llanura al este del Jordán, frente a Jericó. El capítulo 1 da la fecha: el primer día del mes undécimo del año cuarenta después de la salida de Egipto. Según la cronología bíblica tradicional, que pone la salida hacia 1446 antes de Cristo, Moisés habla hacia 1406; para muchos historiadores, que prefieren una salida en el siglo 13 antes de Cristo, la escena sería de fines de ese siglo. El pueblo que escucha ya no es el que salió de Egipto: aquella generación murió en el desierto, y quienes están delante de Moisés eran niños entonces o nacieron en el camino.\n\nAl escucharlo, conviene tener presentes algunas cosas. Es un libro hecho para el oído, que insiste en las mismas palabras: oye, acuérdate, no te olvides, guarda, y sobre todo hoy, que suena más de treinta veces en estos once capítulos. Moisés pasa a veces del tú al vosotros en la misma frase; unos ven ahí capas distintas del texto, y otros, una manera de hablar a cada persona y a todo el pueblo a la vez. Cuando recuerda historias de Éxodo y Números, a veces las cuenta con otros detalles, y las notas te lo irán señalando, sin decidir por ti. Y este libro pesó mucho: en las cuevas de Qumrán se hallaron unas treinta copias, más que de cualquier otro libro salvo los Salmos, y su frase central, el Shemá del capítulo 6, los judíos la siguen rezando cada mañana y cada noche."
+ },
+ "notas": [
+  {
+   "cap": 1,
+   "v": 1,
+   "texto": "Donde la versión de 1909 dice «de esta parte del Jordán», el hebreo dice al otro lado del Jordán, nombre de la región al este del río. El «mar Bermejo» es el mar Rojo, aunque aquí el hebreo dice solo Suf, quizá un lugar. Parán es el desierto al sur de Canaán, y Haseroth, Hazerot, un campamento de Números 11; los demás nombres no se han identificado con seguridad."
+  },
+  {
+   "cap": 1,
+   "v": 3,
+   "texto": "Horeb es el monte Sinaí, y el monte de Seir, la región montañosa de Edom, al sudeste del mar Muerto. Cades Barnea era un oasis del extremo sur de Canaán, cerca de la actual frontera entre Egipto e Israel. Muchos lectores han notado el contraste entre un camino de once días, en el versículo 2, y los cuarenta años del versículo 3; el mes undécimo cae hacia enero o febrero."
+  },
+  {
+   "cap": 1,
+   "v": 4,
+   "texto": "Los «Amorrheos» son los amorreos, nombre que Deuteronomio usa para los pueblos de los montes de Canaán y del este del Jordán. Hesbón estaba en la meseta al este del mar Muerto, cerca de la actual Madaba, en Jordania; Astarot y Edrei, más al norte, en el sur de la actual Siria. Las victorias sobre Sehón y Og se cuentan en Números 21."
+  },
+  {
+   "cap": 1,
+   "v": 8,
+   "texto": "En el versículo 7, el «monte del Amorrheo» es la región montañosa de Canaán, «al mediodía» quiere decir hacia el Néguev, el sur seco, y «la costa de la mar», la orilla del Mediterráneo. Llegar hasta el Éufrates repite los límites amplios de la promesa a Abraham en Génesis 15, y «simiente» quiere decir descendencia."
+  },
+  {
+   "cap": 1,
+   "v": 17,
+   "texto": "Éxodo 18 cuenta que este orden de jueces fue un consejo de Jetro, el suegro de Moisés; aquí Moisés lo recuerda sin nombrarlo y se detiene en lo que pidió a los jueces. «No tengáis respeto de personas» significa no favorecer a nadie por lo que es: ni al grande ni al pequeño, ni al hermano ni al extranjero."
+  },
+  {
+   "cap": 2,
+   "v": 5,
+   "texto": "El «aquilón», en el versículo 3, es el norte. «Los hijos de Esaú», el hermano de Jacob, son los edomitas, que vivían en los montes de Seir, al sur y al sudeste del mar Muerto; Génesis 36 cuenta su origen. La «holladura de la planta de un pie» es lo que cubre una pisada: ni un palmo de su tierra."
+  },
+  {
+   "cap": 2,
+   "v": 8,
+   "texto": "Elath y Esiongeber, Elat y Ezión Guéber, estaban en el extremo norte del golfo de Aqaba, y «la llanura» es el Arabá, el valle seco al sur del mar Muerto. Números 20 cuenta que Edom no dejó pasar a Israel; aquí se recuerda que los edomitas les vendieron comida y agua. Para unos, esta vez el pueblo bordeó ese territorio por otro lado; para otros, son dos recuerdos distintos."
+  },
+  {
+   "cap": 2,
+   "v": 12,
+   "texto": "En los versículos 10 y 11, «gigantes» traduce la palabra hebrea refaim, nombre de pueblos antiguos de gran estatura que se recordaban en la región; Emimeos era su nombre entre los moabitas. En textos de Ugarit, del siglo 13 antes de Cristo, aparece una palabra parecida, ligada a antepasados muertos y reyes antiguos. A los «Horeos», antiguos habitantes de Seir, muchos los relacionan con los hurritas, aunque se discute."
+  },
+  {
+   "cap": 2,
+   "v": 23,
+   "texto": "Los Caftoreos venían de Caftor, que muchos identifican con la isla de Creta; el profeta Amós dice que de allí vinieron los filisteos. Aquí el hebreo no dice heveos sino aveos, otro pueblo de la costa cercana a Gaza. Estos paréntesis cuentan que también Edom, Moab y Ammón habían ocupado tierras de pueblos anteriores."
+  },
+  {
+   "cap": 2,
+   "v": 34,
+   "texto": "El verbo hebreo que aquí se traduce «destruimos» es el del jérem, que la versión de 1909 llamará más adelante «anatema»: dar una ciudad entera a Dios, sin dejar con vida a sus habitantes. Es uno de los pasajes más difíciles del libro, y la pausa que viene lo explica con más calma."
+  },
+  {
+   "cap": 3,
+   "v": 9,
+   "texto": "Los «Sidonios» son los habitantes de Sidón, en la costa del actual Líbano, es decir, los fenicios. El Hermón, que cada pueblo llamaba a su manera, es la montaña más alta de la región, de unos 2800 metros, con nieve buena parte del año; de sus faldas brotan las fuentes del Jordán."
+  },
+  {
+   "cap": 3,
+   "v": 11,
+   "texto": "Nueve codos por cuatro son unos 4 metros de largo por casi 2 de ancho, con el codo común de unos 45 centímetros, que es lo que quiere decir «al codo de un hombre». Algunos estudiosos piensan que esta «cama de hierro» podía ser un sarcófago o un lecho de piedra negra, el basalto que abunda en Basán. Rabbath es la actual Ammán, capital de Jordania."
+  },
+  {
+   "cap": 3,
+   "v": 15,
+   "texto": "Jair y Machîr, Maquir, eran clanes de la tribu de Manasés, cuyas conquistas cuenta Números 32, y Havoth-jair quiere decir aldeas de Jair. Gessuri y Machâti son Gesur y Maacá, pequeños reinos arameos al norte y al este del mar de Galilea. Salchâ, en el versículo 10, es Salcá, en el borde oriental de Basán."
+  },
+  {
+   "cap": 3,
+   "v": 17,
+   "texto": "Cinereth es Quinéret, el lago que en los evangelios se llama mar de Galilea. «La mar del llano», o «mar Salado», es el mar Muerto, a más de 400 metros por debajo del nivel del mar. El Pisga es una de las alturas que se levantan al nordeste de ese mar y dominan el valle del Jordán."
+  },
+  {
+   "cap": 4,
+   "v": 2,
+   "texto": "Los «estatutos y derechos» del versículo 1 son leyes y normas para juzgar. Fórmulas parecidas protegían los textos importantes en el mundo antiguo: el Código de Hammurabi, de hacia 1750 antes de Cristo, termina maldiciendo a quien altere sus palabras, y algunos tratados prohíben cambiar la tablilla. El último libro de la Biblia, el Apocalipsis, se cierra con una advertencia semejante."
+  },
+  {
+   "cap": 4,
+   "v": 20,
+   "texto": "El «horno de hierro» es el horno de fundición, donde el mineral se calentaba al rojo hasta separar el metal: una imagen de Egipto como lugar de dureza y de prueba. «Pueblo de heredad» es un pueblo que pertenece a Dios como una herencia propia, la porción de tierra que una familia no vendía."
+  },
+  {
+   "cap": 4,
+   "v": 48,
+   "texto": "Este «monte de Sión» no es el de Jerusalén: en hebreo son dos nombres distintos, que en esta versión se escriben igual, y este es uno de los nombres del Hermón. Desde el versículo 44, el texto pone un nuevo encabezado, y con él comienza el siguiente discurso de Moisés."
+  },
+  {
+   "cap": 5,
+   "v": 3,
+   "texto": "La mayoría de los que estuvieron en Horeb había muerto en el desierto; los que escuchan eran niños entonces o nacieron después. Aun así, Moisés les habla como si hubieran estado allí. La tradición judía guarda esa misma idea en la Pascua: la Misná, compilada hacia el año 200 después de Cristo, dice que en cada generación uno debe verse como si hubiera salido de Egipto."
+  },
+  {
+   "cap": 5,
+   "v": 12,
+   "texto": "En Éxodo 20 este mandamiento empieza con acordarse: «Acordarte has del día del reposo»; aquí, con guardarlo. Una antigua enseñanza judía dice que las dos palabras se pronunciaron a la vez, y así lo canta un himno que se entona en las sinagogas cada viernes al caer la tarde, cuando empieza el sábado."
+  },
+  {
+   "cap": 5,
+   "v": 21,
+   "texto": "Respecto de Éxodo 20 hay cambios: aquí la mujer va antes que la casa, se usa otro verbo para la casa y los bienes, «desearás», y se añade «ni su tierra», es decir, su campo. En este orden se apoyó san Agustín para contar como dos mandamientos distintos no codiciar la mujer del prójimo y no codiciar sus bienes, y así los cuenta todavía la Iglesia católica."
+  },
+  {
+   "cap": 6,
+   "v": 4,
+   "texto": "Este es el Shemá, llamado así por su primera palabra en hebreo, que significa oye; en hebreo son seis palabras: Shemá Israel, Adonai Eloheinu, Adonai ejad. Donde la versión de 1909 pone Jehová está el nombre propio de Dios, que los judíos no pronuncian y leen Adonai, Señor. La frase admite más de una traducción: Jehová es nuestro Dios, Jehová es uno, o bien, Jehová es nuestro Dios, solo Jehová."
+  },
+  {
+   "cap": 6,
+   "v": 9,
+   "texto": "Los «frontales» se llevaban en la frente. La tradición judía cumple estos versículos al pie de la letra: los tefilín, que Mateo 23 llama filacterias, son cajitas de cuero con estos pasajes, atadas al brazo y a la frente para rezar, y la mezuzá, palabra hebrea para poste, es un rollito con el Shemá fijado en la puerta. En Qumrán se hallaron tefilín de hace unos dos mil años."
+  },
+  {
+   "cap": 6,
+   "v": 16,
+   "texto": "En el versículo 11, «henchiste» quiere decir llenaste, y en el 15, «la haz de la tierra» es su superficie. Massa, que significa prueba, es el lugar de Éxodo 17 donde el pueblo, con sed, preguntó si Jehová estaba entre ellos o no. Cuando Jesús es tentado en el desierto, en Mateo 4 y Lucas 4, responde con este versículo y con el 13."
+  },
+  {
+   "cap": 7,
+   "v": 1,
+   "texto": "En esta lista de pueblos de Canaán, el «Hetheo» es el hitita, el «Amorrheo» es el amorreo y el «Pherezeo» es el ferezeo; el «Jebuseo» es el pueblo que vivía en Jerusalén. Génesis 15 da una lista más larga, de diez pueblos, y muchos ven en el siete de este versículo un número de plenitud."
+  },
+  {
+   "cap": 7,
+   "v": 5,
+   "texto": "Las «estatuas» y los «bosques» son, como en Éxodo 34, las piedras sagradas puestas de pie y los asherim, troncos o árboles junto a los altares, ligados a la diosa Asera. Las inscripciones de Kuntillet Ajrud que se mencionaron en la pausa del capítulo 6 hablan de Jehová y su asera, que unos entienden como la diosa y otros como el objeto de culto."
+  },
+  {
+   "cap": 7,
+   "v": 9,
+   "texto": "En uno de los amuletos de plata de Ketef Hinnom, los de hacia 600 antes de Cristo que llevan la bendición de Números 6, se ha leído, antes de esa bendición, una frase muy parecida a este versículo: Dios que guarda el pacto y la misericordia con los que lo aman y guardan sus mandamientos."
+  },
+  {
+   "cap": 8,
+   "v": 3,
+   "texto": "El «maná» fue el alimento del desierto que Éxodo 16 describe como algo blanco y menudo, como semilla de cilantro. Cuando Jesús ayuna en el desierto y el tentador le pide convertir piedras en pan, responde con la segunda mitad de este versículo, en Mateo 4 y Lucas 4."
+  },
+  {
+   "cap": 8,
+   "v": 9,
+   "texto": "Trigo, cebada, vid, higuera, granado, olivo y miel: la tradición judía las llama las siete especies de la tierra, y la miel se entiende a menudo como miel de dátiles. El «metal» que se corta en los montes es el cobre: en el Arabá, al sur del mar Muerto, hay minas de cobre muy antiguas, como las de Timna y Feinán."
+  },
+  {
+   "cap": 8,
+   "v": 15,
+   "texto": "Las «serpientes ardientes» recuerdan Números 21, donde el pueblo fue mordido por serpientes y Moisés hizo una de bronce; quizá se llamaban así por el ardor de la mordedura. La «roca del pedernal» es la peña de la que salió agua, en Éxodo 17 y Números 20."
+  },
+  {
+   "cap": 9,
+   "v": 21,
+   "texto": "Éxodo 32 añade que Moisés esparció el polvo sobre el agua y se la dio a beber a los israelitas; aquí recuerda solo que lo echó al arroyo que bajaba del monte. Los dos relatos coinciden en que el becerro fue quemado y molido hasta quedar hecho polvo."
+  },
+  {
+   "cap": 9,
+   "v": 22,
+   "texto": "Son tres nombres que recuerdan quejas del desierto. Tabera significa incendio, y Kibroth-hataavah, sepulcros de la codicia; las dos historias están en Números 11. Massa es el lugar de Éxodo 17 que ya se recordó en el capítulo 6."
+  },
+  {
+   "cap": 10,
+   "v": 3,
+   "texto": "La madera de Sittim es la acacia, uno de los pocos árboles que crecen en los valles secos del Sinaí. En Éxodo 37 es Bezaleel quien hace el arca. Rashi, el gran comentarista judío del siglo 11, explicó que Moisés hizo primero un arca sencilla para guardar las tablas; otros piensan que Moisés resume aquí lo que se hizo por orden suya."
+  },
+  {
+   "cap": 10,
+   "v": 7,
+   "texto": "Este paréntesis interrumpe el recuerdo del monte con datos del camino. Números 20 y 33 sitúan la muerte de Aarón en el monte de Hor y ponen Moserot antes de Bene-jaacán. Unos piensan que Moserá era la zona donde estaba ese monte, y otros ven aquí un itinerario conservado por otra tradición; el texto no lo explica."
+  },
+  {
+   "cap": 10,
+   "v": 17,
+   "texto": "Circuncidar «el prepucio de vuestro corazón», en el versículo 16, es una imagen: la circuncisión era la señal del pacto en el cuerpo, y aquí se pide en lo más íntimo. Jeremías y Pablo, en Romanos 2, retoman la imagen. «Cohecho» es soborno: Dios no se deja comprar, como tampoco debía dejarse comprar un juez."
+  },
+  {
+   "cap": 11,
+   "v": 6,
+   "texto": "Dathán y Abiram, Datán y Abiram, se rebelaron contra Moisés en Números 16, junto con Coré, un levita a quien aquí no se nombra; el Salmo 106 también recuerda solo a Datán y Abiram. Eran de la tribu de Rubén, el hijo mayor de Jacob."
+  },
+  {
+   "cap": 11,
+   "v": 14,
+   "texto": "En Canaán casi no llueve de mayo a septiembre. La lluvia «temprana» llega en octubre y noviembre, ablanda la tierra y permite sembrar; la «tardía», en marzo y abril, hace madurar las espigas. Si faltaba una de las dos, la cosecha corría peligro."
+  },
+  {
+   "cap": 11,
+   "v": 21,
+   "texto": "Los versículos 13 a 21 son el segundo pasaje del Shemá en la oración judía, después del capítulo 6, versículos 4 a 9; el tercero está en Números 15. Por eso vuelven aquí las palabras atadas en la mano, los frontales y lo escrito en los postes. «Como los días de los cielos sobre la tierra» quiere decir para siempre."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 1,
+   "v": 46,
+   "titulo": "Cades Barnea, la tierra a la vista",
+   "epoca": "Moisés habla hacia 1406 antes de Cristo y recuerda Cades, hacia 1445, según la cronología bíblica tradicional.",
+   "lugar": "Los campos de Moab, frente a Jericó; el recuerdo vuelve a Cades Barnea, en el extremo sur de Canaán.",
+   "texto": "Antes de seguir, conviene situarse. Moisés no está en el Sinaí ni en Cades: habla en los campos de Moab, la llanura al este del Jordán, frente a Jericó, cerca de la orilla norte del mar Muerto. Es una tierra baja y cálida, a varios cientos de metros bajo el nivel del mar, con el río a un lado y, al oriente, la subida abrupta hacia la meseta. El mes undécimo cae en pleno invierno, la estación más templada de ese valle. Muchos de los que escuchan nacieron en el desierto o eran niños cuando salieron de Egipto. En Números 14, Dios anunció que todos los que tenían veinte años o más cuando el pueblo se negó a entrar morirían en el desierto, salvo Caleb, hijo de Jefone, y Josué, y el capítulo 2 de este libro dirá que así ocurrió. Los oyentes de Moisés son, en buena parte, aquellos «chiquitos» del versículo 39, que ahora son adultos.\n\nEl primer recuerdo largo es Cades Barnea, el oasis al borde del desierto que ya conociste en Números 13 y 14. Desde allí los espías subieron por el Néguev hasta los montes de Hebrón y el valle de Escol, el del gran racimo, pero Moisés no se detiene en ese viaje: lo cuenta en dos versículos.\n\nEl miedo del pueblo tenía una base en el paisaje de la época. Muchas ciudades de Canaán de la Edad del Bronce estaban rodeadas de murallas y terraplenes enormes, y a gente que venía de vivir en tiendas le parecían «muradas hasta el cielo». Los «hijos de gigantes» son, en hebreo, los hijos de Anac, un pueblo de gran estatura que Números 13 ubica en Hebrón. Un papiro egipcio del siglo 13 antes de Cristo, el Papiro Anastasi primero, una carta en tono de burla entre escribas, describe a los nómadas que acechaban en un desfiladero de Canaán como hombres de cuatro o cinco codos, de rostro feroz: aquellos montes tenían fama de peligrosos.\n\nMoisés cuenta esta historia a su manera, y vale la pena compararla con Números 13 y 14. Allí la orden de enviar espías viene de Dios; aquí la idea sale del pueblo, y a Moisés le pareció bien. Allí los espías dan un informe largo que termina en miedo; aquí traen fruta y dicen «Es buena la tierra que Jehová nuestro Dios nos da», y lo que asusta llega después, en boca del pueblo, que repite lo que oyó a sus hermanos y llega a decir que Dios lo sacó de Egipto porque lo aborrecía. Allí los que derrotan al pueblo hasta Horma, en el Néguev, son amalecitas y cananeos; aquí, el amorreo, el nombre que este libro da a la gente de los montes. Y Moisés dice que Dios se enojó también contra él «por vosotros», mientras que Números 20 relaciona su castigo con lo que ocurrió en las aguas de la rencilla, cuando golpeó la peña. Muchos comentaristas judíos y cristianos han leído estos relatos como miradas que se completan, una desde lo que Dios mandó y otra desde lo que el pueblo pidió; muchos estudiosos modernos ven en ellos tradiciones distintas reunidas en la Torá.\n\nEl capítulo termina con una derrota y una espera: «estuvisteis en Cades por muchos días». Así, el primer gran recuerdo de Moisés no es una victoria, sino el día en que la tierra estuvo a la vista y el pueblo no quiso subir.",
+   "preguntas": [
+    "¿Qué efecto pudo tener que Moisés empezara su discurso con este fracaso?",
+    "¿Qué habrán sentido los hijos al escuchar así la historia de sus padres?"
+   ]
+  },
+  {
+   "cap": 2,
+   "v": 37,
+   "titulo": "Edom, Moab, Ammón y el rey Sehón",
+   "epoca": "Poco después de la muerte de Aarón, hacia 1407 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "La meseta al este del mar Muerto, desde el arroyo de Zered hasta el Jaboc.",
+   "texto": "Treinta y ocho años caben aquí en unas pocas palabras: «rodeamos el monte de Seir por muchos días». Deuteronomio no cuenta qué pasó en ese tiempo, y Números da poco más que una lista de campamentos. Lo que sí marca el texto es un límite: el arroyo de Zered, un valle profundo que baja hacia el extremo sur del mar Muerto y que hoy se llama Wadi el Hasa, en Jordania. Cuando el pueblo lo cruza, la generación de Cades ya ha muerto, y empieza otra etapa.\n\nAl este del Arabá, la tierra sube a una meseta alta, cortada por cañones que bajan hacia el mar Muerto. De sur a norte vivían tres pueblos: Edom, en los montes de Seir; Moab, entre el Zered y el Arnón, un cañón de varios cientos de metros de profundidad que hoy se llama Wadi Mujib; y Ammón, más al nordeste, en torno a Rabbath, la actual Ammán. Según Génesis, los tres eran parientes de Israel: Edom descendía de Esaú, el hermano de Jacob, y Moab y Ammón, de Lot, el sobrino de Abraham. A ninguno se le podía quitar tierra, porque Dios también se la había dado a ellos. Moab aparece fuera de la Biblia en inscripciones del faraón Ramsés segundo, en el siglo 13 antes de Cristo. A lo largo de la meseta corría un camino antiguo de norte a sur, que Números llama «el camino real», y mucho después los romanos trazaron una calzada más o menos por la misma ruta.\n\nSehón era otra cosa. Números 21 cuenta que este rey amorreo le había quitado a Moab la tierra al norte del Arnón y reinaba en Hesbón, en la meseta al este del mar Muerto; allí viste también la discusión arqueológica sobre esa ciudad. Deuteronomio añade un detalle propio: Dios ya había dicho «empéñate con él en guerra», y aun así Moisés envió primero, desde el desierto de Cademoth, mensajeros «con palabras de paz». Le pidió lo mismo que a Edom y a Moab: pasar por el camino, pagando la comida y el agua. Sehón salió a pelear en Jaas y fue vencido. El texto dice que Dios había endurecido su espíritu, como el de Faraón en Éxodo, y presenta esa batalla como el comienzo de la posesión de la tierra.\n\nLuego vienen las palabras más duras: «destruimos todas las ciudades, hombres, y mujeres, y niños; no dejamos ninguno». Es el jérem, el anatema: dar una ciudad entera a Dios, de modo que no quedara con vida nadie para el vencedor, aunque aquí sí se tomaron los animales y el botín. Esta práctica no era solo de Israel. La estela de Mesa, rey de Moab, de hacia 840 antes de Cristo, que ya apareció en Números, usa la misma palabra para una ciudad que ese rey consagró a su dios. Y la misma piedra, hallada en Dibón, a pocos kilómetros de Aroer, cuenta que Mesa reconstruyó Aroer e hizo el camino del Arnón: los lugares que el versículo 36 pone como frontera, unos siglos después.\n\nLos ríos, los cañones y las ciudades de este capítulo eran, para quienes oían el libro, un mapa conocido. El capítulo 7 volverá a esta práctica de guerra y a cómo la han leído judíos, cristianos e historiadores.",
+   "preguntas": [
+    "¿Qué piensas al leer que Israel debía respetar la tierra de Edom, Moab y Ammón, pero no la de Sehón?",
+    "¿Cómo te ayuda, o te incomoda, saber que otros pueblos de la época hacían la guerra de la misma manera?"
+   ]
+  },
+  {
+   "cap": 3,
+   "v": 29,
+   "titulo": "Basán, el Pisga y una oración negada",
+   "epoca": "Moisés habla hacia 1406 antes de Cristo y recuerda las guerras de los meses anteriores, según la cronología bíblica tradicional.",
+   "lugar": "Basán, al este del mar de Galilea, y el valle frente a Beth-peor, en los campos de Moab.",
+   "texto": "Basán, la meseta volcánica al norte del río Yarmuk que Números 21 ya presentó, era muy distinta de la tierra de Moab: piedra negra de basalto, suelo fértil para el trigo y buenos pastos. La Biblia la recuerda por sus robles y por su ganado, y un salmo habla de sus toros. Las sesenta ciudades amuralladas de Argob vuelven a aparecer en Primero de Reyes 4, en tiempos de Salomón.\n\nOg es presentado como el último de los refaim, los gigantes de los que hablaba el capítulo 2, y el texto se detiene en su cama de hierro, que todavía se podía ver en Rabbath. Hay un dato curioso: en un texto de Ugarit, en la costa de Siria, del siglo 13 antes de Cristo, muchos leen la mención de un rey o dios llamado Rapiu que habita en Astarot y gobierna en Edrei, las dos ciudades que el capítulo 1 asocia con Og. Para varios estudiosos, eso muestra que esa región estaba ligada, en la memoria de los pueblos vecinos, a los antiguos refaim. Y la frase «hasta hoy», que se repite en estos capítulos, ha dado que pensar: unos ven en ella notas añadidas más tarde por quienes copiaban y transmitían el libro; otros, la manera en que Moisés habla de cosas recientes.\n\nLa tierra de los dos reyes quedó para Rubén, Gad y la mitad de la tribu de Manasés. Números 32 cuenta cómo las dos primeras tribus pidieron quedarse allí porque tenían mucho ganado y la tierra era buena para pastos, y cómo Moisés aceptó con una condición: los hombres de guerra cruzarían el Jordán armados, delante de sus hermanos, mientras las mujeres, los niños y el ganado esperaban en las ciudades. Desde entonces, Israel tendría tribus a los dos lados del río.\n\nDespués viene la parte más personal de todo el repaso. Moisés cuenta que rogó a Dios que lo dejara pasar y ver «aquella tierra buena», y que la respuesta fue: «Bástate, no me hables más de este negocio». Como en el capítulo 1, dice que Dios se enojó con él por causa del pueblo, mientras que Números 20, como ya viste, lo relaciona con las aguas de la rencilla. Lo que se le concede es mirar desde la cumbre del Pisga. Desde allí, en días claros, se ven Jericó, el oasis verde junto al río, y en el horizonte los montes del centro de Canaán.\n\nEl repaso termina en el lugar donde están: «el valle delante de Beth-peor». Bet Peor quiere decir casa de Peor. Peor era una altura de esa zona, y Baal Peor, el señor de Peor, el dios que se adoraba allí. Según Números 25, poco tiempo antes muchos israelitas se habían unido al culto de ese dios junto con mujeres de Moab, y en la mortandad que siguió murieron veinticuatro mil. El capítulo siguiente empieza recordándolo. Moisés habla, entonces, en el mismo lugar de esa caída, delante de los que sobrevivieron.",
+   "preguntas": [
+    "¿Cómo imaginas a Moisés contando al pueblo que su ruego no fue escuchado?",
+    "¿Por qué crees que el repaso termina nombrando el lugar donde están?"
+   ]
+  },
+  {
+   "cap": 4,
+   "v": 49,
+   "titulo": "Una voz sin figura y tres ciudades",
+   "epoca": "El mes undécimo del año 40 después de la salida, hacia 1406 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El valle frente a Beth-peor, en los campos de Moab, al este del Jordán.",
+   "texto": "Con el capítulo 4, Moisés pasa del recuerdo a la exhortación, y el tono cambia. Repite oye, guarda, no te olvides, y vuelve una y otra vez a un solo día: el de Horeb, cuando el pueblo oyó la voz de Dios desde el fuego. De ese día saca una consecuencia: «ninguna figura visteis». Por eso no debía hacerse imagen de nada: ni de hombre o mujer, ni de animales de la tierra, aves, reptiles o peces, ni del sol, la luna y las estrellas, a los que el versículo 19 llama «el ejército del cielo».\n\nLa lista tenía sentido en su mundo. En Egipto, muchos dioses se representaban con forma de animal o con cuerpo humano y cabeza de animal: el halcón de Horus, el chacal de Anubis, el cocodrilo de Sobek, el ibis de Thot. En Mesopotamia, los astros eran dioses: el sol era Shamash, el dios de la justicia; la luna era Sin, venerado en Ur y en Harán, las ciudades de la familia de Abraham; y el planeta Venus era Ishtar. El versículo 19 dice algo que se ha leído de varias maneras: que Dios «los ha concedido á todos los pueblos». Unos entienden que los astros sirven a todos para dar luz y medir el tiempo; otros, que Dios dejó que los demás pueblos los adoraran, pero no Israel. Siglos más tarde, según Segundo de Reyes 23, el rey Josías quitó a los sacerdotes que quemaban incienso al sol, a la luna y a los signos del cielo.\n\nEn el versículo 26, Moisés pone «por testigos al cielo y á la tierra». Los tratados hititas terminaban con una larga lista de dioses que servían de testigos, y al final nombraban también los montes, los ríos, el mar, el cielo y la tierra. Aquí, donde no se admiten otros dioses, los testigos son el cielo y la tierra. Luego viene un anuncio: si el pueblo se corrompe, será esparcido entre las naciones, y desde allí, si busca a Dios de todo corazón, lo hallará. La tradición judía y la cristiana lo leen como una advertencia profética de Moisés; muchos estudiosos piensan que estas palabras tomaron su forma durante el destierro en Babilonia, en el siglo 6 antes de Cristo. Para los desterrados, en todo caso, este capítulo dejaba una puerta abierta: «Dios misericordioso es Jehová tu Dios».\n\nLa exhortación culmina en el versículo 35, «Jehová él es Dios; no hay más fuera de él», una idea que el 39 repite con otras palabras. Muchos estudiosos ven aquí, y en capítulos de Isaías como el 45, las afirmaciones más claras del Antiguo Testamento de que hay un solo Dios.\n\nDespués, el narrador vuelve a tomar la palabra. Moisés aparta tres ciudades al este del Jordán: Beser, en la meseta de Rubén; Ramot, en Galaad, para Gad; y Golán, en Basán, para Manasés, de donde viene el nombre de los actuales Altos del Golán. Eran ciudades de refugio. En una sociedad sin policía ni cárceles, la muerte de alguien obligaba a un pariente cercano a vengarla, y estas ciudades protegían a quien había matado sin querer, «sin haber tenido enemistad con él desde ayer ni antes de ayer», es decir, sin un odio previo. Números 35 da las reglas: seis ciudades, tres de cada lado del río.",
+   "preguntas": [
+    "¿Qué cambia, para ti, que el pueblo haya oído una voz y no haya visto una figura?",
+    "¿Por qué crees que el libro se detiene en las ciudades de refugio justo al terminar este discurso?"
+   ]
+  },
+  {
+   "cap": 5,
+   "v": 33,
+   "titulo": "Las diez palabras, otra vez",
+   "epoca": "Moisés habla hacia 1406 antes de Cristo y recuerda el Horeb, unos cuarenta años antes, según la cronología bíblica tradicional.",
+   "lugar": "Los campos de Moab; en el recuerdo, el pie del monte Horeb envuelto en fuego.",
+   "texto": "Ya escuchaste estas palabras en Éxodo 20. Ahora Moisés las repite ante una generación nueva, y antes de hacerlo dice algo que marca todo el capítulo: el pacto no se hizo con los padres, sino «con nosotros todos los que estamos aquí hoy vivos». Para muchos de los oyentes, Horeb era un recuerdo de infancia o una historia contada en las tiendas; Moisés se la presenta como propia. El capítulo 4 llamó a estos mandamientos, como Éxodo 34, «las diez palabras».\n\nSi comparas con Éxodo, notarás diferencias. La mayor está en el sábado. En Éxodo, el motivo es que Dios hizo el mundo en seis días y reposó el séptimo; aquí es el recuerdo de la esclavitud: «acuérdate que fuiste siervo en tierra de Egipto». Se subraya el descanso de los demás, «porque descanse tu siervo y tu sierva como tú», y se nombran el buey y el asno. El acento cae en quien no era dueño de su tiempo. En dos mandamientos se añade «como Jehová tu Dios te ha mandado», como si Moisés citara algo dicho antes, y al de honrar a los padres se suma «para que te vaya bien».\n\nLa tradición judía y la cristiana han visto en estas diferencias a Moisés explicando y aplicando lo que Dios dijo en el monte, no corrigiéndolo. Muchos estudiosos piensan que las dos versiones vienen de una forma más breve, a la que cada libro añadió sus explicaciones. En lo esencial coinciden: las mismas diez palabras, con el mismo comienzo, «Yo soy Jehová tu Dios, que te saqué de tierra de Egipto».\n\nLo que sigue es la reacción del pueblo. El texto dice que Dios habló «á gran voz: y no añadió más», y que escribió esas palabras en dos tablas. Los jefes y los ancianos, aterrados por el fuego, piden que Moisés escuche por ellos y les transmita lo que oiga. Así se confirma el papel de Moisés como mediador, el que según el versículo 5 estaba entre Jehová y el pueblo «para denunciaros la palabra de Jehová», es decir, para anunciársela. Llama la atención la respuesta de Dios: «bien está todo lo que han dicho», seguida de un deseo, que el pueblo tuviera siempre ese corazón para temerle y guardar sus mandamientos. Deuteronomio presenta todo lo que Moisés enseñará después como lo que oyó entonces en el monte, mientras el pueblo volvía a sus tiendas.\n\nTambién las dos tablas se entienden mejor en su mundo. En el segundo milenio antes de Cristo, los tratados importantes se escribían en tablillas que se guardaban en los templos. En 1986 apareció en Hattusa, la capital hitita, una tablilla de bronce con un tratado del siglo 13 antes de Cristo, y según la versión egipcia, el tratado de paz entre Ramsés segundo y los hititas llegó escrito en una tablilla de plata. Algunos estudiosos han propuesto que las dos tablas eran dos copias del mismo pacto, una para cada parte, como en esos tratados; la tradición más difundida las imagina con cinco mandamientos en cada una.",
+   "preguntas": [
+    "¿Qué significa para ti que Moisés diga que el pacto se hizo con los que están vivos hoy?",
+    "¿Por qué crees que aquí el motivo del sábado es el recuerdo de Egipto?"
+   ]
+  },
+  {
+   "cap": 6,
+   "v": 25,
+   "titulo": "El Shemá, la oración de cada día",
+   "epoca": "Hacia 1406 antes de Cristo, según la cronología bíblica tradicional, antes de cruzar el Jordán.",
+   "lugar": "Los campos de Moab, con la tierra prometida al otro lado del río.",
+   "texto": "Pocos versículos de la Biblia se han repetido tanto como el 4 y el 5 de este capítulo. La Misná, la gran compilación de la ley oral judía, empieza preguntando desde qué hora se recita el Shemá por la noche, porque el versículo 7 dice «al acostarte, y cuando te levantes»; y así se ha rezado, mañana y noche, durante siglos. La misma Misná cuenta que en el templo de Jerusalén los sacerdotes recitaban cada mañana los diez mandamientos y el Shemá. Un pequeño papiro hallado en Egipto, el papiro Nash, de hacia el siglo 2 o 1 antes de Cristo, contiene esos dos textos juntos; antes de los hallazgos de Qumrán era el manuscrito bíblico hebreo más antiguo que se conocía.\n\nLas palabras tenían un sentido preciso. En hebreo, oír es también obedecer: escuchar de verdad es poner por obra. La palabra uno puede querer decir único, o también uno solo e indiviso, frente a los dioses de los pueblos vecinos, que tenían muchos santuarios y muchas formas: la Biblia misma habla de Baal Peor, el Baal de un lugar concreto. Algunos estudiosos piensan que la frase responde también a la idea de un Jehová distinto en cada santuario, como el Jehová de Samaria y el Jehová de Temán que mencionan unas inscripciones de hacia 800 antes de Cristo, halladas en Kuntillet Ajrud, en el Sinaí. En los rollos de la Torá de las sinagogas, la última letra de la primera palabra y la última de la frase se escriben más grandes, y juntas forman una palabra hebrea que significa testigo.\n\n«Amarás» puede sonar extraño como mandamiento. Pero en el lenguaje de los pactos antiguos, amar era también ser leal. En los tratados de Asarhadón, rey de Asiria, del año 672 antes de Cristo, los vasallos juran amar al príncipe heredero Asurbanipal como a sí mismos, y en 1963 el estudioso William Moran propuso leer este versículo con ese trasfondo. El amor va unido aquí al corazón, que para los hebreos era el lugar del pensamiento y de las decisiones; al alma, que es la vida misma; y al poder, una palabra que significa algo así como todo lo que uno tiene y puede. La Misná entendió «con todo tu poder» como con todos tus bienes. Y el Talmud cuenta que el rabino Akiva, ejecutado por los romanos en el siglo 2 después de Cristo, murió recitando el Shemá.\n\nEl texto no deja estas palabras en el santuario: las pone en la casa, en el camino, al acostarse y al levantarse, en la mano, entre los ojos y en la puerta. En un mundo donde pocos sabían leer y los libros eran caros, lo importante se aprendía de memoria y pasaba de padres a hijos. Por eso el capítulo termina con una escena de familia: el hijo que pregunta qué significan estas leyes, y el padre que responde contando una historia: «Nosotros éramos siervos de Faraón en Egipto». La cena de Pascua judía pone esa misma pregunta en boca del hijo sabio. Antes de esa escena, Moisés advierte sobre otro peligro, el de la abundancia: ciudades, casas, viñas, olivares y cisternas cavadas en la roca para guardar la lluvia del invierno, que el pueblo recibiría sin haberlas hecho.\n\nCuando a Jesús le preguntan cuál es el primer mandamiento, en Marcos 12, responde con el Shemá desde sus primeras palabras, «Oye, Israel», y le une el amor al prójimo de Levítico 19.",
+   "preguntas": [
+    "¿Qué crees que significa amar a Dios «con todo tu poder»?",
+    "¿Qué piensas de que la respuesta al hijo empiece con una historia y no con una explicación de las leyes?"
+   ]
+  },
+  {
+   "cap": 7,
+   "v": 26,
+   "titulo": "Siete naciones y un pueblo escogido",
+   "epoca": "Hacia 1406 antes de Cristo, según la cronología bíblica tradicional, frente a la tierra de Canaán.",
+   "lugar": "Los campos de Moab, mirando hacia Canaán, con sus ciudades, sus altares y sus santuarios.",
+   "texto": "Este capítulo es de los más difíciles de escuchar. Manda que, cuando Israel entre en Canaán, destruya del todo a siete pueblos, sin hacer alianza con ellos, sin tenerles compasión y sin emparentar con ellos, y que derribe sus altares, sus piedras sagradas y sus imágenes. El texto da su propia razón, que es religiosa: «desviará á tu hijo de en pos de mí, y servirán á dioses ajenos». Al final vuelve la palabra jérem, que aquí la versión de 1909 traduce «anatema»: lo que se consagra a Dios para destrucción y no puede quedar para uso de nadie, ni siquiera el oro y la plata de las imágenes.\n\nEn medio de esas órdenes, el capítulo explica por qué Israel es «pueblo santo», es decir, apartado para Dios. No es porque fuera grande: «erais los más pocos de todos los pueblos». La razón que se da es el amor de Dios y su fidelidad al juramento hecho a Abraham, Isaac y Jacob. La palabra «especial», en el versículo 6, traduce segulá, el tesoro propio de un rey, la misma que en Éxodo 19 se tradujo «especial tesoro». Para los primeros oyentes, que eran pocos frente a pueblos con ciudades amuralladas, eso tenía un peso concreto.\n\nYa viste en el capítulo 2 que la estela de Mesa, rey de Moab, usa la misma palabra para una ciudad consagrada a su dios. Además, los relatos de guerra del antiguo Oriente hablaban en términos absolutos. En la estela de Merneptah, de hacia 1208 antes de Cristo, el faraón dice que Israel está devastado y que su descendencia ya no existe, aunque Israel siguió existiendo. Por eso muchos estudiosos leen estas fórmulas como lenguaje de guerra de la época, que exagera para expresar una victoria completa. El mismo capítulo deja ver tensiones: prohíbe casarse con esos pueblos, lo que supone que seguirían allí, y dice que Dios los echará «poco á poco». El libro de Josué reconocerá que muchos cananeos siguieron viviendo en la tierra.\n\nLos lectores de todas las épocas se han hecho preguntas ante estos textos. En la tradición judía, Maimónides, en el siglo 12, enseñó que antes de cualquier guerra, incluso contra estos siete pueblos, había que ofrecer la paz, y anotó que el recuerdo de esos pueblos ya se había perdido, de modo que, como entendieron también otros sabios, el mandamiento ya no tenía a quién aplicarse. Entre los cristianos, Orígenes, como ya escuchaste en Números, leyó las guerras de Canaán como figura de la lucha contra el mal dentro de uno mismo. Muchos historiadores piensan que estas leyes se escribieron cuando los cananeos ya no existían como pueblos aparte, y que apuntaban sobre todo contra la idolatría dentro del propio Israel. Otros lectores las toman como un juicio de Dios sobre pueblos concretos, en un momento concreto, que Génesis 15 ya relacionaba con «la maldad del Amorrheo».\n\nEntre las promesas del capítulo aparecen también las «avispas» del versículo 20, que ya se anunciaban en Éxodo 23. Hay quien las entiende al pie de la letra, y quien ve en ellas una imagen del pánico que empujaría a esos pueblos a huir.",
+   "preguntas": [
+    "¿Cómo lees tú un mandamiento así, sabiendo cómo hablaban de la guerra los pueblos de la época?",
+    "¿Qué te llama la atención en la razón que da el texto para la elección de Israel?"
+   ]
+  },
+  {
+   "cap": 10,
+   "v": 11,
+   "titulo": "El becerro de oro, contado por Moisés",
+   "epoca": "Moisés, hacia 1406 antes de Cristo, recuerda el becerro de oro de hacia 1446, según la cronología bíblica tradicional.",
+   "lugar": "Los campos de Moab; en el recuerdo, el monte Horeb y el campamento a sus pies.",
+   "texto": "Antes de recordar el becerro, Moisés cierra una puerta: el pueblo no entra en la tierra por ser justo. Lo dice tres veces seguidas, y lo llama «pueblo duro de cerviz», la imagen, que ya conoces de Éxodo, del buey que no se deja poner el yugo. Las ciudades «encastilladas hasta el cielo», es decir, fortificadas, y los hijos de Anac siguen ahí; lo que cambia es quién pasa delante, el «fuego consumidor». Y para mostrar que el pueblo no es justo, Moisés no elige una falta cualquiera, sino la que ocurrió al pie del mismo monte del pacto.\n\nSi recuerdas Éxodo 32 a 34, verás que Moisés cuenta lo mismo con su propio orden y sus propios acentos. Aquí no se dice cómo se hizo el becerro ni se habla de la fiesta, de los levitas ni de la plaga; en cambio, Moisés añade que también oró por Aarón, contra quien Dios estaba muy enojado, algo que Éxodo no cuenta. Habla de cuarenta días y cuarenta noches varias veces, y la tradición judía las contó como tres temporadas: la primera, para recibir las tablas; la segunda, postrado para interceder; y la tercera, para recibir las tablas nuevas. Esa misma tradición, que recoge Rashi, dice que Moisés bajó con las segundas tablas el día 10 del mes séptimo, y relaciona con ese regreso el perdón del día de la expiación, el de Levítico 16.\n\nLa oración de Moisés, en los versículos 26 a 29, se parece a la de Éxodo 32 y tiene la lógica de su mundo. No alega que el pueblo merezca perdón: pide a Dios que se acuerde de Abraham, Isaac y Jacob, y que piense en lo que dirían en Egipto si el pueblo muriera en el desierto. En una cultura donde el honor de un rey dependía de que cumpliera su palabra y protegiera a los suyos, ese argumento tenía mucho peso. Hay además un detalle en las palabras: Dios había dicho a Moisés «tu pueblo que sacaste de Egipto», y Moisés responde llamándolo, dos veces, «tu pueblo y tu heredad», como si se lo devolviera a su dueño.\n\nLo último del recuerdo son las tablas nuevas, guardadas en un arca de madera: «y allí están», dice Moisés. Como ya viste en Éxodo, los tratados hititas se guardaban en un templo, delante del dios, y algunos estudiosos ven en el arca, que guardaba las tablas del pacto, una función parecida. Luego viene un paréntesis, escrito en tercera persona, con etapas del camino, la muerte de Aarón y la elección de la tribu de Leví para llevar el arca y bendecir en nombre de Dios «hasta hoy». Para la lectura tradicional, es un comentario dentro del discurso; buena parte de los estudiosos modernos lo ve como una nota añadida por quienes transmitieron el libro. En cualquier caso, une el arca con quienes la iban a cuidar.",
+   "preguntas": [
+    "¿Qué buscaría Moisés al recordar el becerro de oro ante esta generación?",
+    "¿Qué te llama la atención en los argumentos de Moisés al interceder por el pueblo?"
+   ]
+  },
+  {
+   "cap": 11,
+   "v": 32,
+   "titulo": "Entre la bendición y la maldición",
+   "epoca": "Hacia 1406 antes de Cristo, según la cronología bíblica tradicional, poco antes de cruzar el Jordán.",
+   "lugar": "Los campos de Moab; al otro lado del río, los montes Gerizim y Ebal, junto a Siquem.",
+   "texto": "Para cerrar esta larga exhortación, Moisés compara dos tierras. En Egipto casi nunca llueve: la vida depende del Nilo, que crecía cada verano y dejaba los campos húmedos y fértiles, y el agua se repartía por canales. «Regabas con tu pie» se ha entendido de varias maneras: abrir y cerrar con el pie los pequeños surcos por donde corría el agua, o mover con los pies algún aparato para sacarla. Desde el Reino Nuevo se usaba en Egipto el shaduf, un palo largo con un contrapeso para subir agua del río. Era una agricultura de mucho trabajo, que dependía de la crecida del río más que del cielo.\n\nCanaán es otra cosa: «tierra de montes y de vegas», que «de la lluvia del cielo ha de beber las aguas». No hay un gran río que riegue los campos, porque el Jordán corre muy hondo, por debajo de las tierras de cultivo. Todo depende de las lluvias de invierno, y un año seco significaba hambre. Por eso la tentación que el texto nombra en los versículos 16 y 17, que el corazón «se infatúe», es decir, se deje seducir, era muy concreta. Los pueblos de Canaán veneraban a Baal, el dios de la tormenta; los textos de Ugarit lo describen como el que cabalga sobre las nubes y da la lluvia, y cuentan que cuando muere, la tierra se seca. Aquí Moisés dice que es Jehová quien da «la lluvia de vuestra tierra en su tiempo» y quien puede cerrar los cielos.\n\nEl versículo 24 vuelve a trazar los límites amplios de la promesa: desde el desierto del sur y el Líbano, desde el Éufrates hasta la «mar postrera», que es el Mediterráneo. En hebreo se llama el mar de atrás, porque los hebreos se orientaban mirando hacia el oriente, por donde sale el sol, y el occidente les quedaba a la espalda.\n\nEntonces Moisés señala dos montes que su pueblo todavía no ha visto. Gerizim y Ebal están en el centro de Canaán, uno frente al otro, separados por un valle estrecho; en ese valle estaba Siquem, junto a la actual Nablus. Ebal, al norte, tiene unos 940 metros de altura, y Gerizim, al sur, unos 880. Es un lugar cargado de memoria. La versión de 1909 habla aquí de «los llanos de Moreh», y en Génesis 12 del «valle de Moreh», pero el hebreo nombra un gran árbol, una encina o un terebinto. Junto a ese árbol, cerca de Siquem, Abram levantó su primer altar en Canaán. Algunos comentaristas han notado que, mirando hacia el oriente, Gerizim queda a la derecha, el lado que en la Biblia suele asociarse con la bendición. El Gilgal que se nombra aquí no es fácil de ubicar, y se discute si es el de junto a Jericó u otro del mismo nombre.\n\nEstos dos montes tendrían una larga historia. Los samaritanos, que se consideran descendientes de las tribus del norte, tienen a Gerizim como el lugar que Dios escogió; allí tuvieron un templo desde el siglo 5 antes de Cristo hasta fines del siglo 2 antes de Cristo. En el Evangelio de Juan, la samaritana le dice a Jesús que sus padres adoraron en ese monte. Por ahora, en el texto, Gerizim y Ebal son dos nombres al otro lado del Jordán. Con el versículo 32 termina la exhortación, y empiezan las leyes.",
+   "preguntas": [
+    "¿Qué cambia para un pueblo cuando su pan depende de la lluvia y no de un río?",
+    "¿Qué te sugiere la imagen de dos montes, uno para la bendición y otro para la maldición?"
+   ]
+  }
+ ]
+}
