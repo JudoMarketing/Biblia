@@ -13,3 +13,6 @@ shots-*/
 .vercel/
 .env
 .env.*
+
+# Copias de trabajo de los agentes (git worktree): no son parte del proyecto
+.claude/worktrees/
