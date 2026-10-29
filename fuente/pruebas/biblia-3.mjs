@@ -85,15 +85,15 @@ await p.waitForTimeout(1800);
 comprobar((await p.locator("#que-suena").innerText()) === `Pausa · ${pausaVisible}`, `tocar la pausa la reproduce: ${await p.locator("#que-suena").innerText()}`);
 await p.screenshot({ path: `${DIR}/pausa-sonando-390-noche.png` });
 
-// 5. Fin de libro: cada libro sigue con la introducción del siguiente; Josué 24, el último, se detiene.
+// 5. Fin de libro: cada libro sigue con la introducción del siguiente; Rut 4, el último, se detiene.
 //    Si el libro siguiente todavía no tiene voz, también se detiene y lo avisa (y el que no tiene voz no se prueba).
 const conAudio = await p.evaluate(() => fetch("contenido.json").then((r) => r.json()).then((c) => c.libros.flatMap((l) => [[`INTRO-${l.id}`, Boolean(l.intro && l.intro.audio)], ...l.capitulos.map((x) => [`${l.id}-${String(x.n).padStart(2, "0")}`, Boolean(x.audio)])])));
 const tiene = Object.fromEntries(conAudio);
-for (const [desde, hacia] of [["GEN-50", "INTRO-EXO"], ["EXO-40", "INTRO-LEV"], ["LEV-27", "INTRO-NUM"], ["NUM-36", "INTRO-DEU"], ["DEU-34", "INTRO-JOS"], ["JOS-24", null]]) {
+for (const [desde, hacia] of [["GEN-50", "INTRO-EXO"], ["EXO-40", "INTRO-LEV"], ["LEV-27", "INTRO-NUM"], ["NUM-36", "INTRO-DEU"], ["DEU-34", "INTRO-JOS"], ["JOS-24", "INTRO-JDG"], ["JDG-21", "INTRO-RUT"], ["RUT-04", null]]) {
   if (!tiene[desde]) { console.log(`  (${desde} todavía no tiene voz: no se prueba su final)`); continue; }
   await p.getByRole("button", { name: "Índice" }).click();
   const [libro, n] = desde.split("-");
-  const nombre = { GEN: "Génesis", EXO: "Éxodo", LEV: "Levítico", NUM: "Números", DEU: "Deuteronomio", JOS: "Josué" }[libro];
+  const nombre = { GEN: "Génesis", EXO: "Éxodo", LEV: "Levítico", NUM: "Números", DEU: "Deuteronomio", JOS: "Josué", JDG: "Jueces", RUT: "Rut" }[libro];
   await p.locator(`#pestanas [data-pestana="${libro}"]`).click();
   await p.locator(`#cuerpo-indice .capitulos button[aria-label="${nombre} ${Number(n)}"]`).click();
   await p.getByRole("button", { name: "Escuchar el capítulo" }).click();

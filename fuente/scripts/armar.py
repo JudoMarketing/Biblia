@@ -18,7 +18,7 @@ for c in comentarios:
 
 libros, trabajos = [], []
 contador_pausas = 0
-for codigo in [c for c in ["GEN", "EXO", "LEV", "NUM", "DEU", "JOS"] if c in texto]:
+for codigo in [c for c in ["GEN", "EXO", "LEV", "NUM", "DEU", "JOS", "JDG", "RUT"] if c in texto]:
     libro = texto[codigo]
     caps = []
     if codigo in intros:

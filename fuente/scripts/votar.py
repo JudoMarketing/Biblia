@@ -1,8 +1,8 @@
 """Desempate de dos contra uno con wordproject.org para cada versículo en que eBible y BibleGateway difieren."""
 import json, sys, re, html, os, time, urllib.request
 B = sys.argv[1]
-NUM = {"Génesis": "01", "Éxodo": "02", "Levítico": "03", "Números": "04", "Deuteronomio": "05", "Josué": "06"}
-COD = {"Génesis": "GEN", "Éxodo": "EXO", "Levítico": "LEV", "Números": "NUM", "Deuteronomio": "DEU", "Josué": "JOS"}
+NUM = {"Génesis": "01", "Éxodo": "02", "Levítico": "03", "Números": "04", "Deuteronomio": "05", "Josué": "06", "Jueces": "07", "Rut": "08"}
+COD = {"Génesis": "GEN", "Éxodo": "EXO", "Levítico": "LEV", "Números": "NUM", "Deuteronomio": "DEU", "Josué": "JOS", "Jueces": "JDG", "Rut": "RUT"}
 dif = json.load(open(f"{B}/diferencias.json", encoding="utf8"))
 texto = json.load(open(f"{B}/texto.json", encoding="utf8"))
 

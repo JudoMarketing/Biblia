@@ -1,4 +1,4 @@
-"""Texto exacto de la Reina-Valera 1909 (dominio público): Génesis a Josué.
+"""Texto exacto de la Reina-Valera 1909 (dominio público): Génesis a Rut.
 
 Fuente A: eBible.org (USFM de spaRV1909). Fuente B: BibleGateway (RVA).
 Guarda texto.json con las dos y la lista de diferencias para revisarlas.
@@ -12,7 +12,9 @@ TODOS = [("GEN", "Gen", "Génesis", "02-GENspaRV1909.usfm", 50),
          ("LEV", "Lev", "Levítico", "04-LEVspaRV1909.usfm", 27),
          ("NUM", "Num", "Números", "05-NUMspaRV1909.usfm", 36),
          ("DEU", "Deut", "Deuteronomio", "06-DEUspaRV1909.usfm", 34),
-         ("JOS", "Josh", "Josué", "07-JOSspaRV1909.usfm", 24)]
+         ("JOS", "Josh", "Josué", "07-JOSspaRV1909.usfm", 24),
+         ("JDG", "Judg", "Jueces", "08-JDGspaRV1909.usfm", 21),
+         ("RUT", "Ruth", "Rut", "09-RUTspaRV1909.usfm", 4)]
 # python3 -I scripts/extraer.py <carpeta> [GEN EXO ...]: sin códigos, los tres primeros libros (como antes)
 PEDIDOS = sys.argv[2:] or ["GEN", "EXO", "LEV"]
 LIBROS = [l for l in TODOS if l[0] in PEDIDOS]
@@ -53,7 +55,7 @@ def limpiar(x):
 def bg(osis, desde, hasta, cache):
     archivo = os.path.join(cache, f"{osis}-{desde}-{hasta}.html")
     if not os.path.exists(archivo):
-        nombre = {"Gen": "Genesis", "Exod": "Exodus", "Lev": "Leviticus", "Num": "Numbers", "Deut": "Deuteronomy", "Josh": "Joshua"}[osis]
+        nombre = {"Gen": "Genesis", "Exod": "Exodus", "Lev": "Leviticus", "Num": "Numbers", "Deut": "Deuteronomy", "Josh": "Joshua", "Judg": "Judges", "Ruth": "Ruth"}[osis]
         url = f"https://www.biblegateway.com/passage/?search={nombre}%20{desde}-{hasta}&version=RVA"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (estudio biblico personal)"})
         with urllib.request.urlopen(req, timeout=60) as r:
