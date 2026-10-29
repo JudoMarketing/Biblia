@@ -3,7 +3,7 @@
  "nota": "Caracteres pedidos a Google Cloud Text-to-Speech (Chirp 3 HD) por mes, en hora del Pacífico. La cuota gratis es de 1.000.000 al mes; voz/generar.py no genera si el mes pasaría del tope. Lo anota solo.",
  "meses": {
   "2026-10": {
-   "caracteres": 832300,
+   "caracteres": 832584,
    "registros": [
     {
      "fecha": "2026-10-13",
@@ -21,6 +21,15 @@
       "GEN-02",
       "GEN-05",
       "GEN-06"
+     ]
+    },
+    {
+     "fecha": "2026-10-29 17:39 UTC",
+     "caracteres": 284,
+     "audios": [
+      "EXO-21",
+      "LEV-07",
+      "LEV-26"
      ]
     }
    ]
