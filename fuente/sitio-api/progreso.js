@@ -2,7 +2,7 @@
 // El número no se guarda: la clave en Redis es un HMAC del número con un secreto que solo tiene el servidor.
 // Necesita en Vercel: Upstash Redis conectado al proyecto (KV_REST_API_URL y KV_REST_API_TOKEN) y PROGRESO_SECRETO.
 
-const ID = /^(INTRO(-(GEN|EXO|LEV|NUM|DEU|JOS))?|GEN-(0[1-9]|[1-4]\d|50)|EXO-(0[1-9]|[1-3]\d|40)|LEV-(0[1-9]|1\d|2[0-7])|NUM-(0[1-9]|[12]\d|3[0-6])|DEU-(0[1-9]|[12]\d|3[0-4])|JOS-(0[1-9]|1\d|2[0-4]))$/;
+const ID = /^(INTRO(-(GEN|EXO|LEV|NUM|DEU|JOS|JDG|RUT))?|GEN-(0[1-9]|[1-4]\d|50)|EXO-(0[1-9]|[1-3]\d|40)|LEV-(0[1-9]|1\d|2[0-7])|NUM-(0[1-9]|[12]\d|3[0-6])|DEU-(0[1-9]|[12]\d|3[0-4])|JOS-(0[1-9]|1\d|2[0-4])|JDG-(0[1-9]|1\d|2[01])|RUT-0[1-4])$/;
 const VELOCIDADES = [1, 1.15, 1.3, 1.5, 0.85];
 const DOS_ANOS = 60 * 60 * 24 * 730;
 

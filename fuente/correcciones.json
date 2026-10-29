@@ -16,5 +16,53 @@
   "antes": "crió, criado, criados, criador",
   "despues": "creó, creado, creados, creador",
   "porque": "en 1909 criar también quería decir crear; donde significa crear se escribe como hoy, para que se entienda al oírlo. Donde quiere decir criar, como criar a un niño o criar gusanos, quedó igual"
+ },
+ {
+  "ref": "Jueces 1:31",
+  "antes": "Rehod",
+  "despues": "Rehob",
+  "porque": "errata de los impresos antiguos (Madrid 1911 y 1914, Buenos Aires 1953) que pasó a las fuentes digitales; el ejemplar impreso dice «Rehob», como la misma revisión de 1909 en Números 13:21 y Josué 19:28, 19:30 y 21:31"
+ },
+ {
+  "ref": "Jueces 2:1",
+  "antes": "Y El ángel",
+  "despues": "Y EL ángel",
+  "porque": "el texto digital tenía una minúscula de más; el ejemplar impreso y los demás impresos de 1909 dicen «Y EL», como los otros comienzos de capítulo"
+ },
+ {
+  "ref": "Jueces 9:33",
+  "antes": "y tu harás",
+  "despues": "y tú harás",
+  "porque": "faltaba la tilde del pronombre; así está en el ejemplar impreso y en los demás impresos de 1909"
+ },
+ {
+  "ref": "Jueces 11:24",
+  "antes": "Chêmos tu dios",
+  "despues": "Chêmos tu Dios",
+  "porque": "el ejemplar impreso, los demás impresos de 1909, BibleGateway y wordproject escriben «Dios» con mayúscula"
+ },
+ {
+  "ref": "Jueces 14:16",
+  "antes": "me aborreces y no me amas",
+  "despues": "me aborreces, y no me amas",
+  "porque": "faltaba la coma que tienen el ejemplar impreso y los demás impresos de 1909"
+ },
+ {
+  "ref": "Jueces 14:18 a 14:20",
+  "antes": "numeración de los impresos antiguos (el 19 era «Y él les respondió…» y el 20 juntaba el espíritu de Jehová sobre Samsón con la mujer dada a su compañero)",
+  "despues": "numeración del ejemplar impreso, que es la de las demás Biblias",
+  "porque": "el texto digital seguía la numeración de los impresos antiguos; se ordenó como en el ejemplar impreso, sin cambiar ninguna palabra"
+ },
+ {
+  "ref": "Jueces 15:16",
+  "antes": "dijo: con la quijada",
+  "despues": "dijo: Con la quijada",
+  "porque": "las palabras de Samsón empiezan con mayúscula en el ejemplar impreso, en los demás impresos de 1909, en BibleGateway y en wordproject"
+ },
+ {
+  "ref": "Rut 1:13",
+  "antes": "¿habías vosotras",
+  "despues": "¿habíais vosotras",
+  "porque": "errata del texto digital; el ejemplar impreso y los demás impresos de 1909 dicen «habíais», como al comienzo del mismo versículo"
  }
 ]
