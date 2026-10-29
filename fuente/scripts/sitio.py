@@ -75,13 +75,14 @@ if os.path.exists(os.path.join(SALIDA, "contenido.json")):
 # Función del servidor que guarda el avance con el número de teléfono (ver sitio-api/progreso.js).
 os.makedirs(os.path.join(S, "api"))
 shutil.copy(os.path.join(B, "sitio-api", "progreso.js"), os.path.join(S, "api", "progreso.js"))
+shutil.copy(os.path.join(B, "pagina", "sw.js"), os.path.join(S, "sw.js"))   # carga adelantada del audio
 json.dump({"name": "biblia-gel", "private": True, "type": "module"}, open(os.path.join(S, "package.json"), "w"), indent=1)
 for f in sorted(os.listdir(os.path.join(SALIDA, "audio")) if CON_SALIDA else []):
     if f.endswith(".mp4"):
         shutil.copy2(os.path.join(SALIDA, "audio", f), os.path.join(S, "audio", f))
 
 csp = ("default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
-       "font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; manifest-src 'self'; "
+       "font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; "
        "base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'")
 json.dump({
     "headers": [
@@ -96,6 +97,7 @@ json.dump({
             {"key": "Content-Type", "value": "audio/mp4"},
             {"key": "Cache-Control", "value": "public, max-age=604800"}]},
         {"source": "/contenido.json", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
+        {"source": "/sw.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]},
     ]
 }, open(os.path.join(S, "vercel.json"), "w", encoding="utf8"), indent=1)
 open(os.path.join(S, "robots.txt"), "w").write("User-agent: *\nDisallow: /\n")

@@ -239,7 +239,14 @@ p.biblia { font-family: var(--f-biblia); font-size: 1.22rem; line-height: 1.7; m
 .estado .hora { color: var(--oro-claro); font-variant-numeric: tabular-nums; }
 .estado .punto.biblia { background: #e98f7c; }
 .estado .punto.guia { background: #aebcec; }
-#barra-tiempo { width: 100%; accent-color: var(--oro-claro); margin: 0; }
+/* La barra del capítulo, como la de YouTube: lo oído en dorado, lo que ya bajó en dorado claro, el resto apagado */
+#barra-tiempo { --oido: 0%; --cargado: 0%; -webkit-appearance: none; appearance: none; width: 100%; height: 1.4rem; margin: 0; background: transparent; cursor: pointer; }
+#barra-tiempo::-webkit-slider-runnable-track { height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--oro-claro) 0 var(--oido), rgba(217, 181, 108, 0.42) var(--oido) var(--cargado), rgba(243, 230, 200, 0.16) var(--cargado) 100%); }
+#barra-tiempo::-moz-range-track { height: 5px; border-radius: 3px; background: linear-gradient(90deg, var(--oro-claro) 0 var(--oido), rgba(217, 181, 108, 0.42) var(--oido) var(--cargado), rgba(243, 230, 200, 0.16) var(--cargado) 100%); }
+#barra-tiempo::-webkit-slider-thumb { -webkit-appearance: none; width: 15px; height: 15px; margin-top: -5px; border: 0; border-radius: 50%; background: var(--oro-claro); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+#barra-tiempo::-moz-range-thumb { width: 15px; height: 15px; border: 0; border-radius: 50%; background: var(--oro-claro); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+#barra-tiempo:focus-visible { outline: 2px solid var(--oro-claro); outline-offset: 3px; border-radius: 3px; }
+.sin-voz { margin: 0.2rem 0 0; font-family: var(--f-guia); font-size: 0.95rem; color: var(--tinta-suave); font-style: italic; }
 .mandos { display: flex; align-items: center; justify-content: space-between; gap: 0.3rem; }
 .mando { width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer; }
 .mando svg { width: 1.45rem; height: 1.45rem; }
@@ -530,6 +537,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   // ---------- Avance guardado en el servidor con el número de teléfono.
   // Solo en el website (lo anuncia su <meta name="progreso-servidor">): el artifact no puede llamar a otro servidor.
   const SERVIDOR = Boolean(document.querySelector('meta[name="progreso-servidor"]'));
+  if (SERVIDOR && "serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => { /* sin carga adelantada */ });
   let telefono = SERVIDOR ? guardado.leer("tel", null) : null;
   $("sentir").hidden = !SERVIDOR;
   let ultimoEnvio = 0;
@@ -629,7 +637,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     let html;
     if (id === "INTRO") html = portada() + acerca();
     else if (d.tipo === "intro") html = `<article class="lectura" data-k="i"><p class="cabeza-cap"><span class="libro">${esc(d.libro.nombre.toUpperCase())}</span></p><h1>${esc(d.titulo)}</h1>
-        <div class="acciones" style="margin-bottom:1.2rem"><button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button></div>
+        <div class="acciones" style="margin-bottom:1.2rem">${d.audio ? `<button class="boton lleno" type="button" data-tocar="${id}">${iconoTocar()} Escuchar la introducción</button>` : `<p class="sin-voz">${SIN_VOZ}</p>`}</div>
         ${parrafos(d.texto)}</article>${pie}`;
     else html = capitulo(d) + pie;
     html += creditoHTML();
@@ -752,7 +760,8 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       ? `<button class="boton lleno" type="button" data-continuar>${iconoTocar()} Continuar: ${esc(datos(pos.id).nombre)}</button>` : "";
     const libros = C.libros.map((l) => {
       const n = l.capitulos.filter((c) => oidos.has(idCap(l.id, c.n))).length;
-      return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos`}</span></button>`;
+      const estado = n ? `${n} de ${l.capitulos.length} escuchados` : `${l.capitulos.length} capítulos${conVoz(l) ? "" : " · sin voz todavía"}`;
+      return `<button class="libro-tarjeta" type="button" data-ir="INTRO-${l.id}"><strong>${esc(l.nombre)}</strong><span>${estado}</span></button>`;
     }).join("");
     return `<section class="portada">
       <p class="serie">REINA VALERA 1909</p>
@@ -768,7 +777,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function capitulo(d) {
     const { libro, cap } = d;
     let html = `<header class="cabeza-cap" data-k="c"><p class="libro">${esc(libro.nombre.toUpperCase())}</p><h1>Capítulo ${cap.n}</h1>
-      <div class="acciones"><button class="boton lleno" type="button" data-tocar="${idCap(libro.id, cap.n)}">${iconoTocar()} Escuchar el capítulo</button></div></header>`;
+      <div class="acciones">${cap.audio ? `<button class="boton lleno" type="button" data-tocar="${idCap(libro.id, cap.n)}">${iconoTocar()} Escuchar el capítulo</button>` : `<p class="sin-voz">${SIN_VOZ}</p>`}</div></header>`;
     let abierto = false;
     for (const it of cap.items) {
       if (it.t === "v") {
@@ -790,6 +799,9 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     return html;
   }
 
+  // Libros que ya se pueden leer pero todavía no tienen voz: se muestran igual, sin el botón de escuchar.
+  const SIN_VOZ = "Este libro todavía no tiene voz: ya puedes leerlo, y la voz llega pronto.";
+  const conVoz = (l) => l.capitulos.some((c) => c.audio);
   const creditoHTML = () => `<p class="credito">Website por <a href="https://www.judomarketing.net" target="_blank" rel="noopener">Judo Marketing</a></p>`;
   function acerca() {
     const corr = (C.correcciones || []).map((c) => `<li>${esc(c.ref)}: «${esc(c.antes)}» por «${esc(c.despues)}» (${esc(c.porque)}).</li>`).join("");
@@ -803,14 +815,13 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   }
 
   // ---------- Audio
-  // Precarga del capítulo siguiente: en los últimos cinco minutos se baja entero, con prioridad baja.
-  // Con la página a la vista, el capítulo siguiente sale de esa copia (blob:) y empieza de inmediato.
-  // Con la pantalla bloqueada o el navegador minimizado se pide por su dirección de siempre, que la
-  // precarga ya dejó en la caché del navegador: en el teléfono, una copia blob: puede no cargar en segundo plano.
+  // Carga adelantada, como en YouTube: el service worker (sw.js) guarda completos el capítulo que suena y el
+  // siguiente, y el reproductor los pide siempre por su dirección. Así se adelanta sin esperar, el capítulo
+  // siguiente empieza enseguida y un corte de internet no lo detiene mientras haya audio guardado. Sin service
+  // worker, la precarga igual deja el siguiente en la caché del navegador. No se usan copias blob: la política
+  // de seguridad del sitio solo deja reproducir audio del propio sitio (por eso la precarga de antes fallaba).
   const urlAudio = (id) => `audio/${id}.mp4`;
-  const PRECARGA_SEG = 300;
-  let precarga = null;   // { id, url, control, fallo }: url es un blob: cuando ya bajó completo; fallo, cuándo falló
-  let blobActual = null; // blob: que está sonando, para soltarlo al cambiar de capítulo
+  let precarga = null;   // { id, control, fallo }: la descarga del capítulo siguiente; fallo, cuándo falló
   let quiereSonar = false; // la persona quiere oír: lo cambian reproducir y pausar, no los cortes de señal
   let posBuena = 0;        // último segundo que sonó bien del capítulo cargado, para retomar desde ahí
   let fallos = 0;          // intentos seguidos que fallaron
@@ -821,17 +832,14 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (!id || id === cargado || !datos(id).audio) return;
     if (precarga && precarga.id === id && !(precarga.fallo && Date.now() - precarga.fallo > 20000)) return;
     soltarPrecarga();
-    const p = { id, url: null, control: new AbortController(), fallo: 0 };
+    const p = { id, control: new AbortController(), fallo: 0 };
     precarga = p;
     fetch(urlAudio(id), { signal: p.control.signal, priority: "low" })
-      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.blob(); })
-      .then((b) => { if (precarga === p) p.url = URL.createObjectURL(b); })
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.arrayBuffer(); })
       .catch(() => { if (precarga === p) p.fallo = Date.now(); /* se vuelve a intentar a los 20 segundos */ });
   }
   function soltarPrecarga() {
-    if (!precarga) return;
-    precarga.control.abort();
-    if (precarga.url) URL.revokeObjectURL(precarga.url);
+    if (precarga) precarga.control.abort();
     precarga = null;
   }
   function cargar(id) {
@@ -840,16 +848,11 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (cargado !== id) {
       cargado = id;
       partes = d.audio.partes;
-      posBuena = 0; fallos = 0; cortado = 0; esperando = false; alCargar = null;
-      const anterior = blobActual;
-      blobActual = null;
-      let fuente = urlAudio(id);
-      const lista = precarga && precarga.id === id && precarga.url;
-      if (lista && document.visibilityState === "visible") { fuente = blobActual = precarga.url; precarga = null; }
+      posBuena = 0; fallos = 0; cortado = 0; esperando = false; alCargar = null; guardadoEntero = false;
+      if (precarga && precarga.id === id) precarga = null;   // ya está bajando lo que ahora suena: que termine
       else soltarPrecarga();
-      audio.src = fuente;
+      audio.src = urlAudio(id);
       audio.dataset.archivo = urlAudio(id).split("/").pop();
-      if (anterior) URL.revokeObjectURL(anterior);
       audio.playbackRate = velocidad;
       claveActual = null;
       metadatos();
@@ -859,7 +862,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   function cuandoCargue(f) { if (audio.readyState >= 1) { alCargar = null; f(); } else alCargar = f; }
   audio.addEventListener("loadedmetadata", () => { const f = alCargar; alCargar = null; if (f) f(); });
   function reproducir(id, clave = null) {
-    if (!cargar(id)) return;
+    if (!cargar(id)) { if (vista !== id) mostrar(id, { clave }); return; }   // libro sin voz todavía: se puede leer
     const p = clave ? partes.find((x) => x.clave === clave) : null;
     quiereSonar = true;
     if (p) posBuena = p.t;
@@ -927,7 +930,10 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       }
     }
     if (audio.duration && t > audio.duration - 8) marcarOido(cargado);
-    if (audio.duration && t > 10 && t > audio.duration - PRECARGA_SEG) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    // El siguiente se baja a los 10 segundos; con «ahorro de datos» activado, recién en los últimos cinco minutos.
+    const ahorro = navigator.connection && navigator.connection.saveData;
+    if (audio.duration && t > 10 && (!ahorro || t > audio.duration - 300)) precargar(SECUENCIA[SECUENCIA.indexOf(cargado) + 1]);
+    pintarCarga();
     if (audio.readyState >= 2 && !audio.seeking && t > 0) posBuena = t;
     if (Date.now() - ultimoGuardado > 4000) { ultimoGuardado = Date.now(); guardado.poner("pos", { id: cargado, t, ts: Date.now() }); posicionSistema(); subir(false); }
   });
@@ -940,7 +946,11 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   audio.addEventListener("ended", () => {
     marcarOido(cargado);
     const sig = SECUENCIA[SECUENCIA.indexOf(cargado) + 1];
-    if (!sig) { quiereSonar = false; pintarMandos(); return; }
+    if (!sig || !datos(sig).audio) {   // fin de lo que tiene voz: se detiene (y avisa si el libro siguiente aún no la tiene)
+      quiereSonar = false; pintarMandos();
+      if (sig) avisar(`${datos(sig).nombre}: todavía sin voz`);
+      return;
+    }
     const mirando = vista === cargado;
     cargar(sig);
     audio.play().catch(() => {});
@@ -956,10 +966,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     const id = cargado, t = posBuena;
     if (cortado && Date.now() - cortado > 15 * 60000) quiereSonar = false;
     esperando = false;
-    const viejo = blobActual;
-    blobActual = null;
     audio.src = urlAudio(id);
-    if (viejo) URL.revokeObjectURL(viejo);
     audio.playbackRate = velocidad;
     claveActual = null;
     cuandoCargue(() => { if (cargado !== id) return; if (t) audio.currentTime = t; if (quiereSonar) audio.play().catch(() => {}); });
@@ -967,7 +974,6 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
   audio.addEventListener("error", () => {
     if (!cargado || !audio.error) return;
     const id = cargado, detalle = `código ${audio.error.code}${audio.error.message ? ": " + audio.error.message : ""}`;
-    if (audio.src.startsWith("blob:")) return retomar();   // la copia precargada no sirvió: por su dirección de siempre
     fallos++;
     if (!cortado) cortado = Date.now();
     if (fallos <= 2) {
@@ -981,6 +987,25 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
     if (quiereSonar) setTimeout(() => { if (cargado === id && esperando) retomar(); }, 20000);
   });
   audio.addEventListener("playing", () => { fallos = 0; cortado = 0; esperando = false; $("que-suena").title = ""; });
+
+  // La barra muestra lo oído y lo que ya está bajado más adelante, como en YouTube. Si el service worker ya
+  // guardó el capítulo entero, se llena hasta el final.
+  let guardadoEntero = false, ultimaConsulta = 0;
+  function pintarCarga() {
+    const barra = $("barra-tiempo"), d = audio.duration;
+    let hasta = 0;
+    if (d) for (let i = 0; i < audio.buffered.length; i++) if (audio.buffered.start(i) <= audio.currentTime + 1) hasta = Math.max(hasta, audio.buffered.end(i));
+    if (guardadoEntero) hasta = d;
+    if (!arrastrando) barra.style.setProperty("--oido", d ? `${(audio.currentTime / d) * 100}%` : "0%");
+    barra.style.setProperty("--cargado", d ? `${Math.min(100, (hasta / d) * 100)}%` : "0%");
+    if (!guardadoEntero && cargado && "caches" in window && Date.now() - ultimaConsulta > 4000) {
+      ultimaConsulta = Date.now();
+      const id = cargado;
+      caches.open("audio-v1").then((c) => c.match(new URL(urlAudio(id), location.href).href)).then((r) => { if (r && cargado === id) { guardadoEntero = true; pintarCarga(); } }).catch(() => {});
+    }
+  }
+  audio.addEventListener("progress", pintarCarga);
+  audio.addEventListener("loadedmetadata", pintarCarga);
   addEventListener("online", () => { if (esperando) retomar(); });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && esperando) retomar(); });
 
@@ -1022,7 +1047,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
 
   // ---------- Mandos
   let arrastrando = false;
-  $("barra-tiempo").addEventListener("input", () => { arrastrando = true; if (audio.duration) $("hora").textContent = `${fmt(($("barra-tiempo").value / 100) * audio.duration)} / ${fmt(audio.duration)}`; });
+  $("barra-tiempo").addEventListener("input", () => { arrastrando = true; $("barra-tiempo").style.setProperty("--oido", `${$("barra-tiempo").value}%`); if (audio.duration) $("hora").textContent = `${fmt(($("barra-tiempo").value / 100) * audio.duration)} / ${fmt(audio.duration)}`; });
   $("barra-tiempo").addEventListener("change", () => { arrastrando = false; if (audio.duration) audio.currentTime = ($("barra-tiempo").value / 100) * audio.duration; });
   $("tocar").addEventListener("click", alternar);
   $("atras").addEventListener("click", () => { if (cargado) audio.currentTime = Math.max(0, audio.currentTime - 15); });
@@ -1082,7 +1107,7 @@ dialog::backdrop { background: rgba(15, 8, 3, 0.6); }
       html = `<p class="subtitulo">Capítulos</p><div class="capitulos">${l.capitulos.map((c) => {
         const oido = oidos.has(idCap(l.id, c.n));
         return `<button type="button" data-ir="${idCap(l.id, c.n)}" class="${[c.n === actual ? "actual" : "", oido ? "oido" : ""].join(" ").trim()}" aria-label="${esc(l.nombre)} ${c.n}${oido ? ", ya escuchado" : ""}">${c.n}</button>`;
-      }).join("")}</div>${oidosLibro ? `<p class="leyenda">Los capítulos con un punto ya los escuchaste: ${oidosLibro} de ${l.capitulos.length}.</p>` : ""}`;
+      }).join("")}</div>${oidosLibro ? `<p class="leyenda">Los capítulos con un punto ya los escuchaste: ${oidosLibro} de ${l.capitulos.length}.</p>` : ""}${conVoz(l) ? "" : `<p class="leyenda">${SIN_VOZ}</p>`}`;
       const pausas = l.capitulos.flatMap((c) => c.items.filter((x) => x.t === "pausa").map((x) => ({ c, x })));
       html += `<p class="subtitulo">Pausas para el contexto</p><ul class="lista-pausas"><li><button type="button" data-ir="INTRO-${l.id}"><span class="ref">Inicio</span><span>Introducción a ${esc(l.nombre)}</span></button></li>
         ${pausas.map(({ c, x }) => `<li><button type="button" data-ir="${idCap(l.id, c.n)}" data-clave="${x.k}"><span class="ref">${c.n}:${x.k.slice(1).split("-")[0]}</span><span>${esc(x.titulo)}</span></button></li>`).join("")}</ul>`;

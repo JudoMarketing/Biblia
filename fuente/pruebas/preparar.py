@@ -2,7 +2,8 @@
 
   python3 -I fuente/pruebas/preparar.py sitio <carpeta de prueba>
 
-Copia la página, contenido.json, el manifiesto y los íconos; pasa cada audio .mp4 a .mp3 (solo los que faltan
+Copia la página, contenido.json, el manifiesto, los íconos, el service worker y vercel.json (el servidor de prueba
+manda los mismos encabezados que Vercel, con la política de seguridad); pasa cada audio .mp4 a .mp3 (solo los que faltan
 o cambiaron) y hace que la página pida .mp3. Después, desde fuente/pruebas (con npm install hecho):
   python3 -I ../scripts/servidor.py <carpeta de prueba> 8801 &
   KV_REST_API_URL=http://127.0.0.1:8803 KV_REST_API_TOKEN=prueba PROGRESO_SECRETO=secreto-solo-de-prueba node servidor-prueba.mjs ../../sitio/api/progreso.js
@@ -30,7 +31,7 @@ def a_mp3(nombre):
     return 1
 
 if __name__ == "__main__":
-    for x in ("contenido.json", "manifest.webmanifest", "icono-192.png", "icono-512.png"):
+    for x in ("contenido.json", "manifest.webmanifest", "icono-192.png", "icono-512.png", "sw.js", "vercel.json"):
         if os.path.exists(os.path.join(SITIO, x)): shutil.copy(os.path.join(SITIO, x), PRUEBA)
     pagina = open(os.path.join(SITIO, "index.html"), encoding="utf8").read()
     assert pagina.count("audio/${id}.mp4") == 1, "la página ya no pide audio/${id}.mp4: revisa este script"
