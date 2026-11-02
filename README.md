@@ -1,6 +1,8 @@
 # La Biblia en voz alta
 
-Los seis primeros libros de la Biblia completos, de Génesis a Josué, en la Reina Valera 1909 (dominio público), para escuchar en voz alta. Una voz lee el texto bíblico y otra, la del guía, explica con notas y pausas de contexto histórico. Se publica en https://www.godhome.app.
+Los ocho primeros libros de la Biblia completos, de Génesis a Rut, en la Reina Valera 1909 (dominio público), para escuchar en voz alta. Una voz lee el texto bíblico y otra, la del guía, explica con notas y pausas de contexto histórico. Se publica en https://www.godhome.app.
+
+Con voz, de Génesis a Jueces: 37,2 horas de audio. Rut ya se puede leer y recibe su voz el 2 de diciembre de 2026, con la cuota gratis de ese mes.
 
 ## Qué hay aquí
 
