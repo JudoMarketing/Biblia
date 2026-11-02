@@ -1,0 +1,224 @@
+{
+ "tramo": "JDG-02",
+ "libro": "JDG",
+ "desde": {
+  "cap": 6,
+  "v": 1
+ },
+ "hasta": {
+  "cap": 12,
+  "v": 15
+ },
+ "notas": [
+  {
+   "cap": 6,
+   "v": 5,
+   "texto": "Los «orientales» son los hijos del oriente, tribus nómadas de los desiertos de Siria y Arabia. Madián, el pueblo de Jetro, el suegro de Moisés, ya se había enfrentado con Israel en Números 25 y 31, y Amalec era el enemigo de Éxodo 17. La frase «hasta llegar á Gaza», en la costa del sur, quiere decir que recorrían el país de lado a lado."
+  },
+  {
+   "cap": 6,
+   "v": 11,
+   "texto": "Ophra es Ofra, una aldea de Manasés de ubicación incierta, y Joas, hoy Joás, era del clan de Abiezer, de esa tribu. El trigo se trillaba al aire libre, en una era donde el viento se llevaba la paja; Gedeón lo golpea a escondidas en el lagar, la pila de piedra donde se pisaba la uva. Los Amorrheos del versículo anterior son los amorreos."
+  },
+  {
+   "cap": 6,
+   "v": 25,
+   "texto": "«El bosque» es la Asera, un poste o árbol sagrado de la diosa Asera que se levantaba junto al altar de Baal; por eso su madera servirá de leña para el holocausto. El altar y la Asera estaban en la tierra del propio padre de Gedeón. El segundo toro tiene siete años, tantos como los de la opresión de Madián."
+  },
+  {
+   "cap": 6,
+   "v": 32,
+   "texto": "Jerobaal suena en hebreo como que Baal pleitee, y el texto lo explica con las palabras de Joás. Con ese nombre lo recuerda Samuel entre los libertadores de Israel, en Primero de Samuel 12. En el hebreo de Segundo de Samuel 11 aparece como Jerubeset, con la palabra vergüenza en lugar de Baal, un cambio que muchos estudiosos ven también en otros nombres de esos libros."
+  },
+  {
+   "cap": 6,
+   "v": 35,
+   "texto": "«Se envistió» quiere decir que el espíritu de Jehová se vistió de Gedeón, como quien se pone una ropa: así lo dice el hebreo. El cuerno es el shofar, de carnero. Aser, Zabulón y Nephtalí, que es Neftalí, eran tribus de Galilea, al norte del valle de Jezreel, donde el enemigo había acampado."
+  },
+  {
+   "cap": 7,
+   "v": 1,
+   "texto": "La fuente de Harod suele identificarse con un manantial al pie del monte Gilboa, en el borde sur del valle de Jezreel; su nombre suena en hebreo como temblor, y el versículo 3 jugará con esa palabra. El collado de More es una colina al otro lado del valle, a pocos kilómetros; no es el lugar de Moreh junto a Siquem que nombra Génesis 12."
+  },
+  {
+   "cap": 7,
+   "v": 3,
+   "texto": "Deuteronomio 20 mandaba preguntar antes de una batalla: «¿Quién es hombre medroso y tierno de corazón? Vaya, y vuélvase á su casa». Lo extraño es «el monte de Galaad», porque Galaad está al otro lado del Jordán: algunos piensan en un error de copia por Gilboa, y otros en un monte de ese nombre cerca de Harod."
+  },
+  {
+   "cap": 7,
+   "v": 22,
+   "texto": "Bet-sita, Cerera, Abel-mehola y Tabat no se han localizado con seguridad, pero estaban hacia el valle del Jordán: el ejército huía hacia el este, hacia los vados, para volver al desierto. Abel-mehola será siglos después la aldea del profeta Eliseo, según Primero de Reyes 19."
+  },
+  {
+   "cap": 8,
+   "v": 2,
+   "texto": "El «rebusco» es lo que queda en la viña después de la vendimia, que la ley mandaba dejar para el pobre y el extranjero. Gedeón responde con un refrán: lo poco que Efraín recogió al final, dos príncipes de Madián, vale más que toda la cosecha de su propio clan."
+  },
+  {
+   "cap": 8,
+   "v": 5,
+   "texto": "Succoth es Sucot, y Penuel es Peniel: dos lugares junto al río Jaboc, al este del Jordán, unidos a la historia de Jacob. En Peniel luchó y dijo haber visto «á Dios cara á cara», y en Sucot hizo cabañas para su ganado, según Génesis 32 y 33. Se ha propuesto identificar Sucot con Tell Deir Alla, donde apareció el texto de Balaam, aunque no es seguro."
+  },
+  {
+   "cap": 8,
+   "v": 27,
+   "texto": "El efod era una vestidura sagrada; el del sumo sacerdote, en Éxodo 28, llevaba el pectoral con el Urim y el Tumim, con que se consultaba a Dios. El de Gedeón se hizo con los mil setecientos siclos de oro del versículo 26, unos 19 kilogramos: unos piensan en una vestidura para consultar a Dios, y otros en una imagen. Fornicar es aquí una imagen de infidelidad a Dios."
+  },
+  {
+   "cap": 8,
+   "v": 31,
+   "texto": "Sichêm es Siquem, en el centro del país, y Abimelech es Abimelec, un nombre que significa mi padre es rey. La concubina era una esposa de segundo rango; esta seguía viviendo en Siquem con su familia, y no en la casa de Gedeón, como mostrará el capítulo siguiente."
+  },
+  {
+   "cap": 9,
+   "v": 6,
+   "texto": "Jotham es Jotam. «La casa de Millo» puede ser Bet-milo, una fortaleza o un barrio de Siquem; millo quiere decir relleno, quizá una gran terraza de tierra. «La llanura del pilar» se entiende en hebreo como la encina del pilar: quizá el árbol y la gran piedra que Josué levantó en Siquem «debajo de un alcornoque», en Josué 24."
+  },
+  {
+   "cap": 9,
+   "v": 15,
+   "texto": "El escaramujo traduce una palabra hebrea que designa un arbusto espinoso y bajo, que no da sombra ni fruto que sirva. Las espinas secas prendían fácilmente en verano, y Éxodo 22 habla del fuego que «hallare espinas» y quema el campo. Los cedros del Líbano eran los árboles más altos y nobles que se conocían."
+  },
+  {
+   "cap": 9,
+   "v": 28,
+   "texto": "Ebed, el nombre del padre de Gaal, quiere decir siervo. Gaal propone servir a los «varones de Hemor», que en Génesis 34 se escribe Hamor, el príncipe de Siquem en tiempos de Jacob: la vieja nobleza de la ciudad, en lugar del hijo de Jerobaal. Zebul es el gobernador que Abimelec había dejado en Siquem."
+  },
+  {
+   "cap": 9,
+   "v": 45,
+   "texto": "Sembrar de sal una ciudad era un gesto de maldición, porque la sal se asociaba con la tierra estéril. Deuteronomio 29 describe así una tierra castigada: «Azufre y sal, abrasada toda su tierra: no será sembrada». Abimelec arrasa la misma ciudad que lo había hecho rey."
+  },
+  {
+   "cap": 9,
+   "v": 50,
+   "texto": "Thebes es Tebes, una ciudad de la serranía que suele identificarse con la actual Tubas, al noreste de Siquem; no tiene que ver con la famosa Tebas de Egipto. Como otras ciudades, tenía en medio una torre fuerte donde refugiarse."
+  },
+  {
+   "cap": 10,
+   "v": 4,
+   "texto": "Issachâr es Isacar, y Génesis 46 da a Tola y a Púa como nombres de hijos suyos. Sobre Jair hay un juego de palabras: en hebreo, asnos y villas suenan casi igual, y montar en asno era señal de rango. Números 32 ya atribuía las villas de Jair a un Jair hijo de Manasés: unos piensan en un descendiente suyo, otros en dos tradiciones sobre el nombre."
+  },
+  {
+   "cap": 10,
+   "v": 7,
+   "texto": "Astaroth es Astarté, diosa de los cananeos, y Siria es Aram, al norte. Aquí se juntan dos frentes: los filisteos al oeste, que volverán en la historia de Sansón, y los Ammonitas, hoy amonitas, al este del Jordán. Por casos como este, la cuenta tradicional supone que algunos jueces gobernaron a la vez en regiones distintas."
+  },
+  {
+   "cap": 11,
+   "v": 3,
+   "texto": "Jephté es Jefté. Galaad es aquí el nombre de su padre, el mismo de la región y del antepasado del clan, nieto de Manasés según Números 26. Tob era una región al norte o al noreste de Galaad; en tiempos de David, sus hombres pelearán a sueldo de los amonitas, según Segundo de Samuel 10. Los «hombres ociosos» eran gente sin tierra que vivía de las armas."
+  },
+  {
+   "cap": 11,
+   "v": 13,
+   "texto": "El Arnón y el Jaboc son dos ríos que corren de este a oeste: el Arnón desemboca en el mar Muerto y el Jaboc en el Jordán. Entre ellos estaba la tierra que Israel le quitó a Sehón, rey amorreo, en Números 21. El rey de Ammón la reclama como suya, y Jefté le responderá con la historia."
+  },
+  {
+   "cap": 11,
+   "v": 33,
+   "texto": "Aroer, Minnith, que es Minit, y la «vega de las viñas», en hebreo Abel-queramim, eran lugares de la frontera con Ammón cuya ubicación exacta se discute; había más de una Aroer al este del Jordán. Las veinte ciudades hablan de una campaña por la meseta, tras la cual los amonitas quedaron «domeñados», es decir, sometidos."
+  },
+  {
+   "cap": 12,
+   "v": 6,
+   "texto": "Ephrateo quiere decir aquí efraimita, de Efraín; en Rut, la misma palabra designa a la gente de Efrata, la región de Belén. Shiboleth significa en hebreo espiga, y también corriente de agua. Los de Efraín, al parecer, no pronunciaban el sonido del comienzo, el mismo de la palabra shofar, y decían Siboleth: eso los delataba en los vados."
+  },
+  {
+   "cap": 12,
+   "v": 8,
+   "texto": "Ibzan, hoy Ibzán, era de Beth-lehem, Belén; el texto no dice si era Belén de Judá o la Belén de Zabulón que nombra Josué 19, cerca de la tierra de Elón. El Talmud lo identifica con Booz, el de la historia de Rut: es una tradición, y la volverás a oír al llegar a ese libro."
+  },
+  {
+   "cap": 12,
+   "v": 12,
+   "texto": "Elón era de la tribu de Zabulón, en la baja Galilea. En hebreo, Elón y Ajalón, el lugar donde lo sepultaron, se escriben con las mismas consonantes. No es la Ajalón de Josué 10, al oeste de Jerusalén, donde Josué dijo «tú, Luna, en el valle de Ajalón»."
+  }
+ ],
+ "pausas": [
+  {
+   "cap": 6,
+   "v": 40,
+   "titulo": "Madián en los campos, Gedeón en el lagar",
+   "epoca": "Siete años de saqueos madianitas: hacia 1200 antes de Cristo, según la cronología bíblica tradicional, si se cuentan hacia atrás los años del libro desde el dato de Jefté.",
+   "lugar": "Ofra, una aldea de Manasés, y los campos de la serranía hasta el valle de Jezreel",
+   "texto": "Para entender el miedo de este capítulo hay que pensar en el calendario del campo. En la serranía se sembraba con las primeras lluvias del otoño, la cebada se cosechaba en primavera y el trigo al comienzo del verano; perder la cosecha era pasar hambre todo el año. Los madianitas esperaban a que Israel sembrara, subían con sus rebaños cuando el grano estaba maduro, acampaban en los campos y se lo llevaban todo, hasta la costa de Gaza. La gente escondía lo que podía en cuevas y lugares fuertes. Para muchos historiadores es el mundo de la primera Edad del Hierro, con cientos de aldeas pequeñas y sin murallas en la serranía: un blanco fácil para quien llegaba de repente.\n\nLo nuevo son los camellos, «que no había número en ellos». Es la primera vez que la Biblia muestra a un pueblo que llega a la guerra con camellos. En Génesis ya se planteó desde cuándo eran comunes en la región: muchos piensan que el camello se volvió animal de carga y de monta a fines del segundo milenio antes de Cristo. Con él, los pueblos del desierto podían cruzar largas distancias sin agua y caer por sorpresa sobre las tierras de cultivo. Fuera de la Biblia, uno de los primeros testimonios de guerreros con camellos es una inscripción de Salmanasar tercero, rey de Asiria: en la batalla de Karkar, en 853 antes de Cristo, un jefe árabe llamado Gindibu llevó mil camellos. Más tarde, los relieves asirios muestran a árabes que pelean montados en ellos. Algunos estudiosos ven en estos capítulos una de las memorias más antiguas de esas incursiones; otros piensan que el relato las describe como eran en tiempos posteriores.\n\nGedeón golpea el trigo escondido cuando el ángel lo saluda como «varón esforzado», y él responde con una queja: «¿Y dónde están todas sus maravillas, que nuestros padres nos han contado?». El diálogo recuerda el de Moisés en la zarza: una misión, una objeción, la misma promesa, «yo seré contigo», y una señal. Su familia, dice, es la más pobre de Manasés; la palabra hebrea es élef, la que significa mil y también clan. El presente que prepara, un cabrito y panes de un efa de harina, unos 22 litros, era mucho en tiempos de hambre. Cuando el fuego lo consume, Gedeón teme morir por haber visto al ángel «cara á cara», como Jacob en Peniel, y oye: «Paz á ti; no tengas temor, no morirás». De ahí el nombre del altar, Jehová-salom, Jehová es paz. En el relato, el ángel y Jehová se alternan: para muchos lectores judíos es un mensajero que habla en nombre de Dios, y muchos autores cristianos antiguos vieron aquí una aparición del Hijo antes de hacerse hombre.\n\nEsa noche, la orden apunta a su propia casa: el altar de Baal y la Asera eran de su padre. En los textos de Ugarit, Baal es el dios de la tormenta que da la lluvia, y en una tierra que vivía de las lluvias muchos campesinos lo buscaban. Gedeón obedece de noche, con diez siervos, por miedo a su familia y a la ciudad; su nombre suele explicarse como el que derriba o el que corta. Los vecinos piden su muerte, y es su padre quien lo defiende con una frase que pone a prueba al mismo Baal: «Si es Dios, contienda por sí mismo».\n\nAntes de la batalla, Gedeón pide dos señales con un vellón puesto en la era: la lana entera de una oveja esquilada. En las noches de verano el rocío es abundante en esa tierra, y la lana lo absorbe; por eso la segunda prueba, el vellón seco sobre la tierra mojada, era la más difícil. Unos lectores ven aquí una fe que vacila, y recuerdan que Deuteronomio 6 dice: «No tentaréis á Jehová vuestro Dios»; otros notan que Dios responde las dos veces sin reprocharle nada, como había dado señales a Moisés.",
+   "preguntas": [
+    "¿Qué notas en la respuesta de Gedeón al saludo del ángel?",
+    "¿Cómo entiendes las dos pruebas del vellón?"
+   ]
+  },
+  {
+   "cap": 7,
+   "v": 25,
+   "titulo": "Trescientos hombres, cántaros y teas",
+   "epoca": "Al final de los siete años de Madián: hacia 1200 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "El valle de Jezreel, entre la fuente de Harod y el collado de More, y los vados del Jordán",
+   "texto": "El valle de Jezreel es la gran llanura que cruza el norte del país, desde el pie del Carmelo, cerca del mar, hasta el Jordán. Era tierra de trigo y paso obligado de caravanas y ejércitos: quien venía del desierto podía cruzar el río cerca de Bet-seán y subir por el valle sin encontrar montañas. Allí acamparon los madianitas, en lo llano, con su ganado y sus camellos. Gedeón acampa junto a la fuente de Harod, al pie del Gilboa, y enfrente, al otro lado de un valle de pocos kilómetros, está el collado de More. El versículo 8 lo resume: Gedeón «tenía el campo de Madián abajo en el valle».\n\nAntes de la batalla, el ejército se reduce dos veces. Primero se van los que tienen miedo, y de treinta y dos mil quedan diez mil. Luego viene la prueba del agua, y quedan trescientos. El texto da la razón: que Israel no diga «Mi mano me ha salvado». No explica, en cambio, por qué se eligió a los que lamieron el agua llevándola con la mano a la boca. Muchos lectores han pensado que eran los más atentos, los que bebían sin dejar de mirar alrededor. El historiador judío Flavio Josefo entendió lo contrario: que eran los que bebieron con prisa y con miedo, para que nadie atribuyera la victoria al valor de los soldados. Otros piensan que la prueba solo servía para apartar un número pequeño.\n\nEsa noche, Gedeón baja al campamento con su criado Phara, que es Fura, y oye un sueño. En todo el antiguo Oriente se creía que los sueños podían anunciar lo que venía, como ya viste con José en Egipto. El pan de cebada era el pan barato, el de los campesinos, y la tienda era la casa del nómada: el sueño enfrenta a los labradores de la serranía con los pastores del desierto, y es un soldado enemigo quien lo interpreta y nombra a Gedeón.\n\nEl ataque es casi solo ruido y luz. Los trescientos van en tres escuadrones, una táctica que volverá a aparecer en el libro, y rodean el campamento. Los israelitas dividían la noche en tres velas o guardias; la del medio empezaba unas cuatro horas después de anochecer, y el ataque llega cuando acaban de cambiar los centinelas, con el campamento dormido. Cada hombre lleva una bocina, el cuerno de carnero, y un cántaro de barro con una tea, una antorcha, encendida dentro. Al quebrarse los cántaros aparecen de golpe luces y sonidos por todas partes, como si cada uno fuera el jefe de una tropa. Con la bocina en la derecha y la tea en la izquierda, no les quedaba mano libre para la espada, y aun así gritan: «¡La espada de Jehová y de Gedeón!». En la confusión, los madianitas se matan entre ellos y huyen hacia el Jordán.\n\nGedeón llama entonces a la gente de Ephraim, que es Efraín, para cortar los vados de Bet-bara y del Jordán. Los dos príncipes capturados se llamaban Oreb y Zeeb, cuervo y lobo, y sus nombres quedaron en los lugares donde murieron. Llevar las cabezas de los jefes enemigos era la prueba de la victoria en las guerras de la época. Siglos más tarde, los profetas recordarán esta noche: Isaías habla del día de Madián y de la matanza en la peña de Oreb, y el Salmo 83 pide a Dios que trate a los enemigos de Israel como a Oreb y a Zeeb.",
+   "preguntas": [
+    "¿Qué te llama la atención del sueño que Gedeón escucha en el campamento enemigo?",
+    "¿Ves algún cambio en Gedeón entre el lagar y esta noche?"
+   ]
+  },
+  {
+   "cap": 8,
+   "v": 35,
+   "titulo": "Gedeón, el efod y el reino ofrecido",
+   "epoca": "De la victoria sobre Madián a la muerte de Gedeón, cuarenta años: desde hacia 1200 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Del Jordán a Sucot, Peniel y Carcor, en el desierto del oriente, y de vuelta a Ofra",
+   "texto": "Al cruzar el Jordán, la historia cambia de tono. Primero Efraín se queja de no haber sido llamado, y Gedeón lo calma con un refrán. Después, Sucot y Peniel, dos ciudades del lado oriental, le niegan pan a una tropa agotada. Su pregunta, si ya tiene en la mano la mano de Zeba y Zalmunna, que hoy se escribe Zalmuna, puede leerse como una burla; algunos ven en ella una alusión a la costumbre de cortar las manos a los enemigos vencidos, que en Egipto servía para contar a los muertos. Para ciudades que vivían en el camino de los nómadas, ayudar a Gedeón era peligroso si los reyes de Madián volvían. Gedeón cumple su amenaza a la vuelta, y el texto lo cuenta sin comentarios.\n\nHay un detalle en medio: el joven de Sucot le escribe los nombres de setenta y siete jefes y ancianos. Escribir no era cosa de todos, pero se conocía en las aldeas de esa época. En Izbet Sartah, un poblado en el borde de la serranía, apareció un pedazo de cerámica con un alfabeto, de hacia el siglo 12 u 11 antes de Cristo, que parece el ejercicio de alguien que aprendía las letras.\n\nZeba y Zalmunna habían matado a los hermanos de Gedeón en el Tabor. En Israel, el pariente más cercano era el vengador de la sangre: Números 35 dice que «El pariente del muerto, él matará al homicida». Gedeón quiere que lo haga Jéter, su hijo mayor, todavía un muchacho, y son los mismos reyes quienes le piden que lo haga él. Después se queda con las lunetas de los camellos, adornos en forma de luna creciente que también llevaban las mujeres, según Isaías 3.\n\nEntonces llega la oferta: «Sé nuestro señor, tú, y tu hijo, y tu nieto». Es la primera vez que en Israel se propone un gobierno que pase de padres a hijos, y Gedeón lo rechaza: «Jehová será vuestro Señor». El tema volverá cuando el pueblo pida rey a Samuel, en Primero de Samuel 8. Su respuesta se ha entendido de dos maneras. Para unos es un rechazo sincero, fiel a la idea de que el rey de Israel es Dios. Otros notan lo que el texto cuenta después: reúne oro de todo el pueblo, tiene muchas mujeres y setenta hijos, y uno de ellos se llama Abimelec, mi padre es rey, aunque el nombre era conocido en la región: en las cartas de Amarna escribe al faraón un rey de Tiro llamado Abimilki.\n\nCon el oro de los zarcillos, los aretes del botín, hace un efod y lo pone en Ofra. El texto dice que todo Israel «fornicó tras de ese» efod y que fue «por tropiezo á Gedeón y á su casa», sin decir qué buscaba Gedeón al hacerlo. Luego viene una frase que ya no se repetirá en el libro: «reposó la tierra cuarenta años». Si se suman seguidos los años que da el libro, de esta victoria a la guerra de Jefté pasa algo más de un siglo; si algunos jueces gobernaron a la vez, como supone la cuenta tradicional, serían menos. En cuanto Gedeón muere, el pueblo se vuelve a Baal-berith, el Baal del pacto, que tenía su templo en Siquem, la ciudad de la madre de Abimelec.",
+   "preguntas": [
+    "¿Cómo entiendes la respuesta de Gedeón cuando le ofrecen ser señor de Israel?",
+    "¿Qué piensas del trato que Gedeón da a Sucot y a Peniel?"
+   ]
+  },
+  {
+   "cap": 9,
+   "v": 57,
+   "titulo": "Abimelec, rey de Siquem",
+   "epoca": "Los tres años de Abimelec, después de los cuarenta de Gedeón: hacia mediados del siglo 12 antes de Cristo, según la cronología bíblica tradicional, si se suman seguidos los años del libro.",
+   "lugar": "Siquem, entre los montes Ebal y Gerizim, y la ciudad de Tebes, al noreste",
+   "texto": "Siquem ya apareció muchas veces: el altar de Abram, el campo de Jacob, la historia de Dina con Hamor y su hijo, el pacto de Josué y los huesos de José. Era una ciudad antigua, con su propio templo y su propia nobleza; en las cartas de Amarna, del siglo 14 antes de Cristo, la gobernaba Labayu, que actuaba como un pequeño rey. Abimelec es hijo de Gedeón y de una mujer de Siquem, y juega con eso: por medio de los hermanos de su madre, les recuerda a los de la ciudad que es «hueso vuestro, y carne vuestra», casi lo mismo que Labán le dijo a Jacob: «hueso mío y carne mía eres». Con setenta siclos de plata del templo, unos 800 gramos, contrata a hombres sin oficio, mata a sus setenta hermanos sobre una piedra, y los de Siquem lo hacen rey junto a la encina del pilar. Es el primero en Israel a quien el texto llama rey.\n\nJotam, el menor, el único que escapó, sube al Gerizim, el monte donde Moisés había mandado poner la bendición, y desde allí cuenta una fábula. En la Biblia hay muy pocas como esta; la más parecida está en Segundo de Reyes 14, donde un cardillo del Líbano pide al cedro su hija para su hijo. En Mesopotamia y en Siria se copiaban poemas en que dos plantas discuten, como el llamado El tamarisco y la palmera, en tablillas del segundo milenio antes de Cristo. Aquí los árboles buscan rey, y los que dan los frutos principales de la tierra, el olivo, la higuera y la vid, no quieren dejar lo que dan: el aceite, ese «pingüe jugo» del versículo 9, con que se ungía, se alumbraba y se hacían ofrendas, la fruta dulce y el vino de las libaciones. Solo acepta el escaramujo, que no puede dar sombra y amenaza con fuego. Unos leen la fábula como una crítica de la monarquía misma; otros, solo de Abimelec y de quienes lo eligieron. Jotam la aplica con una condición: si no obraron con verdad y con integridad, «fuego salga de Abimelech, que consuma á los de Sichêm».\n\nTres años después, el texto dice que «Envió Dios un espíritu malo» entre Abimelec y Siquem, para que la sangre de los setenta cayera sobre los culpables; Primero de Samuel usará palabras parecidas con Saúl. La rebelión estalla en la fiesta de la vendimia, en el templo de la ciudad, con Gaal y sus burlas. Abimelec responde con emboscadas, arrasa la ciudad y la siembra de sal. Los que se refugian en la fortaleza del templo del dios Berith, que en hebreo es El-berith, Dios del pacto, mueren quemados con las ramas que cortan sus soldados: unos mil hombres y mujeres.\n\nEn Tell Balata, las ruinas de Siquem, se excavó el gran templo fortificado, con cimientos de unos cinco metros de grosor, que sus excavadores fecharon hacia 1650 antes de Cristo, del que ya oíste en Josué. George Ernest Wright, que dirigió allí excavaciones en los años cincuenta y sesenta, lo relacionó con la torre de Siquem y el templo de Berith de este capítulo, y atribuyó a Abimelec una destrucción de la ciudad que fechó en el siglo 12 antes de Cristo. Otros arqueólogos, como Lawrence Stager, defendieron esa relación; otros dudan de que el templo siguiera en pie en esa época. Sigue discutido.\n\nEn Tebes, la muerte le llega de una mujer y de una herramienta de casa. Cada familia tenía un molino de mano: una piedra plana abajo y otra más pequeña arriba, que las mujeres hacían ir y venir cada día para moler el grano; Deuteronomio 24 prohibía tomar esas piedras en prenda, «porque sería prendar la vida». Abimelec pide a su escudero que lo mate para que no se diga que lo mató una mujer, pero eso es lo que se recordó: en Segundo de Samuel 11, Joab da por hecho que el rey David citará esa muerte para reprochar que sus soldados se acercaran a un muro. El capítulo termina diciendo que Dios hizo volver el mal de Abimelec y el de Siquem sobre ellos, y que se cumplió «la maldición de Jotham».",
+   "preguntas": [
+    "¿Qué crees que quiso decir Jotam al comparar a Abimelec con el escaramujo?",
+    "¿Cómo lees la explicación que da el texto del final de Abimelec y de Siquem?"
+   ]
+  },
+  {
+   "cap": 11,
+   "v": 28,
+   "titulo": "Jefté y el rey de Ammón",
+   "epoca": "Al cabo de dieciocho años de opresión amonita: hacia 1100 antes de Cristo, según la cronología bíblica tradicional, por el dato de Jueces 11, versículo 26.",
+   "lugar": "Galaad, al este del Jordán, la tierra de Tob y Mizpa de Galaad",
+   "texto": "El capítulo 10 vuelve a empezar el ciclo, esta vez con listas largas: siete grupos de dioses a los que Israel sirvió y, en la respuesta de Dios, siete pueblos de cuyas manos ya lo había librado. Hay además un diálogo duro: Dios dice «yo no os libraré más», el pueblo quita los dioses ajenos, y el texto termina con una frase que se ha leído de dos maneras: «su alma fué angustiada á causa del trabajo de Israel». El hebreo puede querer decir que Dios ya no pudo soportar el sufrimiento de Israel, o que se cansó de Israel.\n\nLos amonitas descendían de Lot, según Génesis 19, y vivían al borde del desierto, en torno a Rabá, la actual Amán, capital de Jordania; Deuteronomio 2 cuenta que Israel recibió la orden de no tomar su tierra. Galaad, en cambio, era tierra de Israel desde los días de Moisés: montes con bosques y pastos al este del Jordán, cortados por el río Jaboc, donde vivían Gad y parte de Manasés. Los amonitas la codiciaron durante siglos, y el profeta Amós los acusará de crueldades en Galaad para ensanchar su frontera.\n\nJefté es hijo de una ramera, y sus medio hermanos lo echan para que no herede, como Sara pidió que Ismael no heredara con Isaac. En Tob reúne una banda de hombres sin tierra, parecida a las que las cartas de Amarna llaman habiru y a la que reunirá David cuando huya de Saúl. Cuando los ancianos lo necesitan, Jefté negocia: no acepta ser solo capitán para la guerra, sino cabeza de Galaad después de ella, y el trato se sella «delante de Jehová en Mizpa». Muchos relacionan esa Mizpa con la de Génesis 31, donde Jacob y Labán pusieron a Dios por testigo de su pacto.\n\nSu mensaje al rey de Ammón es un discurso diplomático con argumentos de historia, de religión y de derecho. Primero, el camino del desierto: Israel anduvo hasta el mar Bermejo, el mar Rojo, pidió paso a Edom y a Moab, rodeó sus tierras, y la tierra entre el Arnón y el Jaboc la ganó a Sehón en la batalla de Jaas, que hoy se escribe Jahaza; según Números 21, Sehón se la había quitado antes a Moab. No era de Ammón. Después, una idea que cualquier rey entendía: cada pueblo posee lo que su dios le da. Jefté nombra a Chêmos, Quemos, que era el dios de Moab; el de Ammón se llamaba Milcom. Unos piensan que la tierra en disputa había sido moabita, y otros que Ammón y Moab actuaban juntos. La estela de Mesa, que ya escuchaste, usa la misma idea al decir que Quemos estaba enojado con su tierra. Luego, el ejemplo de Balac hijo de Zipor, el rey de Moab de los días de Balaam, que según Jefté nunca reclamó esa tierra. Y al final Jefté deja el caso en manos de Dios, a quien llama «el juez»: es el único personaje al que el libro da ese nombre.\n\nEntre esos argumentos está el tiempo: Israel lleva «trescientos años» en Hesbón y sus aldeas. Es el dato que sirve de ancla a la cronología bíblica tradicional. Hesbón, la ciudad de Sehón, se tomó en la guerra de Números 21, poco antes de cruzar el Jordán, hacia 1407 antes de Cristo, y trescientos años después llevan hacia 1100. Desde ese punto, sumando o restando los años que da el libro, se estiman las fechas de los demás jueces, y por eso todas son aproximadas. Muchos historiadores, que ponen la entrada en Canaán a fines del siglo 13, leen la cifra como un número redondo, propio de un discurso que quiere mostrar una posesión muy antigua. El rey de Ammón no atiende sus razones.",
+   "preguntas": [
+    "¿Qué opinas de las condiciones que Jefté pone a los ancianos que antes lo habían echado?",
+    "¿Qué peso tiene la historia del pueblo en los argumentos de Jefté?"
+   ]
+  },
+  {
+   "cap": 11,
+   "v": 40,
+   "titulo": "La hija de Jefté",
+   "epoca": "Al volver Jefté de la guerra: hacia 1100 antes de Cristo, según la cronología bíblica tradicional, por el dato de Jueces 11, versículo 26.",
+   "lugar": "Mizpa de Galaad, la casa de Jefté, y los montes de Galaad",
+   "texto": "Esta es una de las escenas más duras de la Biblia, y conviene escucharla despacio. Hacer un voto antes de una batalla era una práctica conocida: en Números 21, Israel había dicho «Si en efecto entregares á este pueblo en mi mano», y prometió destruir sus ciudades. Jefté promete: «Cualquiera que me saliere á recibir de las puertas de mi casa, cuando volviere de los Ammonitas en paz, será de Jehová, y le ofreceré en holocausto». En hebreo, la palabra traducida cualquiera puede referirse a una persona o a un animal. Algunos recuerdan que en las casas de esa época, según muchos arqueólogos, una parte de la planta baja servía de establo, y piensan que Jefté esperaba un animal; otros notan que salir «á recibir» a alguien es algo que hacen las personas.\n\nSale su hija con adufes, que son panderos, y con danzas, como las mujeres que salieron detrás de María después del paso del mar, «con panderos y danzas». El texto insiste en que era «la sola, la única suya», con la misma palabra hebrea que Dios usó para Isaac: «tu hijo, tu único». Pero aquí no hay voz del cielo que detenga nada. Jefté dice que no puede retractarse, y Números 30 manda que quien hace un voto «hará conforme á todo lo que salió de su boca»; ella le responde casi con esas palabras. Pide dos meses para llorar su virginidad por los montes. El texto dice que su padre «hizo de ella conforme á su voto», y añade: «ella nunca conoció varón». Desde entonces, las doncellas iban cuatro días al año a endechar, es decir, a lamentar, aunque el verbo hebreo, el mismo que en el cántico de Débora se tradujo «repetirán», puede significar también recordar o contar. No hay otra noticia de esa costumbre en la Biblia.\n\nHay dos lecturas principales. La primera entiende que la ofreció en sacrificio. Así lo leyó Josefo, en el siglo 1 después de Cristo, que llama a ese sacrificio contrario a la ley y desagradable a Dios. Así lo leyeron muchos rabinos, que condenan el voto: unos dicen que bastaba con pagar el precio en plata que Levítico 27 fijaba para rescatar a una persona prometida a Dios, y algunos relatos del midrás cuentan que el voto pudo anularse, pero que el orgullo de Jefté y el del sacerdote Phinees, que es Finees, lo impidió, porque ninguno quiso ir a buscar al otro. Y así lo leyeron también muchos padres de la Iglesia.\n\nLa segunda entiende que la consagró a Dios y que ella vivió sin casarse. La propusieron comentaristas judíos de la Edad Media, como David Kimhi, que leen la conjunción del voto como una o: será de Jehová, o le ofreceré en holocausto; es decir, si salía una persona, quedaría consagrada a Dios, y si salía un animal, sería sacrificado. La siguen muchos lectores cristianos, que señalan que ella llora «su virginidad» y no su muerte, y que el texto cierra diciendo que nunca conoció varón. Algunos de ellos entienden que las doncellas iban cada año a hablar con ella.\n\nLos estudiosos recuerdan que la ley prohibía sacrificar hijos: lo dicen Levítico 18 y Deuteronomio 18, y Deuteronomio 12 habla de los pueblos que «á sus hijos é hijas quemaban en el fuego á sus dioses». Comparan la escena con Segundo de Reyes 3, donde el rey de Moab sacrifica a su primogénito sobre la muralla. Notan que Dios no habla en toda la escena, ni para pedir ni para detener. Algunos, como Phyllis Trible en 1984, la cuentan entre los textos de terror de la Biblia sobre mujeres. Y la carta a los Hebreos, en el capítulo 11, nombra a Jefté entre los que obraron por la fe.",
+   "preguntas": [
+    "¿Qué piensas de las palabras de la hija a su padre?",
+    "¿Cómo entiendes el silencio de Dios en esta escena?"
+   ]
+  },
+  {
+   "cap": 12,
+   "v": 15,
+   "titulo": "Shiboleth y los jueces de pocas líneas",
+   "epoca": "Los seis años de Jefté y los veinticinco de Ibzán, Elón y Abdón: desde hacia 1100 antes de Cristo, según la cronología bíblica tradicional.",
+   "lugar": "Los vados del Jordán, Galaad, y las tierras de Belén, Zabulón y Efraín",
+   "texto": "Efraín era una de las tribus más fuertes del centro de la serranía: en su tierra estaban Silo y el tabernáculo, y de ella era Josué. Por segunda vez en estos capítulos se queja de no haber sido llamado a una guerra. Con Gedeón, la queja terminó con una respuesta suave; con Jefté termina en una guerra entre israelitas. Los de Efraín cruzan «hacia el aquilón», es decir, hacia el norte, aunque en hebreo puede leerse también el nombre de Zafón, la ciudad del valle del Jordán que Josué 13 escribe Saphón y da a la tribu de Gad. La frase con que insultan a los de Galaad, llamándolos fugitivos de Efraín, no es del todo clara, pero deja ver una vieja tensión entre los dos lados del río, como la del altar junto al Jordán en Josué 22.\n\nEn los vados, los de Galaad usan una palabra como contraseña. En todas las lenguas la gente de una región pronuncia distinto que la de otra, y algunos estudiosos han buscado rastros de esas diferencias en el hebreo antiguo. De este episodio viene que, en inglés y en otras lenguas, shibboleth sea el nombre de una seña que delata a qué grupo pertenece alguien. Sobre los cuarenta y dos mil muertos vale lo que ya se dijo en Números y en Josué: la palabra hebrea élef, mil, puede designar también un clan o una tropa, y unos la leen al pie de la letra y otros proponen cifras menores.\n\nJefté juzga seis años y muere. Su noticia final tiene la misma forma que la de Tola y Jair, y que la de los tres que siguen: de dónde era, cuántos años juzgó, a veces cuántos hijos tuvo, y dónde lo enterraron. Por eso se los suele llamar jueces menores: no tienen historia, solo unas líneas. Algunos estudiosos del siglo 20, como Martin Noth, pensaron que ese juzgar a Israel era un cargo de gobierno y de justicia, distinto del de los libertadores de las grandes historias; otros piensan que el libro solo resume a jueces de los que se recordaba poco.\n\nLo poco que se dice habla de familias poderosas. Ibzán tiene treinta hijos y treinta hijas y los casa fuera de su clan, lo que creaba alianzas con otras familias. Abdón tiene cuarenta hijos y treinta nietos que montan setenta asnos, como los treinta hijos de Jair; en el cántico de Débora, los que cabalgaban en asnas blancas eran los principales. Abdón era de Piratón, en la serranía de Efraín, el mismo lugar del que vendrá Benaía, uno de los valientes de David. El texto añade que estaba «en el monte de Amalec», un nombre extraño en el centro del país; el cántico de Débora decía que de Efraín salió «su raíz contra Amalec», y algunos piensan que allí vivió en algún tiempo gente de ese pueblo.\n\nSi se mira el mapa de este tramo, los jueces salen de casi todas partes: Gedeón de Manasés, Tola de Isacar, Jair y Jefté de Galaad, Ibzán de Belén, Elón de Zabulón y Abdón de Efraín. Cada uno actúa sobre todo en su región, y por eso la cuenta tradicional supone que algunos pudieron gobernar al mismo tiempo. El capítulo siguiente vuelve a empezar con el pueblo que hace lo malo, y esta vez el enemigo llega por el oeste.",
+   "preguntas": [
+    "¿En qué se parecen y en qué se diferencian las respuestas de Gedeón y de Jefté a las quejas de Efraín?"
+   ]
+  }
+ ]
+}

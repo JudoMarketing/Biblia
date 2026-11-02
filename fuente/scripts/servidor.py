@@ -1,8 +1,22 @@
-"""Servidor local con Range (como el del artifact) para probar el audio: python3 -I servidor.py <carpeta> <puerto>"""
-import os, sys, re
+"""Servidor local con Range (como el del artifact) para probar el audio: python3 -I servidor.py <carpeta> <puerto>
+
+Si la carpeta tiene vercel.json, manda los mismos encabezados que Vercel (la política de seguridad, la caché),
+para que las pruebas vean lo mismo que el sitio publicado. El tipo de archivo lo pone este servidor.
+"""
+import os, sys, re, json
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
+REGLAS = []
+if os.path.exists(os.path.join(sys.argv[1], "vercel.json")):
+    for r in json.load(open(os.path.join(sys.argv[1], "vercel.json"), encoding="utf8")).get("headers", []):
+        REGLAS.append((re.compile(r["source"]), [(h["key"], h["value"]) for h in r["headers"] if h["key"].lower() != "content-type"]))
 class Rango(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        ruta = self.path.split("?")[0]
+        for patron, encabezados in REGLAS:
+            if patron.fullmatch(ruta):
+                for k, v in encabezados: self.send_header(k, v)
+        super().end_headers()
     def send_head(self):
         rango = self.headers.get("Range")
         ruta = self.translate_path(self.path)

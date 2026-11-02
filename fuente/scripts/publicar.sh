@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Publica el website en Vercel (proyecto biblia-gel del equipo judomarketing) y lo revisa.
+# Publica el website en Vercel (proyecto biblia del equipo judomarketing, dominio godhome.app) y lo revisa.
 #
 #   VERCEL_TOKEN=... bash fuente/scripts/publicar.sh fuente <ruta al CLI de vercel>   (desde la raíz del repositorio)
 #
@@ -11,7 +11,7 @@ set -euo pipefail
 B="$(cd "$1" && pwd)"
 VERCEL="$2"
 EQUIPO=judomarketing
-PROYECTO=biblia-gel
+PROYECTO=biblia
 SITIO="$(dirname "$B")/sitio"
 : "${VERCEL_TOKEN:?falta VERCEL_TOKEN}"
 export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt VERCEL_TELEMETRY_DISABLED=1
@@ -37,7 +37,7 @@ fi
 echo "3. Publicar"
 URL="$(v deploy --prod --yes --archive=tgz 2> "$B/../deploy.log")"
 echo "   publicado: $URL"
-DOMINIO="https://$PROYECTO.vercel.app"
+DOMINIO="https://www.godhome.app"
 
 echo "4. Revisar el sitio publicado"
 for u in "$DOMINIO" "$URL"; do

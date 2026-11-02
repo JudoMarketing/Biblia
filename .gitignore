@@ -1,5 +1,6 @@
 # Se rehacen con los scripts y pesan mucho
-fuente/salida/
+fuente/salida/*
+!fuente/salida/tiempos/
 fuente/voz/cache/
 fuente/voz/cache
 fuente/voz/modelos/
@@ -12,3 +13,6 @@ shots-*/
 .vercel/
 .env
 .env.*
+
+# Copias de trabajo de los agentes (git worktree): no son parte del proyecto
+.claude/worktrees/

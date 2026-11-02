@@ -17,6 +17,16 @@ def para_voz(t: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
+def huella(trabajo, voces, ritmos):
+    """Resumen de todo lo que se dice en un audio, con qué voz y a qué velocidad: si cambia, hay que rehacerlo."""
+    import hashlib
+    h = hashlib.sha1()
+    for p in trabajo["partes"]:
+        nombre = voces[p["voz"]]
+        h.update(f"{p['clave']}|{nombre}|{ritmos[nombre]}|{int(bool(p.get('campana')))}|{int(bool(p.get('pausa_larga')))}\n".encode("utf8"))
+        for t in p["textos"]: h.update((para_voz(t) + "\n").encode("utf8"))
+    return h.hexdigest()
+
 if __name__ == "__main__":
     for x in ["EN el principio crió Dios los cielos y la tierra.", "Así murió Rachêl, y fué sepultada en el camino de Ephrata, la cual es Beth-lehem.",
               "SANTIDAD Á JEHOVÁ.", "Y respondió Dios á Moisés: YO SOY EL QUE SOY.", "y tráeme[lo], y comeré", "Sem, Châm, y Japhet ó Isaac é Ismael"]:
